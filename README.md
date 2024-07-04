@@ -2,29 +2,52 @@
 
 Creating a historical disease database (19th-20th century) for municipalities in the Netherlands. Work in progress...
 
+## Preparation
+You need to install at least these packages: `matplotlib`, `polars` and `tqdm`. 
+
 ## Data extraction
-The downloaded delpher xml files exist in a zip folder, which takes up a lot of storage space (11.8 G) 
+The downloaded delpher xml files are contained in a zip folder, which takes up a lot of storage space (11.8 G) 
 and leads to slower and more cumbersome processing. 
 
-With the  `extract_data.py` file, we can extract the relevant information from the zip folder for each article, 
-including `file name`, `publication date`, `title` and `article content`. Then, we store all extracted data
-as a polars dataframe and save it as a parquet file, which brings down the size down to 844 MB. 
+The `extract_article_data.py` script extracts the titles and texts from the zip folder for each article.
+Then, it stores all extracted data as a polars dataframe with three columns `file_name`, `title` and `text`.
+Finally, it is saved as a parquet file (`article_data.parquet`), with a much smaller size of 844 MB. 
 
-Before you run the following script, make sure to specify the correct path to the delpher zip folder with `file_path`.
+With the `extract_meta_ata.py` script, we extract meta information about both the newspapers and the individual articles.
+This results in two separate polars dataframes saved in parquet format:
+
+1) `article_meta_data.parquet` includes these columns: `newspaper_name`, `newspaper_location`,
+   `newspaper_date`, `newspaper_years_digitalised`, `newspaper_years_issued`, `newspaper_language`, `newspaper_temporal`,
+   `newspaper_publisher`, `newspaper_spatial`, and `pdf_link`.
+2) `newspaper_meta_data.parquet` includes these columns: `newspaper_id`, `item_id`, `item_subject`, `item_filename`, and `item_type`.
+
+Before you run the following script, make sure to specify the correct path to the delpher zip folder using `file_path`.
 
 ```
-python extract_data.py
+python extract_article_data.py
+python extract_meta_data.py
 ```
 
 ## Data analysis
-Using the following script `data_analysis_py`, we can quickly search through all the extracted titles and article content
-stored in the `delphers.parquet` file, match them against our specified `regex_pattern` (e.g., `r'(?i)amst'`), keep only
-the matched rows/articles, count the number of remaining articles by publication date, and make a bar chart. 
+The script `data_analysis.py` does the following:
 
-Make sure to define your own `regex_pattern`.
+1. Merge the three parquet files from the previous step;
+2. Filter articles by their titles and texts using our specified `search_string` (e.g., `r'(?i)amst'`);
+3. Filter articles by their `spatial` type (e.g., Regionaal/lokaal);
+4. Count the number of remaining articles by publication date, and make a bar chart. 
+
+By default, the search string is defined as `r'(?i)(?=.*amst)(?=.*cholera)'`, which matches any article title or text that contains both "amst" and "cholera", case-insensitive;
+`spatial` is set at `'Regionaal/lokaal'`.
+
 ```
 python data_analysis.py
 ```
+
+You can also define your own search string and spatial:
+```
+python data_analysis.py --search-string <your search string> --spatial <spatial type>
+```
+
 
 ## Contact
 
