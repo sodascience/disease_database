@@ -32,11 +32,11 @@ python extract_meta_data.py
 The script `data_analysis.py` does the following:
 
 1. Merge the three parquet files from the previous step;
-2. Filter articles by their titles and texts using our specified `search_string` (e.g., `r'(?i)amst'`);
+2. Filter articles by their titles and texts using our specified `search_string` (e.g., `r'(?i)cholera'`);
 3. Filter articles by their `spatial` type (e.g., Regionaal/lokaal);
 4. Count the number of remaining articles by publication date, and make a bar chart. 
 
-By default, the search string is defined as `r'(?i)(?=.*amst)(?=.*cholera)'`, which matches any article title or text that contains both "amst" and "cholera", case-insensitive;
+By default, the search string is defined as `r'(?i)cholera'`, which matches any article title or text that contains the term "cholera", case-insensitive;
 `spatial` is set at `'Regionaal/lokaal'`.
 
 ```
