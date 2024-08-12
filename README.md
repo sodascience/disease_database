@@ -3,7 +3,10 @@
 Creating a historical disease database (19th-20th century) for municipalities in the Netherlands. Work in progress...
 
 ## Preparation
-You need to install at least these packages: `matplotlib`, `polars` and `tqdm`. 
+
+```
+pip install tqdm polars requests matplotlib
+```
 
 ## Data extraction
 The downloaded delpher xml files are contained in a zip folder, which takes up a lot of storage space (11.8 G) 
