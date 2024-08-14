@@ -7,7 +7,7 @@ Creating a historical disease database (19th-20th century) for municipalities in
 ## Preparation
 
 ```
-pip install tqdm polars requests matplotlib
+pip install tqdm polars requests matplotlib plotnine
 ```
 
 ## Data extraction
