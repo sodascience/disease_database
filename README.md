@@ -2,6 +2,8 @@
 
 Creating a historical disease database (19th-20th century) for municipalities in the Netherlands. Work in progress...
 
+![](img/cholera.png)
+
 ## Preparation
 
 ```
