@@ -40,6 +40,11 @@ The script `query.py` uses the prepared combined data to search for mentions of 
 
 ![](img/leiden.png)
 
+This plot aligns quite nicely with the google ngram viewer, querying "cholera" in an English, German, and French corpus ([click here to see interactively](https://books.google.com/ngrams/graph?content=cholera%3Aeng%2CCholera%3Ager%2Cchol%C3%A9ra%3Afre&year_start=1830&year_end=1880&corpus=en&smoothing=0))
+
+![](img/ngram_cholera.png)
+
+
 ## Contact
 
 <img src="./img/soda_logo.png" alt="SoDa logo" width="250px"/>
