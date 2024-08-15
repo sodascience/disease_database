@@ -1,5 +1,6 @@
 import polars as pl
 import plotnine as p9
+import datetime
 
 
 def query(disease: str = "choler*", location: str = "amst*"):
@@ -26,7 +27,7 @@ def query(disease: str = "choler*", location: str = "amst*"):
             pl.col("location").sum().alias("n_location"),
             (pl.col("disease") & pl.col("location")).sum().alias("n_both"),
         )
-        .collect()
+        .collect(streaming=True)
     )
 
 
@@ -42,40 +43,55 @@ city_df = pl.concat(
 
 plt = (
     p9.ggplot(
-        city_df.with_columns((pl.col("n_both") / pl.col("n_location")).alias("y")),
+        city_df.with_columns(
+            pl.date(pl.col("yr"), pl.col("mo"), 1).alias("date"),
+            (pl.col("n_both") / pl.col("n_total")).alias("y")
+        ),
         p9.aes(x="date", y="y", colour="City"),
     )
     + p9.geom_line()
     + p9.scale_x_date(date_breaks="5 years", date_labels="%Y")
-    + p9.facet_wrap("City")
+    + p9.facet_wrap("City", scales="free_y")
     + p9.theme_linedraw()
-    + p9.theme(legend_position="none")
+    + p9.theme(legend_position="none", axis_text_x=p9.element_text(rotation="vertical"))
     + p9.labs(
-        title="Cholera in the Netherlands",
-        subtitle="Monthly average",
-        y="Normalized mentions",
+        title="Cholera in Dutch cities",
+        y="Monthly normalized mentions",
     )
 )
 
 plt.show()
 
-p9.ggsave(plt, "img/cholera.png")
+p9.ggsave(plt, "img/cholera.png", width=9, height=6, dpi=300)
 
 
 qdf = query(location="le[iy]den")
 
-(
+key_dates = pl.DataFrame({
+  "date": ["1832-07-01", "1849-07-01", "1853-10-16", "1866-07-01"],
+  "label": ["1832 cholera epidemic", "1849 cholera epidemic", "Crimean war", "1866 cholera epidemic"],
+  "yloc": [.045, .045, .04, .045],
+}).with_columns(pl.col("date").str.to_date())
+
+plt2 = (
     p9.ggplot(
-        qdf.with_columns((pl.col("n_both") / pl.col("n_total")).alias("y")),
+        qdf.with_columns(
+            pl.date(pl.col("yr"), pl.col("mo"), 1).alias("date"),
+            (pl.col("n_both") / pl.col("n_total")).alias("y")
+        ),
         p9.aes(x="date", y="y"),
     )
-    + p9.geom_line()    
+    + p9.geom_vline(data=key_dates, mapping=p9.aes(xintercept="date"), linetype="dashed", color="grey")
+    + p9.geom_label(data=key_dates, mapping=p9.aes(y="yloc", label="label"), ha="left")
+    + p9.geom_line(colour="darkblue")    
     + p9.scale_x_date(date_breaks="5 years", date_labels="%Y")
     + p9.theme_linedraw()
     + p9.theme(legend_position="none")
     + p9.labs(
-        title="Cholera in Leiden",
-        subtitle="Monthly average",
-        y="Normalized mentions",
+        title="Cholera mentions in Leiden",
+        y="Monthly normalized mentions",
+        x=""
     )
-).show()
+)
+
+p9.ggsave(plt2, "img/leiden.png", width=8, height=5, dpi=300)

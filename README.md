@@ -36,7 +36,9 @@ python extract_meta_data.py
 Then, the script `combine_and_chunk.py` joins these datasets and creates a yearly-chunked series of parquet files in the folder `processed_data/combined`.
 
 ## Data analysis
-The script `query.py` uses the prepared combined data to search for mentions of diseases and locations in articles. The file produces the plot shown above.
+The script `query.py` uses the prepared combined data to search for mentions of diseases and locations in articles. The file produces the plot shown above. It also produces this plot about Leiden:
+
+![](img/leiden.png)
 
 ## Contact
 
