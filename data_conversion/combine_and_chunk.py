@@ -72,8 +72,13 @@ final_df = article_text_df.join(
 
 # write to chunked parquet files
 year_chunksize = 1
-for startyr in tqdm(range(1850, 1880, year_chunksize)):
+for startyr in tqdm(range(1830, 1880, year_chunksize)):
     endyr = startyr + year_chunksize
     final_df.filter(
         pl.col("date").dt.year() >= startyr, pl.col("date").dt.year() < endyr
     ).sink_parquet(f"{out_folder}/combined_{startyr}_{endyr}.parquet")
+
+
+df_final = pl.scan_parquet("processed_data/combined/*.parquet")
+df_final.head().collect()
+df_final.collect_schema()

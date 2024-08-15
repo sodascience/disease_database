@@ -1,59 +1,81 @@
 import polars as pl
-import matplotlib.pyplot as plt
-import argparse
+import plotnine as p9
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--search_string",
-                        type=str,
-                        default=r'(?i)cholera')
-    parser.add_argument("--spatial",
-                        type=str,
-                        default='Regionaal/lokaal')
-
-    args = parser.parse_args()
-    search_string = args.search_string
-    spatial = args.spatial
-
-    # Load the parquet files into DataFrames
-    newspaper_meta_data_df = pl.read_parquet('newspaper_meta_data.parquet')  # Columns: newspaper_id, publisher
-    article_meta_data_df = pl.read_parquet('article_meta_data.parquet')  # Columns: newspaper_id, article_id, article_type
-    article_data_df = pl.read_parquet('article_data.parquet')  # Columns: article_id, article_content
-
-    # Join df1 with df2 on newspaper_id
-    intermediate_df = article_meta_data_df.join(newspaper_meta_data_df, on='newspaper_id', how='inner')
-
-    # Join the result with df3 on article_id
-    final_df = intermediate_df.join(article_data_df, left_on='item_filename', right_on= 'file_name', how='inner')
-
-    # Filter the DataFrame rows where any column contains the specific string pattern
-    filtered_df = final_df.filter(
-        (final_df['title'].str.contains(search_string)) |
-        (final_df['text'].str.contains(search_string)) &
-        (final_df['newspaper_spatial'] == spatial)
+def query(disease: str = "choler*", location: str = "amst*"):
+    DIS = "(?i)" + disease
+    LOC = "(?i)" + location
+    return (
+        pl.scan_parquet("processed_data/combined/*.parquet")
+        .with_columns(
+            pl.col("text").str.contains(DIS).alias("disease"),
+            pl.col("text").str.contains(LOC).alias("location"),
+        )
+        .sort(pl.col("date"))
+        .with_columns(
+            pl.col("date").dt.year().alias("yr"),
+            pl.col("date").dt.month().alias("mo"),
+        )
+        .group_by(["yr", "mo"])
+        # .group_by_dynamic(
+        #     pl.col("date"), every="1w", period="1mo"
+        # )  # monthly average every week
+        .agg(
+            pl.len().alias("n_total"),
+            pl.col("disease").sum().alias("n_disease"),
+            pl.col("location").sum().alias("n_location"),
+            (pl.col("disease") & pl.col("location")).sum().alias("n_both"),
+        )
+        .collect()
     )
 
-    # Count number of matched articles per date
-    count_per_category = filtered_df.group_by('newspaper_date').agg(pl.len())
 
-    # Count the total number of matching articles
-    matching_rows_count = filtered_df.shape[0]
 
-    # Print
-    print(count_per_category)
-    print(f"Number of rows containing the string '{search_string}': {matching_rows_count}")
+city_df = pl.concat(
+    [
+        query(location="rotter*").with_columns(pl.lit("Rotterdam").alias("City")),
+        query(location="amster*").with_columns(pl.lit("Amsterdam").alias("City")),
+        query(location="u[i]trec*").with_columns(pl.lit("Utrecht").alias("City")),
+        query(location="maastric*").with_columns(pl.lit("Maastricht").alias("City")),
+    ]
+)
 
-    # Make figure
-    count_per_category_pd = count_per_category.to_pandas()
-    plt.figure(figsize=(10, 6))
-    plt.bar(count_per_category_pd['newspaper_date'], count_per_category_pd['len'])
-    plt.xlabel('Date')
-    plt.ylabel('Count')
-    plt.title(f'Number of mentions of {search_string} by date')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
+plt = (
+    p9.ggplot(
+        city_df.with_columns((pl.col("n_both") / pl.col("n_location")).alias("y")),
+        p9.aes(x="date", y="y", colour="City"),
+    )
+    + p9.geom_line()
+    + p9.scale_x_date(date_breaks="5 years", date_labels="%Y")
+    + p9.facet_wrap("City")
+    + p9.theme_linedraw()
+    + p9.theme(legend_position="none")
+    + p9.labs(
+        title="Cholera in the Netherlands",
+        subtitle="Monthly average",
+        y="Normalized mentions",
+    )
+)
 
-if __name__ == '__main__':
-    main()
+plt.show()
+
+p9.ggsave(plt, "img/cholera.png")
+
+
+qdf = query(location="le[iy]den")
+
+(
+    p9.ggplot(
+        qdf.with_columns((pl.col("n_both") / pl.col("n_total")).alias("y")),
+        p9.aes(x="date", y="y"),
+    )
+    + p9.geom_line()    
+    + p9.scale_x_date(date_breaks="5 years", date_labels="%Y")
+    + p9.theme_linedraw()
+    + p9.theme(legend_position="none")
+    + p9.labs(
+        title="Cholera in Leiden",
+        subtitle="Monthly average",
+        y="Normalized mentions",
+    )
+).show()

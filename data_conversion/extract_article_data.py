@@ -5,11 +5,8 @@ from tqdm import tqdm
 import os
 
 # # Path to delpher zip folder (don't unzip!)
-# source_path = "raw_data/kranten_pd_1850-4.zip"
-# output_path = "processed_data/texts/article_texts_1850_1854.parquet"
-
-source_path = "D:/disease_database_data/kranten_pd_1877-9.zip"
-output_path = "processed_data/texts/article_texts_1877_1879.parquet"
+source_path = "raw_data/kranten_pd_183x.zip"
+output_path = "processed_data/texts/article_texts_1830_1839.parquet"
 
 # Results object to write to
 results = []

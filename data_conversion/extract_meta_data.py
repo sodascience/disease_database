@@ -5,13 +5,9 @@ import polars as pl
 from datetime import datetime
 
 # # Path to delpher zip folder (don't unzip!)
-# source_path = "raw_data/kranten_pd_1850-4.zip"
-# output_path_article = "processed_data/metadata/articles/article_meta_1850_1854.parquet"
-# output_path_journal = "processed_data/metadata/journals/journal_meta_1850_1854.parquet"
-
-source_path = "D:/disease_database_data/kranten_pd_1877-9.zip"
-output_path_article = "processed_data/metadata/articles/article_meta_1877_1879.parquet"
-output_path_journal = "processed_data/metadata/journals/journal_meta_1877_1879.parquet"
+source_path = "raw_data/kranten_pd_183x.zip"
+output_path_article = "processed_data/metadata/articles/article_meta_1830_1839.parquet"
+output_path_journal = "processed_data/metadata/journals/journal_meta_1830_1839.parquet"
 
 # Define namespaces
 namespaces = {
