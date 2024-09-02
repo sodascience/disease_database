@@ -1,9 +1,10 @@
 import polars as pl
 import plotnine as p9
-import datetime
 
+disease_query = r"ty(ph|f)(us|euz.)|febris.?typhoidea|kwaadaardige.*koorts"
+location_query = r"amste[rl]da.*|amst\."
 
-def query(disease: str = "choler*", location: str = "amst*"):
+def query(disease: str, location: str):
     DIS = "(?i)" + disease
     LOC = "(?i)" + location
     return (
