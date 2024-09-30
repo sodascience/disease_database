@@ -4,11 +4,13 @@ import plotnine as p9
 disease_query = r"ty(ph|f)(us|euz.)|febris.?typhoidea|kwaadaardige.*koorts"
 location_query = r"amste[rl]da.*|amst\."
 
-def query(disease: str, location: str):
+def query(disease: str, location: str, year_start: int = 1830, year_end: int = 1880):
     DIS = "(?i)" + disease
     LOC = "(?i)" + location
+
     return (
-        pl.scan_parquet("processed_data/combined/*.parquet")
+        df
+        .filter(pl.col("date").dt.year() >= year_start, pl.col("date").dt.year() <= year_end)
         .with_columns(
             pl.col("text").str.contains(DIS).alias("disease"),
             pl.col("text").str.contains(LOC).alias("location"),
@@ -19,9 +21,6 @@ def query(disease: str, location: str):
             pl.col("date").dt.month().alias("mo"),
         )
         .group_by(["yr", "mo"])
-        # .group_by_dynamic(
-        #     pl.col("date"), every="1w", period="1mo"
-        # )  # monthly average every week
         .agg(
             pl.len().alias("n_total"),
             pl.col("disease").sum().alias("n_disease"),
