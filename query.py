@@ -8,6 +8,8 @@ def query(disease: str, location: str, year_start: int = 1830, year_end: int = 1
     DIS = "(?i)" + disease
     LOC = "(?i)" + location
 
+    df = pl.scan_parquet("processed_data/combined/*.parquet")
+
     return (
         df
         .filter(pl.col("date").dt.year() >= year_start, pl.col("date").dt.year() <= year_end)
