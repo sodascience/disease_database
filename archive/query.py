@@ -57,3 +57,13 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# with ThreadPoolExecutor(max_workers=n_workers) as executor:  # Set max_workers to control the level of parallelism
+#     # Submit all tasks to the executor
+#     futures = {executor.submit(harvest_article_content, article_id): article_id for article_id in article_ids}
+#
+#     # Use tqdm to show progress
+#     for future in tqdm(as_completed(futures), total=len(article_ids)):
+#         results.append(future.result())
+
+    # n_workers = 10 # min(32, os.cpu_count() * 5)
