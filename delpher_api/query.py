@@ -27,7 +27,7 @@ search_url = f"https://jsru.kb.nl/sru/sru/{apikey}"
 # First, a basic query
 # see https://www.loc.gov/standards/sru/cql/spec.html
 q = """
-cholera AND amst* AND type="artikel" AND date within "01-01-1860 31-12-1865"
+cholera AND amst* AND type="artikel" AND date within "01-01-1860 31-01-1860"
 """
 
 # useful / required parameters
@@ -104,7 +104,7 @@ with open(tgt_file, "a+") as file:
 
     # write the count for each month
     # to-do: async / fast / multithread?
-    for y in range(1860, 1900):
+    for y in range(1860, 1861):
         for m in range(1, 13):
             num = find_num_records(query, y, m)
             file.write(f"{y},{m},{num}\n")

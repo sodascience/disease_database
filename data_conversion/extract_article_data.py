@@ -1,49 +1,14 @@
-import zipfile
-import polars as pl
-import xml.etree.ElementTree as ET
 from tqdm import tqdm
 import os
+from utils_data_conversion import convert_articles_from_zip_to_parquet
 
-# # Path to delpher zip folder (don't unzip!)
-source_path = "raw_data/kranten_pd_183x.zip"
-output_path = "processed_data/texts/article_texts_1830_1839.parquet"
+def main():
+    # Specify the directory you want to scan
+    folder_path = "raw_data/"
+    # List comprehension to scan for all zip files in the specified directory
+    zip_files = [file for file in os.listdir(folder_path) if file.endswith(".zip")]
+    for zip_file in tqdm(zip_files):
+        convert_articles_from_zip_to_parquet(folder_path, zip_file)
 
-# Results object to write to
-results = []
-
-# Open the zip file
-with zipfile.ZipFile(source_path, "r") as zip_ref:
-    # Iterate through each file in the zip archive
-    for file_info in tqdm(zip_ref.infolist()):
-        filename = os.path.basename(file_info.filename)
-        publication_date = filename[:10]
-        if filename.endswith("articletext.xml"):
-            with zip_ref.open(file_info) as file:
-                try:
-                    # Parse the XML content
-                    content = file.read().decode("utf8")
-                    root = ET.fromstring(content)
-                    title_content = root.find("title").text
-                    p_contents = [p.text for p in root.findall("p")]
-                    p_contents = " ".join(p_contents)
-                    results.append(
-                        {
-                            "file_name": filename,
-                            "title": title_content,
-                            "text": p_contents,
-                        }
-                    )
-                except Exception as e:
-                    results.append(
-                        {
-                            "file_name": file_info.filename,
-                            "title": f"An error occurred: {str(e)}",
-                            "text": f"An error occurred: {str(e)}",
-                        }
-                    )
-
-# Convert the results to a Polars DataFrame
-df = pl.DataFrame(results)
-
-# Save the DataFrame as a Parquet file
-df.write_parquet(output_path)
+if __name__ == "__main__":
+    main()
