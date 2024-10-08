@@ -26,7 +26,7 @@ def main():
                                   "type": "article_subject"}
 
     for year in tqdm(range(start_year, end_year+1)):
-        for month in range(start_month, end_month+1):
+        for month in tqdm(range(start_month, end_month+1)):
             output_path = f"processed_data/metadata/articles/from_{start_year}_to_{end_year}/article_meta_{year}_{month}.parquet"
             if os.path.exists(output_path):
                 print(f"Data already harvested for {year}-{month}!")

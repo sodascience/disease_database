@@ -2,26 +2,30 @@ import zipfile
 from tqdm import tqdm
 import xml.etree.ElementTree as ET
 import polars as pl
-from utils_data_conversion import extract_meta_data, namespaces, zip_file_names_conversion_dict
+from utils_data_conversion import extract_meta_data, namespaces, zip_file_names_conversion_dict, make_dir
 import os
 
 # Specify the directory you want to scan
-folder_path = "raw_data/"
+source_folder_path = "raw_data/"
 # List comprehension to scan for all zip files in the specified directory
-zip_files = [file for file in os.listdir(folder_path) if file.endswith(".zip")]
+zip_files = [file for file in os.listdir(source_folder_path) if file.endswith(".zip")]
 
 for zip_file in zip_files:
     # Path to delpher zip folder (don't unzip!)
-    source_path = f"{folder_path}/{zip_file}"
+    source_file_path = f"{source_folder_path}/{zip_file}"
     out_file_suffix = zip_file_names_conversion_dict[zip_file]
-    output_path_article = f"processed_data/metadata/articles/article_meta_{out_file_suffix}"
-    output_path_newspaper = f"processed_data/metadata/newspapers/newspaper_meta_{out_file_suffix}"
+    output_folder_path_article = "processed_data/metadata/articles/from_1830_to_1879"
+    make_dir(output_folder_path_article)
+    output_file_path_article = f"{output_folder_path_article}/article_meta_{out_file_suffix}"
+    output_folder_path_newspaper = "processed_data/metadata/newspapers/from_1830_to_1879"
+    make_dir(output_folder_path_newspaper)
+    output_file_path_newspaper = f"{output_folder_path_newspaper}/newspaper_meta_{out_file_suffix}"
 
     newspapers_meta_data = []
     items_meta_data = []
 
     # Open the zip file
-    with zipfile.ZipFile(source_path, "r") as zip_ref:
+    with zipfile.ZipFile(source_file_path, "r") as zip_ref:
         # Iterate through each file in the zip archive
         for file_info in tqdm(zip_ref.infolist()):
             filename = file_info.filename
@@ -46,5 +50,5 @@ for zip_file in zip_files:
     df_items = pl.DataFrame(items_meta_data)
 
     # Save the DataFrames as Parquet files
-    df_newspapers.write_parquet(output_path_newspaper)
-    df_items.write_parquet(output_path_article)
+    df_newspapers.write_parquet(output_file_path_newspaper)
+    df_items.write_parquet(output_file_path_article)

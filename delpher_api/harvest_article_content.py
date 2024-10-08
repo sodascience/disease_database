@@ -18,7 +18,7 @@ def main():
         os.makedirs(out_folder_path)
 
     for year in tqdm(range(start_year, end_year+1)):
-        for month in range(1, 13):
+        for month in tqdm(range(1, 13)):
             out_file_name = f"article_texts_{year}_{month}.parquet"
             out_file_path = out_folder_path+out_file_name
             if os.path.exists(out_file_path):
