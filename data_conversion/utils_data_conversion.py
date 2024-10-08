@@ -1,4 +1,7 @@
+import os
 import zipfile
+from os import makedirs
+
 import polars as pl
 import xml.etree.ElementTree as ET
 from tqdm import tqdm
@@ -26,6 +29,9 @@ namespaces = {
     "xs": "http://www.w3.org/2001/XMLSchema",
 }
 
+def make_dir(path):
+    if not os.path.exists(path):
+        makedirs(path)
 
 def convert_articles_from_zip_to_parquet(folder_path: str="raw_data/",
                                          zip_file: str="kranten_pd_183x.zip"):
@@ -34,7 +40,9 @@ def convert_articles_from_zip_to_parquet(folder_path: str="raw_data/",
     source_path = f"{folder_path}{zip_file}"
 
     out_file_suffix = zip_file_names_conversion_dict[zip_file]
-    output_path = f"processed_data/texts/article_texts_{out_file_suffix}"
+    out_folder = "processed_data/texts/from_1830_to_1879"
+    make_dir(out_folder)
+    output_path = f"{out_folder}/article_texts_{out_file_suffix}"
 
     # Results object to write to
     results = []

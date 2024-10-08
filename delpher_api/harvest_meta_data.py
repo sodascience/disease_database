@@ -21,7 +21,6 @@ with open("delpher_api/keys.txt") as f:
     apikey = f.readline()
 
 def main():
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--start_year", type=int, default=1880)
     parser.add_argument("--end_year", type=int, default=1940)
@@ -50,7 +49,6 @@ def main():
                 prefix = newspaper_id.split(":")[1]
                 identifier = ":".join(newspaper_id.split(":")[-2:])
                 url = get_metadata_url(apikey, prefix, identifier)
-                # print(prefix, "\n", identifier, "\n", url)
                 newspaper_metadata = retrieve_newspaper_metadata(url, namespaces)
                 newspaper_metadata["newspaper_id"] = newspaper_id
                 metadata_ls.append(newspaper_metadata)

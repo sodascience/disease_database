@@ -8,32 +8,33 @@ Creating a historical disease database (19th-20th century) for municipalities in
 ## Preparation
 
 ```
-pip install tqdm polars requests matplotlib plotnine PyQt6 pyarrow
+pip install tqdm polars requests matplotlib plotnine PyQt6 pyarrow beautifulsoup4 sruthi
 ```
 
-## Data extraction
-The downloaded delpher xml files are contained in a zip folder, which takes up a lot of storage space.
+## Data extraction (1830-1879)
+Between 1830 and 1879, Delpher historical news article data can be downloaded manually from [here](https://www.delpher.nl/over-delpher/delpher-open-krantenarchief/download-teksten-kranten-1618-1879#b1741).
+The downloaded files, which are zip folders, take up lots of disk space because of inefficient data format.
 
 The `extract_article_data.py` script extracts the titles and texts from the zip folder for each article.
-Then, it stores all extracted data as a polars dataframe with three columns `file_name`, `title` and `text`.
-Finally, it is saved as a parquet file (`article_data.parquet`), with a much smaller size. 
+Then, it stores all extracted data as a polars dataframe with three columns `article_id`, `article_title` and `article_text`.
+Finally, it is saved as a parquet file (`article_data_{start_year}_{end_year}.parquet`), with a much smaller size under `processed_data/texts/from_1830_to_1879/`.
 
 With the `extract_meta_data.py` script, we extract meta information about both the newspapers and the individual articles.
-This results in two separate polars dataframes saved in parquet format:
+This results in two kinds of polars dataframes saved in parquet format under `processed_data/metadata/newspapers/from_1830_to_1879` and `processed_data/metadata/articles/from_1830_to_1879`, respectively.
 
-1) `newspaper_meta_data.parquet` includes these columns: `newspaper_name`, `newspaper_location`,
+1) `newspaper_meta_data_{start_year}_{end_year}.parquet` includes these columns: `newspaper_name`, `newspaper_location`,
    `newspaper_date`, `newspaper_years_digitalised`, `newspaper_years_issued`, `newspaper_language`, `newspaper_temporal`,
-   `newspaper_publisher`, `newspaper_spatial`, and `pdf_link`.
-2) `article_meta_data.parquet` includes these columns: `newspaper_id`, `item_id`, `item_subject`, `item_filename`, and `item_type`.
+   `newspaper_publisher` and `newspaper_spatial`.
+2) `article_meta_data_{start_year}_{end_year}.parquet` includes these columns: `newspaper_id`, `article_id` and `article_subject`.
 
-Before you run the following script, make sure to specify the correct path to the delpher zip folder using `file_path`.
+Before you run the following script, make sure to put all the Delpher zip files under `raw_data`.
 
 ```
-python extract_article_data.py
-python extract_meta_data.py
+python data_conversion/extract_article_data.py
+python data_conversion/extract_meta_data.py
 ```
 
-Then, the script `combine_and_chunk.py` joins these datasets and creates a yearly-chunked series of parquet files in the folder `processed_data/combined`.
+Then, run `python data_conversion/combine_and_chunk.py` to join all the available datasets and create a yearly-chunked series of parquet files in the folder `processed_data/combined`.
 
 ## Data analysis
 The script `query.py` uses the prepared combined data to search for mentions of diseases and locations in articles. The file produces the plot shown above. It also produces this plot about Leiden:
@@ -44,9 +45,11 @@ This plot aligns quite nicely with the google ngram viewer, querying "cholera" i
 
 ![](img/ngram_cholera.png)
 
+## Additional data harvesting with Delpher API (1880-1940)
+For the years 1880 and onward, Dutch historical news articles can be harvested via the Delpher API. 
+See `delpher_api/README.md` for details. 
 
 ## Contact
-
 <img src="./img/soda_logo.png" alt="SoDa logo" width="250px"/>
 
 This project is developed and maintained by the [ODISSEI Social Data
