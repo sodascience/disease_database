@@ -1,8 +1,14 @@
+"""This file"""
+
 import polars as pl
 from tqdm import tqdm
-import os
 import argparse
 from utils_delpher_api import harvest_article_content
+from pathlib import Path
+
+ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "monthly_ids")
+ARTICLE_TEXT_FOLDER = Path("processed_data", "texts", "monthly_texts")
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -12,24 +18,22 @@ def main():
     start_year = args.start_year
     end_year = args.end_year
 
-    in_folder_path = f"processed_data/metadata/articles/from_1880_to_1940/"
-    out_folder_path = f"processed_data/texts/from_{start_year}_to_{end_year}/"
-    if os.path.exists(out_folder_path) is False:
-        os.makedirs(out_folder_path)
+    ARTICLE_TEXT_FOLDER.mkdir(exist_ok=True)
 
-    for year in tqdm(range(start_year, end_year+1)):
+    for year in tqdm(range(start_year, end_year + 1)):
         for month in tqdm(range(1, 13)):
             out_file_name = f"article_texts_{year}_{month}.parquet"
-            out_file_path = out_folder_path+out_file_name
-            if os.path.exists(out_file_path):
+            out_file_path = ARTICLE_TEXT_FOLDER / out_file_name
+            if out_file_path.exists():
                 print(f"Data already harvested for {year}-{month}!")
                 continue
 
             # Load the article metadata
-            article_meta_df = pl.scan_parquet(in_folder_path+f"article_meta_{year}_{month}.parquet")
-            article_ids = article_meta_df.collect()["article_id"].to_list()
+            article_meta_df = pl.read_parquet(
+                ARTICLE_ID_FOLDER / f"article_meta_{year}_{month}.parquet"
+            )
+            article_ids = article_meta_df["article_id"].to_list()
 
-            # Parallel harvesting using ThreadPoolExecutor
             results_ls = []
             for article_id in tqdm(article_ids):
                 results = harvest_article_content(article_id)
@@ -38,6 +42,7 @@ def main():
             # The `results` list now contains all harvested articles
             records_df = pl.DataFrame(results_ls)
             records_df.write_parquet(out_file_path)
+
 
 if __name__ == "__main__":
     main()
