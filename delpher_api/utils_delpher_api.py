@@ -16,7 +16,7 @@ def get_api_key():
         key = f.readline()
     if len(key) == 0:
         raise Exception("API key is empty")
-    return key
+    return key.rstrip()
 
 
 def harvest_article_content(article_id):
