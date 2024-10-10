@@ -7,9 +7,19 @@ Creating a historical disease database (19th-20th century) for municipalities in
 
 ## Preparation
 
+This project uses [pyproject.toml](pyproject.toml) to handle its dependencies. You can install them using pip like so:
+
 ```
-pip install -r requirements.txt
+pip install .
 ```
+
+We recommend using [uv](https://github.com/astral-sh/uv) to manage the environment. First, install uv, then clone / download this repo, then run:
+
+``` 
+uv sync
+```
+
+this will automatically install the right python version, create a virtual environment, and install the required packages.
 
 ## Data extraction (1830-1879)
 Between 1830 and 1879, Delpher historical news article data can be downloaded manually from [here](https://www.delpher.nl/over-delpher/delpher-open-krantenarchief/download-teksten-kranten-1618-1879#b1741).
@@ -35,6 +45,16 @@ python data_conversion/extract_meta_data.py
 ```
 
 Then, run `python data_conversion/combine_and_chunk.py` to join all the available datasets and create a yearly-chunked series of parquet files in the folder `processed_data/combined`.
+
+## Data harvesting (1880-1940)
+After 1880, the data is not public. To harvest the data from delpher: 
+
+1. Obtain an api key (which looks like this `df2e02aa-8504-4af2-b3d9-64d107f4479a`) from Delpher, then put the api key in the file `delpher_api/apikey.txt`.
+2. Harvest article ids for the years you are interested in: `uv run delpher_api/harvest_article_ids.py --start_year 1880 --end_year 1940`
+3. Based on these article ids, harvest the article texts: `uv run delpher_api/harvest_article_content.py --start_year 1880 --end_year 1940`
+4. Also harvest newspaper meta info based on the article ids: `uv run delpher_api/harvest_meta_data.py --start_year 1880 --end_year 1940`
+5. Combine everything to the combined folder (script TBD)
+
 
 ## Data analysis
 The script `query.py` uses the prepared combined data to search for mentions of diseases and locations in articles. The file produces the plot shown above. It also produces this plot about Leiden:

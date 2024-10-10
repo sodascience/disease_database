@@ -1,12 +1,12 @@
-import os
 import polars as pl
 from tqdm import tqdm
 import argparse
-from utils_delpher_api import get_metadata_url, retrieve_newspaper_metadata
+from utils_delpher_api import get_metadata_url, retrieve_newspaper_metadata, get_api_key
+from pathlib import Path
 
 # Define namespaces
 namespaces = {
-    'oai': 'http://www.openarchives.org/OAI/2.0/',
+    "oai": "http://www.openarchives.org/OAI/2.0/",
     "didl": "urn:mpeg:mpeg21:2002:02-DIDL-NS",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
@@ -17,8 +17,12 @@ namespaces = {
     "xs": "http://www.w3.org/2001/XMLSchema",
 }
 
-with open("delpher_api/keys.txt") as f:
-    apikey = f.readline()
+apikey = get_api_key()
+
+
+ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "monthly_ids")
+NEWSPAPER_META_FOLDER = Path("processed_data", "metadata", "newspapers", "monthly")
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -28,19 +32,18 @@ def main():
     start_year = args.start_year
     end_year = args.end_year
 
-    in_folder_path = f"processed_data/metadata/articles/from_1880_to_1940/"
-    out_folder_path = f"processed_data/metadata/newspapers/from_{start_year}_to_{end_year}/"
-    if not os.path.exists(out_folder_path):
-       os.makedirs(out_folder_path)
+    NEWSPAPER_META_FOLDER.mkdir(exist_ok=True)
 
-    for year in tqdm(range(start_year, end_year+1)):
+    for year in tqdm(range(start_year, end_year + 1)):
         for month in tqdm(range(1, 13)):
-            article_meta_df = pl.scan_parquet(in_folder_path + f"article_meta_{year}_{month}.parquet")
+            article_meta_df = pl.scan_parquet(
+                ARTICLE_ID_FOLDER / f"article_meta_{year}_{month}.parquet"
+            )
             newspaper_ids = article_meta_df.collect()["newspaper_id"].unique().to_list()
             out_file_name = f"newspaper_meta_{year}_{month}.parquet"
 
-            out_file_path = out_folder_path + out_file_name
-            if os.path.exists(out_file_path):
+            out_file_path = NEWSPAPER_META_FOLDER / out_file_name
+            if out_file_path.exists():
                 print(f"Data already harvested for {year}-{month}!")
                 continue
 
@@ -54,7 +57,8 @@ def main():
                 metadata_ls.append(newspaper_metadata)
 
             metadata_df = pl.DataFrame(metadata_ls)
-            metadata_df.write_parquet(out_folder_path+out_file_name)
+            metadata_df.write_parquet(out_file_path)
+
 
 if __name__ == "__main__":
     main()

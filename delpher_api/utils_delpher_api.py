@@ -4,6 +4,20 @@ import sruthi
 import calendar
 import xml.etree.ElementTree as ET
 from datetime import datetime, date
+from pathlib import Path
+
+API_KEY_FILE = Path("delpher_api", "apikey.txt")
+
+
+def get_api_key():
+    if not API_KEY_FILE.is_file():
+        raise FileNotFoundError(f"Put your API key in the file {API_KEY_FILE}")
+    with API_KEY_FILE.open() as f:
+        key = f.readline()
+    if len(key) == 0:
+        raise Exception("API key is empty")
+    return key
+
 
 def harvest_article_content(article_id):
     "Function to harvest title and main text for a single article given its id"
@@ -40,9 +54,7 @@ def harvest_article_ids(query: str="*",
     "Function to harvest articles records for a query in a given month of a year"
     query = add_query_date(query, year, month)
 
-    # NB: this file should contain the api key
-    with open("delpher_api/keys.txt") as f:
-        apikey = f.readline()
+    apikey = get_api_key()
 
     # Search url is the base url with apikey appended
     search_url = f"https://jsru.kb.nl/sru/sru/{apikey}"
@@ -174,9 +186,7 @@ def find_num_records(query: str, year: int = 1860, month: int = 1):
     "Function to find the number of records for a query in a month"
     query = add_query_date(query, year, month)
 
-    # NB: this file should contain the api key
-    with open("delpher_api/keys.txt") as f:
-        apikey = f.readline()
+    apikey = get_api_key()
 
     # Search url is the base url with apikey appended
     search_url = f"https://jsru.kb.nl/sru/sru/{apikey}"
