@@ -50,10 +50,7 @@ Then, run `python data_conversion/combine_and_chunk.py` to join all the availabl
 After 1880, the data is not public. To harvest the data from delpher: 
 
 1. Obtain an api key (which looks like this `df2e02aa-8504-4af2-b3d9-64d107f4479a`) from Delpher, then put the api key in the file `delpher_api/apikey.txt`.
-2. Harvest article ids for the years you are interested in: `uv run delpher_api/harvest_article_ids.py --start_year 1880 --end_year 1940`
-3. Based on these article ids, harvest the article texts: `uv run delpher_api/harvest_article_content.py --start_year 1880 --end_year 1940`
-4. Also harvest newspaper meta info based on the article ids: `uv run delpher_api/harvest_meta_data.py --start_year 1880 --end_year 1940`
-5. Combine everything to the combined folder (script TBD)
+2. Harvest the data following readme in the delpher api folder: [delpher_api/readme.md](./delpher_api/README.md)
 
 
 ## Data analysis
