@@ -5,3 +5,4 @@ polars==1.9.0
 Requests==2.32.3
 sruthi==2.0.0
 tqdm==4.66.5
+lxml==5.3.0
