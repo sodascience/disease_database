@@ -162,4 +162,8 @@ cython_debug/
 #.idea/
 delpher_api/keys.txt
 delpher_api/apikey.txt
-uv.lock
+uv.lockvalidation/
+
+
+#Cause of death validation data
+validation\
