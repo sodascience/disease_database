@@ -1,0 +1,2936 @@
+﻿O_DATUM;D_OORZAAK;Gestandaardizeerde doodsoorzaak;Numerieke coderingscode;Ship coderingsnummer (old)
+10-10-1865;pokken;Pokken;203,000;BB03.000
+10-10-1867;cholera;Cholera;100,900;AA00.900
+10-10-1892;diphteritis;Difterie;136,900;AA36.900
+10-11-1866;cholera;Cholera;100,900;AA00.900
+10-11-1866;cholera;Cholera;100,900;AA00.900
+10-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+10-11-1880;cholerine;Cholera;100,900;AA00.900
+10-11-1885;kinkhoest;Kinkhoest;137,900;AA37.900
+10-11-1901;morbilli;Mazelen;205,900;BB05.900
+10-11-1901;morbilli;Mazelen;205,900;BB05.900
+10-11-1916;mazelen;Mazelen;205,900;BB05.900
+10-11-1918;crouposa;Croup;136,204;JJ05.000
+10-11-1921;diphterie;Difterie;136,900;AA36.900
+10-11-1945;larynxdiphterie;Laryngeale difterie;136,200;AA36.200
+10-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+10-1-1864;huid waterzucht ten gevolge van roodvonk;Roodvonk;138,000;AA38.000
+10-1-1866;verval van krachten na pokken;Pokken;203,000;BB03.000
+10-1-1893;diphtheritis;Difterie;136,900;AA36.900
+10-1-1894;morbilli;Mazelen;205,900;BB05.900
+10-1-1905;morbilli;Mazelen;205,900;BB05.900
+10-1-1912;mazelen;Mazelen;205,900;BB05.900
+10-1-1918;kinkhoest;Kinkhoest;137,900;AA37.900
+10-1-1921;scarlatina;Roodvonk;138,000;AA38.000
+10-12-1866;croup;Croup;136,204;JJ05.000
+10-12-1875;croup;Croup;136,204;JJ05.000
+10-12-1879;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+10-12-1892;diphteritis;Difterie;136,900;AA36.900
+10-12-1893;mazelen;Mazelen;205,900;BB05.900
+10-12-1893;mazelen;Mazelen;205,900;BB05.900
+10-12-1939;diphterie;Difterie;136,900;AA36.900
+10-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+10-2-1869;diphterische keelontsteking;Faryngeale difterie;136,000;AA36.000
+10-2-1917;kinkhoest;Kinkhoest;137,900;AA37.900
+10-2-1919;morbilli croup;Mazelen met croup;205,803;BB05.8
+10-2-1928;pertussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+10-2-1934;diphterie;Difterie;136,900;AA36.900
+10-2-1935;diphterie;Difterie;136,900;AA36.900
+10-3-1870;croup;Croup;136,204;JJ05.000
+10-3-1886;fussis convulsies;Kinkhoest;137,900;AA37.900
+10-3-1891;mazelen;Mazelen;205,900;BB05.900
+10-3-1894;diphtheritis met crouposa;Difterische croup;136,201;AA36.201
+10-3-1896;"nephritis acuta; a scarlatinosa";Roodvonk met andere ziekte;138,009;AA38.009
+10-3-1910;mazelen;Mazelen;205,900;BB05.900
+10-3-1947;tussis (kinkhoest);Kinkhoest;137,900;AA37.900
+10-4-1871;croup;Croup;136,204;JJ05.000
+10-4-1884;mazelen;Mazelen;205,900;BB05.900
+10-4-1919;mazelen;Mazelen;205,900;BB05.900
+10-4-1921;mazelen;Mazelen;205,900;BB05.900
+10-5-1869;laryngitis pseudomembranosa;Membraneuze laryngitis;136,203;AA36.203
+10-5-1871;kinderziekte;Kinderziekte;203,003;BB03
+10-5-1879;croupe;Croup;136,204;JJ05.000
+10-5-1887;pneumonia (mazelen);Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+10-5-1910;mazelen;Mazelen;205,900;BB05.900
+10-6-1865;kinderziekte;Kinderziekte;203,003;BB03
+10-6-1871;cholerine;Cholera;100,900;AA00.900
+10-6-1871;cholerine;Cholera;100,900;AA00.900
+10-6-1874;cholerine;Cholera;100,900;AA00.900
+10-6-1907;mazelen;Mazelen;205,900;BB05.900
+10-6-1907;mazelen;Mazelen;205,900;BB05.900
+10-6-1910;mazelen;Mazelen;205,900;BB05.900
+10-6-1910;morbilli;Mazelen;205,900;BB05.900
+10-6-1924;dyphterie;Difterie;136,900;AA36.900
+10-6-1946;"tussis; pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+10-6-1946;toxische diphterie;Difterie;136,900;AA36.900
+10-7-1866;roodvonk;Roodvonk;138,000;AA38.000
+10-7-1881;cholerine;Cholera;100,900;AA00.900
+10-7-1910;mazelen;Mazelen;205,900;BB05.900
+10-7-1916;difterie;Difterie;136,900;AA36.900
+10-8-1866;cholera asiatica;Cholera;100,900;AA00.900
+10-8-1875;cholerine;Cholera;100,900;AA00.900
+10-8-1887;cholerine;Cholera;100,900;AA00.900
+10-8-1889;cholerine;Cholera;100,900;AA00.900
+10-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+10-9-1866;cholera;Cholera;100,900;AA00.900
+10-9-1866;cholera;Cholera;100,900;AA00.900
+10-9-1866;cholera;Cholera;100,900;AA00.900
+10-9-1883;cholerine;Cholera;100,900;AA00.900
+10-9-1887;kinkhoest;Kinkhoest;137,900;AA37.900
+10-9-1943;larynxdiphterie;Laryngeale difterie;136,200;AA36.200
+1-10-1866;cholera;Cholera;100,900;AA00.900
+1-10-1866;cholera;Cholera;100,900;AA00.900
+1-10-1867;croup;Croup;136,204;JJ05.000
+1-10-1867;cholera;Cholera;100,900;AA00.900
+1-10-1867;cholera;Cholera;100,900;AA00.900
+1-10-1871;scarlatina purpura;Roodvonk met andere ziekte;138,009;AA38.009
+1-10-1892;diphteritis;Difterie;136,900;AA36.900
+1-10-1942;"mazelen; broncho pneumonie";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+1-10-1944;diphterie;Difterie;136,900;AA36.900
+11-10-1866;cholera asiatica;Cholera;100,900;AA00.900
+11-10-1867;cholera;Cholera;100,900;AA00.900
+11-10-1870;copellaire bronchitis in het beloop van kinkhoest;Kinkhoest met longontsteking;137,900;AA37.900
+11-10-1872;croup;Croup;136,204;JJ05.000
+11-10-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+11-10-1908;kinkhoest;Kinkhoest;137,900;AA37.900
+11-10-1908;diphteritis;Difterie;136,900;AA36.900
+11-10-1910;pertussis;Kinkhoest;137,900;AA37.900
+11-10-1924;scarr;Roodvonk;138,000;AA38.000
+11-10-1951;"diphterie; myocarditis";Difterie;136,900;AA36.900
+11-11-1868;croup;Croup;136,204;JJ05.000
+11-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+11-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+11-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+11-11-1884;scarlatina;Roodvonk;138,000;AA38.000
+11-11-1884;scarlatina;Roodvonk;138,000;AA38.000
+11-11-1892;diphteritis;Difterie;136,900;AA36.900
+11-11-1892;diphteritis;Difterie;136,900;AA36.900
+11-11-1898;diphteritis;Difterie;136,900;AA36.900
+11-11-1901;morbilli;Mazelen;205,900;BB05.900
+11-11-1916;morbilli;Mazelen;205,900;BB05.900
+11-11-1944;"mazelen; pneumonie";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+11-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+1-11-1866;cholera;Cholera;100,900;AA00.900
+1-11-1866;cholera;Cholera;100,900;AA00.900
+1-11-1866;cholera;Cholera;100,900;AA00.900
+1-11-1866;cholera;Cholera;100,900;AA00.900
+1-11-1867;cholera;Cholera;100,900;AA00.900
+1-11-1867;cholera;Cholera;100,900;AA00.900
+1-11-1867;cholera;Cholera;100,900;AA00.900
+1-11-1871;croupeuse;Croup;136,204;JJ05.000
+11-1-1873;kinkhoest na luchtbuisontsteking;Kinkhoest met bronchitis;137,901;AA37.901
+1-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+1-11-1884;cholerine;Cholera;100,900;AA00.900
+11-1-1894;morbilli;Mazelen;205,900;BB05.900
+11-1-1897;pertussis;Kinkhoest;137,900;AA37.900
+1-11-1901;mazelen;Mazelen;205,900;BB05.900
+1-11-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+11-1-1912;"morbilli; croup";Mazelen met croup;205,803;BB05.8
+11-1-1913;difteritis;Difterie;136,900;AA36.900
+1-11-1932;diphterie;Difterie;136,900;AA36.900
+1-11-1933;diphteritis;Difterie;136,900;AA36.900
+11-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+11-12-1892;diphteritis;Difterie;136,900;AA36.900
+11-12-1893;morbilli;Mazelen;205,900;BB05.900
+11-12-1904;morbilli;Mazelen;205,900;BB05.900
+1-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+1-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+1-1-1864;"waterzucht; gevolg van roodvonk";Roodvonk;138,000;AA38.000
+1-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+1-1-1880;croup;Croup;136,204;JJ05.000
+1-1-1894;laryngitis crouposa na mazelen;Mazelen met croup;205,803;BB05.8
+1-1-1905;morbilli;Mazelen;205,900;BB05.900
+1-1-1912;morbilli;Mazelen;205,900;BB05.900
+11-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+11-2-1876;kinkhoest;Kinkhoest;137,900;AA37.900
+1-12-1892;diphteritis;Difterie;136,900;AA36.900
+1-12-1892;diphteritis;Difterie;136,900;AA36.900
+11-2-1893;diphtheritis;Difterie;136,900;AA36.900
+1-12-1901;cholerine;Cholera;100,900;AA00.900
+1-12-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+1-12-1902;morbilli;Mazelen;205,900;BB05.900
+11-2-1943;"toxische laryngitis; diphterie; tracheostoma";Laryngeale difterie;136,200;AA36.200
+1-12-1951;myocarditis diphterica;Difterie;136,900;AA36.900
+11-3-1864;croup;Croup;136,204;JJ05.000
+11-3-1893;diphtheritis;Difterie;136,900;AA36.900
+11-3-1894;diphtheritis;Difterie;136,900;AA36.900
+11-3-1915;difteritis;Difterie;136,900;AA36.900
+11-3-1918;kinkhoest;Kinkhoest;137,900;AA37.900
+11-3-1919;morbilli;Mazelen;205,900;BB05.900
+11-3-1924;kinkhoest;Kinkhoest;137,900;AA37.900
+11-3-1946;myocarditis diphterica;Difterie;136,900;AA36.900
+11-4-1870;croup;Croup;136,204;JJ05.000
+11-4-1871;kinderziekte;Kinderziekte;203,003;BB03
+11-4-1900;pertussis;Kinkhoest;137,900;AA37.900
+11-4-1908;variola;Pokken;203,000;BB03.000
+11-4-1909;kinkhoest;Kinkhoest;137,900;AA37.900
+11-4-1912;difteritis;Difterie;136,900;AA36.900
+11-4-1912;mazelen;Mazelen;205,900;BB05.900
+11-4-1912;mazelen;Mazelen;205,900;BB05.900
+11-4-1921;pertussis en pneumonia;Kinkhoest met longontsteking;137,907;AA37.907
+11-5-1865;chorlorine;Cholera;100,900;AA00.900
+11-5-1871;croup;Croup;136,204;JJ05.000
+11-5-1893;diphtheritis;Difterie;136,900;AA36.900
+11-5-1923;diphterie;Difterie;136,900;AA36.900
+11-5-1946;pertussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+11-6-1887;mazelen pneumonie;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+11-7-1871;cholerine;Cholera;100,900;AA00.900
+11-7-1888;cholerine;Cholera;100,900;AA00.900
+11-7-1893;diphterie;Difterie;136,900;AA36.900
+11-7-1893;cholera nostras;Cholera;100,900;AA00.900
+11-7-1895;tussis convuls;Kinkhoest;137,900;AA37.900
+11-7-1907;morbilli;Mazelen;205,900;BB05.900
+11-7-1942;myocarditis ten gevolge van zwaar toxische diphterie;Difterie;136,900;AA36.900
+11-8-1869;dephterische keelontsteking;Faryngeale difterie;136,000;AA36.000
+11-8-1870;"tussis convulsivus; broncho cappillaris";Kinkhoest met bronchitis;137,901;AA37.901
+11-8-1890;kinkhoest;Kinkhoest;137,900;AA37.900
+11-8-1890;cholerine;Cholera;100,900;AA00.900
+11-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+11-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+11-8-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+11-8-1934;diphterie;Difterie;136,900;AA36.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1866;cholera;Cholera;100,900;AA00.900
+11-9-1871;cholerine;Cholera;100,900;AA00.900
+11-9-1872;cholerine;Cholera;100,900;AA00.900
+11-9-1888;cholerine;Cholera;100,900;AA00.900
+11-9-1888;cholerine;Cholera;100,900;AA00.900
+11-9-1892;angina diphterie;Angina difterie;136,001;AA36.0
+11-9-1945;diphterie;Difterie;136,900;AA36.900
+12-10-1866;cholera;Cholera;100,900;AA00.900
+12-10-1866;cholera;Cholera;100,900;AA00.900
+12-10-1866;cholera;Cholera;100,900;AA00.900
+12-10-1866;cholera;Cholera;100,900;AA00.900
+12-10-1866;cholera;Cholera;100,900;AA00.900
+12-10-1866;cholera;Cholera;100,900;AA00.900
+12-10-1867;cholera;Cholera;100,900;AA00.900
+12-10-1867;pertussis;Kinkhoest;137,900;AA37.900
+12-10-1867;cholera;Cholera;100,900;AA00.900
+12-10-1867;cholera;Cholera;100,900;AA00.900
+12-10-1867;cholera;Cholera;100,900;AA00.900
+12-10-1867;cholera;Cholera;100,900;AA00.900
+12-10-1871;cholerine;Cholera;100,900;AA00.900
+12-10-1871;"roodvonk; diphterische keelontsteking";Roodvonk met difterie;138,004;AA38.004
+12-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+12-10-1880;croup;Croup;136,204;JJ05.000
+12-10-1891;croupe diphter;Difterische croup;136,201;AA36.201
+12-10-1892;diphteritis;Difterie;136,900;AA36.900
+12-10-1892;diphteritis;Difterie;136,900;AA36.900
+12-10-1893;diphteritis;Difterie;136,900;AA36.900
+12-10-1909;difteritis;Difterie;136,900;AA36.900
+12-11-1866;cholera;Cholera;100,900;AA00.900
+12-11-1866;cholera;Cholera;100,900;AA00.900
+12-11-1866;cholera;Cholera;100,900;AA00.900
+12-11-1866;cholera;Cholera;100,900;AA00.900
+12-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+12-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+12-11-1930;tussis;Kinkhoest;137,900;AA37.900
+12-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+12-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+12-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+12-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+12-1-1864;angina dephterie;Angina difterie;136,001;AA36.0
+12-1-1869;scarlatina;Roodvonk;138,000;AA38.000
+12-1-1886;croupe;Croup;136,204;JJ05.000
+12-1-1893;diphtheritis;Difterie;136,900;AA36.900
+12-1-1893;diphtheritis;Difterie;136,900;AA36.900
+12-1-1905;mazelen;Mazelen;205,900;BB05.900
+12-1-1905;mazelen;Mazelen;205,900;BB05.900
+12-1-1908;diphteritis;Difterie;136,900;AA36.900
+12-1-1912;difteritis;Difterie;136,900;AA36.900
+12-12-1865;pokken;Pokken;203,000;BB03.000
+12-12-1871;roodvonk in het beloop van kraambed;Roodvonk;138,000;AA38.000
+12-12-1885;tussis convulsivus;Kinkhoest;137,900;AA37.900
+12-12-1885;croup;Croup;136,204;JJ05.000
+12-12-1893;mazelen;Mazelen;205,900;BB05.900
+12-12-1916;mazelen;Mazelen;205,900;BB05.900
+12-12-1927;maselen;Mazelen;205,900;BB05.900
+12-12-1939;nephritis (diphterie);Difterie;136,900;AA36.900
+1-2-1869;laryngitis pseudomemb.;Membraneuze laryngitis;136,203;AA36.203
+1-2-1876;croup;Croup;136,204;JJ05.000
+1-2-1893;diphtheritis;Difterie;136,900;AA36.900
+1-2-1894;diphtheritis;Difterie;136,900;AA36.900
+1-2-1905;mazelen;Mazelen;205,900;BB05.900
+1-2-1911;diphteritis;Difterie;136,900;AA36.900
+1-2-1912;roodvonk;Roodvonk;138,000;AA38.000
+1-2-1919;mazelen;Mazelen;205,900;BB05.900
+12-2-1873;waterzucht bij kinkhoest;Kinkhoest;137,900;AA37.900
+12-2-1873;longontsteking bij kinkhoest;Kinkhoest met longontsteking;137,907;AA37.907
+12-2-1876;kinkhoest;Kinkhoest;137,900;AA37.900
+12-2-1938;diphterie;Difterie;136,900;AA36.900
+12-2-1947;"tussis; bronchopneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+12-2-1949;kinkhoest pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+12-3-1865;croup;Croup;136,204;JJ05.000
+12-3-1874;croup;Croup;136,204;JJ05.000
+12-3-1928;pertusis;Kinkhoest;137,900;AA37.900
+12-4-1873;roodvonk;Roodvonk;138,000;AA38.000
+12-4-1876;croup;Croup;136,204;JJ05.000
+12-4-1893;diphtheritis;Difterie;136,900;AA36.900
+12-4-1897;pertussis;Kinkhoest;137,900;AA37.900
+12-5-1936;broncho pneum bij tussis quinta;Kinkhoest met bronchitis;137,901;AA37.901
+12-6-1887;mazelen;Mazelen;205,900;BB05.900
+12-6-1912;mazelen;Mazelen;205,900;BB05.900
+12-7-1869;"roodvonk; longontsteking";Roodvonk met pneumonie;138,007;AA38.009
+12-7-1877;cholerine;Cholera;100,900;AA00.900
+12-7-1882;cholerine;Cholera;100,900;AA00.900
+12-7-1884;cholerine;Cholera;100,900;AA00.900
+12-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+12-7-1900;cholerine;Cholera;100,900;AA00.900
+12-7-1907;mazelen;Mazelen;205,900;BB05.900
+12-8-1867;cholerine;Cholera;100,900;AA00.900
+12-8-1870;cholerine;Cholera;100,900;AA00.900
+12-8-1873;cholerine;Cholera;100,900;AA00.900
+12-8-1894;diphteritis;Difterie;136,900;AA36.900
+12-8-1900;tussis convulsiva;Kinkhoest;137,900;AA37.900
+12-8-1910;bronchopneumonia na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+12-8-1928;scarlatina met angina;Roodvonk met difterie;138,004;AA38.004
+12-8-1949;diphteritis;Difterie;136,900;AA36.900
+12-9-1866;cholera;Cholera;100,900;AA00.900
+12-9-1866;cholera;Cholera;100,900;AA00.900
+12-9-1866;cholera;Cholera;100,900;AA00.900
+12-9-1866;cholera;Cholera;100,900;AA00.900
+12-9-1866;cholera;Cholera;100,900;AA00.900
+12-9-1866;cholera;Cholera;100,900;AA00.900
+12-9-1869;scarlatina;Roodvonk;138,000;AA38.000
+12-9-1871;roodvonk na kraambed;Roodvonk;138,000;AA38.000
+12-9-1872;cholerine;Cholera;100,900;AA00.900
+12-9-1875;cholerine;Cholera;100,900;AA00.900
+12-9-1883;cholerine;Cholera;100,900;AA00.900
+12-9-1885;cholerine;Cholera;100,900;AA00.900
+12-9-1892;angina diphterie;Angina difterie;136,001;AA36.0
+12-9-1893;diphteritis;Difterie;136,900;AA36.900
+12-9-1914;mazelen;Mazelen;205,900;BB05.900
+13-10-1865;pokken;Pokken;203,000;BB03.000
+13-10-1867;cholera;Cholera;100,900;AA00.900
+13-10-1871;roodvonk;Roodvonk;138,000;AA38.000
+13-10-1875;croupe;Croup;136,204;JJ05.000
+13-10-1879;cholerine;Cholera;100,900;AA00.900
+13-10-1881;croupe;Croup;136,204;JJ05.000
+13-10-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+13-10-1934;diphteritis;Difterie;136,900;AA36.900
+13-11-1864;angina maligna;Membraneuze laryngitis;136,203;AA36.203
+13-11-1864;angina maligna;Membraneuze laryngitis;136,203;AA36.203
+13-11-1865;croup;Croup;136,204;JJ05.000
+13-11-1870;mazelen;Mazelen;205,900;BB05.900
+13-11-1879;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+13-11-1879;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+13-11-1892;diphteritis;Difterie;136,900;AA36.900
+13-11-1948;"mazelen; diphterie";Mazelen met difterie;205,801;BB05.801
+13-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+13-1-1866;kinderziekte;Kinderziekte;203,003;BB03
+13-1-1866;kinderziekte;Kinderziekte;203,003;BB03
+13-1-1868;croup;Croup;136,204;JJ05.000
+13-1-1872;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+13-1-1873;longontsteking bij kinkhoest;Kinkhoest met longontsteking;137,907;AA37.907
+13-1-1882;tussis convulsivus;Kinkhoest;137,900;AA37.900
+13-1-1893;diphtheritis;Difterie;136,900;AA36.900
+13-1-1893;diphtheritis;Difterie;136,900;AA36.900
+13-1-1893;diphtheritis;Difterie;136,900;AA36.900
+13-1-1909;"nephritis; tussis convulsia";Kinkhoest met andere complicatie;137,909;AA37.909
+13-1-1943;maligne diphterie;Difterie;136,900;AA36.900
+13-12-1865;kinderziekte;Kinderziekte;203,003;BB03
+13-12-1865;kinderziekte;Kinderziekte;203,003;BB03
+13-12-1871;diphterische keelontsteking;Faryngeale difterie;136,000;AA36.000
+13-12-1879;oedema na roodvonk;Roodvonk;138,000;AA38.000
+13-12-1885;tussis convulsiones;Kinkhoest;137,900;AA37.900
+13-12-1893;"mazelen; diphtheritis; longontsteking";Mazelen met difterie;205,801;BB05.801
+13-12-1893;diphtheritis;Difterie;136,900;AA36.900
+13-12-1893;diphtheria crouposa;Difterische croup;136,201;AA36.201
+13-12-1912;scarlatina;Roodvonk;138,000;AA38.000
+13-12-1943;"mongolismus; atrophie tussis V";Kinkhoest;137,900;AA37.900
+1-3-1864;roodvonk;Roodvonk;138,000;AA38.000
+1-3-1864;roodvonk;Roodvonk;138,000;AA38.000
+1-3-1867;mazelen;Mazelen;205,900;BB05.900
+1-3-1868;croup;Croup;136,204;JJ05.000
+1-3-1873;stuipen in beloop van kinkhoest;Kinkhoest;137,900;AA37.900
+1-3-1874;croup;Croup;136,204;JJ05.000
+1-3-1880;hydrops waarschijnlijk na roodvonk;Roodvonk;138,000;AA38.000
+1-3-1905;mazelen;Mazelen;205,900;BB05.900
+1-3-1921;pertussis;Kinkhoest;137,900;AA37.900
+1-3-1929;scarlatina;Roodvonk;138,000;AA38.000
+1-3-1930;kinkhoest;Kinkhoest;137,900;AA37.900
+1-3-1933;brocho pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+13-2-1864;roodvonk met darmontsteking;Roodvonk met enteritis;138,001;AA38.001
+13-2-1869;croup;Croup;136,204;JJ05.000
+13-2-1895;tussis convulsiones;Kinkhoest;137,900;AA37.900
+13-2-1897;kinkhoest;Kinkhoest;137,900;AA37.900
+13-2-1903;mazelen;Mazelen;205,900;BB05.900
+13-2-1905;morbilli;Mazelen;205,900;BB05.900
+13-2-1919;mazelen;Mazelen;205,900;BB05.900
+13-2-1925;diphteritis;Difterie;136,900;AA36.900
+13-2-1943;diphterie;Difterie;136,900;AA36.900
+13-3-1867;"mazelen; longontstekeing";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+13-3-1891;mazelen;Mazelen;205,900;BB05.900
+13-3-1893;diphtheritis;Difterie;136,900;AA36.900
+13-3-1893;diphtheritis;Difterie;136,900;AA36.900
+13-3-1894;diphtheritis;Difterie;136,900;AA36.900
+13-3-1894;diphtheritis;Difterie;136,900;AA36.900
+13-4-1870;tussis convulsivus;Kinkhoest;137,900;AA37.900
+13-4-1893;diphtheritis;Difterie;136,900;AA36.900
+13-4-1897;pertussis;Kinkhoest;137,900;AA37.900
+13-4-1911;diphteritis;Difterie;136,900;AA36.900
+13-4-1912;mazelen;Mazelen;205,900;BB05.900
+13-4-1915;difterie;Difterie;136,900;AA36.900
+13-4-1930;pseudo crouposa;Difterische croup;136,201;AA36.201
+13-4-1936;tussis quinta;Kinkhoest;137,900;AA37.900
+13-5-1912;mazelen;Mazelen;205,900;BB05.900
+13-5-1921;difterie;Difterie;136,900;AA36.900
+13-6-1865;cholerine;Cholera;100,900;AA00.900
+13-6-1865;cholerine;Cholera;100,900;AA00.900
+13-6-1869;mazelen;Mazelen;205,900;BB05.900
+13-6-1870;croupeuse;Croup;136,204;JJ05.000
+13-6-1871;roodvonk;Roodvonk;138,000;AA38.000
+13-6-1881;croup;Croup;136,204;JJ05.000
+13-6-1883;laryngitis stridula;Difterische croup;136,201;AA36.201
+13-6-1886;cholerine;Cholera;100,900;AA00.900
+13-6-1897;tussis convulsiva;Kinkhoest;137,900;AA37.900
+13-6-1907;mazelen;Mazelen;205,900;BB05.900
+13-6-1907;mazelen;Mazelen;205,900;BB05.900
+13-6-1907;onbekende oorzaak vermoedelijk cholera nostras;Cholera;100,900;AA00.900
+13-6-1907;mazelen;Mazelen;205,900;BB05.900
+13-6-1912;scarlatina;Roodvonk;138,000;AA38.000
+13-7-1901;cholera nostras;Cholera;100,900;AA00.900
+13-7-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+13-7-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+13-8-1864;cholerine;Cholera;100,900;AA00.900
+13-8-1864;croup;Croup;136,204;JJ05.000
+13-8-1866;cholera anatica;Cholera;100,900;AA00.900
+13-8-1866;cholerine;Cholera;100,900;AA00.900
+13-8-1873;cholerine;Cholera;100,900;AA00.900
+13-8-1890;kinkhoest;Kinkhoest;137,900;AA37.900
+13-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+13-8-1901;kinkhoest;Kinkhoest;137,900;AA37.900
+13-9-1866;cholera;Cholera;100,900;AA00.900
+13-9-1866;cholera;Cholera;100,900;AA00.900
+13-9-1866;cholera;Cholera;100,900;AA00.900
+13-9-1866;cholera;Cholera;100,900;AA00.900
+13-9-1866;cholera;Cholera;100,900;AA00.900
+13-9-1866;cholera;Cholera;100,900;AA00.900
+13-9-1866;cholera;Cholera;100,900;AA00.900
+13-9-1866;cholera;Cholera;100,900;AA00.900
+13-9-1870;croup;Croup;136,204;JJ05.000
+13-9-1875;cholerine;Cholera;100,900;AA00.900
+13-9-1898;cholerine;Cholera;100,900;AA00.900
+13-9-1898;cholerine;Cholera;100,900;AA00.900
+13-9-1909;diphterie;Difterie;136,900;AA36.900
+13-9-1914;mazelen;Mazelen;205,900;BB05.900
+13-9-1915;pertussis;Kinkhoest;137,900;AA37.900
+13-9-1930;tussis convulsiva;Kinkhoest;137,900;AA37.900
+14-10-1866;cholera;Cholera;100,900;AA00.900
+14-10-1866;cholerine;Cholera;100,900;AA00.900
+14-10-1866;cholera;Cholera;100,900;AA00.900
+14-10-1867;cholera;Cholera;100,900;AA00.900
+14-10-1867;cholera;Cholera;100,900;AA00.900
+14-10-1867;cholera;Cholera;100,900;AA00.900
+14-10-1872;angina depoitrine;Angina difterie;136,001;AA36.0
+14-10-1901;mazelen;Mazelen;205,900;BB05.900
+14-11-1865;pokken;Pokken;203,000;BB03.000
+14-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+14-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+14-11-1892;diphteritis;Difterie;136,900;AA36.900
+14-11-1893;mazelen;Mazelen;205,900;BB05.900
+14-11-1901;mazelen;Mazelen;205,900;BB05.900
+14-11-1943;diphterie;Difterie;136,900;AA36.900
+14-1-1864;waterzucht gevolg van roodvonk;Roodvonk;138,000;AA38.000
+14-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+14-1-1866;pokken;Pokken;203,000;BB03.000
+14-1-1866;kinderziekte;Kinderziekte;203,003;BB03
+14-1-1869;croup;Croup;136,204;JJ05.000
+14-1-1872;croupeuse;Croup;136,204;JJ05.000
+14-1-1894;morbilli;Mazelen;205,900;BB05.900
+14-1-1912;scarlatina;Roodvonk;138,000;AA38.000
+14-1-1912;mazelen;Mazelen;205,900;BB05.900
+14-1-1912;mazelen;Mazelen;205,900;BB05.900
+14-1-1924;broncho pneumonie en kinkhoest;Kinkhoest met longontsteking;137,907;AA37.907
+14-1-1941;"pneumonie; kinkhoest decompensatio cordis";Kinkhoest met longontsteking;137,907;AA37.907
+14-1-1943;maligne diphterie;Difterie;136,900;AA36.900
+14-12-1871;roodvonk;Roodvonk;138,000;AA38.000
+14-12-1926;mazelen, broncho pneumonie;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+14-12-1941;"tussis V; pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+14-12-1943;"broncho pneum; diphterie";Difterie met bronchitis/pneumonie;136,901;AA36.901
+14-12-1948;mazelen pneumonie;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+1-4-1875;croup;Croup;136,204;JJ05.000
+1-4-1905;kinkhoest;Kinkhoest;137,900;AA37.900
+1-4-1913;kinkhoest;Kinkhoest;137,900;AA37.900
+1-4-1913;kinkhoest;Kinkhoest;137,900;AA37.900
+1-4-1925;morbilli en pneumonie;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+1-4-1929;scarlatina;Roodvonk;138,000;AA38.000
+1-4-1936;hersenoedeem bij tussis quinta;Kinkhoest;137,900;AA37.900
+14-2-1864;roodvonk met typhoide staat;Roodvonk met andere ziekte;138,009;AA38.009
+14-2-1873;croupeuse;Croup;136,204;JJ05.000
+14-2-1915;difterie;Difterie;136,900;AA36.900
+14-2-1919;pneumonia na morbilli;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+14-3-1885;croup;Croup;136,204;JJ05.000
+14-3-1893;diphtheritis;Difterie;136,900;AA36.900
+14-3-1925;mazelen;Mazelen;205,900;BB05.900
+14-4-1870;"kinkhoest; longontsteking";Kinkhoest met longontsteking;137,907;AA37.907
+14-4-1884;pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+14-4-1891;mazelen;Mazelen;205,900;BB05.900
+14-4-1910;diphteritis;Difterie;136,900;AA36.900
+14-4-1954;diphterie;Difterie;136,900;AA36.900
+14-5-1887;mazelen pneumonie;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+14-5-1910;morbilli;Mazelen;205,900;BB05.900
+14-5-1918;tussis convulsiones;Kinkhoest;137,900;AA37.900
+14-5-1921;kinkhoest;Kinkhoest;137,900;AA37.900
+14-5-1928;tussis convulsiva;Kinkhoest;137,900;AA37.900
+14-6-1881;cholérine;Cholera;100,900;AA00.900
+14-6-1885;cholerine;Cholera;100,900;AA00.900
+14-6-1887;cholerine;Cholera;100,900;AA00.900
+14-6-1888;cholerine;Cholera;100,900;AA00.900
+14-6-1891;croupeuse;Croup;136,204;JJ05.000
+14-6-1921;kinkhoest;Kinkhoest;137,900;AA37.900
+14-7-1882;croup;Croup;136,204;JJ05.000
+14-7-1884;cholerine;Cholera;100,900;AA00.900
+14-7-1885;cholerine;Cholera;100,900;AA00.900
+14-7-1887;cholerine;Cholera;100,900;AA00.900
+14-7-1889;cholerine;Cholera;100,900;AA00.900
+14-7-1912;scarlatina et pneum.;Roodvonk met pneumonie;138,007;AA38.009
+14-8-1866;cholera;Cholera;100,900;AA00.900
+14-8-1866;cholera;Cholera;100,900;AA00.900
+14-8-1870;cholerine;Cholera;100,900;AA00.900
+14-8-1875;croupeuse;Croup;136,204;JJ05.000
+14-8-1882;cholerine;Cholera;100,900;AA00.900
+14-8-1886;cholerine;Cholera;100,900;AA00.900
+14-9-1866;cholera;Cholera;100,900;AA00.900
+14-9-1866;cholera;Cholera;100,900;AA00.900
+14-9-1866;cholera;Cholera;100,900;AA00.900
+14-9-1878;croupe;Croup;136,204;JJ05.000
+14-9-1879;croupe;Croup;136,204;JJ05.000
+14-9-1890;tussis convulsivus;Kinkhoest;137,900;AA37.900
+14-9-1893;diphteritis;Difterie;136,900;AA36.900
+15-10-1867;cholera;Cholera;100,900;AA00.900
+15-10-1867;cholera;Cholera;100,900;AA00.900
+15-10-1867;cholera;Cholera;100,900;AA00.900
+15-10-1867;cholera;Cholera;100,900;AA00.900
+15-10-1870;croup mazelen;Mazelen met croup;205,803;BB05.8
+15-10-1870;mazelen;Mazelen;205,900;BB05.900
+15-10-1892;diphteritis;Difterie;136,900;AA36.900
+15-10-1892;diphteritis;Difterie;136,900;AA36.900
+15-10-1893;diphteritis;Difterie;136,900;AA36.900
+15-10-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+15-11-1866;croup;Croup;136,204;JJ05.000
+15-11-1868;laryngitis pseudomemb.;Membraneuze laryngitis;136,203;AA36.203
+15-11-1871;"roodvonk; waq";Roodvonk;138,000;AA38.000
+15-11-1874;croup;Croup;136,204;JJ05.000
+15-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+15-11-1892;diphteritis;Difterie;136,900;AA36.900
+15-11-1893;diphteritis;Difterie;136,900;AA36.900
+15-11-1926;diphteritis;Difterie;136,900;AA36.900
+15-11-1940;diphteritis;Difterie;136,900;AA36.900
+15-11-1945;diphterie;Difterie;136,900;AA36.900
+15-1-1864;roodvonk na waterzucht;Roodvonk;138,000;AA38.000
+15-1-1864;bronchitis capillaris met pneumonie labulaire zegge roodvonk;Roodvonk met andere ziekte;138,009;AA38.009
+15-1-1864;longwaterzucht gevolg van roodvonk;Roodvonk;138,000;AA38.000
+15-1-1879;croupeuse;Croup;136,204;JJ05.000
+15-1-1893;diphtheritis;Difterie;136,900;AA36.900
+15-1-1894;mazelen;Mazelen;205,900;BB05.900
+15-1-1905;morbilli;Mazelen;205,900;BB05.900
+15-1-1905;mazelen;Mazelen;205,900;BB05.900
+15-1-1927;diphtere;Difterie;136,900;AA36.900
+15-12-1864;croup;Croup;136,204;JJ05.000
+15-12-1865;pokken;Pokken;203,000;BB03.000
+15-12-1871;diphterische keelontsteking;Faryngeale difterie;136,000;AA36.000
+15-12-1875;angina diphterine;Angina difterie;136,001;AA36.0
+15-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+15-12-1893;mazelen;Mazelen;205,900;BB05.900
+15-12-1908;scarlatina;Roodvonk;138,000;AA38.000
+15-12-1915;pseudo croup;Difterische croup;136,201;AA36.201
+15-12-1922;dephteritis;Difterie;136,900;AA36.900
+15-12-1934;septische difterie;Difterie;136,900;AA36.900
+15-12-1945;diphterie toxica;Difterie;136,900;AA36.900
+15-12-1947;myocarditis diphterica;Difterie;136,900;AA36.900
+1-5-1879;croupe;Croup;136,204;JJ05.000
+1-5-1879;croupe;Croup;136,204;JJ05.000
+1-5-1893;diphtheritis;Difterie;136,900;AA36.900
+1-5-1936;tussis quinta en hersenoedeem;Kinkhoest met andere complicatie;137,909;AA37.909
+1-5-1943;diphterie;Difterie;136,900;AA36.900
+15-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+15-2-1868;croup;Croup;136,204;JJ05.000
+15-2-1891;mazelen;Mazelen;205,900;BB05.900
+15-2-1893;diphtheritis;Difterie;136,900;AA36.900
+15-2-1914;difteritis;Difterie;136,900;AA36.900
+15-2-1916;kinkhoest;Kinkhoest;137,900;AA37.900
+15-2-1925;mazelen;Mazelen;205,900;BB05.900
+15-3-1864;une apoplexia door de scalatine maligna veroorzaakt;Roodvonk;138,000;AA38.000
+15-3-1869;croup;Croup;136,204;JJ05.000
+15-3-1880;diphterie bij scarlatines;Roodvonk met difterie;138,004;AA38.004
+15-3-1909;kinkhoest;Kinkhoest;137,900;AA37.900
+15-3-1925;kinkhoest;Kinkhoest;137,900;AA37.900
+15-3-1929;scarlatina;Roodvonk;138,000;AA38.000
+15-4-1870;"kinkhoest; longontsteking";Kinkhoest met longontsteking;137,907;AA37.907
+15-4-1880;diphteritis;Difterie;136,900;AA36.900
+15-4-1912;mazelen z.g.h.;Mazelen;205,900;BB05.900
+15-4-1912;mazelen;Mazelen;205,900;BB05.900
+15-4-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+15-4-1936;tussis quinta met hersencomplicatie;Kinkhoest met andere complicatie;137,909;AA37.909
+15-5-1865;pokken;Pokken;203,000;BB03.000
+15-5-1876;kinkhoest;Kinkhoest;137,900;AA37.900
+15-5-1910;mazelen;Mazelen;205,900;BB05.900
+15-5-1943;diphterie;Difterie;136,900;AA36.900
+15-6-1892;diphteritis;Difterie;136,900;AA36.900
+15-6-1912;mazelen;Mazelen;205,900;BB05.900
+15-6-1920;kinkhoest;Kinkhoest;137,900;AA37.900
+15-7-1870;kinkhoest;Kinkhoest;137,900;AA37.900
+15-7-1878;cholerine;Cholera;100,900;AA00.900
+15-7-1878;cholerine;Cholera;100,900;AA00.900
+15-7-1878;cholerine;Cholera;100,900;AA00.900
+15-7-1883;cholerine;Cholera;100,900;AA00.900
+15-7-1884;cholerine;Cholera;100,900;AA00.900
+15-7-1885;cholerine;Cholera;100,900;AA00.900
+15-7-1907;mazelen;Mazelen;205,900;BB05.900
+15-7-1946;"diphterie; myocarditis diphterica";Difterie;136,900;AA36.900
+15-8-1866;cholera;Cholera;100,900;AA00.900
+15-8-1866;cholera;Cholera;100,900;AA00.900
+15-8-1866;cholera;Cholera;100,900;AA00.900
+15-8-1875;cholerine;Cholera;100,900;AA00.900
+15-8-1882;cholerine;Cholera;100,900;AA00.900
+15-8-1892;kinkhoest;Kinkhoest;137,900;AA37.900
+15-8-1892;angina diphterie;Angina difterie;136,001;AA36.0
+15-8-1899;cholerine;Cholera;100,900;AA00.900
+15-8-1899;cholerine;Cholera;100,900;AA00.900
+15-8-1908;roodvonk;Roodvonk;138,000;AA38.000
+15-8-1912;tussis convulsiva;Kinkhoest;137,900;AA37.900
+15-8-1914;morbilli;Mazelen;205,900;BB05.900
+15-8-1914;mazelen;Mazelen;205,900;BB05.900
+15-8-1942;tussis V et broncho pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+15-9-1865;pokken;Pokken;203,000;BB03.000
+15-9-1865;croup;Croup;136,204;JJ05.000
+15-9-1866;cholera;Cholera;100,900;AA00.900
+15-9-1866;cholera;Cholera;100,900;AA00.900
+15-9-1866;cholera;Cholera;100,900;AA00.900
+15-9-1871;cholerine;Cholera;100,900;AA00.900
+15-9-1879;cholerine;Cholera;100,900;AA00.900
+15-9-1879;roodvonk;Roodvonk;138,000;AA38.000
+15-9-1892;croupe;Croup;136,204;JJ05.000
+15-9-1894;diphteritis;Difterie;136,900;AA36.900
+15-9-1898;cholerine;Cholera;100,900;AA00.900
+15-9-1898;cholerine;Cholera;100,900;AA00.900
+15-9-1924;diphteritis;Difterie;136,900;AA36.900
+16-10-1864;croup;Croup;136,204;JJ05.000
+16-10-1866;croup;Croup;136,204;JJ05.000
+16-10-1867;cholera;Cholera;100,900;AA00.900
+16-10-1890;kinkhoest;Kinkhoest;137,900;AA37.900
+16-10-1892;diphteritis;Difterie;136,900;AA36.900
+16-10-1892;diphteritis;Difterie;136,900;AA36.900
+16-10-1893;diphteritis;Difterie;136,900;AA36.900
+16-10-1910;difteritis;Difterie;136,900;AA36.900
+16-10-1911;scarlatina;Roodvonk;138,000;AA38.000
+16-10-1916;pertussis;Kinkhoest;137,900;AA37.900
+16-11-1865;pokken;Pokken;203,000;BB03.000
+16-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+16-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+16-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+16-11-1879;oedema pulmonum na roodvonk;Roodvonk;138,000;AA38.000
+16-11-1884;scarlatina;Roodvonk;138,000;AA38.000
+16-11-1890;kinkhoest;Kinkhoest;137,900;AA37.900
+16-11-1892;diphteritis;Difterie;136,900;AA36.900
+16-11-1893;diphteritis;Difterie;136,900;AA36.900
+16-11-1901;mazelen;Mazelen;205,900;BB05.900
+16-11-1901;mazelen;Mazelen;205,900;BB05.900
+16-11-1939;toxische diphterie;Difterie;136,900;AA36.900
+16-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+16-1-1864;waterzucht gevolge van roodvonk;Roodvonk;138,000;AA38.000
+16-1-1864;"roodvonk; meningitis";Roodvonk met meningitis;138,005;AA38.005
+16-1-1864;waterzucht ten gevolge van roodvonk;Roodvonk;138,000;AA38.000
+16-1-1866;pokken;Pokken;203,000;BB03.000
+16-1-1866;pokken;Pokken;203,000;BB03.000
+16-1-1886;croup;Croup;136,204;JJ05.000
+16-1-1905;mazelen;Mazelen;205,900;BB05.900
+16-1-1923;partussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+16-1-1930;kinkhoest;Kinkhoest;137,900;AA37.900
+16-1-1949;diphterica toxica longoedeem;Difterie;136,900;AA36.900
+16-12-1870;mazelen;Mazelen;205,900;BB05.900
+16-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+16-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+16-12-1883;cholerine;Cholera;100,900;AA00.900
+16-12-1885;partussis;Kinkhoest;137,900;AA37.900
+16-12-1892;diphteritis;Difterie;136,900;AA36.900
+16-12-1892;diphteritis;Difterie;136,900;AA36.900
+16-12-1893;broncho pneumonia na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+16-12-1893;mazelen;Mazelen;205,900;BB05.900
+16-12-1895;scarlatina;Roodvonk;138,000;AA38.000
+16-12-1910;difteritis;Difterie;136,900;AA36.900
+16-12-1916;mazelen;Mazelen;205,900;BB05.900
+16-12-1951;acute hartdood ten gevolge van neusdiphterie;Difterie;136,900;AA36.900
+1-6-1871;roodvonk;Roodvonk;138,000;AA38.000
+1-6-1874;croup;Croup;136,204;JJ05.000
+1-6-1880;cholerine;Cholera;100,900;AA00.900
+1-6-1892;cholerine;Cholera;100,900;AA00.900
+1-6-1898;cholerine;Cholera;100,900;AA00.900
+1-6-1907;morbilli;Mazelen;205,900;BB05.900
+1-6-1907;morbilli;Mazelen;205,900;BB05.900
+1-6-1910;mazelen;Mazelen;205,900;BB05.900
+1-6-1917;difterie;Difterie;136,900;AA36.900
+16-2-1864;waterzucht ten gevolge van roodvonk;Roodvonk;138,000;AA38.000
+16-2-1875;croup;Croup;136,204;JJ05.000
+16-2-1884;naziekte van mazelen;Mazelen;205,900;BB05.900
+16-2-1897;pneumonia ten gevolge van partussis;Kinkhoest met longontsteking;137,907;AA37.907
+16-2-1905;pertussis;Kinkhoest;137,900;AA37.900
+16-2-1905;morbilli;Mazelen;205,900;BB05.900
+16-2-1912;mazelen;Mazelen;205,900;BB05.900
+16-2-1914;difteritis;Difterie;136,900;AA36.900
+16-2-1926;kinkhoest, bronchitis;Kinkhoest met bronchitis;137,901;AA37.901
+16-2-1944;diphterie;Difterie;136,900;AA36.900
+16-3-1892;kinkhoest;Kinkhoest;137,900;AA37.900
+16-3-1893;diphtheritis;Difterie;136,900;AA36.900
+16-3-1893;diphtheritis;Difterie;136,900;AA36.900
+16-3-1893;diphtheritis;Difterie;136,900;AA36.900
+16-3-1910;mazelen;Mazelen;205,900;BB05.900
+16-3-1910;diphteritis;Difterie;136,900;AA36.900
+16-3-1942;"broncho pneum; tussis V";Kinkhoest met longontsteking;137,907;AA37.907
+16-3-1945;diphterie;Difterie;136,900;AA36.900
+16-4-1876;stuipen in het beloop van kinkhoest;Kinkhoest;137,900;AA37.900
+16-4-1894;diphtheritis;Difterie;136,900;AA36.900
+16-4-1913;scarlatina;Roodvonk;138,000;AA38.000
+16-4-1917;kinkhoest pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+16-4-1927;tussis;Kinkhoest;137,900;AA37.900
+16-5-1880;roodvonk;Roodvonk;138,000;AA38.000
+16-5-1887;morbillis;Mazelen;205,900;BB05.900
+16-5-1893;diphtheritis;Difterie;136,900;AA36.900
+16-5-1910;morbilli;Mazelen;205,900;BB05.900
+16-5-1910;mazelen;Mazelen;205,900;BB05.900
+16-6-1865;pokken;Pokken;203,000;BB03.000
+16-6-1869;croup;Croup;136,204;JJ05.000
+16-6-1869;"mazelen; meningitis";Mazelen gecompliceerd door meningitis;205,100;BB05.100
+16-6-1875;croupeuse;Croup;136,204;JJ05.000
+16-6-1893;dyptheritis;Difterie;136,900;AA36.900
+16-6-1907;mazelen;Mazelen;205,900;BB05.900
+16-6-1912;morbilli pneunomia;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+16-6-1927;pertussis;Kinkhoest;137,900;AA37.900
+16-7-1870;kinkhoest;Kinkhoest;137,900;AA37.900
+16-7-1870;cholerine;Cholera;100,900;AA00.900
+16-7-1883;uitputting door cholerine;Cholera;100,900;AA00.900
+16-7-1884;cholerine;Cholera;100,900;AA00.900
+16-7-1885;cholerine;Cholera;100,900;AA00.900
+16-7-1889;cholerine;Cholera;100,900;AA00.900
+16-7-1894;cholerine;Cholera;100,900;AA00.900
+16-7-1895;tussis convulsiones;Kinkhoest;137,900;AA37.900
+16-7-1907;broncho pneum. Post morbilli;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+16-7-1914;mazelen;Mazelen;205,900;BB05.900
+16-7-1947;pertussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+16-8-1866;cholera;Cholera;100,900;AA00.900
+16-8-1866;cholera;Cholera;100,900;AA00.900
+16-8-1866;cholera;Cholera;100,900;AA00.900
+16-8-1866;cholera;Cholera;100,900;AA00.900
+16-8-1871;cholerine;Cholera;100,900;AA00.900
+16-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+16-8-1898;cholerine;Cholera;100,900;AA00.900
+16-8-1907;kinkhoest;Kinkhoest;137,900;AA37.900
+16-8-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+16-9-1866;cholera;Cholera;100,900;AA00.900
+16-9-1866;cholera;Cholera;100,900;AA00.900
+16-9-1866;cholera;Cholera;100,900;AA00.900
+16-9-1866;cholera;Cholera;100,900;AA00.900
+16-9-1866;cholera;Cholera;100,900;AA00.900
+16-9-1866;cholera;Cholera;100,900;AA00.900
+16-9-1866;cholera;Cholera;100,900;AA00.900
+16-9-1883;cholerine;Cholera;100,900;AA00.900
+16-9-1886;diarrhae choleri;Cholera;100,900;AA00.900
+16-9-1925;difteria;Difterie;136,900;AA36.900
+17-10-1866;cholera;Cholera;100,900;AA00.900
+17-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+17-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+17-10-1892;diphteritis;Difterie;136,900;AA36.900
+17-10-1893;diphteritis;Difterie;136,900;AA36.900
+17-10-1916;difterie;Difterie;136,900;AA36.900
+17-10-1925;kinkhoest;Kinkhoest;137,900;AA37.900
+17-10-1938;kinkhoest;Kinkhoest;137,900;AA37.900
+17-10-1944;diphterie;Difterie;136,900;AA36.900
+17-10-1947;toxische diphterie;Difterie;136,900;AA36.900
+17-11-1870;mazelen;Mazelen;205,900;BB05.900
+17-11-1892;diphteritis;Difterie;136,900;AA36.900
+17-11-1892;diphteritis;Difterie;136,900;AA36.900
+17-11-1944;kinkhoest;Kinkhoest;137,900;AA37.900
+17-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+17-1-1877;croupe;Croup;136,204;JJ05.000
+17-1-1880;kinkhoest;Kinkhoest;137,900;AA37.900
+17-1-1881;croupe;Croup;136,204;JJ05.000
+17-1-1893;diphtheritis;Difterie;136,900;AA36.900
+17-1-1911;pseudo croup;Difterische croup;136,201;AA36.201
+17-1-1926;morbilli, meningitis;Mazelen gecompliceerd door meningitis;205,100;BB05.100
+17-1-1927;tussis (kinkhoest);Kinkhoest;137,900;AA37.900
+17-1-1944;roodvonk;Roodvonk;138,000;AA38.000
+17-12-1865;croup;Croup;136,204;JJ05.000
+17-12-1871;angina diphterine;Angina difterie;136,001;AA36.0
+17-12-1879;croupe;Croup;136,204;JJ05.000
+17-12-1893;broncho pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+17-12-1893;mazelen;Mazelen;205,900;BB05.900
+1-7-1866;cholerine;Cholera;100,900;AA00.900
+1-7-1871;"brightsche nierziekte; roodvonk";Roodvonk met andere ziekte;138,009;AA38.009
+1-7-1873;croup;Croup;136,204;JJ05.000
+1-7-1878;cholerine;Cholera;100,900;AA00.900
+1-7-1883;cholerine;Cholera;100,900;AA00.900
+1-7-1887;pneumonia catarrhalis het vermoedelijke gevolg van mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+1-7-1887;pneumonia catarrhalis het vermoedelijke gevolg van mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+1-7-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+1-7-1907;mazelen;Mazelen;205,900;BB05.900
+1-7-1921;mazelen pneum;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+1-7-1924;difteritis;Difterie;136,900;AA36.900
+17-2-1867;laryngitis pseudomemb.;Membraneuze laryngitis;136,203;AA36.203
+17-2-1875;croup;Croup;136,204;JJ05.000
+17-2-1884;croup;Croup;136,204;JJ05.000
+17-2-1893;diphtheritis;Difterie;136,900;AA36.900
+17-2-1896;diphtheritis faucium;Difterie;136,900;AA36.900
+17-2-1925;mazelen;Mazelen;205,900;BB05.900
+17-2-1926;diphteritis;Difterie;136,900;AA36.900
+17-2-1928;tussis;Kinkhoest;137,900;AA37.900
+17-2-1934;kinkhoest;Kinkhoest;137,900;AA37.900
+17-3-1880;diphteritis bij scarlatines;Roodvonk met difterie;138,004;AA38.004
+17-3-1884;morbilli;Mazelen;205,900;BB05.900
+17-3-1905;kinkhoest;Kinkhoest;137,900;AA37.900
+17-3-1910;mazelen;Mazelen;205,900;BB05.900
+17-3-1928;broncho pneumonie en maselen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+17-3-1934;dephteritis;Difterie;136,900;AA36.900
+17-4-1909;pertussis;Kinkhoest;137,900;AA37.900
+17-4-1917;difterie;Difterie;136,900;AA36.900
+17-4-1930;kinkhoest;Kinkhoest;137,900;AA37.900
+17-5-1868;croup;Croup;136,204;JJ05.000
+17-5-1868;croup;Croup;136,204;JJ05.000
+17-5-1887;croup;Croup;136,204;JJ05.000
+17-5-1893;diphtheritis;Difterie;136,900;AA36.900
+17-5-1927;pertussis en broncho pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+17-5-1938;"pneumonie; mazelen";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+17-5-1943;diphterie;Difterie;136,900;AA36.900
+17-6-1871;roodvonk;Roodvonk;138,000;AA38.000
+17-6-1892;diphteritis;Difterie;136,900;AA36.900
+17-6-1912;mazelen;Mazelen;205,900;BB05.900
+17-6-1927;pertussis;Kinkhoest;137,900;AA37.900
+17-7-1866;cholera;Cholera;100,900;AA00.900
+17-7-1870;cholerine;Cholera;100,900;AA00.900
+17-7-1870;"kinkhoest; bronchitisi pneum";Kinkhoest met longontsteking;137,907;AA37.907
+17-7-1881;cholerine;Cholera;100,900;AA00.900
+17-7-1895;cholerine;Cholera;100,900;AA00.900
+17-8-1866;cholera;Cholera;100,900;AA00.900
+17-8-1873;cholerine;Cholera;100,900;AA00.900
+17-8-1888;cholerine;Cholera;100,900;AA00.900
+17-8-1901;cholera nostras;Cholera;100,900;AA00.900
+17-8-1926;mazelen, broncho pneumonie;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+17-9-1871;cholerine;Cholera;100,900;AA00.900
+17-9-1892;diphteritis;Difterie;136,900;AA36.900
+17-9-1892;croupes;Croup;136,204;JJ05.000
+17-9-1910;difteritis;Difterie;136,900;AA36.900
+17-9-1917;scarlatina;Roodvonk;138,000;AA38.000
+18-10-1866;cholera;Cholera;100,900;AA00.900
+18-10-1866;cholera;Cholera;100,900;AA00.900
+18-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+18-10-1881;cholerine;Cholera;100,900;AA00.900
+18-10-1892;diphteritis;Difterie;136,900;AA36.900
+18-10-1901;morbilli;Mazelen;205,900;BB05.900
+18-10-1928;dyphterie;Difterie;136,900;AA36.900
+18-10-1932;diphteritis;Difterie;136,900;AA36.900
+18-11-1866;cholera;Cholera;100,900;AA00.900
+18-11-1892;diphteritis;Difterie;136,900;AA36.900
+18-11-1892;diphteritis;Difterie;136,900;AA36.900
+18-11-1892;diphteritis;Difterie;136,900;AA36.900
+18-11-1893;diphteritis;Difterie;136,900;AA36.900
+18-11-1893;mazelen;Mazelen;205,900;BB05.900
+18-11-1912;kinkhoest;Kinkhoest;137,900;AA37.900
+18-11-1914;differie;Difterie;136,900;AA36.900
+18-11-1914;mazelen;Mazelen;205,900;BB05.900
+18-11-1924;diphteritis;Difterie;136,900;AA36.900
+18-11-1932;diphteritis;Difterie;136,900;AA36.900
+18-11-1945;diphterie;Difterie;136,900;AA36.900
+18-1-1875;croupeuse;Croup;136,204;JJ05.000
+18-1-1877;croup;Croup;136,204;JJ05.000
+18-1-1880;roodvonk;Roodvonk;138,000;AA38.000
+18-1-1884;croupe;Croup;136,204;JJ05.000
+18-1-1893;diphtheritis;Difterie;136,900;AA36.900
+18-1-1913;kinkhoest;Kinkhoest;137,900;AA37.900
+18-1-1917;morbilli;Mazelen;205,900;BB05.900
+18-1-1921;differie;Difterie;136,900;AA36.900
+18-1-1925;diphteritis;Difterie;136,900;AA36.900
+18-1-1936;diphterie;Difterie;136,900;AA36.900
+18-12-1864;croup;Croup;136,204;JJ05.000
+18-12-1864;croup;Croup;136,204;JJ05.000
+18-12-1865;kinderziekte;Kinderziekte;203,003;BB03
+18-12-1868;croup;Croup;136,204;JJ05.000
+18-12-1871;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+18-12-1873;croup;Croup;136,204;JJ05.000
+18-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+18-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+18-12-1885;kinkhoest;Kinkhoest;137,900;AA37.900
+18-12-1892;diphterische verlamming;Difterie;136,900;AA36.900
+18-12-1892;diphteritis;Difterie;136,900;AA36.900
+18-12-1893;diphtheritis;Difterie;136,900;AA36.900
+18-12-1893;mazelen;Mazelen;205,900;BB05.900
+18-12-1893;mazelen;Mazelen;205,900;BB05.900
+18-12-1893;mazelen;Mazelen;205,900;BB05.900
+18-12-1904;mazelen;Mazelen;205,900;BB05.900
+18-12-1907;mazelen;Mazelen;205,900;BB05.900
+18-12-1936;septische roodvonk;Roodvonk;138,000;AA38.000
+18-12-1945;diphterie;Difterie;136,900;AA36.900
+18-12-1947;diphterie pneumonie;Difterie met bronchitis/pneumonie;136,901;AA36.901
+1-8-1865;croup;Croup;136,204;JJ05.000
+1-8-1866;pokken;Pokken;203,000;BB03.000
+1-8-1866;cholerine;Cholera;100,900;AA00.900
+1-8-1871;scarlatina maligna;Roodvonk;138,000;AA38.000
+1-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+1-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+1-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+1-8-1899;diphtheritis;Difterie;136,900;AA36.900
+1-8-1901;croup;Croup;136,204;JJ05.000
+1-8-1914;morbilli pneumonia;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+1-8-1918;difterie;Difterie;136,900;AA36.900
+18-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+18-2-1864;"roodvonk; waterzucht met longontsteking";Roodvonk met pneumonie;138,007;AA38.009
+18-2-1886;kinkhoest;Kinkhoest;137,900;AA37.900
+18-2-1888;pertussis;Kinkhoest;137,900;AA37.900
+18-2-1905;mazelen;Mazelen;205,900;BB05.900
+18-2-1913;kinkhoest;Kinkhoest;137,900;AA37.900
+18-2-1913;kinkhoest;Kinkhoest;137,900;AA37.900
+18-2-1919;mazelen;Mazelen;205,900;BB05.900
+18-2-1919;mazelen;Mazelen;205,900;BB05.900
+18-2-1924;kinkhoest;Kinkhoest;137,900;AA37.900
+18-3-1868;croup;Croup;136,204;JJ05.000
+18-3-1868;croup;Croup;136,204;JJ05.000
+18-3-1868;croup;Croup;136,204;JJ05.000
+18-3-1872;morbilli opgev. Door pneumonia;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+18-3-1893;diphtheritis;Difterie;136,900;AA36.900
+18-3-1917;kinkhoest;Kinkhoest;137,900;AA37.900
+18-3-1928;morbilli, broncho pneumonia;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+18-3-1932;diphteritis;Difterie;136,900;AA36.900
+18-3-1949;toxische diphterie;Difterie;136,900;AA36.900
+18-4-1894;diphtheritis;Difterie;136,900;AA36.900
+18-4-1897;phtussis convulsiva;Kinkhoest;137,900;AA37.900
+18-4-1912;mazelen;Mazelen;205,900;BB05.900
+18-5-1865;kinderpokken;Pokken;203,000;BB03.000
+18-5-1867;croup in het beloop van mazelen;Mazelen met croup;205,803;BB05.8
+18-5-1871;roodvonk;Roodvonk;138,000;AA38.000
+18-5-1887;mazelen;Mazelen;205,900;BB05.900
+18-5-1916;difterie;Difterie;136,900;AA36.900
+18-6-1867;cholerine;Cholera;100,900;AA00.900
+18-6-1868;roodvonk;Roodvonk;138,000;AA38.000
+18-6-1871;roodvonk;Roodvonk;138,000;AA38.000
+18-6-1875;croupeuse;Croup;136,204;JJ05.000
+18-6-1877;cholerine;Cholera;100,900;AA00.900
+18-6-1893;diphtheritis;Difterie;136,900;AA36.900
+18-6-1897;pertussis;Kinkhoest;137,900;AA37.900
+18-6-1910;mazelen;Mazelen;205,900;BB05.900
+18-6-1910;mazelen;Mazelen;205,900;BB05.900
+18-6-1923;kinkhoest;Kinkhoest;137,900;AA37.900
+18-6-1930;mazelen;Mazelen;205,900;BB05.900
+18-6-1943;diphterie;Difterie;136,900;AA36.900
+18-7-1865;pokken;Pokken;203,000;BB03.000
+18-7-1870;"kinkhoest; longontsteking";Kinkhoest met longontsteking;137,907;AA37.907
+18-7-1872;croup;Croup;136,204;JJ05.000
+18-7-1881;cholerine;Cholera;100,900;AA00.900
+18-7-1887;chronische longontsteking waarschijnlijke na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+18-7-1889;cholerine;Cholera;100,900;AA00.900
+18-7-1889;cholerine;Cholera;100,900;AA00.900
+18-7-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+18-7-1953;longontsteking na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+18-8-1864;pokken;Pokken;203,000;BB03.000
+18-8-1866;cholera;Cholera;100,900;AA00.900
+18-8-1869;croup;Croup;136,204;JJ05.000
+18-8-1879;croup;Croup;136,204;JJ05.000
+18-8-1888;cholerine;Cholera;100,900;AA00.900
+18-8-1890;cholerine;Cholera;100,900;AA00.900
+18-8-1892;diphteritis;Difterie;136,900;AA36.900
+18-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+18-9-1866;cholera;Cholera;100,900;AA00.900
+18-9-1866;cholera;Cholera;100,900;AA00.900
+18-9-1866;cholera;Cholera;100,900;AA00.900
+18-9-1868;croup;Croup;136,204;JJ05.000
+18-9-1918;cholera nostras;Cholera;100,900;AA00.900
+18-9-1955;diphterie met myocarditis;Difterie;136,900;AA36.900
+19-10-1866;cholera;Cholera;100,900;AA00.900
+19-10-1869;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+19-10-1876;cholerine;Cholera;100,900;AA00.900
+19-10-1880;croup;Croup;136,204;JJ05.000
+19-10-1885;kinkhoest;Kinkhoest;137,900;AA37.900
+19-10-1901;mazelen;Mazelen;205,900;BB05.900
+19-10-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+19-11-1868;croup;Croup;136,204;JJ05.000
+19-11-1868;croup;Croup;136,204;JJ05.000
+19-11-1873;diphterische keelziekte;Faryngeale difterie;136,000;AA36.000
+19-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+19-11-1885;croup;Croup;136,204;JJ05.000
+19-11-1892;diphteritis;Difterie;136,900;AA36.900
+19-11-1893;mazelen;Mazelen;205,900;BB05.900
+19-11-1914;morbilli pneumonia;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+19-11-1918;difterie;Difterie;136,900;AA36.900
+19-11-1933;diphteritis;Difterie;136,900;AA36.900
+19-11-1945;"mazelen; pneumonie";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+19-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+19-1-1866;pokken;Pokken;203,000;BB03.000
+19-1-1873;vermoedelijk stuipen in het beloop van kinkhoest;Kinkhoest;137,900;AA37.900
+19-1-1879;kinkhoest;Kinkhoest;137,900;AA37.900
+19-1-1893;diphtheritis;Difterie;136,900;AA36.900
+19-1-1894;tussis convulsia;Kinkhoest;137,900;AA37.900
+19-1-1903;mazelen;Mazelen;205,900;BB05.900
+19-1-1905;morbilli;Mazelen;205,900;BB05.900
+19-1-1910;morbilli;Mazelen;205,900;BB05.900
+19-1-1915;mazelen;Mazelen;205,900;BB05.900
+19-1-1917;difterie;Difterie;136,900;AA36.900
+19-1-1919;difterie;Difterie;136,900;AA36.900
+19-1-1940;difterie;Difterie;136,900;AA36.900
+19-12-1865;pokken;Pokken;203,000;BB03.000
+19-12-1865;pokken;Pokken;203,000;BB03.000
+19-12-1866;croup;Croup;136,204;JJ05.000
+19-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+19-12-1892;diphtheritis;Difterie;136,900;AA36.900
+19-12-1892;diphteritis;Difterie;136,900;AA36.900
+19-12-1905;scarlatina;Roodvonk;138,000;AA38.000
+19-12-1912;kinkhoest;Kinkhoest;137,900;AA37.900
+19-12-1914;mazelen;Mazelen;205,900;BB05.900
+19-12-1939;diphterie;Difterie;136,900;AA36.900
+19-12-1945;pertensis;Kinkhoest;137,900;AA37.900
+1-9-1866;cholera anatica;Cholera;100,900;AA00.900
+1-9-1866;cholera;Cholera;100,900;AA00.900
+1-9-1894;cholera asiatica;Cholera;100,900;AA00.900
+1-9-1895;tussis convulsivus;Kinkhoest;137,900;AA37.900
+19-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+19-2-1873;bronchitis capil in het beloop van kinkhoest;Kinkhoest met bronchitis;137,901;AA37.901
+19-2-1910;diphteritis;Difterie;136,900;AA36.900
+19-2-1940;diphterie;Difterie;136,900;AA36.900
+19-3-1864;roodvonk;Roodvonk;138,000;AA38.000
+19-3-1868;diphterische keelontsteking;Faryngeale difterie;136,000;AA36.000
+19-3-1880;rood vonk;Roodvonk;138,000;AA38.000
+19-3-1893;diphtheritis;Difterie;136,900;AA36.900
+19-3-1910;mazelen;Mazelen;205,900;BB05.900
+19-3-1925;dyftheritis;Difterie;136,900;AA36.900
+19-3-1931;"tussis convulsiva; broncho pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+19-3-1938;"mazelen; longontstekeing";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+19-3-1946;"dyphterie toxica; myocarditis dyphterica";Difterie;136,900;AA36.900
+19-3-1948;"laryngitis diphterica; myocarditis diphterica?";Laryngeale difterie;136,200;AA36.200
+19-4-1893;diphtheritis;Difterie;136,900;AA36.900
+19-4-1910;mazelen;Mazelen;205,900;BB05.900
+19-4-1912;mazelen;Mazelen;205,900;BB05.900
+19-4-1919;mazelen;Mazelen;205,900;BB05.900
+19-4-1924;tussis convulsiva;Kinkhoest;137,900;AA37.900
+19-4-1952;pertussis;Kinkhoest;137,900;AA37.900
+19-5-1868;croup;Croup;136,204;JJ05.000
+19-5-1871;variolae;Pokken;203,000;BB03.000
+19-5-1871;kinderziekte;Kinderziekte;203,003;BB03
+19-5-1887;mazelen;Mazelen;205,900;BB05.900
+19-5-1893;dyphtheritis;Difterie;136,900;AA36.900
+19-5-1910;mazelen;Mazelen;205,900;BB05.900
+19-5-1923;kinkhoest;Kinkhoest;137,900;AA37.900
+19-5-1945;diphterie met hartblock;Difterie;136,900;AA36.900
+19-6-1868;croup;Croup;136,204;JJ05.000
+19-6-1886;fussis convulsies;Kinkhoest;137,900;AA37.900
+19-6-1887;cholerine;Cholera;100,900;AA00.900
+19-6-1892;kinkhoest;Kinkhoest;137,900;AA37.900
+19-6-1907;morbilli;Mazelen;205,900;BB05.900
+19-6-1928;mazelen;Mazelen;205,900;BB05.900
+19-6-1933;scarlatinia met diepe halsphlegmone;Roodvonk met andere ziekte;138,009;AA38.009
+19-7-1869;"diphteritus; roodvonk";Roodvonk met difterie;138,004;AA38.004
+19-7-1869;roodvonk;Roodvonk;138,000;AA38.000
+19-7-1869;roodvonk;Roodvonk;138,000;AA38.000
+19-7-1872;bronchitis in het beloop van mazelen;Mazelen gecompliceerd door bronchitis of laryngitis;205,201;BB05.201
+19-7-1901;morbilli;Mazelen;205,900;BB05.900
+19-7-1907;morbilli;Mazelen;205,900;BB05.900
+19-7-1916;mazelen;Mazelen;205,900;BB05.900
+19-8-1866;cholera;Cholera;100,900;AA00.900
+19-8-1870;cholerine;Cholera;100,900;AA00.900
+19-8-1872;croup;Croup;136,204;JJ05.000
+19-8-1888;cholerine;Cholera;100,900;AA00.900
+19-8-1889;cholerine;Cholera;100,900;AA00.900
+19-8-1893;diphteritis;Difterie;136,900;AA36.900
+19-8-1912;scarlatina;Roodvonk;138,000;AA38.000
+19-8-1914;mazelen;Mazelen;205,900;BB05.900
+19-9-1865;pokken;Pokken;203,000;BB03.000
+19-9-1866;cholera;Cholera;100,900;AA00.900
+19-9-1866;cholera;Cholera;100,900;AA00.900
+19-9-1871;roodvonk;Roodvonk;138,000;AA38.000
+19-9-1875;cholerine;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1866;cholera;Cholera;100,900;AA00.900
+20-10-1867;cholera;Cholera;100,900;AA00.900
+20-10-1867;cholera;Cholera;100,900;AA00.900
+20-10-1874;cholerine;Cholera;100,900;AA00.900
+20-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+20-10-1890;kinkhoest;Kinkhoest;137,900;AA37.900
+20-10-1933;kinkhoest;Kinkhoest;137,900;AA37.900
+20-10-1943;"kinkhoest; pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+20-11-1865;pokken;Pokken;203,000;BB03.000
+20-11-1871;kwaadaardige roodvonk;Roodvonk;138,000;AA38.000
+20-11-1892;diphteritis;Difterie;136,900;AA36.900
+20-11-1892;diphteritis;Difterie;136,900;AA36.900
+20-11-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+20-11-1909;scarlatina;Roodvonk;138,000;AA38.000
+20-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+20-1-1869;croup;Croup;136,204;JJ05.000
+20-1-1869;croup;Croup;136,204;JJ05.000
+20-1-1869;croup;Croup;136,204;JJ05.000
+20-1-1894;diphtheritis;Difterie;136,900;AA36.900
+20-1-1905;morbilli;Mazelen;205,900;BB05.900
+20-1-1905;mazelen;Mazelen;205,900;BB05.900
+20-1-1940;diphterie;Difterie;136,900;AA36.900
+20-1-1943;maligne diphterie;Difterie;136,900;AA36.900
+20-1-1947;tussis broncho pneum;Kinkhoest met longontsteking;137,907;AA37.907
+20-12-1865;pokken;Pokken;203,000;BB03.000
+20-12-1868;croup;Croup;136,204;JJ05.000
+20-12-1881;croup;Croup;136,204;JJ05.000
+20-12-1892;diphtheritis;Difterie;136,900;AA36.900
+20-12-1894;kinkhoest;Kinkhoest;137,900;AA37.900
+20-12-1907;pertussis;Kinkhoest;137,900;AA37.900
+20-12-1925;diphteritis;Difterie;136,900;AA36.900
+20-12-1936;tussis V;Kinkhoest;137,900;AA37.900
+20-12-1949;toxische dyphterie;Difterie;136,900;AA36.900
+20-12-1951;diphterie;Difterie;136,900;AA36.900
+20-2-1864;algemene waterzucht ten gevolge van roodvonk;Roodvonk;138,000;AA38.000
+20-2-1864;roodvonk met chronische pneumonie;Roodvonk met pneumonie;138,007;AA38.009
+20-2-1899;cholerine;Cholera;100,900;AA00.900
+20-2-1905;mazelen;Mazelen;205,900;BB05.900
+20-2-1924;pertussis en pneumonia pulm.;Kinkhoest met longontsteking;137,907;AA37.907
+20-2-1925;broncho pneumonie en mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+20-2-1929;roodvonk;Roodvonk;138,000;AA38.000
+20-3-1874;croup;Croup;136,204;JJ05.000
+20-3-1881;croup;Croup;136,204;JJ05.000
+20-3-1893;diphtheritis;Difterie;136,900;AA36.900
+20-3-1943;"broncho pneumonie; tussis V";Kinkhoest met longontsteking;137,907;AA37.907
+20-4-1867;mazelen;Mazelen;205,900;BB05.900
+20-4-1887;croup;Croup;136,204;JJ05.000
+20-4-1893;diphtheritis;Difterie;136,900;AA36.900
+20-4-1894;diphtheritis;Difterie;136,900;AA36.900
+20-4-1903;mazelen;Mazelen;205,900;BB05.900
+20-4-1919;mazelen;Mazelen;205,900;BB05.900
+20-4-1930;laryngitis stridula;Difterische croup;136,201;AA36.201
+20-5-1864;scarlatina;Roodvonk;138,000;AA38.000
+20-5-1865;pokken;Pokken;203,000;BB03.000
+20-5-1868;croup;Croup;136,204;JJ05.000
+20-5-1910;mazelen;Mazelen;205,900;BB05.900
+20-6-1864;mazelen;Mazelen;205,900;BB05.900
+20-6-1871;pokken;Pokken;203,000;BB03.000
+20-6-1871;pokken;Pokken;203,000;BB03.000
+20-6-1885;cholerine;Cholera;100,900;AA00.900
+20-6-1907;morbilli;Mazelen;205,900;BB05.900
+20-6-1907;mazelen;Mazelen;205,900;BB05.900
+20-6-1941;"mazelen; bronchiolitis";Mazelen gecompliceerd door bronchitis of laryngitis;205,201;BB05.201
+20-7-1865;kinderpokken;Pokken;203,000;BB03.000
+20-7-1868;croup;Croup;136,204;JJ05.000
+20-7-1868;croup;Croup;136,204;JJ05.000
+20-7-1871;zware cholerine;Cholera;100,900;AA00.900
+20-7-1910;difteritis;Difterie;136,900;AA36.900
+20-7-1912;difteritis;Difterie;136,900;AA36.900
+20-7-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+20-8-1866;cholera;Cholera;100,900;AA00.900
+20-8-1866;cholera;Cholera;100,900;AA00.900
+20-8-1890;cholerine;Cholera;100,900;AA00.900
+20-8-1890;cholerine;Cholera;100,900;AA00.900
+20-8-1893;cholerine;Cholera;100,900;AA00.900
+20-8-1911;cholerine;Cholera;100,900;AA00.900
+20-8-1914;morbilli;Mazelen;205,900;BB05.900
+20-8-1942;morbilli met longontsteking;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+20-9-1866;cholera;Cholera;100,900;AA00.900
+20-9-1866;cholera;Cholera;100,900;AA00.900
+20-9-1866;cholera;Cholera;100,900;AA00.900
+20-9-1866;cholera;Cholera;100,900;AA00.900
+20-9-1866;cholera;Cholera;100,900;AA00.900
+20-9-1871;roodvonk;Roodvonk;138,000;AA38.000
+20-9-1871;febris scarlatina;Roodvonk;138,000;AA38.000
+20-9-1891;cholerine;Cholera;100,900;AA00.900
+20-9-1906;"Tussis convulsiva cum pneum. Catharrh.; rhachitis";Kinkhoest met longontsteking;137,907;AA37.907
+2-10-1864;croupeuse hersenontsteking;Croup met hersenontsteking;136,205;JJ05.000
+2-10-1867;cholerine;Cholera;100,900;AA00.900
+2-10-1867;cholerine;Cholera;100,900;AA00.900
+2-10-1905;scarlatine;Roodvonk;138,000;AA38.000
+2-10-1943;diphterie;Difterie;136,900;AA36.900
+2-10-1947;"pertussis; broncho pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+2-10-1948;pertussis;Kinkhoest;137,900;AA37.900
+21-10-1866;cholera;Cholera;100,900;AA00.900
+21-10-1866;cholera;Cholera;100,900;AA00.900
+21-10-1866;cholera;Cholera;100,900;AA00.900
+21-10-1866;cholera;Cholera;100,900;AA00.900
+21-10-1866;cholera;Cholera;100,900;AA00.900
+21-10-1866;cholera;Cholera;100,900;AA00.900
+21-10-1866;cholera;Cholera;100,900;AA00.900
+21-10-1866;cholera;Cholera;100,900;AA00.900
+21-10-1871;"roodvonk; oedema pulmonum";Roodvonk met andere ziekte;138,009;AA38.009
+21-10-1892;croupe;Croup;136,204;JJ05.000
+21-10-1894;diphteritis;Difterie;136,900;AA36.900
+21-10-1916;difterie;Difterie;136,900;AA36.900
+21-10-1934;roodvonk;Roodvonk;138,000;AA38.000
+21-10-1941;diphterie;Difterie;136,900;AA36.900
+21-11-1865;pokken;Pokken;203,000;BB03.000
+21-11-1866;croup;Croup;136,204;JJ05.000
+21-11-1866;cholera;Cholera;100,900;AA00.900
+21-11-1871;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+21-11-1873;diphteritis;Difterie;136,900;AA36.900
+21-11-1893;mazelen;Mazelen;205,900;BB05.900
+21-11-1894;diphteritis;Difterie;136,900;AA36.900
+2-11-1866;cholera;Cholera;100,900;AA00.900
+2-11-1866;cholera;Cholera;100,900;AA00.900
+2-11-1866;cholera;Cholera;100,900;AA00.900
+2-11-1866;cholera;Cholera;100,900;AA00.900
+2-11-1866;cholera;Cholera;100,900;AA00.900
+2-11-1866;cholera;Cholera;100,900;AA00.900
+2-11-1866;cholera;Cholera;100,900;AA00.900
+2-11-1866;cholera;Cholera;100,900;AA00.900
+2-11-1867;cholera;Cholera;100,900;AA00.900
+2-11-1867;cholera;Cholera;100,900;AA00.900
+21-1-1877;croup.;Croup;136,204;JJ05.000
+21-1-1879;kinkhoest;Kinkhoest;137,900;AA37.900
+21-1-1880;hydrops na roodvonk;Roodvonk;138,000;AA38.000
+21-1-1880;croupe;Croup;136,204;JJ05.000
+2-11-1884;croup;Croup;136,204;JJ05.000
+2-11-1892;diphteritis;Difterie;136,900;AA36.900
+2-11-1893;diphteritis;Difterie;136,900;AA36.900
+21-1-1906;scarlatina;Roodvonk;138,000;AA38.000
+21-1-1916;diphteria;Difterie;136,900;AA36.900
+21-1-1941;maligne diphterie;Difterie;136,900;AA36.900
+2-11-1941;diphterie;Difterie;136,900;AA36.900
+2-11-1943;diphterie;Difterie;136,900;AA36.900
+21-12-1879;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+21-12-1885;kinkhoest;Kinkhoest;137,900;AA37.900
+21-12-1891;croupeuse;Croup;136,204;JJ05.000
+21-12-1892;diphtheritis;Difterie;136,900;AA36.900
+21-12-1893;pneumonie met mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+21-12-1904;mazelen;Mazelen;205,900;BB05.900
+21-12-1904;mazelen;Mazelen;205,900;BB05.900
+21-12-1909;diphteritis;Difterie;136,900;AA36.900
+21-12-1917;difterie;Difterie;136,900;AA36.900
+21-12-1926;variola;Pokken;203,000;BB03.000
+2-1-1864;roodvonk met diphterische keelziekte;Roodvonk met difterie;138,004;AA38.004
+2-1-1869;croup;Croup;136,204;JJ05.000
+2-1-1905;morbilli;Mazelen;205,900;BB05.900
+2-1-1909;diphteria;Difterie;136,900;AA36.900
+2-1-1924;diphterie;Difterie;136,900;AA36.900
+2-1-1941;lazingiris diphterica na mazelen;Mazelen met difterie;205,801;BB05.801
+21-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+21-2-1869;roodvonk;Roodvonk;138,000;AA38.000
+2-12-1871;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+2-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+21-2-1888;fussid convulsiones;Kinkhoest;137,900;AA37.900
+21-2-1893;diphtheritis;Difterie;136,900;AA36.900
+2-12-1908;diphteritis;Difterie;136,900;AA36.900
+2-12-1909;pseudo croup;Difterische croup;136,201;AA36.201
+21-2-1917;scarlatina;Roodvonk;138,000;AA38.000
+21-2-1931;diphterie;Difterie;136,900;AA36.900
+21-2-1940;diphterie;Difterie;136,900;AA36.900
+2-12-1948;"toxische diphterie; myocarditis";Difterie;136,900;AA36.900
+2-12-1948;kinkhoest bronchitis;Kinkhoest met bronchitis;137,901;AA37.901
+21-3-1900;tussis convulsiva;Kinkhoest;137,900;AA37.900
+21-3-1912;diphteritis;Difterie;136,900;AA36.900
+21-3-1918;scarlatina;Roodvonk;138,000;AA38.000
+21-3-1923;kinkhoest;Kinkhoest;137,900;AA37.900
+21-3-1936;diphterie opgetreden in het verloop van empyaema pleurae;Difterie;136,900;AA36.900
+21-4-1866;laryngitis pseudomembran;Membraneuze laryngitis;136,203;AA36.203
+21-4-1910;mazelen;Mazelen;205,900;BB05.900
+21-4-1910;morbilli;Mazelen;205,900;BB05.900
+21-4-1936;diphterie;Difterie;136,900;AA36.900
+21-5-1869;roodvonk;Roodvonk;138,000;AA38.000
+21-5-1919;mazelen;Mazelen;205,900;BB05.900
+21-5-1919;mazelen;Mazelen;205,900;BB05.900
+21-6-1877;cholerine;Cholera;100,900;AA00.900
+21-6-1887;pneumonia catarrhalis na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+21-6-1887;mazelen;Mazelen;205,900;BB05.900
+21-6-1906;diphteria fanciema;Difterie;136,900;AA36.900
+21-6-1907;mazelen gevolg van acute bronchitis;Mazelen gecompliceerd door bronchitis of laryngitis;205,201;BB05.201
+21-6-1907;morbilli c. tuni convulsiva;Mazelen met kinkhoest;205,802;BB05.802
+21-6-1910;mazelen;Mazelen;205,900;BB05.900
+21-6-1911;diphteritis;Difterie;136,900;AA36.900
+21-6-1920;cholora nostras;Cholera;100,900;AA00.900
+21-6-1947;"bronchopneumonie; pertussis";Kinkhoest met longontsteking;137,907;AA37.907
+21-7-1870;croupeuse;Croup;136,204;JJ05.000
+21-7-1886;cholerine;Cholera;100,900;AA00.900
+21-7-1889;uitputting na cholerine;Cholera;100,900;AA00.900
+21-7-1895;cholerine;Cholera;100,900;AA00.900
+21-8-1866;cholera;Cholera;100,900;AA00.900
+21-8-1866;croup;Croup;136,204;JJ05.000
+21-8-1866;cholera;Cholera;100,900;AA00.900
+21-8-1868;croup;Croup;136,204;JJ05.000
+21-8-1869;roodvonk na kraambed;Roodvonk;138,000;AA38.000
+21-8-1876;diphterische keelontsteking;Faryngeale difterie;136,000;AA36.000
+21-8-1876;cholerine;Cholera;100,900;AA00.900
+21-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+21-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+21-8-1898;cholerine;Cholera;100,900;AA00.900
+21-8-1898;cholera nostras;Cholera;100,900;AA00.900
+21-8-1900;cholerine;Cholera;100,900;AA00.900
+21-8-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+21-8-1907;kinkhoest;Kinkhoest;137,900;AA37.900
+21-9-1865;cholerine;Cholera;100,900;AA00.900
+21-9-1866;cholera;Cholera;100,900;AA00.900
+21-9-1871;cholerine;Cholera;100,900;AA00.900
+21-9-1879;croup;Croup;136,204;JJ05.000
+21-9-1880;scarlatina;Roodvonk;138,000;AA38.000
+21-9-1889;cholera nostras;Cholera;100,900;AA00.900
+21-9-1931;diphterie;Difterie;136,900;AA36.900
+22-10-1865;pokken;Pokken;203,000;BB03.000
+22-10-1866;cholera;Cholera;100,900;AA00.900
+22-10-1866;cholera;Cholera;100,900;AA00.900
+22-10-1866;cholera;Cholera;100,900;AA00.900
+22-10-1866;cholera;Cholera;100,900;AA00.900
+22-10-1867;cholera;Cholera;100,900;AA00.900
+22-10-1870;"mazelen; pneumonie";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+22-10-1892;diphteritis;Difterie;136,900;AA36.900
+22-10-1892;diphteritis;Difterie;136,900;AA36.900
+22-11-1879;diphterine bij roodvonk;Roodvonk met difterie;138,004;AA38.004
+22-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+22-11-1892;diphteritis;Difterie;136,900;AA36.900
+22-11-1893;diphteritis;Difterie;136,900;AA36.900
+22-11-1904;pneumonie bij mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+22-11-1918;mazelen;Mazelen;205,900;BB05.900
+22-11-1951;diphterie;Difterie;136,900;AA36.900
+22-1-1865;croup;Croup;136,204;JJ05.000
+22-1-1886;pertussis;Kinkhoest;137,900;AA37.900
+22-1-1893;diphtheritis;Difterie;136,900;AA36.900
+22-1-1894;diphtheritis;Difterie;136,900;AA36.900
+22-1-1914;difterie;Difterie;136,900;AA36.900
+22-1-1924;kinkhoest;Kinkhoest;137,900;AA37.900
+22-1-1927;kinkhoest;Kinkhoest;137,900;AA37.900
+22-1-1944;diphterie;Difterie;136,900;AA36.900
+22-12-1892;diphtheritis;Difterie;136,900;AA36.900
+22-12-1892;diphtheritis;Difterie;136,900;AA36.900
+22-12-1893;mazelen;Mazelen;205,900;BB05.900
+22-12-1933;tussis convulsivus;Kinkhoest;137,900;AA37.900
+2-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+2-2-1869;longontsteking croup;Croup;136,204;JJ05.000
+2-2-1869;croup na diphterische keelontsteking;Difterische croup;136,201;AA36.201
+2-2-1875;croupeuse;Croup;136,204;JJ05.000
+2-2-1894;diphtheritis;Difterie;136,900;AA36.900
+2-2-1919;morbilli pneumonia;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+2-2-1925;diphteritis;Difterie;136,900;AA36.900
+2-2-1928;tussis convulsiva dystrophie;Kinkhoest;137,900;AA37.900
+2-2-1933;diphterie;Difterie;136,900;AA36.900
+2-2-1940;diphterie;Difterie;136,900;AA36.900
+22-2-1897;kinkhoest;Kinkhoest;137,900;AA37.900
+22-2-1919;mazelen;Mazelen;205,900;BB05.900
+22-3-1866;pokken;Pokken;203,000;BB03.000
+22-3-1868;croup hersenontsteking;Croup met hersenontsteking;136,205;JJ05.000
+22-3-1868;kinderziekte;Kinderziekte;203,003;BB03
+22-3-1868;croup;Croup;136,204;JJ05.000
+22-3-1872;cholerine;Cholera;100,900;AA00.900
+22-3-1884;croup;Croup;136,204;JJ05.000
+22-3-1895;pertussis;Kinkhoest;137,900;AA37.900
+22-3-1910;mazelen;Mazelen;205,900;BB05.900
+22-4-1878;croup;Croup;136,204;JJ05.000
+22-4-1910;diphteritis;Difterie;136,900;AA36.900
+22-4-1912;mazelen;Mazelen;205,900;BB05.900
+22-4-1938;diphterie;Difterie;136,900;AA36.900
+22-4-1944;"diphterie; pneumonie";Difterie;136,900;AA36.900
+22-5-1876;croup;Croup;136,204;JJ05.000
+22-5-1881;croup;Croup;136,204;JJ05.000
+22-5-1886;cholerine;Cholera;100,900;AA00.900
+22-5-1887;(pneumonia/mazelen);Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+22-5-1887;mazelen;Mazelen;205,900;BB05.900
+22-5-1907;mazelen;Mazelen;205,900;BB05.900
+22-5-1910;mazelen;Mazelen;205,900;BB05.900
+22-6-1877;cholerine;Cholera;100,900;AA00.900
+22-6-1878;croup in het verloop van mazelen;Mazelen met croup;205,803;BB05.8
+22-6-1884;cholerine;Cholera;100,900;AA00.900
+22-6-1910;pertussis;Kinkhoest;137,900;AA37.900
+22-6-1910;tussis convulsiva, enterritis, eclampsia inf.;Kinkhoest met enteritis;137,902;AA37.902
+22-7-1889;cholerine;Cholera;100,900;AA00.900
+22-7-1899;cholerine;Cholera;100,900;AA00.900
+22-7-1900;variolae;Pokken;203,000;BB03.000
+22-7-1907;bronchitis cum tussis convulsiva;Kinkhoest met bronchitis;137,901;AA37.901
+22-7-1945;"toxische angina; diphterica";Angina difterie;136,001;AA36.0
+22-8-1866;cholera;Cholera;100,900;AA00.900
+22-8-1866;cholerine;Cholera;100,900;AA00.900
+22-8-1866;cholerine;Cholera;100,900;AA00.900
+22-8-1866;cholerine;Cholera;100,900;AA00.900
+22-8-1866;cholerine;Cholera;100,900;AA00.900
+22-8-1873;cholerine;Cholera;100,900;AA00.900
+22-8-1898;cholerine;Cholera;100,900;AA00.900
+22-9-1865;croup;Croup;136,204;JJ05.000
+22-9-1866;cholera;Cholera;100,900;AA00.900
+22-9-1871;roodvonk;Roodvonk;138,000;AA38.000
+22-9-1879;croupe;Croup;136,204;JJ05.000
+22-9-1879;roodvonk;Roodvonk;138,000;AA38.000
+22-9-1892;croup;Croup;136,204;JJ05.000
+22-9-1910;pertussis;Kinkhoest;137,900;AA37.900
+22-9-1917;difterie;Difterie;136,900;AA36.900
+23-10-1866;cholera;Cholera;100,900;AA00.900
+23-10-1866;cholera;Cholera;100,900;AA00.900
+23-10-1866;cholera;Cholera;100,900;AA00.900
+23-10-1866;cholera;Cholera;100,900;AA00.900
+23-10-1866;cholera;Cholera;100,900;AA00.900
+23-10-1866;cholera;Cholera;100,900;AA00.900
+23-10-1866;cholera;Cholera;100,900;AA00.900
+23-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+23-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+23-10-1880;cholerine;Cholera;100,900;AA00.900
+23-10-1901;mazelen;Mazelen;205,900;BB05.900
+23-10-1901;mazelen;Mazelen;205,900;BB05.900
+23-10-1939;"kinkhoest; pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+23-11-1866;cholera;Cholera;100,900;AA00.900
+23-11-1866;cholera;Cholera;100,900;AA00.900
+23-11-1866;croup;Croup;136,204;JJ05.000
+23-11-1870;cholerine;Cholera;100,900;AA00.900
+23-11-1871;roodvonk met diphtera keelontsteking;Roodvonk met difterie;138,004;AA38.004
+23-11-1875;croup;Croup;136,204;JJ05.000
+23-11-1892;diphteritis;Difterie;136,900;AA36.900
+23-11-1892;diphteritis;Difterie;136,900;AA36.900
+23-11-1893;diphteritis;Difterie;136,900;AA36.900
+23-11-1933;pertussis;Kinkhoest;137,900;AA37.900
+23-11-1945;"diphterie; myocarditis";Difterie;136,900;AA36.900
+23-1-1873;longontsteking bij kinkhoest;Kinkhoest met longontsteking;137,907;AA37.907
+23-1-1900;cholerine;Cholera;100,900;AA00.900
+23-1-1901;"tussis convulsiva; eclampsia inf.";Kinkhoest;137,900;AA37.900
+23-1-1903;mazelen;Mazelen;205,900;BB05.900
+23-1-1912;mazelen;Mazelen;205,900;BB05.900
+23-1-1919;morbilli;Mazelen;205,900;BB05.900
+23-12-1865;pokken;Pokken;203,000;BB03.000
+23-12-1901;morbilli;Mazelen;205,900;BB05.900
+23-12-1943;diphterie;Difterie;136,900;AA36.900
+2-3-1866;pokken;Pokken;203,000;BB03.000
+2-3-1874;diphteritis;Difterie;136,900;AA36.900
+2-3-1905;mazelen;Mazelen;205,900;BB05.900
+2-3-1942;maligne diphterie;Difterie;136,900;AA36.900
+23-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+23-2-1873;brightsche nieronsteking in de reconvollestence van roodvonk;Roodvonk met andere ziekte;138,009;AA38.009
+23-2-1881;croup;Croup;136,204;JJ05.000
+23-2-1884;morbilli;Mazelen;205,900;BB05.900
+23-2-1886;kinkhoest;Kinkhoest;137,900;AA37.900
+23-2-1916;kinkhoest;Kinkhoest;137,900;AA37.900
+23-2-1944;dyspepsie kinkhoest;Kinkhoest;137,900;AA37.900
+23-2-1945;encephalitis bij tussis V;Kinkhoest met encephalitis;137,910;AA37.9
+23-3-1864;roodvonk;Roodvonk;138,000;AA38.000
+23-3-1880;hydrops na roodvonk;Roodvonk;138,000;AA38.000
+23-3-1893;diphtheritis;Difterie;136,900;AA36.900
+23-3-1910;diphteritis;Difterie;136,900;AA36.900
+23-3-1910;mazelen;Mazelen;205,900;BB05.900
+23-3-1918;scarlatina;Roodvonk;138,000;AA38.000
+23-3-1924;kinkhoest;Kinkhoest;137,900;AA37.900
+23-3-1928;broncho pneumonie en maselen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+23-4-1864;roodvonk;Roodvonk;138,000;AA38.000
+23-4-1910;mazelen;Mazelen;205,900;BB05.900
+23-4-1910;mazelen;Mazelen;205,900;BB05.900
+23-5-1867;mazelen;Mazelen;205,900;BB05.900
+23-5-1872;pokken;Pokken;203,000;BB03.000
+23-5-1876;cholerine;Cholera;100,900;AA00.900
+23-5-1887;morbillis;Mazelen;205,900;BB05.900
+23-5-1907;mazelen;Mazelen;205,900;BB05.900
+23-5-1909;diphteritis;Difterie;136,900;AA36.900
+23-6-1871;roodvonk;Roodvonk;138,000;AA38.000
+23-6-1894;croup;Croup;136,204;JJ05.000
+23-6-1907;morbelli;Mazelen;205,900;BB05.900
+23-6-1908;diphterie;Difterie;136,900;AA36.900
+23-6-1910;mazelen;Mazelen;205,900;BB05.900
+23-7-1864;croup;Croup;136,204;JJ05.000
+23-7-1866;cholerine;Cholera;100,900;AA00.900
+23-7-1869;roodvonk;Roodvonk;138,000;AA38.000
+23-7-1874;cholerine;Cholera;100,900;AA00.900
+23-7-1878;cholerine;Cholera;100,900;AA00.900
+23-7-1884;cholerine;Cholera;100,900;AA00.900
+23-7-1891;cholerine;Cholera;100,900;AA00.900
+23-7-1895;cholerine;Cholera;100,900;AA00.900
+23-7-1895;tussis convulsivus;Kinkhoest;137,900;AA37.900
+23-7-1897;tussis convulsiva;Kinkhoest;137,900;AA37.900
+23-7-1907;morbilli;Mazelen;205,900;BB05.900
+23-7-1907;"mazelen; broncho pneum";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+23-7-1907;mazelen;Mazelen;205,900;BB05.900
+23-8-1866;cholera;Cholera;100,900;AA00.900
+23-8-1870;cholerine;Cholera;100,900;AA00.900
+23-8-1870;tussis convulsivus;Kinkhoest;137,900;AA37.900
+23-8-1882;cholerine;Cholera;100,900;AA00.900
+23-8-1888;cholerine;Cholera;100,900;AA00.900
+23-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+23-8-1901;mazelen;Mazelen;205,900;BB05.900
+23-8-1914;mazelen;Mazelen;205,900;BB05.900
+23-9-1871;"roodvonk; brightsche nierziekte";Roodvonk met andere ziekte;138,009;AA38.009
+23-9-1875;stuipen in het beloop van cholerine;Cholera;100,900;AA00.900
+23-9-1892;diphteritis;Difterie;136,900;AA36.900
+23-9-1902;tussis convulsiva;Kinkhoest;137,900;AA37.900
+23-9-1909;kinkhoest;Kinkhoest;137,900;AA37.900
+23-9-1912;roodvonk;Roodvonk;138,000;AA38.000
+23-9-1914;mazelen;Mazelen;205,900;BB05.900
+23-9-1932;diphteritis;Difterie;136,900;AA36.900
+24-10-1866;cholera;Cholera;100,900;AA00.900
+24-10-1866;cholera;Cholera;100,900;AA00.900
+24-10-1866;cholera;Cholera;100,900;AA00.900
+24-10-1866;cholera;Cholera;100,900;AA00.900
+24-10-1866;cholera;Cholera;100,900;AA00.900
+24-10-1866;cholera;Cholera;100,900;AA00.900
+24-10-1866;cholera;Cholera;100,900;AA00.900
+24-10-1866;cholera;Cholera;100,900;AA00.900
+24-10-1868;croup;Croup;136,204;JJ05.000
+24-10-1870;"kinkhoest; longontsteking";Kinkhoest met longontsteking;137,907;AA37.907
+24-10-1879;scarlatina;Roodvonk;138,000;AA38.000
+24-10-1901;mazelen;Mazelen;205,900;BB05.900
+24-10-1901;mazelen;Mazelen;205,900;BB05.900
+24-10-1901;mazelen;Mazelen;205,900;BB05.900
+24-10-1910;difteritis;Difterie;136,900;AA36.900
+24-10-1924;tussis convulsiva;Kinkhoest;137,900;AA37.900
+24-10-1943;diphterie;Difterie;136,900;AA36.900
+24-10-1946;dyphterie;Difterie;136,900;AA36.900
+24-11-1871;den krop;Croup;136,204;JJ05.000
+24-11-1871;roodvonk;Roodvonk;138,000;AA38.000
+24-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+24-11-1892;diphteritis;Difterie;136,900;AA36.900
+24-11-1892;diphteritis;Difterie;136,900;AA36.900
+24-11-1893;diphteritis;Difterie;136,900;AA36.900
+24-11-1923;kinkhoest;Kinkhoest;137,900;AA37.900
+24-11-1924;diphteritis;Difterie;136,900;AA36.900
+24-11-1942;diphterie larynx;Laryngeale difterie;136,200;AA36.200
+24-11-1948;toxische mazelen;Mazelen;205,900;BB05.900
+24-1-1875;croupeuse;Croup;136,204;JJ05.000
+24-1-1876;croup;Croup;136,204;JJ05.000
+24-1-1879;pneumonea bij kinkhoest;Kinkhoest met longontsteking;137,907;AA37.907
+24-1-1880;roodvonk;Roodvonk;138,000;AA38.000
+24-1-1893;diphtheritis;Difterie;136,900;AA36.900
+24-1-1905;kinkhoest;Kinkhoest;137,900;AA37.900
+24-1-1912;roodvonk;Roodvonk;138,000;AA38.000
+24-1-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+24-1-1944;diphterie;Difterie;136,900;AA36.900
+24-1-1946;diphterie;Difterie;136,900;AA36.900
+24-12-1868;diphteritis;Difterie;136,900;AA36.900
+24-12-1868;keelontsteking gevolg van roodvonk;Roodvonk met andere ziekte;138,009;AA38.009
+24-12-1875;stuipen in het beloop van kinkhoest;Kinkhoest;137,900;AA37.900
+24-12-1893;diphtheritis;Difterie;136,900;AA36.900
+24-12-1896;crouposa zegge emphysema pulm;Croup;136,204;JJ05.000
+24-12-1909;diphteritis;Difterie;136,900;AA36.900
+24-12-1916;mazelen;Mazelen;205,900;BB05.900
+2-4-1864;roodvonk;Roodvonk;138,000;AA38.000
+2-4-1893;diphtheritis;Difterie;136,900;AA36.900
+2-4-1895;diphtheritis;Difterie;136,900;AA36.900
+2-4-1913;difteritis;Difterie;136,900;AA36.900
+24-2-1930;roodvonk;Roodvonk;138,000;AA38.000
+24-3-1872;mazelen op gevolg door hersenen ontsteking;Mazelen gecompliceerd door meningitis;205,100;BB05.100
+24-3-1879;bronchitis in beloop van kinkelhoest;Kinkhoest met bronchitis;137,901;AA37.901
+24-3-1893;diphtheritis;Difterie;136,900;AA36.900
+24-3-1910;mazelen;Mazelen;205,900;BB05.900
+24-4-1864;roodvonk;Roodvonk;138,000;AA38.000
+24-4-1865;kwaadaardige pokken;Pokken;203,000;BB03.000
+24-4-1893;dyphtherits;Difterie;136,900;AA36.900
+24-4-1914;difteritis;Difterie;136,900;AA36.900
+24-4-1919;mazelen;Mazelen;205,900;BB05.900
+24-4-1943;diphterie;Difterie;136,900;AA36.900
+24-5-1893;diphtheritis;Difterie;136,900;AA36.900
+24-5-1924;diphteritis;Difterie;136,900;AA36.900
+24-5-1932;diphteritis;Difterie;136,900;AA36.900
+24-6-1885;cholerine;Cholera;100,900;AA00.900
+24-6-1888;chol nostras;Cholera;100,900;AA00.900
+24-6-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+24-6-1910;mazelen;Mazelen;205,900;BB05.900
+24-6-1924;diphteritis;Difterie;136,900;AA36.900
+24-6-1934;scarlatinia;Roodvonk;138,000;AA38.000
+24-7-1874;croup;Croup;136,204;JJ05.000
+24-7-1877;cholerine;Cholera;100,900;AA00.900
+24-7-1893;diphteritis;Difterie;136,900;AA36.900
+24-7-1901;morbilli;Mazelen;205,900;BB05.900
+24-8-1866;cholera;Cholera;100,900;AA00.900
+24-8-1866;cholera;Cholera;100,900;AA00.900
+24-8-1866;croup;Croup;136,204;JJ05.000
+24-8-1871;hydropsi in het beloop van roodvonk;Roodvonk;138,000;AA38.000
+24-8-1880;cholerine;Cholera;100,900;AA00.900
+24-8-1890;cholerine;Cholera;100,900;AA00.900
+24-8-1921;dyphteritis;Difterie;136,900;AA36.900
+24-8-1945;toxische diphterie;Difterie;136,900;AA36.900
+24-9-1866;cholera;Cholera;100,900;AA00.900
+24-9-1871;"cholerine; chronische darmontsteking";Cholera;100,900;AA00.900
+24-9-1885;tussis convulsivus;Kinkhoest;137,900;AA37.900
+24-9-1890;tussis convulsivus;Kinkhoest;137,900;AA37.900
+24-9-1893;diphteritis;Difterie;136,900;AA36.900
+24-9-1901;mazelen;Mazelen;205,900;BB05.900
+24-9-1921;kinkhoest;Kinkhoest;137,900;AA37.900
+24-9-1923;cholera nostras;Cholera;100,900;AA00.900
+24-9-1944;diphterie;Difterie;136,900;AA36.900
+24-9-1953;broncho pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1866;cholera;Cholera;100,900;AA00.900
+25-10-1867;cholera;Cholera;100,900;AA00.900
+25-10-1871;roodvonk;Roodvonk;138,000;AA38.000
+25-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+25-10-1891;angina diphterie;Angina difterie;136,001;AA36.0
+25-10-1894;croup;Croup;136,204;JJ05.000
+25-10-1901;morbilli;Mazelen;205,900;BB05.900
+25-10-1909;difteritis;Difterie;136,900;AA36.900
+25-10-1948;"diphterie (toxische vorm); myocarditis";Difterie;136,900;AA36.900
+25-11-1866;cholera;Cholera;100,900;AA00.900
+25-11-1868;croup;Croup;136,204;JJ05.000
+25-11-1870;mazelen;Mazelen;205,900;BB05.900
+25-11-1892;diphteritis;Difterie;136,900;AA36.900
+25-11-1893;mazelen;Mazelen;205,900;BB05.900
+25-11-1907;pneum. Croup. Post morbilli;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+25-11-1913;pneumonia bronchialis na difteritis;Difterie met bronchitis/pneumonie;136,901;AA36.901
+25-1-1893;diphtheritis;Difterie;136,900;AA36.900
+25-1-1905;mazelen;Mazelen;205,900;BB05.900
+25-1-1910;diphteritis;Difterie;136,900;AA36.900
+25-1-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+25-1-1919;mazelen;Mazelen;205,900;BB05.900
+25-12-1868;angina diphterine;Angina difterie;136,001;AA36.0
+25-12-1893;mazelen;Mazelen;205,900;BB05.900
+25-12-1893;mazelen;Mazelen;205,900;BB05.900
+25-12-1895;scarlatina;Roodvonk;138,000;AA38.000
+25-12-1917;pseudo croup;Difterische croup;136,201;AA36.201
+25-12-1940;mazelen diphterie;Mazelen met difterie;205,801;BB05.801
+25-12-1943;diphterie;Difterie;136,900;AA36.900
+2-5-1870;longontsteking bij kinkhoest;Kinkhoest met longontsteking;137,907;AA37.907
+2-5-1871;roodvonk;Roodvonk;138,000;AA38.000
+2-5-1873;broncho pneumonie nia in het beloop van kinkhoest;Kinkhoest met longontsteking;137,907;AA37.907
+2-5-1887;mazelen;Mazelen;205,900;BB05.900
+2-5-1892;angina diphterie;Angina difterie;136,001;AA36.0
+2-5-1910;mazelen;Mazelen;205,900;BB05.900
+2-5-1930;diphterie;Difterie;136,900;AA36.900
+2-5-1936;tussis;Kinkhoest;137,900;AA37.900
+25-2-1864;waterzucht ten gevolge van roodvonk;Roodvonk;138,000;AA38.000
+25-2-1905;mazelen;Mazelen;205,900;BB05.900
+25-2-1908;diphteritis;Difterie;136,900;AA36.900
+25-2-1938;"laryngitis diphterie; pneumonie";Laryngeale difterie;136,200;AA36.200
+25-2-1944;diphterie;Difterie;136,900;AA36.900
+25-3-1875;croup;Croup;136,204;JJ05.000
+25-3-1880;scarlatine;Roodvonk;138,000;AA38.000
+25-3-1880;hydrops waarschijnlijk na roodvonk;Roodvonk;138,000;AA38.000
+25-3-1891;bronchitis capillaris na mazelen;Mazelen gecompliceerd door bronchitis of laryngitis;205,201;BB05.201
+25-3-1891;mazelen;Mazelen;205,900;BB05.900
+25-3-1895;tussis convulsiones;Kinkhoest;137,900;AA37.900
+25-3-1944;encephalitis bij tussis V;Kinkhoest met encephalitis;137,910;AA37.9
+25-4-1869;croup;Croup;136,204;JJ05.000
+25-4-1871;pokken;Pokken;203,000;BB03.000
+25-4-1895;tussis convulsiones;Kinkhoest;137,900;AA37.900
+25-4-1919;mazelen;Mazelen;205,900;BB05.900
+25-4-1949;myocarditis bij toxische diphterie;Difterie;136,900;AA36.900
+25-5-1864;waterzucht ten gevolg van roodvonk;Roodvonk;138,000;AA38.000
+25-5-1873;croup;Croup;136,204;JJ05.000
+25-5-1886;cholerine;Cholera;100,900;AA00.900
+25-5-1902;variolae;Pokken;203,000;BB03.000
+25-5-1936;tussis quinta met longcompl. Otitis media duplex;Kinkhoest met longontsteking;137,907;AA37.907
+25-6-1871;zamen vloegende pokken;Pokken;203,000;BB03.000
+25-6-1883;cholerine;Cholera;100,900;AA00.900
+25-6-1887;cholerine;Cholera;100,900;AA00.900
+25-6-1907;mazelen;Mazelen;205,900;BB05.900
+25-6-1914;mazelen;Mazelen;205,900;BB05.900
+25-7-1865;pokken;Pokken;203,000;BB03.000
+25-7-1865;pokken;Pokken;203,000;BB03.000
+25-7-1865;pokken;Pokken;203,000;BB03.000
+25-7-1878;cholerine;Cholera;100,900;AA00.900
+25-7-1885;cholerine;Cholera;100,900;AA00.900
+25-7-1886;cholerine;Cholera;100,900;AA00.900
+25-7-1889;cholerine;Cholera;100,900;AA00.900
+25-7-1892;angina diphterie;Angina difterie;136,001;AA36.0
+25-7-1893;diphteritis;Difterie;136,900;AA36.900
+25-7-1908;scarlatina;Roodvonk;138,000;AA38.000
+25-7-1910;mazelen;Mazelen;205,900;BB05.900
+25-7-1912;mazelen;Mazelen;205,900;BB05.900
+25-7-1916;difterie;Difterie;136,900;AA36.900
+25-8-1866;cholera;Cholera;100,900;AA00.900
+25-8-1870;"roodvonk; oedema pulmonum";Roodvonk met andere ziekte;138,009;AA38.009
+25-8-1901;mazelen;Mazelen;205,900;BB05.900
+25-8-1912;diphteria;Difterie;136,900;AA36.900
+25-8-1914;mazelen;Mazelen;205,900;BB05.900
+25-9-1865;croup;Croup;136,204;JJ05.000
+25-9-1866;cholera;Cholera;100,900;AA00.900
+25-9-1892;diphteritis;Difterie;136,900;AA36.900
+25-9-1892;diphteritis;Difterie;136,900;AA36.900
+25-9-1922;dyphterie;Difterie;136,900;AA36.900
+26-10-1865;kinderziekte;Kinderziekte;203,003;BB03
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1866;cholera;Cholera;100,900;AA00.900
+26-10-1867;cholera;Cholera;100,900;AA00.900
+26-10-1867;cholera;Cholera;100,900;AA00.900
+26-10-1867;cholera;Cholera;100,900;AA00.900
+26-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+26-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+26-10-1895;diphteritis faucium;Difterie;136,900;AA36.900
+26-10-1895;tussis convulsivus;Kinkhoest;137,900;AA37.900
+26-10-1912;kinkhoest;Kinkhoest;137,900;AA37.900
+26-10-1914;mazelen;Mazelen;205,900;BB05.900
+26-10-1916;kinkhoest;Kinkhoest;137,900;AA37.900
+26-10-1948;toxische mazelen;Mazelen;205,900;BB05.900
+26-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+26-11-1892;diphteritis;Difterie;136,900;AA36.900
+26-11-1892;diphteritis;Difterie;136,900;AA36.900
+26-11-1892;diphteritis;Difterie;136,900;AA36.900
+26-11-1892;diphteritis;Difterie;136,900;AA36.900
+26-11-1905;roodvonk;Roodvonk;138,000;AA38.000
+26-11-1933;diphteritis;Difterie;136,900;AA36.900
+26-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+26-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+26-1-1893;diphtheritis;Difterie;136,900;AA36.900
+26-1-1893;diphtheritis;Difterie;136,900;AA36.900
+26-1-1894;diphtheritis;Difterie;136,900;AA36.900
+26-1-1911;croup;Croup;136,204;JJ05.000
+26-1-1913;scarlatina;Roodvonk;138,000;AA38.000
+26-1-1914;difteritis;Difterie;136,900;AA36.900
+26-1-1933;dyphterie;Difterie;136,900;AA36.900
+26-1-1940;tussis (kinkhoest);Kinkhoest;137,900;AA37.900
+26-12-1871;croupeuse;Croup;136,204;JJ05.000
+26-12-1893;croupeuse bij diphtheritis;Difterische croup;136,201;AA36.201
+26-12-1912;kinkhoest;Kinkhoest;137,900;AA37.900
+26-12-1912;kinkhoest;Kinkhoest;137,900;AA37.900
+26-12-1928;roodvonk;Roodvonk;138,000;AA38.000
+26-12-1943;diptherie;Difterie;136,900;AA36.900
+26-12-1951;myocarditis diphterica;Difterie;136,900;AA36.900
+2-6-1881;croupe;Croup;136,204;JJ05.000
+2-6-1882;pneumonia waarschijnlijk na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+2-6-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+2-6-1907;mazelen;Mazelen;205,900;BB05.900
+2-6-1912;morbilli;Mazelen;205,900;BB05.900
+2-6-1919;difterie;Difterie;136,900;AA36.900
+2-6-1936;broncho pneum + tussis quinta;Kinkhoest met bronchitis;137,901;AA37.901
+26-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+26-2-1872;croup;Croup;136,204;JJ05.000
+26-2-1894;diphtheritis;Difterie;136,900;AA36.900
+26-2-1896;scarlatina;Roodvonk;138,000;AA38.000
+26-2-1912;difterie;Difterie;136,900;AA36.900
+26-2-1928;maselen;Mazelen;205,900;BB05.900
+26-3-1864;croup;Croup;136,204;JJ05.000
+26-3-1868;croup;Croup;136,204;JJ05.000
+26-3-1912;difteritis;Difterie;136,900;AA36.900
+26-3-1928;maselen;Mazelen;205,900;BB05.900
+26-4-1874;croup;Croup;136,204;JJ05.000
+26-4-1893;diphtheritis;Difterie;136,900;AA36.900
+26-4-1902;tussis convulsiva;Kinkhoest;137,900;AA37.900
+26-4-1912;mazelen;Mazelen;205,900;BB05.900
+26-4-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+26-4-1920;kinkhoest;Kinkhoest;137,900;AA37.900
+26-4-1926;bronchitis, mazelen;Mazelen gecompliceerd door bronchitis of laryngitis;205,201;BB05.201
+26-4-1933;broncho pneum na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+26-4-1942;diphteritis maligna;Difterie;136,900;AA36.900
+26-4-1948;tussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+26-5-1870;angina maligna in het beloop van roodvonk;Roodvonk met difterie;138,004;AA38.004
+26-5-1875;croup;Croup;136,204;JJ05.000
+26-5-1890;waarschijnlijk choleriae;Cholera;100,900;AA00.900
+26-5-1893;diphtheritis;Difterie;136,900;AA36.900
+26-5-1910;mazelen;Mazelen;205,900;BB05.900
+26-5-1921;mazelen;Mazelen;205,900;BB05.900
+26-5-1924;pertussis;Kinkhoest;137,900;AA37.900
+26-5-1945;diphterie bronchopneumonie tracheotomie;Difterie met bronchitis/pneumonie;136,901;AA36.901
+26-6-1864;mazelen;Mazelen;205,900;BB05.900
+26-6-1885;cholera aestivalis;Cholera;100,900;AA00.900
+26-6-1907;mazelen;Mazelen;205,900;BB05.900
+26-6-1909;diphteria;Difterie;136,900;AA36.900
+26-6-1910;mazelen;Mazelen;205,900;BB05.900
+26-6-1931;dyphterie;Difterie;136,900;AA36.900
+26-7-1874;cholerine;Cholera;100,900;AA00.900
+26-7-1887;cholerine;Cholera;100,900;AA00.900
+26-7-1907;"morbilli; pneumonie";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+26-7-1913;difterie;Difterie;136,900;AA36.900
+26-7-1951;"kinkhoest; broncho pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+26-8-1866;cholerine;Cholera;100,900;AA00.900
+26-8-1866;cholerine;Cholera;100,900;AA00.900
+26-8-1868;croup;Croup;136,204;JJ05.000
+26-8-1870;cholerine;Cholera;100,900;AA00.900
+26-8-1880;cholera nostras;Cholera;100,900;AA00.900
+26-8-1890;cholerine;Cholera;100,900;AA00.900
+26-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+26-8-1894;cholera typhoid;Cholera;100,900;AA00.900
+26-8-1898;cholerine;Cholera;100,900;AA00.900
+26-9-1866;cholera;Cholera;100,900;AA00.900
+26-9-1866;cholera;Cholera;100,900;AA00.900
+26-9-1870;kinkhoest;Kinkhoest;137,900;AA37.900
+26-9-1893;dipheritis;Difterie;136,900;AA36.900
+26-9-1898;cholerine;Cholera;100,900;AA00.900
+26-9-1910;mazelen;Mazelen;205,900;BB05.900
+26-9-1912;tussis convulsiva;Kinkhoest;137,900;AA37.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1866;cholera;Cholera;100,900;AA00.900
+27-10-1867;cholera;Cholera;100,900;AA00.900
+27-10-1867;laryngitis pseudomemb.;Membraneuze laryngitis;136,203;AA36.203
+27-10-1867;cholera;Cholera;100,900;AA00.900
+27-10-1867;cholera;Cholera;100,900;AA00.900
+27-10-1867;cholera;Cholera;100,900;AA00.900
+27-10-1872;cholerine;Cholera;100,900;AA00.900
+27-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+27-10-1892;diphteritis;Difterie;136,900;AA36.900
+27-10-1892;croup;Croup;136,204;JJ05.000
+27-10-1892;diphteritis;Difterie;136,900;AA36.900
+27-10-1901;mazelen;Mazelen;205,900;BB05.900
+27-10-1901;massorditis crouposa;Croup;136,204;JJ05.000
+27-10-1908;roodvonk;Roodvonk;138,000;AA38.000
+27-10-1917;kinkhoest;Kinkhoest;137,900;AA37.900
+27-10-1918;morbilli en hali phlegmon;Mazelen;205,900;BB05.900
+27-10-1955;diphterie;Difterie;136,900;AA36.900
+27-11-1865;pokken;Pokken;203,000;BB03.000
+27-11-1868;croup;Croup;136,204;JJ05.000
+27-11-1868;croup;Croup;136,204;JJ05.000
+27-11-1871;scarlatina maligna;Roodvonk;138,000;AA38.000
+27-11-1871;roodvonk;Roodvonk;138,000;AA38.000
+27-11-1882;cholerine;Cholera;100,900;AA00.900
+27-11-1892;diphteritis;Difterie;136,900;AA36.900
+27-11-1893;diphteritis;Difterie;136,900;AA36.900
+27-11-1918;mazelen;Mazelen;205,900;BB05.900
+27-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+27-1-1895;scarlatina;Roodvonk;138,000;AA38.000
+27-1-1906;scarlatina;Roodvonk;138,000;AA38.000
+27-1-1913;pertussis;Kinkhoest;137,900;AA37.900
+27-12-1866;tussis serina;Kinkhoest;137,900;AA37.900
+27-12-1870;"mazelen; longontsteking";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+27-12-1892;diphtheritis;Difterie;136,900;AA36.900
+27-12-1893;mazelen;Mazelen;205,900;BB05.900
+27-12-1893;morbille;Mazelen;205,900;BB05.900
+27-12-1893;pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+27-12-1910;diphteritis;Difterie;136,900;AA36.900
+27-12-1916;mazelen;Mazelen;205,900;BB05.900
+27-12-1926;"mazelen; longontstekeing";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+27-12-1934;toxische differie;Difterie;136,900;AA36.900
+27-12-1935;broncho pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+27-12-1941;"tussis V; atrophie";Kinkhoest;137,900;AA37.900
+27-12-1948;laryngitis diphterica tracheotomie;Laryngeale difterie;136,200;AA36.200
+2-7-1895;cholerine;Cholera;100,900;AA00.900
+2-7-1907;morbilli;Mazelen;205,900;BB05.900
+2-7-1910;diphteritis;Difterie;136,900;AA36.900
+2-7-1912;mazelen;Mazelen;205,900;BB05.900
+2-7-1914;morbilli;Mazelen;205,900;BB05.900
+2-7-1936;stenosereenie laryngitis van diphteria;Laryngeale difterie;136,200;AA36.200
+2-7-1943;scarlatinia;Roodvonk;138,000;AA38.000
+27-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+27-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+27-2-1868;croup;Croup;136,204;JJ05.000
+27-2-1874;croup;Croup;136,204;JJ05.000
+27-2-1882;croupe;Croup;136,204;JJ05.000
+27-2-1893;diphtheritis;Difterie;136,900;AA36.900
+27-2-1893;mazelen;Mazelen;205,900;BB05.900
+27-2-1897;pneumonia ten gevolge van pertussis;Kinkhoest met longontsteking;137,907;AA37.907
+27-2-1939;diphterie;Difterie;136,900;AA36.900
+27-2-1943;diphterie;Difterie;136,900;AA36.900
+27-3-1864;croup;Croup;136,204;JJ05.000
+27-3-1867;croup;Croup;136,204;JJ05.000
+27-3-1867;croup;Croup;136,204;JJ05.000
+27-3-1880;roodvonk;Roodvonk;138,000;AA38.000
+27-3-1908;"meningitis; mazelen";Mazelen gecompliceerd door meningitis;205,100;BB05.100
+27-3-1910;mazelen;Mazelen;205,900;BB05.900
+27-4-1871;kinderziekte;Kinderziekte;203,003;BB03
+27-4-1887;mazelen;Mazelen;205,900;BB05.900
+27-4-1910;mazelen;Mazelen;205,900;BB05.900
+27-5-1864;mazelen;Mazelen;205,900;BB05.900
+27-5-1869;roodvonk opgevolgt door hersenenontsteking;Roodvonk met meningitis;138,005;AA38.005
+27-5-1889;cholerine;Cholera;100,900;AA00.900
+27-5-1897;tussis convulsiva;Kinkhoest;137,900;AA37.900
+27-5-1910;mazelen;Mazelen;205,900;BB05.900
+27-5-1910;mazelen;Mazelen;205,900;BB05.900
+27-5-1943;diphterie;Difterie;136,900;AA36.900
+27-6-1871;roodvonk;Roodvonk;138,000;AA38.000
+27-6-1871;cholerine;Cholera;100,900;AA00.900
+27-6-1871;roodvonk;Roodvonk;138,000;AA38.000
+27-6-1907;morbilli;Mazelen;205,900;BB05.900
+27-6-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+27-7-1866;cholera asiatica;Cholera;100,900;AA00.900
+27-7-1869;croup;Croup;136,204;JJ05.000
+27-7-1871;roodvonk;Roodvonk;138,000;AA38.000
+27-7-1871;roodvonk;Roodvonk;138,000;AA38.000
+27-7-1881;cholerine;Cholera;100,900;AA00.900
+27-7-1881;cholerine;Cholera;100,900;AA00.900
+27-7-1891;cholerine;Cholera;100,900;AA00.900
+27-7-1892;angina diphterie;Angina difterie;136,001;AA36.0
+27-7-1897;cholera nostras;Cholera;100,900;AA00.900
+27-7-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+27-7-1912;difteritis;Difterie;136,900;AA36.900
+27-7-1917;tuberculose na kinkhoest;Kinkhoest met tuberculose;137,903;AA37.903
+27-7-1920;cholora nostras;Cholera;100,900;AA00.900
+27-8-1866;cholera;Cholera;100,900;AA00.900
+27-8-1871;"roodvonk; oedema pulmonum";Roodvonk met andere ziekte;138,009;AA38.009
+27-8-1879;cholerine;Cholera;100,900;AA00.900
+27-8-1879;roodvonk;Roodvonk;138,000;AA38.000
+27-8-1881;convulsies in verloop van croupose;Croup;136,204;JJ05.000
+27-8-1891;cholerine;Cholera;100,900;AA00.900
+27-8-1897;pertussis;Kinkhoest;137,900;AA37.900
+27-9-1866;cholera;Cholera;100,900;AA00.900
+27-9-1866;cholera;Cholera;100,900;AA00.900
+27-9-1871;cholerine;Cholera;100,900;AA00.900
+27-9-1885;croupe;Croup;136,204;JJ05.000
+27-9-1886;cholerine;Cholera;100,900;AA00.900
+27-9-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+27-9-1914;differie;Difterie;136,900;AA36.900
+27-9-1914;kinkhoest;Kinkhoest;137,900;AA37.900
+27-9-1947;"larynxdiphterie; roodvong";Roodvonk met difterie;138,004;AA38.004
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1866;cholera;Cholera;100,900;AA00.900
+28-10-1867;cholera;Cholera;100,900;AA00.900
+28-10-1867;cholera;Cholera;100,900;AA00.900
+28-10-1882;diphtheritis;Difterie;136,900;AA36.900
+28-10-1892;diphteritis;Difterie;136,900;AA36.900
+28-10-1902;mazelen;Mazelen;205,900;BB05.900
+28-10-1917;difterie;Difterie;136,900;AA36.900
+28-10-1938;kinkhoest;Kinkhoest;137,900;AA37.900
+28-10-1939;dyphterie;Difterie;136,900;AA36.900
+28-11-1867;croup;Croup;136,204;JJ05.000
+28-11-1867;croup;Croup;136,204;JJ05.000
+28-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+28-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+28-11-1892;diphteritis;Difterie;136,900;AA36.900
+28-11-1892;diphteritis;Difterie;136,900;AA36.900
+28-11-1892;diphteritis;Difterie;136,900;AA36.900
+28-11-1893;diphteritis;Difterie;136,900;AA36.900
+28-11-1919;kinkhoest;Kinkhoest;137,900;AA37.900
+28-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+28-1-1866;croup;Croup;136,204;JJ05.000
+28-1-1866;kinderziekte;Kinderziekte;203,003;BB03
+28-1-1868;croup;Croup;136,204;JJ05.000
+28-1-1886;fussis convulsies;Kinkhoest;137,900;AA37.900
+28-1-1893;diphtheritis;Difterie;136,900;AA36.900
+28-1-1905;mazelen;Mazelen;205,900;BB05.900
+28-1-1920;kinkhoest;Kinkhoest;137,900;AA37.900
+28-1-1940;kinkhoest;Kinkhoest;137,900;AA37.900
+28-12-1868;croup;Croup;136,204;JJ05.000
+28-12-1868;croup;Croup;136,204;JJ05.000
+28-12-1893;diphtheritis;Difterie;136,900;AA36.900
+28-12-1898;diphtheritis faucium;Difterie;136,900;AA36.900
+28-12-1899;diphteritis;Difterie;136,900;AA36.900
+28-12-1904;mazelen;Mazelen;205,900;BB05.900
+28-12-1907;mazelen;Mazelen;205,900;BB05.900
+28-12-1915;difterie;Difterie;136,900;AA36.900
+28-12-1916;mazelen;Mazelen;205,900;BB05.900
+28-12-1923;pertussis convulsiva;Kinkhoest;137,900;AA37.900
+28-12-1932;mazelen;Mazelen;205,900;BB05.900
+28-12-1942;"bronchopneumonie; tussis V";Kinkhoest met longontsteking;137,907;AA37.907
+2-8-1865;cholerine;Cholera;100,900;AA00.900
+2-8-1875;cholerine;Cholera;100,900;AA00.900
+2-8-1877;cholerine;Cholera;100,900;AA00.900
+2-8-1881;cholerine;Cholera;100,900;AA00.900
+2-8-1883;cholerine;Cholera;100,900;AA00.900
+2-8-1887;chronische pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+2-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+2-8-1900;cholerine;Cholera;100,900;AA00.900
+2-8-1900;cholerine;Cholera;100,900;AA00.900
+2-8-1908;scarlatina;Roodvonk;138,000;AA38.000
+2-8-1911;cholera nostra;Cholera;100,900;AA00.900
+2-8-1912;scarlatina;Roodvonk;138,000;AA38.000
+2-8-1941;pertussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+28-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+28-2-1880;croupeuse;Croup;136,204;JJ05.000
+28-2-1881;croup;Croup;136,204;JJ05.000
+28-2-1893;diphtheritis;Difterie;136,900;AA36.900
+28-2-1912;scarlatina;Roodvonk;138,000;AA38.000
+28-2-1913;difteritis;Difterie;136,900;AA36.900
+28-2-1917;scarlatina;Roodvonk;138,000;AA38.000
+28-2-1919;mazelen;Mazelen;205,900;BB05.900
+28-3-1866;pokken;Pokken;203,000;BB03.000
+28-3-1868;kinderziekte;Kinderziekte;203,003;BB03
+28-3-1872;long ontsteking in het beloop van roodvonk;Roodvonk met pneumonie;138,007;AA38.009
+28-3-1872;scarlatina maligna;Roodvonk;138,000;AA38.000
+28-3-1893;diphtheritis;Difterie;136,900;AA36.900
+28-3-1923;kinkhoest;Kinkhoest;137,900;AA37.900
+28-3-1940;diphteritis;Difterie;136,900;AA36.900
+28-3-1941;maligne diphterie dubbelz. Pneumonie;Difterie met bronchitis/pneumonie;136,901;AA36.901
+28-4-1865;kinderziekte;Kinderziekte;203,003;BB03
+28-4-1870;croup;Croup;136,204;JJ05.000
+28-4-1871;pokken gepaard met hevige pneumonia en met bloedpissen;Pokken;203,000;BB03.000
+28-4-1880;scarlatina;Roodvonk;138,000;AA38.000
+28-4-1883;tussis convulsivus;Kinkhoest;137,900;AA37.900
+28-5-1868;bort;Cholera;100,900;AA00.900
+28-5-1869;roodvonk;Roodvonk;138,000;AA38.000
+28-5-1869;cholerine;Cholera;100,900;AA00.900
+28-5-1871;cholerine;Cholera;100,900;AA00.900
+28-5-1877;croupe;Croup;136,204;JJ05.000
+28-6-1864;diarrhee gevolg van mazelen;Mazelen met intestinale complicaties;205,400;BB05.400
+28-6-1872;bronchitis capillaris in het beloop van mazelen;Mazelen gecompliceerd door bronchitis of laryngitis;205,201;BB05.201
+28-6-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+28-6-1907;morbilli;Mazelen;205,900;BB05.900
+28-6-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+28-7-1864;croup diphterique;Difterische croup;136,201;AA36.201
+28-7-1865;variolae;Pokken;203,000;BB03.000
+28-7-1874;cholerine;Cholera;100,900;AA00.900
+28-7-1885;croup;Croup;136,204;JJ05.000
+28-7-1886;cholera nostras;Cholera;100,900;AA00.900
+28-7-1890;cholerine;Cholera;100,900;AA00.900
+28-7-1890;cholerine;Cholera;100,900;AA00.900
+28-7-1902;cholerine;Cholera;100,900;AA00.900
+28-7-1902;pertussis nr. 8;Kinkhoest;137,900;AA37.900
+28-7-1905;cholera nostras;Cholera;100,900;AA00.900
+28-7-1948;pertussis;Kinkhoest;137,900;AA37.900
+28-8-1866;cholera;Cholera;100,900;AA00.900
+28-8-1866;cholera;Cholera;100,900;AA00.900
+28-8-1887;cholerine;Cholera;100,900;AA00.900
+28-8-1898;cholerine;Cholera;100,900;AA00.900
+28-8-1898;cholerine;Cholera;100,900;AA00.900
+28-8-1900;cholerine;Cholera;100,900;AA00.900
+28-8-1902;"pneum. Cath. Chron; tussis convulsiva";Kinkhoest met longontsteking;137,907;AA37.907
+28-8-1912;diphteritis;Difterie;136,900;AA36.900
+28-8-1937;diphterie;Difterie;136,900;AA36.900
+28-9-1866;cholera;Cholera;100,900;AA00.900
+28-9-1871;cholerine;Cholera;100,900;AA00.900
+28-9-1873;croupeuse;Croup;136,204;JJ05.000
+28-9-1891;cholerine;Cholera;100,900;AA00.900
+28-9-1893;diphteritis;Difterie;136,900;AA36.900
+28-9-1922;diphterie;Difterie;136,900;AA36.900
+29-10-1865;pokken;Pokken;203,000;BB03.000
+29-10-1866;cholera;Cholera;100,900;AA00.900
+29-10-1866;cholera;Cholera;100,900;AA00.900
+29-10-1866;cholera;Cholera;100,900;AA00.900
+29-10-1866;cholera;Cholera;100,900;AA00.900
+29-10-1866;cholera;Cholera;100,900;AA00.900
+29-10-1866;cholera;Cholera;100,900;AA00.900
+29-10-1866;cholera;Cholera;100,900;AA00.900
+29-10-1866;cholera;Cholera;100,900;AA00.900
+29-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+29-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+29-10-1892;diphteritis;Difterie;136,900;AA36.900
+29-10-1893;diphteritis;Difterie;136,900;AA36.900
+29-10-1901;mazelen;Mazelen;205,900;BB05.900
+29-10-1901;mazelen;Mazelen;205,900;BB05.900
+29-10-1902;mazelen;Mazelen;205,900;BB05.900
+29-10-1922;tussis convulsiva broncho pn.;Kinkhoest met longontsteking;137,907;AA37.907
+29-11-1871;hydropisia na roodvonk;Roodvonk;138,000;AA38.000
+29-11-1872;croup;Croup;136,204;JJ05.000
+29-11-1873;croup;Croup;136,204;JJ05.000
+29-11-1887;tussis convulsivus;Kinkhoest;137,900;AA37.900
+29-11-1892;diphteritis;Difterie;136,900;AA36.900
+29-11-1892;diphteritis;Difterie;136,900;AA36.900
+29-11-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+29-11-1904;mazelen;Mazelen;205,900;BB05.900
+29-11-1948;myocarditis diphterica;Difterie;136,900;AA36.900
+29-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+29-1-1876;croup;Croup;136,204;JJ05.000
+29-1-1886;dipheritis;Difterie;136,900;AA36.900
+29-1-1886;croupeuse;Croup;136,204;JJ05.000
+29-1-1893;diphtheritis;Difterie;136,900;AA36.900
+29-1-1933;broncho pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+29-12-1865;pokken;Pokken;203,000;BB03.000
+29-12-1870;mazelen;Mazelen;205,900;BB05.900
+29-12-1875;croupe;Croup;136,204;JJ05.000
+29-12-1892;diphtheritis;Difterie;136,900;AA36.900
+29-12-1893;mazelen;Mazelen;205,900;BB05.900
+29-12-1916;kinkhoest;Kinkhoest;137,900;AA37.900
+29-12-1919;difterie;Difterie;136,900;AA36.900
+29-12-1925;myocarditis diphterica;Difterie;136,900;AA36.900
+29-12-1949;"diphterie (toxische); myocarditis";Difterie;136,900;AA36.900
+2-9-1866;cholera;Cholera;100,900;AA00.900
+2-9-1866;cholera;Cholera;100,900;AA00.900
+2-9-1866;cholera;Cholera;100,900;AA00.900
+2-9-1876;cholerine;Cholera;100,900;AA00.900
+2-9-1892;angina diphterie;Angina difterie;136,001;AA36.0
+2-9-1894;cholera asiatica;Cholera;100,900;AA00.900
+2-9-1920;tussis convulsiva;Kinkhoest;137,900;AA37.900
+29-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+29-2-1868;roodvonk;Roodvonk;138,000;AA38.000
+29-2-1888;croup;Croup;136,204;JJ05.000
+29-3-1909;kinkhoest;Kinkhoest;137,900;AA37.900
+29-3-1916;scarlatina;Roodvonk;138,000;AA38.000
+29-4-1869;croup;Croup;136,204;JJ05.000
+29-4-1870;"kinkhoest; longontsteking";Kinkhoest met longontsteking;137,907;AA37.907
+29-4-1912;mazelen;Mazelen;205,900;BB05.900
+29-4-1927;tussis convulsiva, pulmpn.;Kinkhoest met longontsteking;137,907;AA37.907
+29-5-1864;mazelen;Mazelen;205,900;BB05.900
+29-5-1864;croup;Croup;136,204;JJ05.000
+29-5-1871;pokken;Pokken;203,000;BB03.000
+29-5-1887;morbillis;Mazelen;205,900;BB05.900
+29-5-1890;fussis convulsie;Kinkhoest;137,900;AA37.900
+29-5-1907;kinkhoest;Kinkhoest;137,900;AA37.900
+29-5-1910;mazelen;Mazelen;205,900;BB05.900
+29-5-1921;tussis convulsiones (pneum.);Kinkhoest met longontsteking;137,907;AA37.907
+29-6-1864;diarrhee cholereforma gevolg van mazelen;Mazelen met intestinale complicaties;205,400;BB05.400
+29-6-1869;laryngitis pseudomembranosa;Membraneuze laryngitis;136,203;AA36.203
+29-6-1881;croupe;Croup;136,204;JJ05.000
+29-6-1891;cholerine;Cholera;100,900;AA00.900
+29-6-1902;pertussis;Kinkhoest;137,900;AA37.900
+29-6-1907;morbilli;Mazelen;205,900;BB05.900
+29-6-1910;tussis convulsiva post morbillis;Mazelen met kinkhoest;205,802;BB05.802
+29-7-1864;cholera nostras;Cholera;100,900;AA00.900
+29-7-1873;cholerine;Cholera;100,900;AA00.900
+29-7-1875;mazelen;Mazelen;205,900;BB05.900
+29-7-1878;cholerine;Cholera;100,900;AA00.900
+29-7-1890;fussis convulsie;Kinkhoest;137,900;AA37.900
+29-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+29-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+29-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+29-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+29-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+29-7-1897;tussis convulsiva;Kinkhoest;137,900;AA37.900
+29-7-1897;pertussis;Kinkhoest;137,900;AA37.900
+29-7-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+29-7-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+29-7-1906;diphteria ….;Difterie;136,900;AA36.900
+29-7-1912;mazelen;Mazelen;205,900;BB05.900
+29-7-1926;mazelen, broncho pneumonie;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+29-8-1866;roodvonk;Roodvonk;138,000;AA38.000
+29-8-1866;cholera;Cholera;100,900;AA00.900
+29-8-1870;"kinkhoest; pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+29-8-1871;cholera;Cholera;100,900;AA00.900
+29-8-1871;cholerine;Cholera;100,900;AA00.900
+29-8-1875;cholerine;Cholera;100,900;AA00.900
+29-8-1879;cholerine;Cholera;100,900;AA00.900
+29-8-1881;cholerine;Cholera;100,900;AA00.900
+29-8-1898;cholerine;Cholera;100,900;AA00.900
+29-8-1914;mazelen;Mazelen;205,900;BB05.900
+29-8-1917;diphteritis;Difterie;136,900;AA36.900
+29-8-1943;"keelziekte; toxische diphterie";Faryngeale difterie;136,000;AA36.000
+29-9-1864;croupe;Croup;136,204;JJ05.000
+29-9-1866;cholera;Cholera;100,900;AA00.900
+29-9-1866;cholera;Cholera;100,900;AA00.900
+29-9-1866;cholera;Cholera;100,900;AA00.900
+29-9-1867;cholera;Cholera;100,900;AA00.900
+29-9-1892;cholerine;Cholera;100,900;AA00.900
+29-9-1912;morbilli;Mazelen;205,900;BB05.900
+29-9-1914;differie;Difterie;136,900;AA36.900
+29-9-1930;diphterie;Difterie;136,900;AA36.900
+30-10-1866;cholera;Cholera;100,900;AA00.900
+30-10-1866;cholera;Cholera;100,900;AA00.900
+30-10-1866;cholera;Cholera;100,900;AA00.900
+30-10-1866;cholera;Cholera;100,900;AA00.900
+30-10-1866;cholera;Cholera;100,900;AA00.900
+30-10-1871;cholerine;Cholera;100,900;AA00.900
+30-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+30-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+30-10-1901;mazelen;Mazelen;205,900;BB05.900
+30-10-1902;pertussis;Kinkhoest;137,900;AA37.900
+30-10-1922;tussis convulsiva broncho pn.;Kinkhoest met longontsteking;137,907;AA37.907
+30-10-1943;diphterie;Difterie;136,900;AA36.900
+30-11-1887;tussis convulsiones;Kinkhoest;137,900;AA37.900
+30-11-1892;diphteritis;Difterie;136,900;AA36.900
+30-11-1892;diphteritis;Difterie;136,900;AA36.900
+30-11-1898;pneumonia catarrhalis et tus convulsiones;Kinkhoest met longontsteking;137,907;AA37.907
+30-11-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+30-11-1916;difterie;Difterie;136,900;AA36.900
+30-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+30-1-1868;croup;Croup;136,204;JJ05.000
+30-1-1880;croup;Croup;136,204;JJ05.000
+30-1-1893;diphtheritis;Difterie;136,900;AA36.900
+30-1-1913;pertussis (kinkhoest);Kinkhoest;137,900;AA37.900
+30-1-1919;mazelen;Mazelen;205,900;BB05.900
+30-1-1919;mazelen;Mazelen;205,900;BB05.900
+30-12-1866;croup;Croup;136,204;JJ05.000
+30-12-1892;diphtheritis;Difterie;136,900;AA36.900
+30-12-1892;diphtheritis;Difterie;136,900;AA36.900
+30-12-1892;diphtheritis;Difterie;136,900;AA36.900
+30-12-1892;diphtheritis;Difterie;136,900;AA36.900
+30-12-1912;difteritis;Difterie;136,900;AA36.900
+30-12-1924;kinkhoest;Kinkhoest;137,900;AA37.900
+30-3-1871;scarlatina;Roodvonk;138,000;AA38.000
+30-3-1881;croupe;Croup;136,204;JJ05.000
+30-3-1910;mazelen;Mazelen;205,900;BB05.900
+30-3-1912;morbilli;Mazelen;205,900;BB05.900
+30-3-1912;mazelen;Mazelen;205,900;BB05.900
+30-3-1945;diphterie;Difterie;136,900;AA36.900
+30-3-1946;diphterie toxica;Difterie;136,900;AA36.900
+30-4-1865;pokken;Pokken;203,000;BB03.000
+30-4-1887;mazelen;Mazelen;205,900;BB05.900
+30-4-1887;mazelen;Mazelen;205,900;BB05.900
+30-4-1919;mazelen;Mazelen;205,900;BB05.900
+30-5-1864;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+30-5-1864;roodvonk;Roodvonk;138,000;AA38.000
+30-5-1867;angina depoitrine;Angina difterie;136,001;AA36.0
+30-5-1898;cholera nostras;Cholera;100,900;AA00.900
+30-5-1908;tussis convulsiva;Kinkhoest;137,900;AA37.900
+30-5-1910;mazelen;Mazelen;205,900;BB05.900
+30-5-1912;mazelen;Mazelen;205,900;BB05.900
+30-5-1921;mazelen;Mazelen;205,900;BB05.900
+30-5-1927;pertussis en broncho pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+30-6-1871;roodvonk;Roodvonk;138,000;AA38.000
+30-6-1873;cholerine;Cholera;100,900;AA00.900
+30-6-1884;cholerine;Cholera;100,900;AA00.900
+30-6-1885;cholerine;Cholera;100,900;AA00.900
+30-6-1889;cholerine;Cholera;100,900;AA00.900
+30-6-1891;cholerine;Cholera;100,900;AA00.900
+30-6-1910;mazelen;Mazelen;205,900;BB05.900
+30-6-1927;kinkhoest;Kinkhoest;137,900;AA37.900
+30-6-1955;tussis V;Kinkhoest;137,900;AA37.900
+30-7-1873;cholerine;Cholera;100,900;AA00.900
+30-7-1879;dypfteritis;Difterie;136,900;AA36.900
+30-7-1889;cholerine;Cholera;100,900;AA00.900
+30-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+30-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+30-7-1900;cholerine;Cholera;100,900;AA00.900
+30-7-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+30-7-1925;kinkhoest;Kinkhoest;137,900;AA37.900
+30-8-1866;cholera;Cholera;100,900;AA00.900
+30-8-1866;naziekte van cholera;Cholera;100,900;AA00.900
+30-8-1866;cholera;Cholera;100,900;AA00.900
+30-8-1868;croup;Croup;136,204;JJ05.000
+30-8-1869;cholerine;Cholera;100,900;AA00.900
+30-8-1871;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+30-8-1871;"roodvonk; hydrops";Roodvonk;138,000;AA38.000
+30-8-1875;cholerine;Cholera;100,900;AA00.900
+30-8-1888;cholerine;Cholera;100,900;AA00.900
+30-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+30-9-1866;cholera;Cholera;100,900;AA00.900
+30-9-1871;scarlatina cron angina gangrenosa;Roodvonk met difterie;138,004;AA38.004
+30-9-1885;tussis convulsiones;Kinkhoest;137,900;AA37.900
+30-9-1898;cholerine;Cholera;100,900;AA00.900
+3-10-1866;cholera;Cholera;100,900;AA00.900
+3-10-1867;cholera;Cholera;100,900;AA00.900
+3-10-1868;croup;Croup;136,204;JJ05.000
+3-10-1871;pokken zonder geneeskundige hulp;Pokken;203,000;BB03.000
+3-10-1871;roodvonk;Roodvonk;138,000;AA38.000
+3-10-1892;diphteritis;Difterie;136,900;AA36.900
+3-10-1943;diphterie;Difterie;136,900;AA36.900
+31-10-1866;cholera;Cholera;100,900;AA00.900
+31-10-1866;cholera;Cholera;100,900;AA00.900
+31-10-1866;cholera;Cholera;100,900;AA00.900
+31-10-1866;cholera;Cholera;100,900;AA00.900
+31-10-1866;cholera;Cholera;100,900;AA00.900
+31-10-1866;cholera;Cholera;100,900;AA00.900
+31-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+31-10-1892;diphteritis;Difterie;136,900;AA36.900
+31-10-1892;diphteritis;Difterie;136,900;AA36.900
+31-10-1893;diphteritis;Difterie;136,900;AA36.900
+31-10-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+31-10-1902;morbilli;Mazelen;205,900;BB05.900
+31-10-1913;difterie;Difterie;136,900;AA36.900
+3-11-1865;pokken;Pokken;203,000;BB03.000
+3-11-1866;cholera;Cholera;100,900;AA00.900
+3-11-1866;cholera;Cholera;100,900;AA00.900
+3-11-1866;cholera;Cholera;100,900;AA00.900
+3-11-1866;cholera;Cholera;100,900;AA00.900
+3-11-1866;cholera;Cholera;100,900;AA00.900
+3-11-1866;cholera;Cholera;100,900;AA00.900
+31-1-1867;angina diphterine;Angina difterie;136,001;AA36.0
+3-11-1870;"mazelen; longontstekeing";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+31-1-1872;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+31-1-1884;croup;Croup;136,204;JJ05.000
+31-1-1893;diphtheritis;Difterie;136,900;AA36.900
+31-1-1894;mazelen;Mazelen;205,900;BB05.900
+31-1-1894;diphtheritis;Difterie;136,900;AA36.900
+3-11-1901;mazelen;Mazelen;205,900;BB05.900
+3-11-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+31-1-1911;diphteritis;Difterie;136,900;AA36.900
+31-1-1912;mazelen;Mazelen;205,900;BB05.900
+31-1-1921;difterie;Difterie;136,900;AA36.900
+3-11-1924;kinkhoest;Kinkhoest;137,900;AA37.900
+31-1-1948;diphterie;Difterie;136,900;AA36.900
+3-11-1953;broncho pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+31-12-1863;roodvonk;Roodvonk;138,000;AA38.000
+31-12-1892;diphtheritis;Difterie;136,900;AA36.900
+31-12-1892;diphtheritis;Difterie;136,900;AA36.900
+31-12-1893;diphtheritis;Difterie;136,900;AA36.900
+31-12-1904;pneum. catarrh. Post morbilli;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+31-12-1904;mazelen;Mazelen;205,900;BB05.900
+31-12-1912;difteritis;Difterie;136,900;AA36.900
+31-12-1930;diphterie;Difterie;136,900;AA36.900
+31-12-1935;pertussis paralysis cordis;Kinkhoest;137,900;AA37.900
+31-12-1941;toxische diphterie;Difterie;136,900;AA36.900
+31-12-1947;myocarditis diphterica;Difterie;136,900;AA36.900
+3-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+3-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+3-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+3-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+3-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+3-1-1876;croupe;Croup;136,204;JJ05.000
+3-1-1905;mazelen;Mazelen;205,900;BB05.900
+3-1-1905;mazelen;Mazelen;205,900;BB05.900
+3-1-1917;kinkhoest;Kinkhoest;137,900;AA37.900
+3-1-1937;diphterie met hartverlamming;Difterie;136,900;AA36.900
+3-12-1886;diphteritis;Difterie;136,900;AA36.900
+3-12-1892;diphteritis;Difterie;136,900;AA36.900
+3-12-1892;diphteritis;Difterie;136,900;AA36.900
+3-12-1893;diphteritis;Difterie;136,900;AA36.900
+3-12-1931;diphterie;Difterie;136,900;AA36.900
+3-12-1945;diphterie toxica;Difterie;136,900;AA36.900
+31-3-1871;scarlatina maligna;Roodvonk;138,000;AA38.000
+31-3-1874;croup;Croup;136,204;JJ05.000
+31-3-1880;scarlatina;Roodvonk;138,000;AA38.000
+31-3-1883;diphteritis;Difterie;136,900;AA36.900
+31-3-1891;mazelen;Mazelen;205,900;BB05.900
+31-3-1895;diphteritis faucium;Difterie;136,900;AA36.900
+31-3-1911;diphteritis;Difterie;136,900;AA36.900
+31-3-1919;bronchopneumonia na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+31-3-1942;"pseudocroup; bronchopneum";Difterische croup;136,201;AA36.201
+31-5-1865;croup;Croup;136,204;JJ05.000
+31-5-1869;roodvonk;Roodvonk;138,000;AA38.000
+31-5-1871;pokken;Pokken;203,000;BB03.000
+31-5-1887;mazelen (pneumonia);Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+31-5-1893;diphtheritis;Difterie;136,900;AA36.900
+31-5-1907;mazelen;Mazelen;205,900;BB05.900
+31-5-1912;morbilli croup;Mazelen met croup;205,803;BB05.8
+31-5-1912;scarlatina;Roodvonk;138,000;AA38.000
+31-5-1924;kinkhoest;Kinkhoest;137,900;AA37.900
+31-5-1948;tussis convulsiva;Kinkhoest;137,900;AA37.900
+31-7-1866;croup;Croup;136,204;JJ05.000
+31-7-1883;cholerine;Cholera;100,900;AA00.900
+31-7-1889;cholerine;Cholera;100,900;AA00.900
+31-7-1889;uitputting na cholerine;Cholera;100,900;AA00.900
+31-7-1893;diphteritis;Difterie;136,900;AA36.900
+31-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+31-7-1894;cholera asiatica;Cholera;100,900;AA00.900
+31-7-1924;kinkhoest;Kinkhoest;137,900;AA37.900
+31-8-1866;cholera anatica;Cholera;100,900;AA00.900
+31-8-1866;cholera anatica;Cholera;100,900;AA00.900
+31-8-1887;uitputting na diphterie;Difterie;136,900;AA36.900
+31-8-1892;croup;Croup;136,204;JJ05.000
+31-8-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+31-8-1941;tussis + pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+31-8-1943;"keelziekte; toxische diphterie";Faryngeale difterie;136,000;AA36.000
+3-2-1864;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+3-2-1869;croup;Croup;136,204;JJ05.000
+3-2-1874;croup;Croup;136,204;JJ05.000
+3-2-1880;roodvonk;Roodvonk;138,000;AA38.000
+3-2-1895;tussis convulsivus;Kinkhoest;137,900;AA37.900
+3-2-1903;scarlatina;Roodvonk;138,000;AA38.000
+3-2-1905;kinkhoest;Kinkhoest;137,900;AA37.900
+3-2-1905;mazelen;Mazelen;205,900;BB05.900
+3-2-1919;mazelen;Mazelen;205,900;BB05.900
+3-2-1922;diphterie;Difterie;136,900;AA36.900
+3-3-1868;croup;Croup;136,204;JJ05.000
+3-3-1869;croup;Croup;136,204;JJ05.000
+3-3-1875;croup;Croup;136,204;JJ05.000
+3-3-1893;diphtheritis;Difterie;136,900;AA36.900
+3-3-1894;diphtheritis;Difterie;136,900;AA36.900
+3-3-1894;diphtheritis;Difterie;136,900;AA36.900
+3-3-1906;pertussis;Kinkhoest;137,900;AA37.900
+3-3-1910;diphteritis;Difterie;136,900;AA36.900
+3-3-1912;"morbilli; croup";Mazelen met croup;205,803;BB05.8
+3-3-1916;diphteritis;Difterie;136,900;AA36.900
+3-4-1864;croup;Croup;136,204;JJ05.000
+3-4-1866;kinderpokken;Pokken;203,000;BB03.000
+3-4-1880;diphteritis;Difterie;136,900;AA36.900
+3-4-1905;pertussis;Kinkhoest;137,900;AA37.900
+3-4-1906;diphteria;Difterie;136,900;AA36.900
+3-4-1909;kinkhoest;Kinkhoest;137,900;AA37.900
+3-4-1911;croup;Croup;136,204;JJ05.000
+3-4-1932;diphterie;Difterie;136,900;AA36.900
+3-4-1944;toxische larynx diphterie;Laryngeale difterie;136,200;AA36.200
+3-4-1946;tussis;Kinkhoest;137,900;AA37.900
+3-5-1867;tussis convulsivus;Kinkhoest;137,900;AA37.900
+3-5-1887;mazelen;Mazelen;205,900;BB05.900
+3-5-1894;diphtheritis;Difterie;136,900;AA36.900
+3-5-1897;tussis convulsivus;Kinkhoest;137,900;AA37.900
+3-5-1936;encephalitis pertussis;Kinkhoest met encephalitis;137,910;AA37.9
+3-6-1867;longontsteking na pokken;Pokken;203,000;BB03.000
+3-6-1889;cholerine;Cholera;100,900;AA00.900
+3-6-1907;morbilli;Mazelen;205,900;BB05.900
+3-6-1907;mazelen;Mazelen;205,900;BB05.900
+3-6-1915;bronchitis post morbille;Mazelen gecompliceerd door bronchitis of laryngitis;205,201;BB05.201
+3-7-1880;pokken;Pokken;203,000;BB03.000
+3-7-1907;morbilli;Mazelen;205,900;BB05.900
+3-7-1907;mazelen;Mazelen;205,900;BB05.900
+3-7-1910;mazelen;Mazelen;205,900;BB05.900
+3-8-1870;cholerine;Cholera;100,900;AA00.900
+3-8-1885;cholerine;Cholera;100,900;AA00.900
+3-8-1891;cholerine;Cholera;100,900;AA00.900
+3-8-1893;diphteritis;Difterie;136,900;AA36.900
+3-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+3-8-1899;cholerine;Cholera;100,900;AA00.900
+3-8-1911;cholera nostra;Cholera;100,900;AA00.900
+3-9-1866;cholera;Cholera;100,900;AA00.900
+3-9-1866;cholerine;Cholera;100,900;AA00.900
+3-9-1866;croup;Croup;136,204;JJ05.000
+3-9-1868;croup;Croup;136,204;JJ05.000
+3-9-1871;cholerine;Cholera;100,900;AA00.900
+3-9-1880;croupe;Croup;136,204;JJ05.000
+3-9-1901;mazelen;Mazelen;205,900;BB05.900
+3-9-1914;mazelen;Mazelen;205,900;BB05.900
+3-9-1943;toxische diphterie;Difterie;136,900;AA36.900
+4-10-1864;roodvonk;Roodvonk;138,000;AA38.000
+4-10-1866;cholera;Cholera;100,900;AA00.900
+4-10-1867;cholera;Cholera;100,900;AA00.900
+4-10-1867;cholera;Cholera;100,900;AA00.900
+4-10-1867;cholera;Cholera;100,900;AA00.900
+4-10-1869;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+4-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+4-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+4-10-1888;cholerine;Cholera;100,900;AA00.900
+4-10-1892;diphteritis;Difterie;136,900;AA36.900
+4-10-1912;scarlatina;Roodvonk;138,000;AA38.000
+4-10-1914;morbilli;Mazelen;205,900;BB05.900
+4-10-1933;kinkhoest;Kinkhoest;137,900;AA37.900
+4-10-1943;diphterie;Difterie;136,900;AA36.900
+4-11-1866;cholera;Cholera;100,900;AA00.900
+4-11-1867;cholera;Cholera;100,900;AA00.900
+4-11-1885;laryngitis stridula;Difterische croup;136,201;AA36.201
+4-11-1893;diphteritis;Difterie;136,900;AA36.900
+4-11-1901;mazelen;Mazelen;205,900;BB05.900
+4-11-1901;mazelen;Mazelen;205,900;BB05.900
+4-11-1914;rubeola;Rubeola (mazelen);205,901;BB05.900
+4-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+4-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+4-1-1868;laryngitis pseudomemb.;Membraneuze laryngitis;136,203;AA36.203
+4-1-1893;diphtheritis;Difterie;136,900;AA36.900
+4-1-1894;diphtheritis;Difterie;136,900;AA36.900
+4-1-1928;scarlatina;Roodvonk;138,000;AA38.000
+4-1-1943;diphterie (tracheotomie) dubbelzijdige pneum meningitis;Difterie met bronchitis/pneumonie;136,901;AA36.901
+4-12-1867;croup;Croup;136,204;JJ05.000
+4-12-1878;croupeuse;Croup;136,204;JJ05.000
+4-12-1892;diphteritis;Difterie;136,900;AA36.900
+4-12-1893;mazelen;Mazelen;205,900;BB05.900
+4-12-1935;mazelen;Mazelen;205,900;BB05.900
+4-12-1948;"dubbelzijdige purulente panophthalmie; meningitis na mazalen";Mazelen gecompliceerd door meningitis;205,100;BB05.100
+4-2-1888;croup;Croup;136,204;JJ05.000
+4-2-1893;diphtheritis;Difterie;136,900;AA36.900
+4-2-1894;morbilli;Mazelen;205,900;BB05.900
+4-2-1912;scarlatina;Roodvonk;138,000;AA38.000
+4-3-1864;scarlatina;Roodvonk;138,000;AA38.000
+4-3-1891;mazelen;Mazelen;205,900;BB05.900
+4-3-1893;diphtheritis;Difterie;136,900;AA36.900
+4-3-1900;tussis convulsivus;Kinkhoest;137,900;AA37.900
+4-3-1905;kinkhoest;Kinkhoest;137,900;AA37.900
+4-3-1919;mazelen;Mazelen;205,900;BB05.900
+4-3-1934;scarlatinia;Roodvonk;138,000;AA38.000
+4-3-1935;diphterie;Difterie;136,900;AA36.900
+4-3-1938;"pertussis; broncho pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+4-3-1951;diphteritis;Difterie;136,900;AA36.900
+4-4-1880;roodvonk;Roodvonk;138,000;AA38.000
+4-4-1895;tussis convulsiva;Kinkhoest;137,900;AA37.900
+4-4-1905;kinkhoest;Kinkhoest;137,900;AA37.900
+4-4-1906;diphteria;Difterie;136,900;AA36.900
+4-4-1915;mazelen;Mazelen;205,900;BB05.900
+4-4-1923;mazelen;Mazelen;205,900;BB05.900
+4-4-1925;morbilli en pneumonie;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+4-4-1927;pertussis;Kinkhoest;137,900;AA37.900
+4-5-1893;diphtheritis;Difterie;136,900;AA36.900
+4-5-1897;pertussis;Kinkhoest;137,900;AA37.900
+4-5-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+4-5-1910;mazelen;Mazelen;205,900;BB05.900
+4-5-1910;mazelen;Mazelen;205,900;BB05.900
+4-6-1887;mazelen;Mazelen;205,900;BB05.900
+4-6-1907;morbilli;Mazelen;205,900;BB05.900
+4-6-1910;mazelen;Mazelen;205,900;BB05.900
+4-6-1936;diphterie;Difterie;136,900;AA36.900
+4-7-1866;cholera;Cholera;100,900;AA00.900
+4-7-1870;tussis convulsivus;Kinkhoest;137,900;AA37.900
+4-7-1871;"scarlatina; marasmus";Roodvonk;138,000;AA38.000
+4-7-1919;tussis convulsiva;Kinkhoest;137,900;AA37.900
+4-7-1945;diphterie;Difterie;136,900;AA36.900
+4-8-1869;croup;Croup;136,204;JJ05.000
+4-8-1873;cholerine;Cholera;100,900;AA00.900
+4-8-1876;cholerine;Cholera;100,900;AA00.900
+4-8-1884;cholerine;Cholera;100,900;AA00.900
+4-8-1885;cholerine;Cholera;100,900;AA00.900
+4-8-1885;cholerine;Cholera;100,900;AA00.900
+4-8-1888;cholerine;Cholera;100,900;AA00.900
+4-8-1889;cholerine;Cholera;100,900;AA00.900
+4-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+4-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+4-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+4-8-1897;cholera nostras;Cholera;100,900;AA00.900
+4-8-1897;cholerine;Cholera;100,900;AA00.900
+4-8-1901;mazelen;Mazelen;205,900;BB05.900
+4-8-1911;cholera nostra;Cholera;100,900;AA00.900
+4-8-1918;pneumonia na scarlatina;Roodvonk met pneumonie;138,007;AA38.009
+4-8-1920;croup.;Croup;136,204;JJ05.000
+4-8-1943;diphterie myocarditio;Difterie;136,900;AA36.900
+4-8-1949;diphterie;Difterie;136,900;AA36.900
+4-9-1866;stuipen na cholera;Cholera;100,900;AA00.900
+4-9-1866;cholera;Cholera;100,900;AA00.900
+4-9-1867;cholerine;Cholera;100,900;AA00.900
+4-9-1871;cholerine;Cholera;100,900;AA00.900
+4-9-1877;croup;Croup;136,204;JJ05.000
+4-9-1879;roodvonk;Roodvonk;138,000;AA38.000
+4-9-1880;cholerine;Cholera;100,900;AA00.900
+4-9-1880;cholera nostras;Cholera;100,900;AA00.900
+4-9-1890;kinkhoest;Kinkhoest;137,900;AA37.900
+4-9-1892;angina diphterie;Angina difterie;136,001;AA36.0
+4-9-1898;cholerine;Cholera;100,900;AA00.900
+4-9-1898;cholerine;Cholera;100,900;AA00.900
+4-9-1899;cholerine;Cholera;100,900;AA00.900
+4-9-1945;diphterie;Difterie;136,900;AA36.900
+4-9-1953;broncho pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+5-10-1866;cholera;Cholera;100,900;AA00.900
+5-10-1891;cholerine;Cholera;100,900;AA00.900
+5-10-1927;dyphterie;Difterie;136,900;AA36.900
+5-11-1866;cholera;Cholera;100,900;AA00.900
+5-11-1866;cholera;Cholera;100,900;AA00.900
+5-11-1866;croup;Croup;136,204;JJ05.000
+5-11-1867;cholera;Cholera;100,900;AA00.900
+5-11-1869;"febris scarlatina; meningitis";Roodvonk met meningitis;138,005;AA38.005
+5-11-1871;"roodvonk; hydrops";Roodvonk;138,000;AA38.000
+5-11-1871;"roodvonk; hydropsia";Roodvonk;138,000;AA38.000
+5-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+5-11-1879;angina diphterine;Angina difterie;136,001;AA36.0
+5-11-1892;diphteritis;Difterie;136,900;AA36.900
+5-11-1892;diphteritis;Difterie;136,900;AA36.900
+5-11-1893;diphteritis;Difterie;136,900;AA36.900
+5-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+5-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+5-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+5-1-1865;croup;Croup;136,204;JJ05.000
+5-1-1866;pokken;Pokken;203,000;BB03.000
+5-1-1893;diphtheritis;Difterie;136,900;AA36.900
+5-1-1897;pertussis;Kinkhoest;137,900;AA37.900
+5-1-1905;morbilli;Mazelen;205,900;BB05.900
+5-1-1934;broncho pneumonie na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+5-1-1946;diphterie toxica;Difterie;136,900;AA36.900
+5-1-1946;"kinkhoest; broncho pneumonie";Kinkhoest met longontsteking;137,907;AA37.907
+5-12-1878;kinkhoest;Kinkhoest;137,900;AA37.900
+5-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+5-12-1880;croupe;Croup;136,204;JJ05.000
+5-12-1887;croupeuse;Croup;136,204;JJ05.000
+5-12-1894;diphteritis;Difterie;136,900;AA36.900
+5-12-1900;tussis convulsiva;Kinkhoest;137,900;AA37.900
+5-12-1915;tussis convulsiva;Kinkhoest;137,900;AA37.900
+5-12-1923;diphterie;Difterie;136,900;AA36.900
+5-12-1931;diphterie;Difterie;136,900;AA36.900
+5-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+5-2-1864;roodvonk met hevige waterzucht;Roodvonk;138,000;AA38.000
+5-2-1866;pokken;Pokken;203,000;BB03.000
+5-2-1880;hydrops na roodvonk;Roodvonk;138,000;AA38.000
+5-2-1886;pertussis;Kinkhoest;137,900;AA37.900
+5-2-1896;cholerine;Cholera;100,900;AA00.900
+5-2-1897;bronchitis diffusa tussi convulsiva;Kinkhoest met bronchitis;137,901;AA37.901
+5-2-1913;kinkhoest;Kinkhoest;137,900;AA37.900
+5-2-1919;mazelen;Mazelen;205,900;BB05.900
+5-2-1923;pseudocroup.;Difterische croup;136,201;AA36.201
+5-2-1933;mazelen;Mazelen;205,900;BB05.900
+5-2-1934;tussis en broncheolitis;Kinkhoest met bronchitis;137,901;AA37.901
+5-2-1935;myocarditis diphterica;Difterie;136,900;AA36.900
+5-2-1942;larynxdiphterie;Laryngeale difterie;136,200;AA36.200
+5-3-1864;scarlatina;Roodvonk;138,000;AA38.000
+5-3-1891;mazelen;Mazelen;205,900;BB05.900
+5-3-1893;diphtheritis;Difterie;136,900;AA36.900
+5-3-1903;kinkhoest;Kinkhoest;137,900;AA37.900
+5-3-1933;"kinkhoest; aangeboren zwakte";Kinkhoest;137,900;AA37.900
+5-4-1864;roodvonk;Roodvonk;138,000;AA38.000
+5-4-1868;croup;Croup;136,204;JJ05.000
+5-4-1869;roodvonk;Roodvonk;138,000;AA38.000
+5-4-1872;longontsteking na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+5-4-1887;pneumonia in het beloop van fusfisconvulsia;Kinkhoest met longontsteking;137,907;AA37.907
+5-5-1865;croup;Croup;136,204;JJ05.000
+5-5-1868;croup;Croup;136,204;JJ05.000
+5-5-1873;pneumonia in beloop van kinkelhoest;Kinkhoest met longontsteking;137,907;AA37.907
+5-5-1888;kinkhoest;Kinkhoest;137,900;AA37.900
+5-5-1897;tussis convulsivus;Kinkhoest;137,900;AA37.900
+5-5-1909;scarlatina;Roodvonk;138,000;AA38.000
+5-5-1938;"mazelen; pneumonie";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+5-6-1887;dubbele cattarrhale pneumonie (na mazelen);Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+5-6-1907;mazelen;Mazelen;205,900;BB05.900
+5-6-1910;mazelen;Mazelen;205,900;BB05.900
+5-6-1910;bronchopneumonia na diphteritis;Difterie met bronchitis/pneumonie;136,901;AA36.901
+5-6-1940;pertussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+5-7-1887;roodvonk;Roodvonk;138,000;AA38.000
+5-7-1897;tussis convulsivus;Kinkhoest;137,900;AA37.900
+5-7-1902;pertussis;Kinkhoest;137,900;AA37.900
+5-7-1907;morbilli;Mazelen;205,900;BB05.900
+5-7-1909;difteritis;Difterie;136,900;AA36.900
+5-8-1865;cholerine;Cholera;100,900;AA00.900
+5-8-1866;cholera;Cholera;100,900;AA00.900
+5-8-1866;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+5-8-1876;cholerine;Cholera;100,900;AA00.900
+5-8-1880;cholerine;Cholera;100,900;AA00.900
+5-8-1885;cholerine;Cholera;100,900;AA00.900
+5-8-1887;cholerine;Cholera;100,900;AA00.900
+5-8-1889;cholerine;Cholera;100,900;AA00.900
+5-8-1889;cholerine;Cholera;100,900;AA00.900
+5-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+5-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+5-9-1866;cholera;Cholera;100,900;AA00.900
+5-9-1866;cholerine;Cholera;100,900;AA00.900
+5-9-1866;cholera;Cholera;100,900;AA00.900
+5-9-1866;cholera;Cholera;100,900;AA00.900
+5-9-1871;cholerine;Cholera;100,900;AA00.900
+5-9-1894;cholera asiatica;Cholera;100,900;AA00.900
+5-9-1914;diphterie;Difterie;136,900;AA36.900
+6-10-1866;cholera;Cholera;100,900;AA00.900
+6-10-1871;cholerine;Cholera;100,900;AA00.900
+6-10-1871;algemeene waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+6-10-1871;cholerine;Cholera;100,900;AA00.900
+6-10-1892;diphteritis;Difterie;136,900;AA36.900
+6-10-1892;diphteritis;Difterie;136,900;AA36.900
+6-10-1906;kinkhoest;Kinkhoest;137,900;AA37.900
+6-10-1916;kinkhoest;Kinkhoest;137,900;AA37.900
+6-11-1866;cholera;Cholera;100,900;AA00.900
+6-11-1866;cholera;Cholera;100,900;AA00.900
+6-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+6-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+6-11-1893;diphteritis;Difterie;136,900;AA36.900
+6-11-1901;morbilli;Mazelen;205,900;BB05.900
+6-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+6-1-1893;diphtheritis;Difterie;136,900;AA36.900
+6-1-1894;diphtheritis;Difterie;136,900;AA36.900
+6-1-1905;mazelen;Mazelen;205,900;BB05.900
+6-1-1908;tussis convulsiva;Kinkhoest;137,900;AA37.900
+6-1-1908;kinkhoest;Kinkhoest;137,900;AA37.900
+6-12-1865;pokken;Pokken;203,000;BB03.000
+6-12-1869;croup;Croup;136,204;JJ05.000
+6-12-1871;scarlatina uitputting;Roodvonk;138,000;AA38.000
+6-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+6-12-1892;diphteritis;Difterie;136,900;AA36.900
+6-12-1893;diphteritis;Difterie;136,900;AA36.900
+6-12-1915;laryngis stridulosa;Difterische croup;136,201;AA36.201
+6-12-1924;scarlatina;Roodvonk;138,000;AA38.000
+6-12-1924;diphterie en myocarditis;Difterie;136,900;AA36.900
+6-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+6-2-1866;laryngitis pseudomemb.;Membraneuze laryngitis;136,203;AA36.203
+6-2-1874;croup;Croup;136,204;JJ05.000
+6-2-1905;mazelen;Mazelen;205,900;BB05.900
+6-2-1912;morbilli pneunomia;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+6-2-1912;mazelen;Mazelen;205,900;BB05.900
+6-2-1919;mazelen;Mazelen;205,900;BB05.900
+6-2-1919;mazelen;Mazelen;205,900;BB05.900
+6-2-1946;"diphteria toxica; broncho pneumonie";Difterie met bronchitis/pneumonie;136,901;AA36.901
+6-3-1919;mazelen;Mazelen;205,900;BB05.900
+6-3-1925;mazelen;Mazelen;205,900;BB05.900
+6-3-1926;scarlatina, sepsis;Roodvonk met andere ziekte;138,009;AA38.009
+6-3-1949;diphterie;Difterie;136,900;AA36.900
+6-4-1872;oedema pulmonum in het beloop van hydropisen na roodvonk;Roodvonk;138,000;AA38.000
+6-4-1890;kinkhoest;Kinkhoest;137,900;AA37.900
+6-4-1903;diphteritis;Difterie;136,900;AA36.900
+6-5-1871;zamen vloegende pokken;Pokken;203,000;BB03.000
+6-5-1930;morbilli;Mazelen;205,900;BB05.900
+6-6-1865;pokken;Pokken;203,000;BB03.000
+6-6-1866;roodvonk;Roodvonk;138,000;AA38.000
+6-6-1866;cholerine;Cholera;100,900;AA00.900
+6-6-1907;mazelen;Mazelen;205,900;BB05.900
+6-6-1907;mazelen;Mazelen;205,900;BB05.900
+6-6-1910;mazelen;Mazelen;205,900;BB05.900
+6-6-1924;diphteritis;Difterie;136,900;AA36.900
+6-6-1936;diphterie;Difterie;136,900;AA36.900
+6-6-1936;diphterie;Difterie;136,900;AA36.900
+6-7-1865;kinderpokken;Pokken;203,000;BB03.000
+6-7-1866;pokken;Pokken;203,000;BB03.000
+6-7-1866;waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+6-7-1882;cholerine;Cholera;100,900;AA00.900
+6-7-1883;cholerine;Cholera;100,900;AA00.900
+6-7-1894;diphteritis;Difterie;136,900;AA36.900
+6-7-1912;scarlatina;Roodvonk;138,000;AA38.000
+6-8-1871;roodvonk;Roodvonk;138,000;AA38.000
+6-8-1879;cholerine;Cholera;100,900;AA00.900
+6-8-1889;cholerine;Cholera;100,900;AA00.900
+6-8-1893;diphteritis;Difterie;136,900;AA36.900
+6-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+6-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+6-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+6-8-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+6-9-1866;cholera;Cholera;100,900;AA00.900
+6-9-1866;cholera anatica;Cholera;100,900;AA00.900
+6-9-1866;cholera;Cholera;100,900;AA00.900
+6-9-1866;cholera;Cholera;100,900;AA00.900
+6-9-1875;cholerine;Cholera;100,900;AA00.900
+6-9-1880;croup;Croup;136,204;JJ05.000
+6-9-1890;cholerine;Cholera;100,900;AA00.900
+6-9-1894;cholera asiatica;Cholera;100,900;AA00.900
+6-9-1941;tussis + pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+7-10-1865;pokken;Pokken;203,000;BB03.000
+7-10-1865;croup;Croup;136,204;JJ05.000
+7-10-1866;cholera;Cholera;100,900;AA00.900
+7-10-1867;cholera;Cholera;100,900;AA00.900
+7-10-1867;cholera;Cholera;100,900;AA00.900
+7-10-1867;cholera;Cholera;100,900;AA00.900
+7-10-1879;diptheritis bij roodvonk;Roodvonk met difterie;138,004;AA38.004
+7-10-1900;diphterica;Difterie;136,900;AA36.900
+7-10-1944;diphterische laryngitis;Faryngeale difterie;136,000;AA36.000
+7-11-1866;cholera;Cholera;100,900;AA00.900
+7-11-1866;cholera;Cholera;100,900;AA00.900
+7-11-1866;cholera;Cholera;100,900;AA00.900
+7-11-1866;cholera;Cholera;100,900;AA00.900
+7-11-1866;cholera;Cholera;100,900;AA00.900
+7-11-1871;roodvonk;Roodvonk;138,000;AA38.000
+7-11-1878;croupale bronchitis;Croupeuse bronchitis;136,206;JJ40.003
+7-11-1892;diphteritis;Difterie;136,900;AA36.900
+7-11-1892;croup;Croup;136,204;JJ05.000
+7-11-1893;diphteritis;Difterie;136,900;AA36.900
+7-11-1893;diphteritis;Difterie;136,900;AA36.900
+7-11-1901;morbilli;Mazelen;205,900;BB05.900
+7-11-1901;morbilli;Mazelen;205,900;BB05.900
+7-11-1917;kinkhoest;Kinkhoest;137,900;AA37.900
+7-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+7-1-1864;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+7-1-1864;roodvonk met waterzucht;Roodvonk;138,000;AA38.000
+7-1-1869;croup;Croup;136,204;JJ05.000
+7-1-1872;croupeuse roodvonk;Roodvonk met laryngitis;138,002;AA38.002
+7-1-1887;croupe;Croup;136,204;JJ05.000
+7-1-1893;diphtheritis;Difterie;136,900;AA36.900
+7-1-1893;diphtheritis;Difterie;136,900;AA36.900
+7-1-1893;diphtheritis;Difterie;136,900;AA36.900
+7-1-1906;diphteritis;Difterie;136,900;AA36.900
+7-1-1913;kinkhoest;Kinkhoest;137,900;AA37.900
+7-1-1926;kinkhoest, stuipen;Kinkhoest;137,900;AA37.900
+7-12-1865;pokken;Pokken;203,000;BB03.000
+7-12-1865;pokken;Pokken;203,000;BB03.000
+7-12-1869;croup;Croup;136,204;JJ05.000
+7-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+7-12-1887;pertussis;Kinkhoest;137,900;AA37.900
+7-12-1887;pertussis;Kinkhoest;137,900;AA37.900
+7-12-1892;diphteritis;Difterie;136,900;AA36.900
+7-12-1893;morbilli;Mazelen;205,900;BB05.900
+7-12-1893;morbilli;Mazelen;205,900;BB05.900
+7-12-1933;kinkhoest;Kinkhoest;137,900;AA37.900
+7-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+7-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+7-2-1881;diphteritis;Difterie;136,900;AA36.900
+7-2-1894;diphtheritis;Difterie;136,900;AA36.900
+7-2-1905;morbilli;Mazelen;205,900;BB05.900
+7-2-1912;difteritis;Difterie;136,900;AA36.900
+7-3-1893;tussis convulsiva;Kinkhoest;137,900;AA37.900
+7-3-1894;diphtheritis;Difterie;136,900;AA36.900
+7-3-1895;tussus convuls;Kinkhoest;137,900;AA37.900
+7-3-1905;mazelen;Mazelen;205,900;BB05.900
+7-3-1910;diphteritis;Difterie;136,900;AA36.900
+7-3-1915;kinkhoest;Kinkhoest;137,900;AA37.900
+7-3-1926;pertussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+7-3-1931;diphteritis;Difterie;136,900;AA36.900
+7-4-1868;croup;Croup;136,204;JJ05.000
+7-4-1872;broncho pneumonia in het beloop van mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+7-4-1879;croup;Croup;136,204;JJ05.000
+7-4-1893;diphtheritis;Difterie;136,900;AA36.900
+7-4-1910;diphteritis;Difterie;136,900;AA36.900
+7-4-1912;difteritis;Difterie;136,900;AA36.900
+7-4-1925;pertussis pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+7-4-1936;diphterie;Difterie;136,900;AA36.900
+7-5-1867;croup;Croup;136,204;JJ05.000
+7-5-1895;diphteritis faucium;Difterie;136,900;AA36.900
+7-5-1897;pertussis;Kinkhoest;137,900;AA37.900
+7-5-1903;pertussis;Kinkhoest;137,900;AA37.900
+7-5-1907;mazelen;Mazelen;205,900;BB05.900
+7-6-1871;pokken;Pokken;203,000;BB03.000
+7-6-1883;cholerine;Cholera;100,900;AA00.900
+7-6-1889;cholerine;Cholera;100,900;AA00.900
+7-6-1910;mazelen;Mazelen;205,900;BB05.900
+7-6-1912;mazelen;Mazelen;205,900;BB05.900
+7-7-1871;roodvonk;Roodvonk;138,000;AA38.000
+7-7-1871;roodvonk;Roodvonk;138,000;AA38.000
+7-7-1871;scarlatina;Roodvonk;138,000;AA38.000
+7-7-1871;cholerine;Cholera;100,900;AA00.900
+7-7-1904;diphtheria;Difterie;136,900;AA36.900
+7-7-1923;mazelen;Mazelen;205,900;BB05.900
+7-8-1871;pokken;Pokken;203,000;BB03.000
+7-8-1871;roodvonk;Roodvonk;138,000;AA38.000
+7-8-1888;cholerine;Cholera;100,900;AA00.900
+7-8-1890;fussis convulsie;Kinkhoest;137,900;AA37.900
+7-8-1890;cholerine;Cholera;100,900;AA00.900
+7-8-1900;tussis convulsiva et eclampsia infantum;Kinkhoest;137,900;AA37.900
+7-8-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+7-8-1914;morbilli;Mazelen;205,900;BB05.900
+7-9-1866;cholera;Cholera;100,900;AA00.900
+7-9-1866;cholera;Cholera;100,900;AA00.900
+7-9-1866;cholera;Cholera;100,900;AA00.900
+7-9-1866;cholera;Cholera;100,900;AA00.900
+7-9-1866;cholera;Cholera;100,900;AA00.900
+7-9-1866;cholera;Cholera;100,900;AA00.900
+7-9-1866;cholera;Cholera;100,900;AA00.900
+7-9-1879;cholerine;Cholera;100,900;AA00.900
+7-9-1892;angina diphterie;Angina difterie;136,001;AA36.0
+7-9-1944;toxische diphterie;Difterie;136,900;AA36.900
+8-10-1866;cholera;Cholera;100,900;AA00.900
+8-10-1866;cholera;Cholera;100,900;AA00.900
+8-10-1867;cholera;Cholera;100,900;AA00.900
+8-10-1867;cholera;Cholera;100,900;AA00.900
+8-10-1871;vermoedelijk roodvonk zonder geneeskundige behandeling;Roodvonk;138,000;AA38.000
+8-10-1871;roodvonk;Roodvonk;138,000;AA38.000
+8-10-1879;angine diptherine na scarlatine;Roodvonk met difterie;138,004;AA38.004
+8-10-1892;diphteritis;Difterie;136,900;AA36.900
+8-10-1892;diphteritis;Difterie;136,900;AA36.900
+8-10-1892;diphteritis;Difterie;136,900;AA36.900
+8-10-1892;diphteritis;Difterie;136,900;AA36.900
+8-10-1892;diphteritis;Difterie;136,900;AA36.900
+8-10-1933;"kinkhoest; empyema thoracis";Kinkhoest;137,900;AA37.900
+8-11-1866;cholera;Cholera;100,900;AA00.900
+8-11-1866;cholera;Cholera;100,900;AA00.900
+8-11-1871;"roodvonk; waterzucht";Roodvonk;138,000;AA38.000
+8-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+8-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+8-11-1892;diphteritis;Difterie;136,900;AA36.900
+8-11-1894;diphteritis;Difterie;136,900;AA36.900
+8-1-1869;croup;Croup;136,204;JJ05.000
+8-1-1893;diphtheritis;Difterie;136,900;AA36.900
+8-1-1894;bronchitis na mazelen;Mazelen gecompliceerd door bronchitis of laryngitis;205,201;BB05.201
+8-1-1905;mazelen;Mazelen;205,900;BB05.900
+8-1-1909;difteritis;Difterie;136,900;AA36.900
+8-1-1915;mazelen;Mazelen;205,900;BB05.900
+8-1-1915;mazelen;Mazelen;205,900;BB05.900
+8-1-1915;mazelen;Mazelen;205,900;BB05.900
+8-1-1937;"tussis quinta; bronchitis";Kinkhoest met bronchitis;137,901;AA37.901
+8-1-1945;tussis V;Kinkhoest;137,900;AA37.900
+8-12-1865;pokken;Pokken;203,000;BB03.000
+8-12-1885;kinkhoest;Kinkhoest;137,900;AA37.900
+8-12-1890;pertussis;Kinkhoest;137,900;AA37.900
+8-12-1892;diphteritis fancium;Difterie;136,900;AA36.900
+8-12-1892;diphterie;Difterie;136,900;AA36.900
+8-12-1892;diphteritis;Difterie;136,900;AA36.900
+8-12-1940;pneumonie na kinkhoest;Kinkhoest met longontsteking;137,907;AA37.907
+8-12-1944;tussis V;Kinkhoest;137,900;AA37.900
+8-2-1875;croupeuse;Croup;136,204;JJ05.000
+8-2-1877;kinkhoest;Kinkhoest;137,900;AA37.900
+8-2-1879;croup;Croup;136,204;JJ05.000
+8-2-1880;scarlatine in het kraambed;Roodvonk;138,000;AA38.000
+8-2-1893;diphtheritis;Difterie;136,900;AA36.900
+8-2-1894;diphtheritis;Difterie;136,900;AA36.900
+8-2-1905;morbilli;Mazelen;205,900;BB05.900
+8-2-1905;tussis convulsiva;Kinkhoest;137,900;AA37.900
+8-2-1905;mazelen;Mazelen;205,900;BB05.900
+8-2-1908;diphteritis;Difterie;136,900;AA36.900
+8-2-1917;kinkhoest;Kinkhoest;137,900;AA37.900
+8-2-1923;pseudocroup.;Difterische croup;136,201;AA36.201
+8-3-1893;diphtheritis;Difterie;136,900;AA36.900
+8-3-1929;"Scarlatina; paralipis corvis";Roodvonk met andere ziekte;138,009;AA38.009
+8-3-1938;croupeuse diphterie;Difterische croup;136,201;AA36.201
+8-3-1946;diphterie;Difterie;136,900;AA36.900
+8-4-1864;roodvonk;Roodvonk;138,000;AA38.000
+8-4-1872;cholerine;Cholera;100,900;AA00.900
+8-4-1874;croup;Croup;136,204;JJ05.000
+8-4-1894;diphtheritis;Difterie;136,900;AA36.900
+8-4-1917;difterie;Difterie;136,900;AA36.900
+8-4-1938;pertussis;Kinkhoest;137,900;AA37.900
+8-4-1948;diphterie;Difterie;136,900;AA36.900
+8-5-1880;croupeuse;Croup;136,204;JJ05.000
+8-5-1882;kinkhoest;Kinkhoest;137,900;AA37.900
+8-5-1897;pertussis;Kinkhoest;137,900;AA37.900
+8-5-1910;mazelen;Mazelen;205,900;BB05.900
+8-5-1936;broncho pneum na tussis;Kinkhoest met longontsteking;137,907;AA37.907
+8-6-1865;croup;Croup;136,204;JJ05.000
+8-6-1865;variolae;Pokken;203,000;BB03.000
+8-6-1881;croup;Croup;136,204;JJ05.000
+8-6-1885;cholerine;Cholera;100,900;AA00.900
+8-6-1907;mazelen;Mazelen;205,900;BB05.900
+8-6-1907;mazelen;Mazelen;205,900;BB05.900
+8-6-1907;kinkhoest;Kinkhoest;137,900;AA37.900
+8-6-1927;diphterie;Difterie;136,900;AA36.900
+8-7-1866;cholera;Cholera;100,900;AA00.900
+8-7-1883;cholerine;Cholera;100,900;AA00.900
+8-7-1889;cholerine;Cholera;100,900;AA00.900
+8-7-1897;tussis convulsiva;Kinkhoest;137,900;AA37.900
+8-7-1897;pertussis;Kinkhoest;137,900;AA37.900
+8-7-1907;mazelen;Mazelen;205,900;BB05.900
+8-7-1912;mazelen;Mazelen;205,900;BB05.900
+8-8-1867;angina diphterine;Angina difterie;136,001;AA36.0
+8-8-1885;cholerine;Cholera;100,900;AA00.900
+8-8-1888;cholerine;Cholera;100,900;AA00.900
+8-8-1891;cholerine;Cholera;100,900;AA00.900
+8-8-1894;cholera asiatica;Cholera;100,900;AA00.900
+8-8-1897;cholerine;Cholera;100,900;AA00.900
+8-8-1902;pertussis;Kinkhoest;137,900;AA37.900
+8-8-1907;morbilli;Mazelen;205,900;BB05.900
+8-8-1948;"tussis; bronchopneumonie; convulies";Kinkhoest met longontsteking;137,907;AA37.907
+8-9-1864;pokken;Pokken;203,000;BB03.000
+8-9-1866;cholera asiatica;Cholera;100,900;AA00.900
+8-9-1866;cholera;Cholera;100,900;AA00.900
+8-9-1866;cholera;Cholera;100,900;AA00.900
+8-9-1866;cholera;Cholera;100,900;AA00.900
+8-9-1866;cholera;Cholera;100,900;AA00.900
+8-9-1867;diphterische keelontsteking;Faryngeale difterie;136,000;AA36.000
+8-9-1883;cholerine;Cholera;100,900;AA00.900
+8-9-1886;cholerine;Cholera;100,900;AA00.900
+8-9-1893;diphteritis;Difterie;136,900;AA36.900
+8-9-1894;cholera asiatica;Cholera;100,900;AA00.900
+8-9-1945;neusdiphterie;Difterie;136,900;AA36.900
+9-10-1866;cholera;Cholera;100,900;AA00.900
+9-10-1866;cholera;Cholera;100,900;AA00.900
+9-10-1867;cholera;Cholera;100,900;AA00.900
+9-10-1867;cholera;Cholera;100,900;AA00.900
+9-10-1867;cholera;Cholera;100,900;AA00.900
+9-10-1879;roodvonk;Roodvonk;138,000;AA38.000
+9-10-1879;croupe;Croup;136,204;JJ05.000
+9-10-1886;cholerine;Cholera;100,900;AA00.900
+9-10-1892;diphteritis;Difterie;136,900;AA36.900
+9-10-1892;diphteritis;Difterie;136,900;AA36.900
+9-10-1892;diphteritis;Difterie;136,900;AA36.900
+9-10-1893;diphteritis;Difterie;136,900;AA36.900
+9-10-1901;morbilli;Mazelen;205,900;BB05.900
+9-10-1901;morbilli;Mazelen;205,900;BB05.900
+9-10-1902;tussis convulsiva;Kinkhoest;137,900;AA37.900
+9-10-1948;toxische diphterie;Difterie;136,900;AA36.900
+9-11-1866;cholera;Cholera;100,900;AA00.900
+9-11-1866;cholera;Cholera;100,900;AA00.900
+9-11-1879;roodvonk met waterzucht;Roodvonk;138,000;AA38.000
+9-11-1879;roodvonk;Roodvonk;138,000;AA38.000
+9-11-1883;croupeuse;Croup;136,204;JJ05.000
+9-11-1885;kinkhoest;Kinkhoest;137,900;AA37.900
+9-11-1885;croup;Croup;136,204;JJ05.000
+9-11-1893;diphteritis;Difterie;136,900;AA36.900
+9-11-1895;scarlatina dipht. Scarlatinosa;Roodvonk met difterie;138,004;AA38.004
+9-11-1908;diphteritis;Difterie;136,900;AA36.900
+9-11-1918;pseudo crouposa;Difterische croup;136,201;AA36.201
+9-11-1927;diphteritis;Difterie;136,900;AA36.900
+9-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+9-1-1864;roodvonk;Roodvonk;138,000;AA38.000
+9-1-1868;croup;Croup;136,204;JJ05.000
+9-1-1869;algemene diphterie cancerisa;Difterie;136,900;AA36.900
+9-1-1894;mazelen;Mazelen;205,900;BB05.900
+9-1-1905;morbilli;Mazelen;205,900;BB05.900
+9-1-1905;morbilli;Mazelen;205,900;BB05.900
+9-1-1905;morbilli;Mazelen;205,900;BB05.900
+9-1-1933;"mazelen; broncho pneum";Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+9-12-1865;pokken;Pokken;203,000;BB03.000
+9-12-1878;stuipen bij kinkhoest;Kinkhoest;137,900;AA37.900
+9-12-1879;roodvonk;Roodvonk;138,000;AA38.000
+9-12-1890;croup;Croup;136,204;JJ05.000
+9-12-1893;"mazelen; diphteritis";Mazelen met difterie;205,801;BB05.801
+9-12-1901;mazelen;Mazelen;205,900;BB05.900
+9-12-1909;diphteritis;Difterie;136,900;AA36.900
+9-12-1914;mazelen;Mazelen;205,900;BB05.900
+9-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+9-2-1864;algemene waterzucht na roodvonk;Roodvonk;138,000;AA38.000
+9-2-1864;roodvonk;Roodvonk;138,000;AA38.000
+9-2-1881;croup;Croup;136,204;JJ05.000
+9-2-1893;diphtheritis;Difterie;136,900;AA36.900
+9-2-1905;diphterie;Difterie;136,900;AA36.900
+9-2-1905;mazelen;Mazelen;205,900;BB05.900
+9-2-1905;"tussis convulsiva; morbillis";Mazelen met kinkhoest;205,802;BB05.802
+9-2-1908;diphteritis;Difterie;136,900;AA36.900
+9-2-1912;morbilli (pneunomia);Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+9-2-1923;pneumonia bij tussis;Kinkhoest met longontsteking;137,907;AA37.907
+9-3-1866;pokken;Pokken;203,000;BB03.000
+9-3-1873;croupeuse;Croup;136,204;JJ05.000
+9-3-1886;kinkhoest;Kinkhoest;137,900;AA37.900
+9-3-1891;mazelen;Mazelen;205,900;BB05.900
+9-3-1893;diphtheritis;Difterie;136,900;AA36.900
+9-3-1905;mazelen;Mazelen;205,900;BB05.900
+9-3-1916;mazelen;Mazelen;205,900;BB05.900
+9-3-1921;pneumonia et pertussis;Kinkhoest met longontsteking;137,907;AA37.907
+9-3-1924;tussis convulsiva;Kinkhoest;137,900;AA37.900
+9-3-1924;pertussis;Kinkhoest;137,900;AA37.900
+9-3-1925;mazelen;Mazelen;205,900;BB05.900
+9-3-1931;pertussis broncho pneumonie;Kinkhoest met longontsteking;137,907;AA37.907
+9-4-1865;laryngitis stridulosa;Difterische croup;136,201;AA36.201
+9-4-1869;croup;Croup;136,204;JJ05.000
+9-4-1873;roodvonk;Roodvonk;138,000;AA38.000
+9-4-1892;tussis convulsivus;Kinkhoest;137,900;AA37.900
+9-4-1916;tussis convulsiones;Kinkhoest;137,900;AA37.900
+9-4-1916;kinkhoest;Kinkhoest;137,900;AA37.900
+9-4-1930;morbilli;Mazelen;205,900;BB05.900
+9-4-1934;scarlatinia;Roodvonk;138,000;AA38.000
+9-5-1877;croupe;Croup;136,204;JJ05.000
+9-5-1887;mazelen;Mazelen;205,900;BB05.900
+9-5-1887;pneumonia na mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+9-5-1897;pertussis;Kinkhoest;137,900;AA37.900
+9-5-1912;mazelen;Mazelen;205,900;BB05.900
+9-5-1915;tussis convulsiva;Kinkhoest;137,900;AA37.900
+9-6-1865;pokken;Pokken;203,000;BB03.000
+9-6-1865;pokken;Pokken;203,000;BB03.000
+9-6-1887;meningitis na mazelen;Mazelen gecompliceerd door meningitis;205,100;BB05.100
+9-6-1897;tussis convulsiva;Kinkhoest;137,900;AA37.900
+9-6-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+9-6-1910;mazelen;Mazelen;205,900;BB05.900
+9-6-1910;kinkhoest;Kinkhoest;137,900;AA37.900
+9-6-1953;bronchopneumonie bij mazelen;Mazelen gecompliceerd door pneumonie;205,200;BB05.200
+9-7-1866;cholera;Cholera;100,900;AA00.900
+9-7-1870;"kinkhoest; longontsteking";Kinkhoest met longontsteking;137,907;AA37.907
+9-7-1873;cholerine;Cholera;100,900;AA00.900
+9-7-1877;cholerine;Cholera;100,900;AA00.900
+9-7-1878;cholerine;Cholera;100,900;AA00.900
+9-7-1879;cholerine;Cholera;100,900;AA00.900
+9-7-1887;cholerine;Cholera;100,900;AA00.900
+9-7-1902;kinkhoest;Kinkhoest;137,900;AA37.900
+9-7-1905;roodvonk;Roodvonk;138,000;AA38.000
+9-7-1907;mazelen;Mazelen;205,900;BB05.900
+9-7-1936;diphterie;Difterie;136,900;AA36.900
+9-8-1869;longen oedema in het beloop van Brigtsche meren ziekte door roodvonk;Roodvonk met andere ziekte;138,009;AA38.009
+9-8-1871;scarlatina;Roodvonk;138,000;AA38.000
+9-8-1881;cholerine;Cholera;100,900;AA00.900
+9-8-1892;diphteritis;Difterie;136,900;AA36.900
+9-8-1900;pertussis;Kinkhoest;137,900;AA37.900
+9-8-1914;mazelen;Mazelen;205,900;BB05.900
+9-8-1916;difterie;Difterie;136,900;AA36.900
+9-8-1923;cholerine;Cholera;100,900;AA00.900
+9-9-1866;cholera;Cholera;100,900;AA00.900
+9-9-1866;cholera;Cholera;100,900;AA00.900
+9-9-1866;cholera;Cholera;100,900;AA00.900
+9-9-1866;cholera;Cholera;100,900;AA00.900
+9-9-1866;cholera;Cholera;100,900;AA00.900
+9-9-1866;cholera;Cholera;100,900;AA00.900
+9-9-1866;cholera;Cholera;100,900;AA00.900
+9-9-1866;cholera;Cholera;100,900;AA00.900
+9-9-1866;roodvonk;Roodvonk;138,000;AA38.000
+9-9-1900;cholerine;Cholera;100,900;AA00.900
+9-9-1914;mazelen;Mazelen;205,900;BB05.900
+9-9-1914;mazelen;Mazelen;205,900;BB05.900
