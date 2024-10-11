@@ -1,0 +1,101 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import polars as pl
+
+# Step 1: Load cause of death and population at risk data
+print("Loading CSV files...")
+try:
+    causeofdeathdata = pd.read_csv('validation/maastricht_causeofdeath.csv', sep=';')
+    maastrichtpopatrisk = pd.read_csv('validation/maastricht_popatrisk.csv', sep=';')
+except FileNotFoundError as e:
+    print(f"Error loading CSV files: {e}")
+    exit(1)
+
+# Step 2: Preprocess cause of death data
+print("Processing cause of death data...")
+causeofdeathdata['O_DATUM'] = pd.to_datetime(causeofdeathdata['O_DATUM'], dayfirst=True, errors='coerce')
+causeofdeathdata['Month_Year'] = causeofdeathdata['O_DATUM'].dt.to_period('M')
+causeofdeathdata['Year'] = causeofdeathdata['O_DATUM'].dt.to_period('Y')
+maastrichtpopatrisk['Year'] = pd.to_datetime(maastrichtpopatrisk['Year'], format='%Y').dt.to_period('Y')
+
+# Step 3: Merge with population data and rename columns for consistency
+print("Merging datasets...")
+causeofdeathdata = pd.merge(causeofdeathdata, maastrichtpopatrisk, on='Year', how='left')
+causeofdeathdata.rename(columns={'Gestandaardizeerde doodsoorzaak': 'causeofdeath', 'Mid-year pop': 'popatrisk'}, inplace=True)
+
+# Step 4: Calculate cholera death counts per Month_Year
+print("Calculating death counts and population at risk...")
+timeseries_counts = causeofdeathdata.groupby(['Month_Year', 'causeofdeath']).size().reset_index(name='death_count')
+timeseries_pivot = timeseries_counts.pivot(index='Month_Year', columns='causeofdeath', values='death_count').fillna(0)
+popatrisk_data = causeofdeathdata[['Month_Year', 'popatrisk']].drop_duplicates()
+timeseries_pivot = timeseries_pivot.merge(popatrisk_data, on='Month_Year', how='left')
+timeseries_pivot['cholera_pct_deaths'] = timeseries_pivot['Cholera'] / timeseries_pivot['popatrisk'] * 100
+timeseries_pivot['Month_Year'] = pd.to_datetime(timeseries_pivot['Month_Year'].astype(str))
+
+# Step 5: Define the query function for mentions of cholera in Maastricht
+print("Defining query function for mentions...")
+def query(disease: str, location: str, year_start: int = 1830, year_end: int = 1880):
+    df = pl.scan_parquet("processed_data/combined/*.parquet")
+    return (
+        df
+        .filter((pl.col("date").dt.year() >= year_start) & (pl.col("date").dt.year() <= year_end))
+        .with_columns([
+            pl.col("text").str.contains("(?i)" + disease).alias("disease"),
+            pl.col("text").str.contains("(?i)" + location).alias("location"),
+        ])
+        .with_columns([
+            pl.col("date").dt.year().alias("yr"),
+            pl.col("date").dt.month().alias("mo"),
+        ])
+        .group_by(["yr", "mo"])
+        .agg([
+            pl.len().alias("n_total"),
+            (pl.col("disease") & pl.col("location")).sum().alias("n_both"),
+        ])
+        .collect(streaming=True)
+    )
+
+# Step 6: Query cholera mentions
+print("Querying data for cholera mentions in Maastricht...")
+disease_query = "cholera"
+location_query = "maastr(ich.*|\\.)"
+mentions_df = query(disease_query, location_query).to_pandas()
+
+# Step 7: Process mentions data and check before plotting
+print("Processing mentions data for plotting...")
+mentions_df['Month_Year'] = pd.to_datetime(mentions_df['yr'].astype(str) + '-' + mentions_df['mo'].astype(str) + '-01')
+mentions_df['mentions_norm'] = mentions_df['n_both'] / mentions_df['n_total']
+
+# Step 8: Plot with two y-axes if data is available
+if mentions_df.empty or timeseries_pivot.empty:
+    print("No data available for plotting.")
+else:
+    print("Plotting data...")
+    fig, ax1 = plt.subplots(figsize=(10, 6))
+
+    # Plot normalized mentions of cholera on primary y-axis
+    ax1.plot(mentions_df['Month_Year'], mentions_df['mentions_norm'], color="blue", label="Cholera Mentions in Maastricht")
+    ax1.set_xlabel('Month-Year')
+    ax1.set_ylabel('Normalized Mentions of Cholera', color="blue")
+    ax1.tick_params(axis='y', labelcolor="blue")
+
+    # Plot cholera deaths on secondary y-axis
+    ax2 = ax1.twinx()
+    ax2.plot(timeseries_pivot['Month_Year'], timeseries_pivot['cholera_pct_deaths'], color="red", linestyle='--', marker='o', label="Cholera Deaths per 100 Population")
+    ax2.set_ylabel('Cholera Deaths per 100 Population', color="red")
+    ax2.tick_params(axis='y', labelcolor="red")
+
+    # Set x-axis major ticks for every two years
+    ax1.xaxis.set_major_locator(mdates.YearLocator(2))
+    ax1.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+    fig.autofmt_xdate()
+
+    # Add legends for both lines
+    ax1.legend(loc="upper left")
+    ax2.legend(loc="upper right")
+
+    plt.title("Cholera Mentions and Deaths Over Time in Maastricht")
+    plt.tight_layout()
+    plt.show()
+print("Script completed.")
