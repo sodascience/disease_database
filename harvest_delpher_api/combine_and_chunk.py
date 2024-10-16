@@ -26,22 +26,7 @@ def main():
 
     print(f"Combining and chunking from {start_year} to {end_year}.")
 
-    article_text_df = pl.scan_parquet(ARTICLE_TEXT_FOLDER / "*.parquet")
-    article_meta_df = pl.scan_parquet(ARTICLE_META_FOLDER / "*.parquet")
-    newspaper_meta_df = pl.scan_parquet(NEWSPAPER_META_FOLDER / "*.parquet")
-
-    # article_text_df.head().collect()
-    # article_meta_df.head().collect()
-    # newspaper_meta_df.head().collect()
-
-    # create master df with everything needed
-    final_df = article_meta_df.join(
-        article_text_df,
-        on="article_id",
-        how="left",
-    ).join(newspaper_meta_df, on="newspaper_id", how="left")
-
-    # write to chunked parquet files
+        # read chunks and write to chunked parquet files
     year_chunksize = 1
     for start_year in tqdm(range(start_year, end_year, year_chunksize)):
         out_path = (
@@ -51,6 +36,21 @@ def main():
         if out_path.exists():
             print(f"\n {out_path} already exists! skipping...")
             continue
+
+        article_text_df = pl.scan_parquet(ARTICLE_TEXT_FOLDER / f"article_texts_{start_year}*.parquet")
+        article_meta_df = pl.scan_parquet(ARTICLE_META_FOLDER / f"article_meta_{start_year}*.parquet")
+        newspaper_meta_df = pl.scan_parquet(NEWSPAPER_META_FOLDER / f"newspaper_meta_{start_year}*.parquet")
+
+        # article_text_df.head().collect()
+        # article_meta_df.head().collect()
+        # newspaper_meta_df.head().collect()
+
+        # create master df with everything needed
+        final_df = article_meta_df.join(
+            article_text_df,
+            on="article_id",
+            how="left",
+        ).join(newspaper_meta_df, on="newspaper_id", how="left")
 
         final_df.filter(
             pl.col("newspaper_date").dt.year() >= start_year,

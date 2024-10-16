@@ -8,6 +8,7 @@ from tqdm import tqdm
 from pathlib import Path
 import argparse
 
+
 ARTICLE_TEXT_FOLDER = Path("processed_data", "texts", "open_archive")
 ARTICLE_META_FOLDER = Path("processed_data", "metadata", "articles", "open_archive")
 NEWSPAPER_META_FOLDER = Path("processed_data", "metadata", "newspapers", "open_archive")
@@ -26,21 +27,6 @@ def main():
 
     print(f"Combining and chunking from {start_year} to {end_year}.")
 
-    article_text_df = pl.scan_parquet(ARTICLE_TEXT_FOLDER / "*.parquet")
-    article_meta_df = pl.scan_parquet(ARTICLE_META_FOLDER / "*.parquet")
-    newspaper_meta_df = pl.scan_parquet(NEWSPAPER_META_FOLDER / "*.parquet")
-
-    # article_text_df.head().collect()
-    # article_meta_df.head().collect()
-    # newspaper_meta_df.head().collect()
-
-    # create master df with everything needed
-    final_df = article_meta_df.join(
-        article_text_df,
-        on="article_id",
-        how="left",
-    ).join(newspaper_meta_df, on="newspaper_id", how="left")
-
     # write to chunked parquet files
     year_chunksize = 1
     for start_year in tqdm(range(start_year, end_year, year_chunksize)):
@@ -49,8 +35,24 @@ def main():
             / f"combined_{start_year}_{start_year + year_chunksize}.parquet"
         )
         if out_path.exists():
-            print(f"\n {out_path} already exists! skipping...")
+            print(f"\n {out_path} already exists! skipping...", stacklevel=2)
             continue
+        
+        article_text_df = pl.scan_parquet(ARTICLE_TEXT_FOLDER / f"article_texts_{str(start_year)[:-1]}*.parquet")
+        article_meta_df = pl.scan_parquet(ARTICLE_META_FOLDER / f"article_meta_{str(start_year)[:-1]}*.parquet")
+        newspaper_meta_df = pl.scan_parquet(NEWSPAPER_META_FOLDER / f"newspaper_meta_{str(start_year)[:-1]}*.parquet")
+
+        # article_text_df.head().collect()
+        # article_meta_df.head().collect()
+        # newspaper_meta_df.head().collect()
+
+        # create master df with everything needed
+        final_df = article_meta_df.join(
+            article_text_df,
+            on="article_id",
+            how="left",
+        ).join(newspaper_meta_df, on="newspaper_id", how="left")
+
 
         final_df.filter(
             pl.col("newspaper_date").dt.year() >= start_year,
