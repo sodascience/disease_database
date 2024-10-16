@@ -44,7 +44,7 @@ python process_open_archive/extract_article_data.py
 python process_open_archive/extract_meta_data.py
 ```
 
-Then, run `python data_conversion/combine_and_chunk.py` to join all the available datasets and create a yearly-chunked series of parquet files in the folder `processed_data/combined`.
+Then, run `python process_open_archive/combine_and_chunk.py` to join all the available datasets and create a yearly-chunked series of parquet files in the folder `processed_data/combined`.
 
 ## Data harvesting (1880-1940)
 After 1880, the data is not public. To harvest the data from delpher: 
