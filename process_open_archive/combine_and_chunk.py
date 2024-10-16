@@ -4,81 +4,55 @@ folder for performing data analysis.
 """
 import polars as pl
 from tqdm import tqdm
+from pathlib import Path
+import argparse
 
-out_folder = "processed_data/combined"
+ARTICLE_TEXT_FOLDER = Path("processed_data", "texts", "open_archive")
+ARTICLE_META_FOLDER = Path("processed_data", "metadata", "articles", "open_archive")
+NEWSPAPER_META_FOLDER = Path("processed_data", "metadata", "newspapers", "api_harvest")
 
-article_text_df = pl.scan_parquet("processed_data/texts/*.parquet")
-article_meta_df = pl.scan_parquet("processed_data/metadata/articles/*.parquet")
-journal_meta_df = pl.scan_parquet("processed_data/metadata/journals/*.parquet")
-
-
-article_text_df.head().collect()
-article_meta_df.head().collect()
-journal_meta_df.head().collect()
-
-# compute journal_id and article_id
-# for article text
-article_text_df = (
-    article_text_df.with_columns(
-        pl.col("file_name")
-        .str.split_exact("_", 2)
-        .struct.rename_fields(["ddd", "journal_id", "article_num"])
-        .alias("fields")
-    )
-    .unnest("fields")
-    .with_columns(
-        (pl.col("journal_id") + "_" + pl.col("article_num")).alias("article_id")
-    )
-    .select("journal_id", "article_id", "title", "text")
-)
-
-# for article meta
-article_meta_df = (
-    article_meta_df.with_columns(
-        pl.col("item_filename")
-        .str.split_exact("_", 2)
-        .struct.rename_fields(["ddd", "journal_id", "article_num"])
-        .alias("fields")
-    )
-    .unnest("fields")
-    .with_columns(
-        (pl.col("journal_id") + "_" + pl.col("article_num")).alias("article_id")
-    )
-    .filter(pl.col("item_filename").is_not_null())
-    .select("journal_id", "article_id", "item_subject", "item_type")
-)
-
-# for journal meta
-journal_meta_df = (
-    journal_meta_df.with_columns(
-        pl.col("newspaper_id")
-        .str.split_exact(":", 1)
-        .struct.rename_fields(["ddd", "journal_id"])
-        .alias("fields")
-    )
-    .unnest("fields")
-    .with_columns(pl.col("newspaper_date").alias("date"))
-    .select(pl.exclude("newspaper_id"))
-    .select("journal_id", "date", pl.selectors.starts_with("newspaper"), "pdf_link")
-)
+OUTPUT_FOLDER = Path("processed_data", "combined")
 
 
-# create master df with everything needed
-final_df = article_text_df.join(
-    article_meta_df.select(pl.exclude("journal_id")),
-    on="article_id",
-    how="left",
-).join(journal_meta_df, on="journal_id", how="left")
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--start_year", type=int, default=1830)
+    parser.add_argument("--end_year", type=int, default=1879)
+    
+    args = parser.parse_args()
+    start_year = args.start_year
+    end_year = args.end_year
 
-# write to chunked parquet files
-year_chunksize = 1
-for startyr in tqdm(range(1830, 1880, year_chunksize)):
-    endyr = startyr + year_chunksize
-    final_df.filter(
-        pl.col("date").dt.year() >= startyr, pl.col("date").dt.year() < endyr
-    ).sink_parquet(f"{out_folder}/combined_{startyr}_{endyr}.parquet")
+    print(f"Combining and chunking from {start_year} to {end_year}.")
+
+    article_text_df = pl.scan_parquet(ARTICLE_TEXT_FOLDER / "*.parquet")
+    article_meta_df = pl.scan_parquet(ARTICLE_META_FOLDER / "*.parquet")
+    newspaper_meta_df = pl.scan_parquet(NEWSPAPER_META_FOLDER / "*.parquet")
+
+    # article_text_df.head().collect()
+    # article_meta_df.head().collect()
+    # newspaper_meta_df.head().collect()
 
 
-df_final = pl.scan_parquet("processed_data/combined/*.parquet")
-df_final.head().collect()
-df_final.collect_schema()
+    # create master df with everything needed
+    final_df = article_meta_df.join(
+        article_text_df,
+        on="article_id",
+        how="left",
+    ).join(newspaper_meta_df, on="newspaper_id", how="left")
+
+    # write to chunked parquet files
+    year_chunksize = 1
+    for start_year in tqdm(range(start_year, end_year, year_chunksize)):
+        out_path = OUTPUT_FOLDER / f"combined_{start_year}_{start_year + year_chunksize}.parquet"
+        if out_path.exists():
+            print(f"\n {out_path} already exists! skipping...")
+            continue
+
+        final_df.filter(
+                pl.col("newspaper_date").dt.year() >= start_year, pl.col("newspaper_date").dt.year() < end_year
+        ).sink_parquet(out_path)
+
+
+if __name__ == "__main__":
+    main()
