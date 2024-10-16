@@ -1,59 +1,62 @@
-import polars as pl
-from pathlib import Path
+"""
+Combine the different extracted files and create a chunked parquet
+folder for performing data analysis.
+"""
 
-ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "api_harvest")
+import polars as pl
+from tqdm import tqdm
+from pathlib import Path
+import argparse
+
 ARTICLE_TEXT_FOLDER = Path("processed_data", "texts", "api_harvest")
+ARTICLE_META_FOLDER = Path("processed_data", "metadata", "articles", "api_harvest")
 NEWSPAPER_META_FOLDER = Path("processed_data", "metadata", "newspapers", "api_harvest")
 
+OUTPUT_FOLDER = Path("processed_data", "combined")
 
-article_ids = pl.scan_parquet(ARTICLE_ID_FOLDER / "*.parquet")
-article_texts = pl.scan_parquet(ARTICLE_TEXT_FOLDER / "*.parquet")
-journal_meta = pl.scan_parquet(NEWSPAPER_META_FOLDER / "*.parquet")
 
-# transform article ids
-article_df = (
-    article_ids.with_columns(
-        pl.col("article_id")
-        .str.split_exact(":", 4)
-        .struct.rename_fields(
-            ["journal_archive", "journal_id", "filetype", "article_num"]
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--start_year", type=int, default=1900)
+    parser.add_argument("--end_year", type=int, default=1919)
+
+    args = parser.parse_args()
+    start_year = args.start_year
+    end_year = args.end_year
+
+    print(f"Combining and chunking from {start_year} to {end_year}.")
+
+    article_text_df = pl.scan_parquet(ARTICLE_TEXT_FOLDER / "*.parquet")
+    article_meta_df = pl.scan_parquet(ARTICLE_META_FOLDER / "*.parquet")
+    newspaper_meta_df = pl.scan_parquet(NEWSPAPER_META_FOLDER / "*.parquet")
+
+    # article_text_df.head().collect()
+    # article_meta_df.head().collect()
+    # newspaper_meta_df.head().collect()
+
+    # create master df with everything needed
+    final_df = article_meta_df.join(
+        article_text_df,
+        on="article_id",
+        how="left",
+    ).join(newspaper_meta_df, on="newspaper_id", how="left")
+
+    # write to chunked parquet files
+    year_chunksize = 1
+    for start_year in tqdm(range(start_year, end_year, year_chunksize)):
+        out_path = (
+            OUTPUT_FOLDER
+            / f"combined_{start_year}_{start_year + year_chunksize}.parquet"
         )
-        .alias("fields")
-    )
-    .unnest("fields")
-    .with_columns(
-        (
-            pl.col("journal_id") + "_" + pl.col("article_num").str.extract("(\\d+)")
-        ).alias("article_id")
-    )
-    .select("journal_id", "article_id", "article_subject")
-)
+        if out_path.exists():
+            print(f"\n {out_path} already exists! skipping...")
+            continue
 
-# transform ids in texts
-text_df = (
-    article_texts.with_columns(
-        pl.col("article_id")
-        .str.split_exact(":", 4)
-        .struct.rename_fields(
-            ["journal_archive", "journal_id", "filetype", "article_num"]
-        )
-        .alias("fields")
-    )
-    .unnest("fields")
-    .with_columns(
-        (
-            pl.col("journal_id") + "_" + pl.col("article_num").str.extract("(\\d+)")
-        ).alias("article_id"),
-        pl.col("article_title").alias("title"),
-        pl.col("article_text").alias("text"),
-    )
-    .select("article_id", "title", "text")
-)
+        final_df.filter(
+            pl.col("newspaper_date").dt.year() >= start_year,
+            pl.col("newspaper_date").dt.year() < end_year,
+        ).sink_parquet(out_path)
 
-journal_df = ()
 
-final_df = article_ids.join(
-    article_texts, on="article_id", how="left", coalesce=True
-).join(journal_meta, on="newspaper_id", how="left", coalesce=True)
-
-pl.scan_parquet("processed_data/combined/*.parquet").head().collect()
+if __name__ == "__main__":
+    main()
