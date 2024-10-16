@@ -40,8 +40,8 @@ This results in two kinds of polars dataframes saved in parquet format under `pr
 Before you run the following script, make sure to put all the Delpher zip files under `raw_data`.
 
 ```
-python data_conversion/extract_article_data.py
-python data_conversion/extract_meta_data.py
+python process_open_archive/extract_article_data.py
+python process_open_archive/extract_meta_data.py
 ```
 
 Then, run `python data_conversion/combine_and_chunk.py` to join all the available datasets and create a yearly-chunked series of parquet files in the folder `processed_data/combined`.
@@ -49,8 +49,8 @@ Then, run `python data_conversion/combine_and_chunk.py` to join all the availabl
 ## Data harvesting (1880-1940)
 After 1880, the data is not public. To harvest the data from delpher: 
 
-1. Obtain an api key (which looks like this `df2e02aa-8504-4af2-b3d9-64d107f4479a`) from Delpher, then put the api key in the file `delpher_api/apikey.txt`.
-2. Harvest the data following readme in the delpher api folder: [delpher_api/readme.md](./delpher_api/README.md)
+1. Obtain an api key (which looks like this `df2e02aa-8504-4af2-b3d9-64d107f4479a`) from Delpher, then put the api key in the file `harvest_delpher_api/apikey.txt`.
+2. Harvest the data following readme in the delpher api folder: [harvest_delpher_api/readme.md](./harvest_delpher_api/README.md)
 
 
 ## Data analysis
@@ -64,7 +64,7 @@ This plot aligns quite nicely with the google ngram viewer, querying "cholera" i
 
 ## Additional data harvesting with Delpher API (1880-1940)
 For the years 1880 and onward, Dutch historical news articles can be harvested via the Delpher API. 
-See `delpher_api/README.md` for details. 
+See `harvest_delpher_api/README.md` for details. 
 
 ## Contact
 <img src="./img/soda_logo.png" alt="SoDa logo" width="250px"/>

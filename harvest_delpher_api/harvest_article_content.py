@@ -6,8 +6,8 @@ import argparse
 from utils_delpher_api import harvest_article_content
 from pathlib import Path
 
-ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "monthly_ids")
-ARTICLE_TEXT_FOLDER = Path("processed_data", "texts", "monthly_texts")
+ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "api_harvest")
+ARTICLE_TEXT_FOLDER = Path("processed_data", "texts", "api_harvest")
 
 
 def main():
