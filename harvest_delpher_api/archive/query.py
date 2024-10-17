@@ -18,7 +18,7 @@ xmlns = {
 }
 
 # NB: this file should contain the api key
-with open("delpher_api/keys.txt") as f:
+with open("harvest_delpher_api/keys.txt") as f:
     apikey = f.readline()
 
 # Search url is the base url with apikey appended
@@ -69,6 +69,7 @@ printel(articles[0])
 # Now, let's do some more automated querying!
 query = 'cholera AND amst* AND type="artikel"'
 
+
 def add_query_date(q, year: int, month: int):
     "Function to append a 1 month date range to a query"
     _, lastday = calendar.monthrange(year, month)
@@ -97,7 +98,7 @@ def find_num_records(q: str, year: int = 1860, month: int = 1):
 
 
 # Collect data
-tgt_file = "delpher_api/dataset_rotterdam.csv"
+tgt_file = "harvest_delpher_api/dataset_rotterdam.csv"
 with open(tgt_file, "a+") as file:
     # write the header
     # file.write("year,month,count\n")
@@ -111,7 +112,7 @@ with open(tgt_file, "a+") as file:
 
 
 # Create a plot of the data
-df = pl.read_csv("delpher_api/dataset.csv").with_columns(
+df = pl.read_csv("harvest_delpher_api/dataset.csv").with_columns(
     pl.date(pl.col("year"), pl.col("month"), 1).alias("date"),
     pl.col("count").cast(pl.Int64),
     pl.col("count").rolling_mean(6).alias("count_6m"),

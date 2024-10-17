@@ -11,7 +11,7 @@ from utils_delpher_api import harvest_article_ids, standardize_values, find_num_
 from pathlib import Path
 
 
-ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "monthly_ids")
+ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "api_harvest")
 
 
 def main():

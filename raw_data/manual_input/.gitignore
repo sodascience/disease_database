@@ -1,0 +1,8 @@
+*
+!.gitignore
+!readme.md
+
+# whitelist files that can be uploaded
+!query_names.xlsx
+!disease_search_terms.xlsx
+!municipalities_1869.xlsx

@@ -20,8 +20,8 @@ namespaces = {
 apikey = get_api_key()
 
 
-ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "monthly_ids")
-NEWSPAPER_META_FOLDER = Path("processed_data", "metadata", "newspapers", "monthly")
+ARTICLE_ID_FOLDER = Path("processed_data", "metadata", "articles", "api_harvest")
+NEWSPAPER_META_FOLDER = Path("processed_data", "metadata", "newspapers", "api_harvest")
 
 
 def main():
