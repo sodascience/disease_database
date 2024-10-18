@@ -21,6 +21,9 @@ def main():
     for zip_path in tqdm(zip_paths):
         out_file_suffix = zip_file_names_conversion_dict[zip_path.name]
         out_path = ARTICLE_TEXT_FOLDER / f"article_texts_{out_file_suffix}"
+        if out_path.exists():
+            print(f"\n {out_path} already exists! Skipping...")
+            continue
         convert_articles_from_zip_to_parquet(zip_path, out_path)
 
 
