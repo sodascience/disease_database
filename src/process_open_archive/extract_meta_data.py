@@ -27,6 +27,10 @@ for zip_path in zip_paths:
         NEWSPAPER_META_FOLDER / f"newspaper_meta_{out_file_suffix}"
     )
 
+    if output_file_path_article.exists() and output_file_path_newspaper.exists():
+        print(f"\n {output_file_path_article} and {output_file_path_newspaper} already exist! Skipping...")
+        continue
+
     newspapers_meta_data = []
     items_meta_data = []
 

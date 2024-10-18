@@ -35,7 +35,7 @@ def main():
             / f"combined_{start_year}_{start_year + year_chunksize}.parquet"
         )
         if out_path.exists():
-            print(f"\n {out_path} already exists! skipping...")
+            print(f"\n {out_path} already exists! Skipping...")
             continue
         
         article_text_df = pl.scan_parquet(ARTICLE_TEXT_FOLDER / f"article_texts_{str(start_year)[:-1]}*.parquet")

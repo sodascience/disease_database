@@ -6,13 +6,13 @@ Note that you need an API key for this, which should be specified as a `apikey.t
 ## Step 1: Harvest article and newspaper ids
 Run:
 ```
-python harvest_delpher_api/harvest_article_ids.py --start_year 1880 --end_year 1940
+python src/harvest_delpher_api/harvest_article_ids.py --start_year 1880 --end_year 1940
 ```
 
 or using uv:
 
 ```
-uv run harvest_delpher_api/harvest_article_ids.py --start_year 1880 --end_year 1940
+uv run src/harvest_delpher_api/harvest_article_ids.py --start_year 1880 --end_year 1940
 ```
 
 This script will harvest all article ids and their respective newspaper ids between 1880 and 1940,
@@ -22,13 +22,13 @@ Note that `--start_year` and `--end_year` are two parameters that you can set. T
 ## Step 2: Harvest article content
 Run:
 ```
-python harvest_delpher_api/harvest_article_content.py --start_year 1880 --end_year 1940
+python src/harvest_delpher_api/harvest_article_content.py --start_year 1880 --end_year 1940
 ```
 
 or using uv:
 
 ```
-uv run harvest_delpher_api/harvest_article_content.py --start_year 1880 --end_year 1940
+uv run src/harvest_delpher_api/harvest_article_content.py --start_year 1880 --end_year 1940
 ```
 
 This script will harvest all article titles and texts (if available) given the article ids we harvested in Step 1.
@@ -38,13 +38,13 @@ Three columns are included: `article_id`,  `article_title`, and `article_text`.
 ## Step 3: Harvest article and newspaper metadata
 Run
 ```
-python harvest_delpher_api/harvest_meta_data.py --start_year 1880 --end_year 1940
+python src/harvest_delpher_api/harvest_meta_data.py --start_year 1880 --end_year 1940
 ```
 
 or using uv:
 
 ```
-uv run harvest_delpher_api/harvest_meta_data.py --start_year 1880 --end_year 1940
+uv run src/harvest_delpher_api/harvest_meta_data.py --start_year 1880 --end_year 1940
 ```
 
 This script will harvest all article and newspaper metadata based on the newspaper ids we got from Step 1.
@@ -54,10 +54,10 @@ Included columns are: `newspaper_name`, `newspaper_location`, `newspaper_date`, 
 ## Step 4: Combine and chunk data (WIP)
 Run
 ```
-python process_open_archive/combine_and_chunk.py --start_year 1880 --end_year 1940
+python src/process_open_archive/combine_and_chunk.py --start_year 1880 --end_year 1940
 ```
 
 or using uv
 ```
-uv run process_open_archive/combine_and_chunk.py --start_year 1880 --end_year 1940
+uv run src/process_open_archive/combine_and_chunk.py --start_year 1880 --end_year 1940
 ```
