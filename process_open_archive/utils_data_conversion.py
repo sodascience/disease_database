@@ -6,16 +6,19 @@ import polars as pl
 import xml.etree.ElementTree as ET
 from tqdm import tqdm
 from datetime import datetime
+from pathlib import Path
 
-zip_file_names_conversion_dict = {"kranten_pd_183x.zip":   "1830_1839.parquet",
-                                  "kranten_pd_184x.zip":   "1840_1849.parquet",
-                                  "kranten_pd_1850-4.zip": "1850_1854.parquet",
-                                  "kranten_pd_1855-9.zip": "1855_1859.parquet",
-                                  "kranten_pd_1860-4.zip": "1860_1864.parquet",
-                                  "kranten_pd_1865-9.zip": "1865_1869.parquet",
-                                  "kranten_pd_1870-4.zip": "1870_1874.parquet",
-                                  "kranten_pd_1875-6.zip": "1875_1876.parquet",
-                                  "kranten_pd_1877-9.zip": "1877_1879.parquet"}
+zip_file_names_conversion_dict = {
+    "kranten_pd_183x.zip": "1830_1839.parquet",
+    "kranten_pd_184x.zip": "1840_1849.parquet",
+    "kranten_pd_1850-4.zip": "1850_1854.parquet",
+    "kranten_pd_1855-9.zip": "1855_1859.parquet",
+    "kranten_pd_1860-4.zip": "1860_1864.parquet",
+    "kranten_pd_1865-9.zip": "1865_1869.parquet",
+    "kranten_pd_1870-4.zip": "1870_1874.parquet",
+    "kranten_pd_1875-6.zip": "1875_1876.parquet",
+    "kranten_pd_1877-9.zip": "1877_1879.parquet",
+}
 
 # Define namespaces
 namespaces = {
@@ -29,26 +32,19 @@ namespaces = {
     "xs": "http://www.w3.org/2001/XMLSchema",
 }
 
-def make_dir(path):
-    if not os.path.exists(path):
-        makedirs(path)
-
-def convert_articles_from_zip_to_parquet(folder_path: str="raw_data/",
-                                         zip_file: str="kranten_pd_183x.zip"):
+def convert_articles_from_zip_to_parquet(
+    zip_path: Path = Path("raw_data", "kranten_pd_183x.zip"),
+    out_path: Path = Path(
+        "processed_data", "texts", "open_archive", "article_texts_1830_1839.parquet"
+    ),
+):
     "Function to read the article zip file, extract article ids and texts, and save as parquet"
-    # Path to delpher zip folder (don't unzip!)
-    source_path = f"{folder_path}{zip_file}"
-
-    out_file_suffix = zip_file_names_conversion_dict[zip_file]
-    out_folder = "processed_data/texts/from_1830_to_1879"
-    make_dir(out_folder)
-    output_path = f"{out_folder}/article_texts_{out_file_suffix}"
 
     # Results object to write to
     results = []
 
     # Open the zip file
-    with zipfile.ZipFile(source_path, "r") as zip_ref:
+    with zipfile.ZipFile(zip_path, "r") as zip_ref:
         # Iterate through each file in the zip archive
         for file_info in tqdm(zip_ref.infolist()):
             filename = os.path.basename(file_info.filename)
@@ -86,7 +82,8 @@ def convert_articles_from_zip_to_parquet(folder_path: str="raw_data/",
     df = pl.DataFrame(results)
 
     # Save the DataFrame as a Parquet file
-    df.write_parquet(output_path)
+    df.write_parquet(out_path)
+
 
 def extract_meta_data(root, namespaces):
     newspaper_meta_data = {}
@@ -118,7 +115,9 @@ def extract_meta_data(root, namespaces):
                 newspaper_meta_data["newspaper_location"] = None
             try:
                 newspaper_date = root.find(".//dc:date", namespaces).text
-                newspaper_meta_data["newspaper_date"] = datetime.strptime(newspaper_date, "%Y-%m-%d").date()
+                newspaper_meta_data["newspaper_date"] = datetime.strptime(
+                    newspaper_date, "%Y-%m-%d"
+                ).date()
             except AttributeError:
                 newspaper_meta_data["newspaper_date"] = None
             try:

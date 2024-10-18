@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, date
 from pathlib import Path
 
-API_KEY_FILE = Path("delpher_api", "apikey.txt")
+API_KEY_FILE = Path("harvest_delpher_api", "apikey.txt")
 
 
 def get_api_key():
@@ -27,10 +27,19 @@ def harvest_article_content(article_id):
         article_text = [p.text for p in soup.findAll("p")]
         article_text = " ".join(article_text)
         article_title = soup.find("title").text
-        return {"article_id": article_id, "article_title": article_title, "article_text": article_text}
+        return {
+            "article_id": article_id,
+            "article_title": article_title,
+            "article_text": article_text,
+        }
 
     except Exception as e:
-        return {"article_id": article_id, "article_title": repr(e), "article_text": None}
+        return {
+            "article_id": article_id,
+            "article_title": repr(e),
+            "article_text": None,
+        }
+
 
 def standardize_values(record):
     "Function to ensure all values are strings"
@@ -39,6 +48,7 @@ def standardize_values(record):
             record[key] = ", ".join(value)
     return record
 
+
 def add_query_date(query: str, year: int, month: int):
     "Function to append a 1 month date range to a query"
     _, last_day = calendar.monthrange(year, month)
@@ -46,11 +56,14 @@ def add_query_date(query: str, year: int, month: int):
     end = date(year, month, last_day)
     return f'{query} AND date within "{start.isoformat()} {end.isoformat()}"'
 
-def harvest_article_ids(query: str="*",
-                        year: int=1880,
-                        month: int=1,
-                        max_records: int=1000,
-                        start_record: int=1):
+
+def harvest_article_ids(
+    query: str = "*",
+    year: int = 1880,
+    month: int = 1,
+    max_records: int = 1000,
+    start_record: int = 1,
+):
     "Function to harvest articles records for a query in a given month of a year"
     query = add_query_date(query, year, month)
 
@@ -61,47 +74,50 @@ def harvest_article_ids(query: str="*",
 
     # customize session
     session = requests.Session()
-    session.params = {
-        "x-collection": "DDD_artikel"
-    }
+    session.params = {"x-collection": "DDD_artikel"}
 
     # pass the customized session to sruthi
     # and specify other parameters
     client = sruthi.Client(
         url=search_url,
-        record_schema='dc',
-        sru_version='1.1',
+        record_schema="dc",
+        sru_version="1.1",
         maximum_records=max_records,
-        session=session
+        session=session,
     )
 
     # harvest records
-    records = client.searchretrieve(query=query,
-                                    start_record=start_record)
+    records = client.searchretrieve(query=query, start_record=start_record)
 
     return records
 
 
-
 def get_metadata_url(apikey, prefix, identifier):
     "Function to obtain the correct oai url of a newspaper issue"
-    if prefix == 'ddd':
-        url = f"http://services.kb.nl/mdo/oai/{apikey}?verb=GetRecord&" \
-              f"identifier=DDD:ddd:{identifier}&metadataPrefix=didl"
-    elif prefix == 'abcddd':
-        url = f"http://services.kb.nl/mdo/oai/{apikey}?verb=GetRecord&" \
-              f"identifier=KRANTEN:DDD:ddd:{identifier}&metadataPrefix=didl"
+    if prefix == "ddd":
+        url = (
+            f"http://services.kb.nl/mdo/oai/{apikey}?verb=GetRecord&"
+            f"identifier=DDD:ddd:{identifier}&metadataPrefix=didl"
+        )
+    elif prefix == "abcddd":
+        url = (
+            f"http://services.kb.nl/mdo/oai/{apikey}?verb=GetRecord&"
+            f"identifier=KRANTEN:DDD:ddd:{identifier}&metadataPrefix=didl"
+        )
     else:
-        url = f"http://services.kb.nl/mdo/oai/{apikey}?verb=GetRecord&" \
-              f"identifier=KRANTEN:{prefix.upper()}:{prefix.upper()}:{identifier}&metadataPrefix=didl"
+        url = (
+            f"http://services.kb.nl/mdo/oai/{apikey}?verb=GetRecord&"
+            f"identifier=KRANTEN:{prefix.upper()}:{prefix.upper()}:{identifier}&metadataPrefix=didl"
+        )
 
     return url
+
 
 def retrieve_newspaper_metadata(oai_url, namespaces):
     "Function to retrieve the metadata of a newspaper issue"
     # Send a request to the OAI link
     response = requests.get(oai_url)
-    response.encoding = 'utf-8'
+    response.encoding = "utf-8"
     content = response.text
 
     # Check if the request was successful
@@ -120,8 +136,10 @@ def retrieve_newspaper_metadata(oai_url, namespaces):
 
     newspaper_meta_data = {}
     # Get first level element of the newspaper
-    newspaper_component = root.find('oai:GetRecord/oai:record/oai:metadata/didl:DIDL/didl:Item/didl:Component',
-                                    namespaces)
+    newspaper_component = root.find(
+        "oai:GetRecord/oai:record/oai:metadata/didl:DIDL/didl:Item/didl:Component",
+        namespaces,
+    )
     # newspaper_id = newspaper_component.get(f'{{{namespaces.get("dc")}}}identifier')
     # newspaper_meta_data["newspaper_id"] = newspaper_id
 
@@ -139,7 +157,9 @@ def retrieve_newspaper_metadata(oai_url, namespaces):
         newspaper_meta_data["newspaper_location"] = None
     try:
         newspaper_date = root.find(".//dc:date", namespaces).text
-        newspaper_meta_data["newspaper_date"] = datetime.strptime(newspaper_date, "%Y-%m-%d").date()
+        newspaper_meta_data["newspaper_date"] = datetime.strptime(
+            newspaper_date, "%Y-%m-%d"
+        ).date()
     except AttributeError:
         newspaper_meta_data["newspaper_date"] = None
     try:
@@ -202,10 +222,10 @@ def find_num_records(query: str, year: int = 1860, month: int = 1):
     # and specify other parameters
     client = sruthi.Client(
         url=search_url,
-        record_schema='dc',
-        sru_version='1.1',
+        record_schema="dc",
+        sru_version="1.1",
         maximum_records=1,
-        session=session
+        session=session,
     )
 
     # harvest records

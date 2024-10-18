@@ -11,6 +11,7 @@ dependencies = [
     "matplotlib>=3.9.2",
     "plotnine>=0.13.6",
     "polars>=1.9.0",
+    "pyarrow>=17.0.0",
     "pyqt6>=6.7.1",
     "requests>=2.32.3",
     "ruff>=0.6.9",
