@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.12.3",
+    "cmake>=3.30.4",
     "ipython>=8.28.0",
     "lxml>=5.3.0",
     "matplotlib>=3.9.2",
