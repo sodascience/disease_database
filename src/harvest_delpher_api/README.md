@@ -54,10 +54,10 @@ Included columns are: `newspaper_name`, `newspaper_location`, `newspaper_date`, 
 ## Step 4: Combine and chunk data (WIP)
 Run
 ```
-python src/process_open_archive/combine_and_chunk.py --start_year 1880 --end_year 1940
+python src/harvest_delpher_api/combine_and_chunk.py --start_year 1880 --end_year 1940
 ```
 
 or using uv
 ```
-uv run src/process_open_archive/combine_and_chunk.py --start_year 1880 --end_year 1940
+uv run src/harvest_delpher_api/combine_and_chunk.py --start_year 1880 --end_year 1940
 ```
