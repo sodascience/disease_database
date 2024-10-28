@@ -3,7 +3,7 @@
 
 Creating a historical disease database (19th-20th century) for municipalities in the Netherlands.
 
-![](img/cholera.png)
+![Cholera in the Netherlands](maps/cholera_1864_1868.png)
 
 ## Preparation
 
