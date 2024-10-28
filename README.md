@@ -63,13 +63,9 @@ After 1880, the data is not public and can only be obtained through the Delpher 
 2. Harvest the data following readme in the delpher api folder: [src/harvest_delpher_api/readme.md](./src/harvest_delpher_api/README.md)
 
 ## Data analysis
-The script `src/query/query.py` uses the prepared combined data to search for mentions of diseases and locations in articles. The file produces the plot shown above. It also produces this plot about Leiden:
+The script `src/query/faster_query.py` uses the prepared combined data to search for mentions of diseases and locations in articles. The file produces the plot shown above. It also produces this plot about Utrecht:
 
-![](img/leiden.png)
-
-This plot aligns quite nicely with the google ngram viewer, querying "cholera" in an English, German, and French corpus ([click here to see interactively](https://books.google.com/ngrams/graph?content=cholera%3Aeng%2CCholera%3Ager%2Cchol%C3%A9ra%3Afre&year_start=1830&year_end=1880&corpus=en&smoothing=0))
-
-![](img/ngram_cholera.png)
+![](img/cholera_utrecht_full.png)
 
 ## Contact
 <img src="./img/soda_logo.png" alt="SoDa logo" width="250px"/>
