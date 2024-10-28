@@ -8,7 +8,7 @@ import numpy as np
 COMBINED_DATA_FOLDER = Path("processed_data", "combined")
 
 
-disease_query = r"ty(ph|f)(us|euz.)|febris.?typhoidea|kwaadaardige.*koorts"
+disease_query = r"cholera"
 location_query = r"amste[rl]da.*|amst\."
 
 
@@ -20,10 +20,10 @@ def collect_year(disease: str, location: str, year: int = 1830):
         .filter(
             pl.col("newspaper_date").dt.year() >= year,
             pl.col("newspaper_date").dt.year() <= year,
+            pl.col("article_text").str.contains(LOC),
         )
         .with_columns(
             pl.col("article_text").str.contains(DIS).alias("disease"),
-            pl.col("article_text").str.contains(LOC).alias("location"),
         )
         .sort(pl.col("newspaper_date"))
         .with_columns(
@@ -32,10 +32,8 @@ def collect_year(disease: str, location: str, year: int = 1830):
         )
         .group_by(["yr", "mo"])
         .agg(
-            pl.len().alias("n_total"),
-            pl.col("disease").sum().alias("n_disease"),
-            pl.col("location").sum().alias("n_location"),
-            (pl.col("disease") & pl.col("location")).sum().alias("n_both"),
+            pl.len().alias("n_location"),
+            pl.col("disease").sum().alias("n_both"),
         )
         .collect()
     )
@@ -100,3 +98,4 @@ plt = (
 )
 
 plt.show()
+
