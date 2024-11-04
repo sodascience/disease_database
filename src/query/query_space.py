@@ -11,7 +11,7 @@ LOCATION_EXCEL_FILE = Path("raw_data", "manual_input", "municipalities_1869.xlsx
 
 def query_space(disease_query: str, year: int):
     # iterate over each municipality
-    muni_df = pl.read_excel(BASE_PATH / LOCATION_EXCEL_FILE).head()
+    muni_df = pl.read_excel(BASE_PATH / LOCATION_EXCEL_FILE)
     text_df = pl.scan_parquet(
         BASE_PATH / COMBINED_DATA_FOLDER / f"combined_{year}_{year + 1}.parquet"
     )
@@ -39,6 +39,4 @@ def query_space(disease_query: str, year: int):
 
 res = query_space(r"choler.*|krim.?koorts", 1866)
 
-res.sort(["Municipality", "yr", "mo"])
-
-res.write_parquet(Path("processed_data", "cholera_1866.parquet"))
+res.sort(["Municipality", "yr", "mo"]).write_parquet(Path("processed_data", "cholera_1866.parquet"))
