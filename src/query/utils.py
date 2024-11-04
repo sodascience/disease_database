@@ -2,18 +2,18 @@ import polars as pl
 from scipy.stats import beta
 import numpy as np
 
-def collect_year(disease: str, location: str, year: int = 1830):
-    DIS = "(?i)" + disease
-    LOC = "(?i)" + location
+
+def query_disease_location_year(
+    df_lazy: pl.LazyFrame, disease: str, location: str, year: int
+):
     return (
-        pl.scan_parquet(COMBINED_DATA_FOLDER / f"combined_{year}_{year + 1}.parquet")
-        .filter(
+        df_lazy.filter(
             pl.col("newspaper_date").dt.year() >= year,
             pl.col("newspaper_date").dt.year() <= year,
-            pl.col("article_text").str.contains(LOC),
+            pl.col("article_text").str.contains(location),
         )
         .with_columns(
-            pl.col("article_text").str.contains(DIS).alias("disease"),
+            pl.col("article_text").str.contains(disease).alias("disease"),
         )
         .sort(pl.col("newspaper_date"))
         .with_columns(
@@ -27,6 +27,7 @@ def collect_year(disease: str, location: str, year: int = 1830):
         )
         .collect()
     )
+
 
 def compute_binomial_interval(
     successes: pl.Series, tries: pl.Series, alpha: float = 0.95
