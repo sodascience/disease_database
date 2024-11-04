@@ -2,30 +2,40 @@ import zipfile
 from tqdm import tqdm
 import xml.etree.ElementTree as ET
 import polars as pl
-from utils_data_conversion import extract_meta_data, namespaces, zip_file_names_conversion_dict, make_dir
-import os
+from utils_data_conversion import (
+    extract_meta_data,
+    namespaces,
+    zip_file_names_conversion_dict,
+)
+from pathlib import Path
 
-# Specify the directory you want to scan
-source_folder_path = "raw_data/"
-# List comprehension to scan for all zip files in the specified directory
-zip_files = [file for file in os.listdir(source_folder_path) if file.endswith(".zip")]
+# specify paths for source and output folders
+SOURCE_FOLDER = Path("raw_data", "open_archive")
+NEWSPAPER_META_FOLDER = Path("processed_data", "metadata", "newspapers", "open_archive")
+ARTICLE_META_FOLDER = Path("processed_data", "metadata", "articles", "open_archive")
 
-for zip_file in zip_files:
+
+# find all zip files
+zip_paths = list(SOURCE_FOLDER.glob("*.zip"))
+for zip_path in zip_paths:
     # Path to delpher zip folder (don't unzip!)
-    source_file_path = f"{source_folder_path}/{zip_file}"
-    out_file_suffix = zip_file_names_conversion_dict[zip_file]
-    output_folder_path_article = "processed_data/metadata/articles/from_1830_to_1879"
-    make_dir(output_folder_path_article)
-    output_file_path_article = f"{output_folder_path_article}/article_meta_{out_file_suffix}"
-    output_folder_path_newspaper = "processed_data/metadata/newspapers/from_1830_to_1879"
-    make_dir(output_folder_path_newspaper)
-    output_file_path_newspaper = f"{output_folder_path_newspaper}/newspaper_meta_{out_file_suffix}"
+    out_file_suffix = zip_file_names_conversion_dict[zip_path.name]
+    ARTICLE_META_FOLDER.mkdir(exist_ok=True)
+    output_file_path_article = ARTICLE_META_FOLDER / f"article_meta_{out_file_suffix}"
+    NEWSPAPER_META_FOLDER.mkdir(exist_ok=True)
+    output_file_path_newspaper = (
+        NEWSPAPER_META_FOLDER / f"newspaper_meta_{out_file_suffix}"
+    )
+
+    if output_file_path_article.exists() and output_file_path_newspaper.exists():
+        print(f"\n {output_file_path_article} and {output_file_path_newspaper} already exist! Skipping...")
+        continue
 
     newspapers_meta_data = []
     items_meta_data = []
 
     # Open the zip file
-    with zipfile.ZipFile(source_file_path, "r") as zip_ref:
+    with zipfile.ZipFile(zip_path, "r") as zip_ref:
         # Iterate through each file in the zip archive
         for file_info in tqdm(zip_ref.infolist()):
             filename = file_info.filename
