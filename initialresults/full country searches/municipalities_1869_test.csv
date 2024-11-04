@@ -1,0 +1,12 @@
+﻿Regex;name;cbscode;amsterdamcode;pop
+(?:[^a-zA-Z]|\b)aagtekerke(?:[^a-zA-Z]|\b);Aagtekerke;1000;10531;330
+(?:[^a-zA-Z]|\b)aalsmeer(?:[^a-zA-Z]|\b);Aalsmeer;358;11264;3362
+(?:[^a-zA-Z]|\b)aalst(?:[^a-zA-Z]|\b);Aalst;1001;11423;
+(?:[^a-zA-Z]|\b)aalten(?:[^a-zA-Z]|\b);Aalten;197;11046;4474
+(?:[^a-zA-Z]|\b)aardenburg(?:[^a-zA-Z]|\b);Aardenburg;648;11020;816
+(?:[^a-zA-Z]|\b)aarlanderveen(?:[^a-zA-Z]|\b);Aarlanderveen;1002;11242;
+(?:[^a-zA-Z]|\b)aarle.?rixtel(?:[^a-zA-Z]|\b);Aarle-Rixtel;739;10757;1112
+(?:[^a-zA-Z]|\b)abbekerk(?:[^a-zA-Z]|\b);Abbekerk;359;10439;307
+(?:[^a-zA-Z]|\b)abbenbroek(?:[^a-zA-Z]|\b);Abbenbroek;481;11026;265
+(?:[^a-zA-Z]|\b)abcoude.?baambrugge(?:[^a-zA-Z]|\b);Abcoude-Baambrugge;1003;11184;584
+(?:[^a-zA-Z]|\b)abcoude.?proostd(ij|y)(?:[^a-zA-Z]|\b);Abcoude-Proosdij;1004;10712;659

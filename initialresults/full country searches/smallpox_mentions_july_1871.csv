@@ -1,0 +1,1135 @@
+Location_Regex,name,cbscode,amsterdamcode,n_both,n_total,Normalized_Mentions
+(?:[^a-zA-Z]|\b)aagtekerke(?:[^a-zA-Z]|\b),Aagtekerke,1000,10531,0,0,0.0
+(?:[^a-zA-Z]|\b)aalsmeer(?:[^a-zA-Z]|\b),Aalsmeer,358,11264,0,29,0.0
+(?:[^a-zA-Z]|\b)aalst(?:[^a-zA-Z]|\b),Aalst,1001,11423,0,24,0.0
+(?:[^a-zA-Z]|\b)aalten(?:[^a-zA-Z]|\b),Aalten,197,11046,0,13,0.0
+(?:[^a-zA-Z]|\b)aardenburg(?:[^a-zA-Z]|\b),Aardenburg,648,11020,0,6,0.0
+(?:[^a-zA-Z]|\b)aarlanderveen(?:[^a-zA-Z]|\b),Aarlanderveen,1002,11242,0,4,0.0
+(?:[^a-zA-Z]|\b)aarle.?rixtel(?:[^a-zA-Z]|\b),Aarle-Rixtel,739,10757,0,7,0.0
+(?:[^a-zA-Z]|\b)abbekerk(?:[^a-zA-Z]|\b),Abbekerk,359,10439,0,3,0.0
+(?:[^a-zA-Z]|\b)abbenbroek(?:[^a-zA-Z]|\b),Abbenbroek,481,11026,0,0,0.0
+(?:[^a-zA-Z]|\b)abcoude.?baambrugge(?:[^a-zA-Z]|\b),Abcoude-Baambrugge,1003,11184,0,0,0.0
+(?:[^a-zA-Z]|\b)abcoude.?proostd(ij|y)(?:[^a-zA-Z]|\b),Abcoude-Proosdij,1004,10712,0,0,0.0
+(?:[^a-zA-Z]|\b)achtkarspelen(?:[^a-zA-Z]|\b),Achtkarspelen,59,10199,0,4,0.0
+(?:[^a-zA-Z]|\b)achttienhoven(?:[^a-zA-Z]|\b),Achttienhoven (U.),1005,10524,0,0,0.0
+(?:[^a-zA-Z]|\b)adorp(?:[^a-zA-Z]|\b),Adorp,1,10996,0,1,0.0
+(?:[^a-zA-Z]|\b)aduard(?:[^a-zA-Z]|\b),Aduard,2,10999,0,5,0.0
+(?:[^a-zA-Z]|\b)aengwirden(?:[^a-zA-Z]|\b),Aengwirden,1006,10157,0,0,0.0
+(?:[^a-zA-Z]|\b)akersloot(?:[^a-zA-Z]|\b),Akersloot,360,10346,0,5,0.0
+(?:[^a-zA-Z]|\b)alblasserdam(?:[^a-zA-Z]|\b),Alblasserdam,482,11327,0,13,0.0
+(?:[^a-zA-Z]|\b)alem.?maren.?en.?kessel(?:[^a-zA-Z]|\b),"Alem, Maren en Kessel",1007,10495,0,0,0.0
+(?:[^a-zA-Z]|\b)alkemade(?:[^a-zA-Z]|\b),Alkemade,483,10349,0,9,0.0
+(?:[^a-zA-Z]|\b)alkmaar(?:[^a-zA-Z]|\b),Alkmaar,361,10527,0,158,0.0
+(?:[^a-zA-Z]|\b)almkerk(?:[^a-zA-Z]|\b),Almkerk,740,10788,0,14,0.0
+(?:[^a-zA-Z]|\b)alphen(?:[^a-zA-Z]|\b),Alphen,1008,10517,0,84,0.0
+(?:[^a-zA-Z]|\b)alphen.?en.?riel(?:[^a-zA-Z]|\b),Alphen en Riel,741,10710,0,0,0.0
+(?:[^a-zA-Z]|\b)delden(?:[^a-zA-Z]|\b),Ambt Delden,142,11400,0,87,0.0
+(?:[^a-zA-Z]|\b)almelo(?:[^a-zA-Z]|\b),Ambt-Almelo,1009,11065,0,192,0.0
+(?:[^a-zA-Z]|\b)doetin?chem(?:[^a-zA-Z]|\b),Ambt-Doetinchem,1010,10396,0,56,0.0
+(?:[^a-zA-Z]|\b)hardenberg(?:[^a-zA-Z]|\b),Ambt-Hardenberg,1011,10174,0,39,0.0
+(?:[^a-zA-Z]|\b)ommen(?:[^a-zA-Z]|\b),Ambt-Ommen,1012,11069,0,73,0.0
+(?:[^a-zA-Z]|\b)vollenhove(?:[^a-zA-Z]|\b),Ambt-Vollenhove,1013,11088,0,24,0.0
+(?:[^a-zA-Z]|\b)amb(ij|y)(?:[^a-zA-Z]|\b),Amby,883,10922,0,0,0.0
+(?:[^a-zA-Z]|\b)ameide(?:[^a-zA-Z]|\b),Ameide,485,11349,0,5,0.0
+(?:[^a-zA-Z]|\b)ameland(?:[^a-zA-Z]|\b),Ameland,60,11153,0,22,0.0
+(?:[^a-zA-Z]|\b)amerongen(?:[^a-zA-Z]|\b),Amerongen,306,11372,0,48,0.0
+(?:[^a-zA-Z]|\b)amersfoort(?:[^a-zA-Z]|\b),Amersfoort,307,10948,0,170,0.0
+(?:[^a-zA-Z]|\b)ammerstol(?:[^a-zA-Z]|\b),Ammerstol,486,10863,0,6,0.0
+(?:[^a-zA-Z]|\b)ammerzoden(?:[^a-zA-Z]|\b),Ammerzoden,198,10151,0,1,0.0
+(?:[^a-zA-Z]|\b)amstenrade(?:[^a-zA-Z]|\b),Amstenrade,884,10062,0,0,0.0
+(?:[^a-zA-Z]|\b)amste.?dam(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)amst\.(?:[^a-zA-Z]|\b),Amsterdam,363,11150,7,2530,0.002766798418972332
+(?:[^a-zA-Z]|\b)andel(?:[^a-zA-Z]|\b),Andel,742,10871,0,33,0.0
+(?:[^a-zA-Z]|\b)and(ij|y)k(?:[^a-zA-Z]|\b),Andijk,364,10822,0,2,0.0
+(?:[^a-zA-Z]|\b)angerlo(?:[^a-zA-Z]|\b),Angerlo,199,11131,0,4,0.0
+(?:[^a-zA-Z]|\b)ankeveen(?:[^a-zA-Z]|\b),Ankeveen,1014,10936,0,4,0.0
+(?:[^a-zA-Z]|\b)anlo(?:[^a-zA-Z]|\b),Anloo,105,10787,0,7,0.0
+(?:[^a-zA-Z]|\b)apeldoorn(?:[^a-zA-Z]|\b),Apeldoorn,200,11075,0,89,0.0
+(?:[^a-zA-Z]|\b)appeltern(?:[^a-zA-Z]|\b),Appeltern,201,11296,0,0,0.0
+(?:[^a-zA-Z]|\b)appingedam(?:[^a-zA-Z]|\b),Appingedam,3,10886,0,19,0.0
+(?:[^a-zA-Z]|\b)arcen.?en.?velden(?:[^a-zA-Z]|\b),Arcen en Velden,885,10202,0,3,0.0
+(?:[^a-zA-Z]|\b)arkel(?:[^a-zA-Z]|\b),Arkel,487,10079,0,4,0.0
+(?:[^a-zA-Z]|\b)arnemuiden(?:[^a-zA-Z]|\b),Arnemuiden,649,11419,0,18,0.0
+(?:[^a-zA-Z]|\b)arnh(em|\.)(?:[^a-zA-Z]|\b),Arnhem,202,10795,0,781,0.0
+(?:[^a-zA-Z]|\b)asperen(?:[^a-zA-Z]|\b),Asperen,488,11369,0,19,0.0
+(?:[^a-zA-Z]|\b)assen(?:[^a-zA-Z]|\b),Assen,106,10522,1,338,0.0029585798816568047
+(?:[^a-zA-Z]|\b)assendelft(?:[^a-zA-Z]|\b),Assendelft,367,11373,0,17,0.0
+(?:[^a-zA-Z]|\b)asten(?:[^a-zA-Z]|\b),Asten,743,10478,0,24,0.0
+(?:[^a-zA-Z]|\b)avenhorn(?:[^a-zA-Z]|\b),Avenhorn,368,11147,0,11,0.0
+(?:[^a-zA-Z]|\b)avereest(?:[^a-zA-Z]|\b),Avereest,143,11190,0,21,0.0
+(?:[^a-zA-Z]|\b)axel(?:[^a-zA-Z]|\b),Axel,650,11289,0,20,0.0
+(?:[^a-zA-Z]|\b)baarderadeel(?:[^a-zA-Z]|\b),Baarderadeel,61,10422,0,8,0.0
+(?:[^a-zA-Z]|\b)baardw(ij|y)k(?:[^a-zA-Z]|\b),Baardwijk,1015,10006,0,2,0.0
+(?:[^a-zA-Z]|\b)baarland(?:[^a-zA-Z]|\b),Baarland,651,10634,0,19,0.0
+(?:[^a-zA-Z]|\b)baarle.?nassau(?:[^a-zA-Z]|\b),Baarle-Nassau,744,10060,0,2,0.0
+(?:[^a-zA-Z]|\b)baarn(?:[^a-zA-Z]|\b),Baarn,308,11411,0,3,0.0
+(?:[^a-zA-Z]|\b)baexem(?:[^a-zA-Z]|\b),Baexem,886,11255,0,2,0.0
+(?:[^a-zA-Z]|\b)baflo(?:[^a-zA-Z]|\b),Baflo,4,10539,0,3,0.0
+(?:[^a-zA-Z]|\b)bakel.?en.?milheeze(?:[^a-zA-Z]|\b),Bakel en Milheeze,745,10749,0,3,0.0
+(?:[^a-zA-Z]|\b)balgo(ij|y)(?:[^a-zA-Z]|\b),Balgoij,1016,10849,0,0,0.0
+(?:[^a-zA-Z]|\b)barneveld(?:[^a-zA-Z]|\b),Barneveld,203,10906,1,36,0.027777777777777776
+(?:[^a-zA-Z]|\b)barradeel(?:[^a-zA-Z]|\b),Barradeel,62,10156,0,7,0.0
+(?:[^a-zA-Z]|\b)barsingerhorn(?:[^a-zA-Z]|\b),Barsingerhorn,369,10973,0,6,0.0
+(?:[^a-zA-Z]|\b)barwoutswaarder(?:[^a-zA-Z]|\b),Barwoutswaarder,1017,10447,0,0,0.0
+(?:[^a-zA-Z]|\b)batenburg(?:[^a-zA-Z]|\b),Batenburg,204,10921,0,30,0.0
+(?:[^a-zA-Z]|\b)bath(?:[^a-zA-Z]|\b),Bath,1018,10623,0,6,0.0
+(?:[^a-zA-Z]|\b)bathmen(?:[^a-zA-Z]|\b),Bathmen,144,11030,0,3,0.0
+(?:[^a-zA-Z]|\b)bedum(?:[^a-zA-Z]|\b),Bedum,5,10425,0,3,0.0
+(?:[^a-zA-Z]|\b)beegden(?:[^a-zA-Z]|\b),Beegden,887,11089,0,5,0.0
+(?:[^a-zA-Z]|\b)beek(?:[^a-zA-Z]|\b),Beek (L.),888,11374,0,139,0.0
+(?:[^a-zA-Z]|\b)beek.?en.?donk(?:[^a-zA-Z]|\b),Beek en Donk,746,10173,0,16,0.0
+(?:[^a-zA-Z]|\b)beemster(?:[^a-zA-Z]|\b),Beemster,370,10816,0,19,0.0
+(?:[^a-zA-Z]|\b)beers(?:[^a-zA-Z]|\b),Beers,747,11410,0,10,0.0
+(?:[^a-zA-Z]|\b)beerta(?:[^a-zA-Z]|\b),Beerta,6,11043,0,17,0.0
+(?:[^a-zA-Z]|\b)beesd(?:[^a-zA-Z]|\b),Beesd,205,10259,0,3,0.0
+(?:[^a-zA-Z]|\b)beesel(?:[^a-zA-Z]|\b),Beesel,889,10195,0,7,0.0
+(?:[^a-zA-Z]|\b)beets(?:[^a-zA-Z]|\b),Beets,371,10536,0,20,0.0
+(?:[^a-zA-Z]|\b)beilen(?:[^a-zA-Z]|\b),Beilen,107,10520,0,35,0.0
+(?:[^a-zA-Z]|\b)belfeld(?:[^a-zA-Z]|\b),Belfeld,890,10292,0,4,0.0
+(?:[^a-zA-Z]|\b)bellingewolde(?:[^a-zA-Z]|\b),Bellingwolde,1019,10340,0,0,0.0
+(?:[^a-zA-Z]|\b)bemelen(?:[^a-zA-Z]|\b),Bemelen,891,10878,0,0,0.0
+(?:[^a-zA-Z]|\b)bemmel(?:[^a-zA-Z]|\b),Bemmel,206,10744,0,37,0.0
+(?:[^a-zA-Z]|\b)bennebroek(?:[^a-zA-Z]|\b),Bennebroek,372,10734,0,1,0.0
+(?:[^a-zA-Z]|\b)benschop(?:[^a-zA-Z]|\b),Benschop,309,11330,0,1,0.0
+(?:[^a-zA-Z]|\b)benthuizen(?:[^a-zA-Z]|\b),Benthuizen,490,10398,0,3,0.0
+(?:[^a-zA-Z]|\b)berg.?en.?terbl(ij|y)t(?:[^a-zA-Z]|\b),Berg en Terblijt,892,10796,0,0,0.0
+(?:[^a-zA-Z]|\b)bergambacht(?:[^a-zA-Z]|\b),Bergambacht,491,10962,0,1,0.0
+(?:[^a-zA-Z]|\b)bergen(?:[^a-zA-Z]|\b),Bergen (L.),893,11281,0,199,0.0
+(?:[^a-zA-Z]|\b)bergen(?:[^a-zA-Z]|\b),Bergen (NH.),373,11424,0,199,0.0
+(?:[^a-zA-Z]|\b)berg(.?)en.?op.?zoom(?:[^a-zA-Z]|\b),Bergen op Zoom,748,11037,0,115,0.0
+(?:[^a-zA-Z]|\b)berge(ij|y)k(?:[^a-zA-Z]|\b),Bergeyk,749,11160,0,5,0.0
+(?:[^a-zA-Z]|\b)bergh(?:[^a-zA-Z]|\b),Bergh,207,10350,0,78,0.0
+(?:[^a-zA-Z]|\b)bergharen(?:[^a-zA-Z]|\b),Bergharen,208,10883,0,0,0.0
+(?:[^a-zA-Z]|\b)ber(g|c)h?em(?:[^a-zA-Z]|\b),Berghem,750,10733,0,13,0.0
+(?:[^a-zA-Z]|\b)bergschenhoek(?:[^a-zA-Z]|\b),Bergschenhoek,492,10445,0,3,0.0
+(?:[^a-zA-Z]|\b)berkel.?en.?rodenr(ij|y)s(?:[^a-zA-Z]|\b),Berkel en Rodenrijs,493,10139,0,7,0.0
+(?:[^a-zA-Z]|\b)berkel.?enschot(?:[^a-zA-Z]|\b),Berkel-Enschot,751,11132,0,0,0.0
+(?:[^a-zA-Z]|\b)berkenwoude(?:[^a-zA-Z]|\b),Berkenwoude,494,10797,0,1,0.0
+(?:[^a-zA-Z]|\b)berkhout(?:[^a-zA-Z]|\b),Berkhout,374,10354,0,72,0.0
+(?:[^a-zA-Z]|\b)berlicum(?:[^a-zA-Z]|\b),Berlicum,752,10362,0,13,0.0
+(?:[^a-zA-Z]|\b)beso(ij|y)en(?:[^a-zA-Z]|\b),Besoijen,1020,10056,0,17,0.0
+(?:[^a-zA-Z]|\b)best(?:[^a-zA-Z]|\b),Best,753,10442,0,303,0.0
+(?:[^a-zA-Z]|\b)beugen.?en.?rijkevoort(?:[^a-zA-Z]|\b),Beugen en Rijkevoort,1021,10252,0,0,0.0
+(?:[^a-zA-Z]|\b)beuningen(?:[^a-zA-Z]|\b),Beuningen,209,10417,0,11,0.0
+(?:[^a-zA-Z]|\b)beusichem(?:[^a-zA-Z]|\b),Beusichem,210,11182,0,4,0.0
+(?:[^a-zA-Z]|\b)beverw(ij|y)k(?:[^a-zA-Z]|\b),Beverwijk,375,10272,0,52,0.0
+(?:[^a-zA-Z]|\b)bierum(?:[^a-zA-Z]|\b),Bierum,8,11294,0,3,0.0
+(?:[^a-zA-Z]|\b)biervliet(?:[^a-zA-Z]|\b),Biervliet,652,10257,0,2,0.0
+(?:[^a-zA-Z]|\b)biggekerke(?:[^a-zA-Z]|\b),Biggekerke,1022,11364,0,2,0.0
+(?:[^a-zA-Z]|\b)bingelrade(?:[^a-zA-Z]|\b),Bingelrade,894,10967,0,1,0.0
+(?:[^a-zA-Z]|\b)bladel.?en.?netersel(?:[^a-zA-Z]|\b),Bladel en Netersel,754,11006,0,0,0.0
+(?:[^a-zA-Z]|\b)blankenham(?:[^a-zA-Z]|\b),Blankenham,145,10320,0,4,0.0
+(?:[^a-zA-Z]|\b)blaricum(?:[^a-zA-Z]|\b),Blaricum,376,10493,0,6,0.0
+(?:[^a-zA-Z]|\b)bleisw(ij|y)k(?:[^a-zA-Z]|\b),Bleiswijk,495,10994,0,7,0.0
+(?:[^a-zA-Z]|\b)bleskensgraaf.?en.?hofwege(n?)(?:[^a-zA-Z]|\b),Bleskensgraaf en Hofwege,496,10451,0,0,0.0
+(?:[^a-zA-Z]|\b)bloemendaal(?:[^a-zA-Z]|\b),Bloemendaal,377,10850,0,11,0.0
+(?:[^a-zA-Z]|\b)blokker(?:[^a-zA-Z]|\b),Blokker,378,10804,0,0,0.0
+(?:[^a-zA-Z]|\b)blokz(ij|y)l(?:[^a-zA-Z]|\b),Blokzijl,146,10689,1,39,0.02564102564102564
+(?:[^a-zA-Z]|\b)bocholtz(?:[^a-zA-Z]|\b),Bocholtz,895,10986,0,0,0.0
+(?:[^a-zA-Z]|\b)bodegraven(?:[^a-zA-Z]|\b),Bodegraven,497,11091,0,11,0.0
+(?:[^a-zA-Z]|\b)boekel(?:[^a-zA-Z]|\b),Boekel,755,10432,0,0,0.0
+(?:[^a-zA-Z]|\b)bokhoven(?:[^a-zA-Z]|\b),Bokhoven,1023,11083,0,2,0.0
+(?:[^a-zA-Z]|\b)bolsward(?:[^a-zA-Z]|\b),Bolsward,64,10865,0,99,0.0
+(?:[^a-zA-Z]|\b)borculo(?:[^a-zA-Z]|\b),Borculo,211,11307,0,6,0.0
+(?:[^a-zA-Z]|\b)borger(?:[^a-zA-Z]|\b),Borger,108,10448,1,27,0.037037037037037035
+(?:[^a-zA-Z]|\b)borgharen(?:[^a-zA-Z]|\b),Borgharen,896,11334,0,0,0.0
+(?:[^a-zA-Z]|\b)borkel.?en.?schaft(?:[^a-zA-Z]|\b),Borkel en Schaft,1026,11013,0,0,0.0
+(?:[^a-zA-Z]|\b)born(?:[^a-zA-Z]|\b),Born,897,10927,0,0,0.0
+(?:[^a-zA-Z]|\b)borne(?:[^a-zA-Z]|\b),Borne,147,10326,0,32,0.0
+(?:[^a-zA-Z]|\b)borsselen?(?:[^a-zA-Z]|\b),Borssele,1254,10043,0,4,0.0
+(?:[^a-zA-Z]|\b)boschkapelle(?:[^a-zA-Z]|\b),Boschkapelle,1027,10605,0,0,0.0
+(?:[^a-zA-Z]|\b)boskoop(?:[^a-zA-Z]|\b),Boskoop,499,10419,0,25,0.0
+(?:[^a-zA-Z]|\b)bovenkarspel(?:[^a-zA-Z]|\b),Bovenkarspel,379,10945,0,0,0.0
+(?:[^a-zA-Z]|\b)boxmeer(?:[^a-zA-Z]|\b),Boxmeer,756,11227,0,51,0.0
+(?:[^a-zA-Z]|\b)boxtel(?:[^a-zA-Z]|\b),Boxtel,757,10083,0,151,0.0
+(?:[^a-zA-Z]|\b)brakel(?:[^a-zA-Z]|\b),Brakel,212,11125,0,7,0.0
+(?:[^a-zA-Z]|\b)brandw(ij|y)k(?:[^a-zA-Z]|\b),Brandwijk,500,10169,0,4,0.0
+(?:[^a-zA-Z]|\b)breda(?:[^a-zA-Z]|\b),Breda,758,10154,0,281,0.0
+(?:[^a-zA-Z]|\b)breskens(?:[^a-zA-Z]|\b),Breskens,655,10233,0,0,0.0
+(?:[^a-zA-Z]|\b)breukelen.?n(ij|y)enrode(?:[^a-zA-Z]|\b),Breukelen-Nijenrode,1028,10807,0,2,0.0
+(?:[^a-zA-Z]|\b)breukelen.?(st.?|sint).?pieters(?:[^a-zA-Z]|\b),Breukelen-Sint Pieters,1029,11149,0,2,0.0
+(?:[^a-zA-Z]|\b)brielle(?:[^a-zA-Z]|\b),Brielle,501,10232,0,119,0.0
+(?:[^a-zA-Z]|\b)broek(?:[^a-zA-Z]|\b),Broek,1030,11214,0,151,0.0
+(?:[^a-zA-Z]|\b)broek.?in.?waterland(?:[^a-zA-Z]|\b),Broek in Waterland,380,10289,0,14,0.0
+(?:[^a-zA-Z]|\b)broek.?op.?langend(ij|y)k(?:[^a-zA-Z]|\b),Broek op Langedijk,1031,10955,0,2,0.0
+(?:[^a-zA-Z]|\b)broekhu(ij|y|i)(s|z)en(?:[^a-zA-Z]|\b),Broekhuizen,898,10856,0,15,0.0
+(?:[^a-zA-Z]|\b)broeksittard(?:[^a-zA-Z]|\b),Broeksittard,1032,10655,0,4,0.0
+(?:[^a-zA-Z]|\b)brouwershaven(?:[^a-zA-Z]|\b),Brouwershaven,656,10030,0,125,0.0
+(?:[^a-zA-Z]|\b)bruinisse(?:[^a-zA-Z]|\b),Bruinisse,657,11291,0,36,0.0
+(?:[^a-zA-Z]|\b)brummen(?:[^a-zA-Z]|\b),Brummen,213,10798,0,72,0.0
+(?:[^a-zA-Z]|\b)brunssum(?:[^a-zA-Z]|\b),Brunssum,899,10533,0,1,0.0
+(?:[^a-zA-Z]|\b)budel(?:[^a-zA-Z]|\b),Budel,759,10219,0,7,0.0
+(?:[^a-zA-Z]|\b)buggenum(?:[^a-zA-Z]|\b),Buggenum,1033,10857,0,1,0.0
+(?:[^a-zA-Z]|\b)buiksloot(?:[^a-zA-Z]|\b),Buiksloot,1034,10961,0,5,0.0
+(?:[^a-zA-Z]|\b)bunde(?:[^a-zA-Z]|\b),Bunde,900,10831,0,7,0.0
+(?:[^a-zA-Z]|\b)bunnik(?:[^a-zA-Z]|\b),Bunnik,312,10820,0,10,0.0
+(?:[^a-zA-Z]|\b)bunschoten(?:[^a-zA-Z]|\b),Bunschoten,313,11343,0,0,0.0
+(?:[^a-zA-Z]|\b)buren(?:[^a-zA-Z]|\b),Buren,214,11286,1,70,0.014285714285714285
+(?:[^a-zA-Z]|\b)burgh(?:[^a-zA-Z]|\b),Burgh,1035,11000,0,18,0.0
+(?:[^a-zA-Z]|\b)bussum(?:[^a-zA-Z]|\b),Bussum,381,10281,0,2,0.0
+(?:[^a-zA-Z]|\b)buurmalsen(?:[^a-zA-Z]|\b),Buurmalsen,215,10460,0,6,0.0
+(?:[^a-zA-Z]|\b)cadier.?en.?keer(?:[^a-zA-Z]|\b),Cadier en Keer,901,11447,0,0,0.0
+(?:[^a-zA-Z]|\b)cadzand(?:[^a-zA-Z]|\b),Cadzand,658,11002,0,0,0.0
+(?:[^a-zA-Z]|\b)callantsoog(?:[^a-zA-Z]|\b),Callantsoog,382,10559,0,10,0.0
+(?:[^a-zA-Z]|\b)capelle.?(a.?d.?|aan.?den?).?(ij|y)ssel(?:[^a-zA-Z]|\b),Capelle,1036,11233,0,4,0.0
+(?:[^a-zA-Z]|\b)cappelle(?:[^a-zA-Z]|\b),Capelle aan den IJssel,502,11248,0,18,0.0
+(?:[^a-zA-Z]|\b)castricum(?:[^a-zA-Z]|\b),Castricum,383,11287,0,13,0.0
+(?:[^a-zA-Z]|\b)chaam(?:[^a-zA-Z]|\b),Chaam,760,11433,0,15,0.0
+(?:[^a-zA-Z]|\b)charlois(?:[^a-zA-Z]|\b),Charlois,1037,10430,0,22,0.0
+(?:[^a-zA-Z]|\b)clinge(?:[^a-zA-Z]|\b),Clinge,659,10965,0,6,0.0
+(?:[^a-zA-Z]|\b)coevorden(?:[^a-zA-Z]|\b),Coevorden,109,10383,2,66,0.030303030303030304
+(?:[^a-zA-Z]|\b)col(ij|y)nsplaat(?:[^a-zA-Z]|\b),Colijnsplaat,1038,10121,0,1,0.0
+(?:[^a-zA-Z]|\b)cothen(?:[^a-zA-Z]|\b),Cothen,314,11316,0,3,0.0
+(?:[^a-zA-Z]|\b)cromvoirt(?:[^a-zA-Z]|\b),Cromvoirt,1039,10053,0,4,0.0
+(?:[^a-zA-Z]|\b)cu(ij|y)k.?en.?(st.?|sint).?agatha(?:[^a-zA-Z]|\b),Cuijk en Sint Agatha,761,10023,0,0,0.0
+(?:[^a-zA-Z]|\b)cule(n|m)b(o|u)rg|kuilenb(u|o)rg(?:[^a-zA-Z]|\b),Culemborg,216,10342,0,40,0.0
+(?:[^a-zA-Z]|\b)dalen(?:[^a-zA-Z]|\b),Dalen,110,11004,0,80,0.0
+(?:[^a-zA-Z]|\b)dalfsen(?:[^a-zA-Z]|\b),Dalfsen,148,11007,0,52,0.0
+(?:[^a-zA-Z]|\b)dantumadeel(?:[^a-zA-Z]|\b),Dantumadeel,65,10650,0,9,0.0
+(?:[^a-zA-Z]|\b)de.?bilt(?:[^a-zA-Z]|\b),De Bilt,310,10168,0,12,0.0
+(?:[^a-zA-Z]|\b)de.?lier(?:[^a-zA-Z]|\b),De Lier,552,10241,0,5,0.0
+(?:[^a-zA-Z]|\b)de.r(ij|y)p(?:[^a-zA-Z]|\b),De Rijp,440,11417,0,11,0.0
+(?:[^a-zA-Z]|\b)de.?werke(n|n.?e?n?.? sleeuwijk)(?:[^a-zA-Z]|\b),de Werken en Sleeuwijk,1222,10116,0,84,0.0
+(?:[^a-zA-Z]|\b)de.w(ij|y)k(?:[^a-zA-Z]|\b),De Wijk,135,10753,0,51,0.0
+(?:[^a-zA-Z]|\b)deil(?:[^a-zA-Z]|\b),Deil,217,10057,0,6,0.0
+(?:[^a-zA-Z]|\b)delf(t?)shaven(?:[^a-zA-Z]|\b),Delfshaven,1040,10908,0,52,0.0
+(?:[^a-zA-Z]|\b)delft(?:[^a-zA-Z]|\b),Delft,503,10928,0,355,0.0
+(?:[^a-zA-Z]|\b)delfz(ij|y)l(?:[^a-zA-Z]|\b),Delfzijl,10,10976,0,73,0.0
+(?:[^a-zA-Z]|\b)den.?bommel(?:[^a-zA-Z]|\b),Den Bommel,1024,10293,0,7,0.0
+(?:[^a-zA-Z]|\b)den.?dungen(?:[^a-zA-Z]|\b),Den Dungen,768,10491,0,31,0.0
+(?:[^a-zA-Z]|\b)den.?ham(?:[^a-zA-Z]|\b),Den Ham,159,10395,0,25,0.0
+(?:[^a-zA-Z]|\b)den.?helder(?:[^a-zA-Z]|\b),Den Helder,400,10285,0,40,0.0
+(?:[^a-zA-Z]|\b)denekamp(?:[^a-zA-Z]|\b),Denekamp,149,10245,0,9,0.0
+(?:[^a-zA-Z]|\b)deurne.?en.?liessel(?:[^a-zA-Z]|\b),Deurne en Liessel,1041,10379,0,4,0.0
+(?:[^a-zA-Z]|\b)deursen|dennenburg(?:[^a-zA-Z]|\b),Deursen en Dennenburg,1042,10209,0,12,0.0
+(?:[^a-zA-Z]|\b)devent(er|\.)(?:[^a-zA-Z]|\b),Deventer,150,10899,6,401,0.014962593516209476
+(?:[^a-zA-Z]|\b)didam(?:[^a-zA-Z]|\b),Didam,218,10153,0,4,0.0
+(?:[^a-zA-Z]|\b)diede(n|n.?.?demen.?e?n?.?langel)(?:[^a-zA-Z]|\b),"Dieden, Demen en Langel",1043,11138,0,10,0.0
+(?:[^a-zA-Z]|\b)diemen(?:[^a-zA-Z]|\b),Diemen,384,11039,0,20,0.0
+(?:[^a-zA-Z]|\b)diepenheim(?:[^a-zA-Z]|\b),Diepenheim,151,10311,0,15,0.0
+(?:[^a-zA-Z]|\b)diepenveen(?:[^a-zA-Z]|\b),Diepenveen,152,10933,0,29,0.0
+(?:[^a-zA-Z]|\b)diessen(?:[^a-zA-Z]|\b),Diessen,763,11185,0,3,0.0
+(?:[^a-zA-Z]|\b)diever(?:[^a-zA-Z]|\b),Diever,111,10418,0,30,0.0
+(?:[^a-zA-Z]|\b)dinteloord|prinsenland(?:[^a-zA-Z]|\b),Dinteloord en Prinsenland,764,11193,0,8,0.0
+(?:[^a-zA-Z]|\b)dinther(?:[^a-zA-Z]|\b),Dinther,1044,10690,0,7,0.0
+(?:[^a-zA-Z]|\b)dinxperlo(?:[^a-zA-Z]|\b),Dinxperlo,219,11154,0,0,0.0
+(?:[^a-zA-Z]|\b)dirksland(?:[^a-zA-Z]|\b),Dirksland,504,11344,0,20,0.0
+(?:[^a-zA-Z]|\b)dodewaard(?:[^a-zA-Z]|\b),Dodewaard,220,10647,0,3,0.0
+(?:[^a-zA-Z]|\b)doesburg(?:[^a-zA-Z]|\b),Doesburg,221,10327,0,66,0.0
+(?:[^a-zA-Z]|\b)dokkum(?:[^a-zA-Z]|\b),Dokkum,66,10198,0,53,0.0
+(?:[^a-zA-Z]|\b)domburg(?:[^a-zA-Z]|\b),Domburg,660,10236,0,0,0.0
+(?:[^a-zA-Z]|\b)dommelen(?:[^a-zA-Z]|\b),Dommelen,1045,10424,0,7,0.0
+(?:[^a-zA-Z]|\b)dongen(?:[^a-zA-Z]|\b),Dongen,766,11412,0,25,0.0
+(?:[^a-zA-Z]|\b)doniawerstal(?:[^a-zA-Z]|\b),Doniawerstal,67,10086,0,6,0.0
+(?:[^a-zA-Z]|\b)doorn(?:[^a-zA-Z]|\b),Doorn,315,10213,0,36,0.0
+(?:[^a-zA-Z]|\b)doornsp(ij|y)k(?:[^a-zA-Z]|\b),Doornspijk,223,10069,0,3,0.0
+(?:[^a-zA-Z]|\b)doorwerth(?:[^a-zA-Z]|\b),Doorwerth,1046,11304,0,4,0.0
+(?:[^a-zA-Z]|\b)dordrecht|dodrech\.(?:[^a-zA-Z]|\b),Dordrecht,505,11157,0,361,0.0
+(?:[^a-zA-Z]|\b)dreischor(?:[^a-zA-Z]|\b),Dreischor,1047,10885,0,0,0.0
+(?:[^a-zA-Z]|\b)dreumel(?:[^a-zA-Z]|\b),Dreumel,224,11232,0,2,0.0
+(?:[^a-zA-Z]|\b)driebergen(?:[^a-zA-Z]|\b),Driebergen,1048,10777,0,19,0.0
+(?:[^a-zA-Z]|\b)driel(?:[^a-zA-Z]|\b),Driel,1248,10341,0,13,0.0
+(?:[^a-zA-Z]|\b)driewegen(?:[^a-zA-Z]|\b),Driewegen,661,11115,0,1,0.0
+(?:[^a-zA-Z]|\b)drongele(n|n.?.?hangoord.?.?gansoyen.?.?e?n?doevere)(?:[^a-zA-Z]|\b),"Drongelen,Haagoord,Gansoyen,Doevere",1263,10111,0,11,0.0
+(?:[^a-zA-Z]|\b)drunen(?:[^a-zA-Z]|\b),Drunen,767,10428,0,7,0.0
+(?:[^a-zA-Z]|\b)druten(?:[^a-zA-Z]|\b),Druten,225,10068,0,7,0.0
+(?:[^a-zA-Z]|\b)dubbeldam(?:[^a-zA-Z]|\b),Dubbeldam,507,10781,0,8,0.0
+(?:[^a-zA-Z]|\b)duiven(?:[^a-zA-Z]|\b),Duiven,226,11028,0,103,0.0
+(?:[^a-zA-Z]|\b)duivend(ij|y)ke(?:[^a-zA-Z]|\b),Duivendijke,1050,10335,0,0,0.0
+(?:[^a-zA-Z]|\b)duizel|steensel(?:[^a-zA-Z]|\b),Duizel en Steensel,1051,11005,0,55,0.0
+(?:[^a-zA-Z]|\b)dusse(n|munster.?.?en.?muilkerk)(?:[^a-zA-Z]|\b),"Dussen, Munster en Muilkerk",1265,10261,0,66,0.0
+(?:[^a-zA-Z]|\b)dwingeloo?(?:[^a-zA-Z]|\b),Dwingeloo,112,10331,0,13,0.0
+(?:[^a-zA-Z]|\b)echt(?:[^a-zA-Z]|\b),Echt,902,10941,0,279,0.0
+(?:[^a-zA-Z]|\b)echteld(?:[^a-zA-Z]|\b),Echteld,227,10832,0,0,0.0
+(?:[^a-zA-Z]|\b)edam(?:[^a-zA-Z]|\b),Edam,1315,10884,0,32,0.0
+(?:[^a-zA-Z]|\b)ede(?:[^a-zA-Z]|\b),Ede,228,10743,0,113,0.0
+(?:[^a-zA-Z]|\b)eede(?:[^a-zA-Z]|\b),Eede,1052,11128,0,15,0.0
+(?:[^a-zA-Z]|\b)eelde(?:[^a-zA-Z]|\b),Eelde,113,10622,0,17,0.0
+(?:[^a-zA-Z]|\b)eemnes(?:[^a-zA-Z]|\b),Eemnes,317,10248,0,10,0.0
+(?:[^a-zA-Z]|\b)eenrum(?:[^a-zA-Z]|\b),Eenrum,11,10904,0,5,0.0
+(?:[^a-zA-Z]|\b)eersel(?:[^a-zA-Z]|\b),Eersel,770,10741,0,3,0.0
+(?:[^a-zA-Z]|\b)heesbeen(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)eethen(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)genderen(?:[^a-zA-Z]|\b),"Eethen, Genderen en Heesbeen",1255,10010,0,12,0.0
+(?:[^a-zA-Z]|\b)egmond.?aan.?zee(?:[^a-zA-Z]|\b),Egmond aan Zee,386,10421,0,7,0.0
+(?:[^a-zA-Z]|\b)egmond.?binnen(?:[^a-zA-Z]|\b),Egmond-Binnen,387,10989,0,2,0.0
+(?:[^a-zA-Z]|\b)eibergen(?:[^a-zA-Z]|\b),Eibergen,229,10436,0,20,0.0
+(?:[^a-zA-Z]|\b)e(ij|y)gelshoven(?:[^a-zA-Z]|\b),Eijgelshoven,904,10960,0,0,0.0
+(?:[^a-zA-Z]|\b)e(ij|y)sden(?:[^a-zA-Z]|\b),Eijsden,905,10314,0,5,0.0
+(?:[^a-zA-Z]|\b)eindhoven(?:[^a-zA-Z]|\b),Eindhoven,772,11298,0,155,0.0
+(?:[^a-zA-Z]|\b)elburg(?:[^a-zA-Z]|\b),Elburg,230,11113,0,39,0.0
+(?:[^a-zA-Z]|\b)elkerzee(?:[^a-zA-Z]|\b),Elkerzee,1053,10184,0,0,0.0
+(?:[^a-zA-Z]|\b)ellemeet(?:[^a-zA-Z]|\b),Ellemeet,1054,10102,0,1,0.0
+(?:[^a-zA-Z]|\b)ellewoutsd(ij|y)k(?:[^a-zA-Z]|\b),Ellewoutsdijk,663,11300,0,8,0.0
+(?:[^a-zA-Z]|\b)elsloo(?:[^a-zA-Z]|\b),Elsloo,903,11187,0,6,0.0
+(?:[^a-zA-Z]|\b)elst(?:[^a-zA-Z]|\b),Elst,231,11188,0,4,0.0
+(?:[^a-zA-Z]|\b)emmen(?:[^a-zA-Z]|\b),Emmen,114,11180,0,38,0.0
+(?:[^a-zA-Z]|\b)emmikhoven(?:[^a-zA-Z]|\b),Emmikhoven,1056,10621,0,4,0.0
+(?:[^a-zA-Z]|\b)empel|meerwijk(?:[^a-zA-Z]|\b),Empel en Meerwijk,773,10295,0,9,0.0
+(?:[^a-zA-Z]|\b)engelen(?:[^a-zA-Z]|\b),Engelen,774,10322,0,38,0.0
+(?:[^a-zA-Z]|\b)enkhui(z|s)en(?:[^a-zA-Z]|\b),Enkhuizen,388,10729,0,60,0.0
+(?:[^a-zA-Z]|\b)ensch(ede|\.)(?:[^a-zA-Z]|\b),Enschede,153,10364,0,105,0.0
+(?:[^a-zA-Z]|\b)epe(?:[^a-zA-Z]|\b),Epe,232,10940,0,28,0.0
+(?:[^a-zA-Z]|\b)ermelo(?:[^a-zA-Z]|\b),Ermelo,233,10732,0,6,0.0
+(?:[^a-zA-Z]|\b)erp(?:[^a-zA-Z]|\b),Erp,775,10385,0,24,0.0
+(?:[^a-zA-Z]|\b)esch(?:[^a-zA-Z]|\b),Esch,776,10709,0,17,0.0
+(?:[^a-zA-Z]|\b)escharen(?:[^a-zA-Z]|\b),Escharen,1057,10299,0,3,0.0
+(?:[^a-zA-Z]|\b)est.?en.?op(ij|y)nen(?:[^a-zA-Z]|\b),Est en Opijnen,234,11092,0,0,0.0
+(?:[^a-zA-Z]|\b)etten.?en.?leur(?:[^a-zA-Z]|\b),Etten en Leur,1251,10750,0,3,0.0
+(?:[^a-zA-Z]|\b)everdingen(?:[^a-zA-Z]|\b),Everdingen,508,10638,0,11,0.0
+(?:[^a-zA-Z]|\b)ew(ij|y)k(?:[^a-zA-Z]|\b),Ewijk,235,10471,0,10,0.0
+(?:[^a-zA-Z]|\b)ezinge(?:[^a-zA-Z]|\b),Ezinge,12,10136,0,3,0.0
+(?:[^a-zA-Z]|\b)ferwerderadeel(?:[^a-zA-Z]|\b),Ferwerderadeel,68,11284,0,12,0.0
+(?:[^a-zA-Z]|\b)f(ij|y)naart|he(ij|y)ningen(?:[^a-zA-Z]|\b),Fijnaart en Heijningen,778,10206,0,25,0.0
+(?:[^a-zA-Z]|\b)finsterwolde?(?:[^a-zA-Z]|\b),Finsterwolde,13,10212,0,2,0.0
+(?:[^a-zA-Z]|\b)franeker(?:[^a-zA-Z]|\b),Franeker,69,11226,0,92,0.0
+(?:[^a-zA-Z]|\b)franekeradeel(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)frjentsjerteradiel(?:[^a-zA-Z]|\b),Franekeradeel,70,10404,0,0,0.0
+(?:[^a-zA-Z]|\b)gaasterland(?:[^a-zA-Z]|\b),Gaasterland,71,10036,0,2,0.0
+(?:[^a-zA-Z]|\b)gameren(?:[^a-zA-Z]|\b),Gameren,1058,10037,0,10,0.0
+(?:[^a-zA-Z]|\b)gassel(?:[^a-zA-Z]|\b),Gassel,1059,10705,0,1,0.0
+(?:[^a-zA-Z]|\b)gasselte(?:[^a-zA-Z]|\b),Gasselte,115,11099,0,6,0.0
+(?:[^a-zA-Z]|\b)geertruidenberg(?:[^a-zA-Z]|\b),Geertruidenberg,779,10101,0,37,0.0
+(?:[^a-zA-Z]|\b)geervliet(?:[^a-zA-Z]|\b),Geervliet,509,10842,0,6,0.0
+(?:[^a-zA-Z]|\b)geffen(?:[^a-zA-Z]|\b),Geffen,780,10370,0,9,0.0
+(?:[^a-zA-Z]|\b)geldermalsen(?:[^a-zA-Z]|\b),Geldermalsen,236,10881,0,17,0.0
+(?:[^a-zA-Z]|\b)gel(dorp|drop)(?:[^a-zA-Z]|\b),Geldrop,781,10529,0,46,0.0
+(?:[^a-zA-Z]|\b)geleen(?:[^a-zA-Z]|\b),Geleen,906,10048,0,3,0.0
+(?:[^a-zA-Z]|\b)gemert(?:[^a-zA-Z]|\b),Gemert,782,10277,0,16,0.0
+(?:[^a-zA-Z]|\b)gendringen(?:[^a-zA-Z]|\b),Gendringen,237,10260,0,1,0.0
+(?:[^a-zA-Z]|\b)gend?t(?:[^a-zA-Z]|\b),Gendt,238,10440,0,106,0.0
+(?:[^a-zA-Z]|\b)genemuiden(?:[^a-zA-Z]|\b),Genemuiden,154,10746,0,15,0.0
+(?:[^a-zA-Z]|\b)gennep(?:[^a-zA-Z]|\b),Gennep,907,10542,0,48,0.0
+(?:[^a-zA-Z]|\b)gestel(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)blaarthem(?:[^a-zA-Z]|\b),Gestel en Blaarthem,1061,11269,0,80,0.0
+(?:[^a-zA-Z]|\b)geu(l|lle)(?:[^a-zA-Z]|\b),Geulle,908,10530,0,16,0.0
+(?:[^a-zA-Z]|\b)giessen(?:[^a-zA-Z]|\b),Giessen,783,10193,0,7,0.0
+(?:[^a-zA-Z]|\b)giessen.?nieuwkerk(?:[^a-zA-Z]|\b),Giessendam,1063,10606,0,2,0.0
+(?:[^a-zA-Z]|\b)giessendam(?:[^a-zA-Z]|\b),Giessen-Nieuwkerk,1062,10255,0,1,0.0
+(?:[^a-zA-Z]|\b)gieten(?:[^a-zA-Z]|\b),Gieten,116,10506,0,28,0.0
+(?:[^a-zA-Z]|\b)giethoorn(?:[^a-zA-Z]|\b),Giethoorn,155,10708,0,8,0.0
+(?:[^a-zA-Z]|\b)gilze.?en.?r(ij|y)en(?:[^a-zA-Z]|\b),Gilze en Rijen,784,11375,0,0,0.0
+(?:[^a-zA-Z]|\b)ginneken(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)bavel(?:[^a-zA-Z]|\b),Ginneken en Bavel,1064,10406,0,29,0.0
+(?:[^a-zA-Z]|\b)goedereede(?:[^a-zA-Z]|\b),Goedereede,511,10981,0,5,0.0
+(?:[^a-zA-Z]|\b)g(h?)oes(ch?)(?:[^a-zA-Z]|\b),Goes,664,10674,0,0,0.0
+(?:[^a-zA-Z]|\b)goirle(?:[^a-zA-Z]|\b),Goirle,785,10971,0,8,0.0
+(?:[^a-zA-Z]|\b)goor(?:[^a-zA-Z]|\b),Goor,156,10076,1,74,0.013513513513513514
+(?:[^a-zA-Z]|\b)gorinchem(?:[^a-zA-Z]|\b),Gorinchem,512,10942,0,109,0.0
+(?:[^a-zA-Z]|\b)gorssel(?:[^a-zA-Z]|\b),Gorssel,239,10085,0,6,0.0
+(?:[^a-zA-Z]|\b)gouda(?:[^a-zA-Z]|\b),Gouda,513,10302,0,143,0.0
+(?:[^a-zA-Z]|\b)gouderak(?:[^a-zA-Z]|\b),Gouderak,514,11258,0,1,0.0
+(?:[^a-zA-Z]|\b)goudriaan(?:[^a-zA-Z]|\b),Goudriaan,515,10450,0,3,0.0
+(?:[^a-zA-Z]|\b)goudswaard(?:[^a-zA-Z]|\b),Goudswaard,516,10914,0,3,0.0
+(?:[^a-zA-Z]|\b)graauw(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)langendam(?:[^a-zA-Z]|\b),Graauw en Langendam,665,10312,0,8,0.0
+(?:[^a-zA-Z]|\b)grafhorst(?:[^a-zA-Z]|\b),Grafhorst,1065,10224,0,2,0.0
+(?:[^a-zA-Z]|\b)graft(?:[^a-zA-Z]|\b),Graft,389,10484,0,3,0.0
+(?:[^a-zA-Z]|\b)gramsbergen(?:[^a-zA-Z]|\b),Gramsbergen,157,11339,0,11,0.0
+(?:[^a-zA-Z]|\b)grathem(?:[^a-zA-Z]|\b),Grathem,909,11008,0,0,0.0
+(?:[^a-zA-Z]|\b)grave(?:[^a-zA-Z]|\b),Grave,786,10165,2,107,0.018691588785046728
+(?:[^a-zA-Z]|\b)grevenbicht(?:[^a-zA-Z]|\b),Grevenbicht,910,10624,0,2,0.0
+(?:[^a-zA-Z]|\b)gr(ij|y)pskerk(?:[^a-zA-Z]|\b),Grijpskerk,16,10244,0,25,0.0
+(?:[^a-zA-Z]|\b)gr(ij|y)pskerke(?:[^a-zA-Z]|\b),Grijpskerke,1067,10801,0,0,0.0
+(?:[^a-zA-Z]|\b)groede(?:[^a-zA-Z]|\b),Groede,667,11312,0,0,0.0
+(?:[^a-zA-Z]|\b)groenlo(?:[^a-zA-Z]|\b),Groenlo,240,11094,0,8,0.0
+(?:[^a-zA-Z]|\b)groesbeek(?:[^a-zA-Z]|\b),Groesbeek,241,10616,0,2,0.0
+(?:[^a-zA-Z]|\b)gr(Ã¶|o)ning(s|en|\.)(?:[^a-zA-Z]|\b),Groningen,14,10426,2,537,0.0037243947858473
+(?:[^a-zA-Z]|\b)grons(f|v)eld(?:[^a-zA-Z]|\b),Gronsveld,911,10323,0,1,0.0
+(?:[^a-zA-Z]|\b)groot.?ammers(?:[^a-zA-Z]|\b),Groot-Ammers,520,11205,0,0,0.0
+(?:[^a-zA-Z]|\b)groot.?lindt(?:[^a-zA-Z]|\b),Groote Lindt,1066,11042,0,0,0.0
+(?:[^a-zA-Z]|\b)grootebroek(?:[^a-zA-Z]|\b),Grootebroek,391,11337,0,3,0.0
+(?:[^a-zA-Z]|\b)grootegast(?:[^a-zA-Z]|\b),Grootegast,15,11080,0,2,0.0
+(?:[^a-zA-Z]|\b)grubbenvorst(?:[^a-zA-Z]|\b),Grubbenvorst,912,10176,0,5,0.0
+(?:[^a-zA-Z]|\b)gulpen(?:[^a-zA-Z]|\b),Gulpen,913,11032,0,3,0.0
+(?:[^a-zA-Z]|\b)haaften(?:[^a-zA-Z]|\b),Haaften,242,10125,0,21,0.0
+(?:[^a-zA-Z]|\b)haaksbergen(?:[^a-zA-Z]|\b),Haaksbergen,158,11435,0,3,0.0
+(?:[^a-zA-Z]|\b)haamstede(?:[^a-zA-Z]|\b),Haamstede,1068,10701,0,5,0.0
+(?:[^a-zA-Z]|\b)haaren(?:[^a-zA-Z]|\b),Haaren,788,11155,0,10,0.0
+(?:[^a-zA-Z]|\b)ha.?rlem|haarl(am|\.)(?:[^a-zA-Z]|\b),Haarlem,392,10357,0,568,0.0
+(?:[^a-zA-Z]|\b)haarlemmerliede.?en.?spaarnwoude(?:[^a-zA-Z]|\b),Haarlemmerliede en Spaarnwoude,393,10508,0,1,0.0
+(?:[^a-zA-Z]|\b)haarlemmermeer(?:[^a-zA-Z]|\b),Haarlemmermeer,394,11387,0,37,0.0
+(?:[^a-zA-Z]|\b)haarzuilens(?:[^a-zA-Z]|\b),Haarzuilens,1069,10737,0,0,0.0
+(?:[^a-zA-Z]|\b)haastrecht(?:[^a-zA-Z]|\b),Haastrecht,521,11049,0,7,0.0
+(?:[^a-zA-Z]|\b)haelen(?:[^a-zA-Z]|\b),Haelen,914,10321,0,0,0.0
+(?:[^a-zA-Z]|\b)hagestein(?:[^a-zA-Z]|\b),Hagestein,522,10297,0,0,0.0
+(?:[^a-zA-Z]|\b)halsteren(?:[^a-zA-Z]|\b),Halsteren,789,10387,0,5,0.0
+(?:[^a-zA-Z]|\b)haps(?:[^a-zA-Z]|\b),Haps,790,11283,0,1,0.0
+(?:[^a-zA-Z]|\b)harderw(ij|y)k(?:[^a-zA-Z]|\b),Harderwijk,243,10786,0,54,0.0
+(?:[^a-zA-Z]|\b)hardinxveld(?:[^a-zA-Z]|\b),Hardinxveld,1070,10167,0,8,0.0
+(?:[^a-zA-Z]|\b)haren(?:[^a-zA-Z]|\b),Haren,17,11058,0,475,0.0
+(?:[^a-zA-Z]|\b)harenkarspel(?:[^a-zA-Z]|\b),Harenkarspel,395,10963,0,0,0.0
+(?:[^a-zA-Z]|\b)harlingen(?:[^a-zA-Z]|\b),Harlingen,72,10909,1,264,0.003787878787878788
+(?:[^a-zA-Z]|\b)harmelen(?:[^a-zA-Z]|\b),Harmelen,318,10183,0,3,0.0
+(?:[^a-zA-Z]|\b)haskerland(?:[^a-zA-Z]|\b),Haskerland,73,10022,0,15,0.0
+(?:[^a-zA-Z]|\b)hasselt(?:[^a-zA-Z]|\b),Hasselt,161,10115,0,130,0.0
+(?:[^a-zA-Z]|\b)hattem(?:[^a-zA-Z]|\b),Hattem,244,10673,0,25,0.0
+(?:[^a-zA-Z]|\b)havelte(?:[^a-zA-Z]|\b),Havelte,117,10186,0,21,0.0
+(?:[^a-zA-Z]|\b)hazerswoude(?:[^a-zA-Z]|\b),Hazerswoude,524,11257,0,3,0.0
+(?:[^a-zA-Z]|\b)hedel(?:[^a-zA-Z]|\b),Hedel,245,10982,0,8,0.0
+(?:[^a-zA-Z]|\b)hedikhuizen(?:[^a-zA-Z]|\b),Hedikhuizen,1071,11130,0,4,0.0
+(?:[^a-zA-Z]|\b)heel.?en.?panheel(?:[^a-zA-Z]|\b),Heel en Panheel,915,11208,0,0,0.0
+(?:[^a-zA-Z]|\b)heemskerk(?:[^a-zA-Z]|\b),Heemskerk,396,10679,0,47,0.0
+(?:[^a-zA-Z]|\b)heemstede(?:[^a-zA-Z]|\b),Heemstede,397,11288,0,42,0.0
+(?:[^a-zA-Z]|\b)heenvliet(?:[^a-zA-Z]|\b),Heenvliet,525,10823,0,4,0.0
+(?:[^a-zA-Z]|\b)heer(?:[^a-zA-Z]|\b),Heer,916,11407,3,3397,0.0008831321754489255
+(?:[^a-zA-Z]|\b)heerde(?:[^a-zA-Z]|\b),Heerde,246,10291,0,23,0.0
+(?:[^a-zA-Z]|\b)heerewaarden(?:[^a-zA-Z]|\b),Heerewaarden,247,10067,0,6,0.0
+(?:[^a-zA-Z]|\b)heerhugowaard(?:[^a-zA-Z]|\b),Heerhugowaard,398,10752,0,2,0.0
+(?:[^a-zA-Z]|\b)heerjansdam(?:[^a-zA-Z]|\b),Heerjansdam,526,10540,0,2,0.0
+(?:[^a-zA-Z]|\b)heerlen(?:[^a-zA-Z]|\b),Heerlen,917,10902,0,25,0.0
+(?:[^a-zA-Z]|\b)heesch(?:[^a-zA-Z]|\b),Heesch,791,10149,0,6,0.0
+(?:[^a-zA-Z]|\b)heesw(ij|y)k(?:[^a-zA-Z]|\b),Heeswijk,1072,11229,0,2,0.0
+(?:[^a-zA-Z]|\b)heeze(?:[^a-zA-Z]|\b),Heeze,793,10462,0,8,0.0
+(?:[^a-zA-Z]|\b)hei.?.?en.?boeicop(?:[^a-zA-Z]|\b),Hei- en Boeicop,527,11024,0,0,0.0
+(?:[^a-zA-Z]|\b)he(ij|y)thu(ij|y)(s|z)en(?:[^a-zA-Z]|\b),Heille,1073,11309,0,1,0.0
+(?:[^a-zA-Z]|\b)heiloo?(?:[^a-zA-Z]|\b),Heiloo,399,10793,0,18,0.0
+(?:[^a-zA-Z]|\b)heinenoord(?:[^a-zA-Z]|\b),Heinenoord,528,10821,0,4,0.0
+(?:[^a-zA-Z]|\b)heinkenszand(?:[^a-zA-Z]|\b),Heinkenszand,672,10413,0,7,0.0
+(?:[^a-zA-Z]|\b)heino(?:[^a-zA-Z]|\b),Heino,162,10854,0,17,0.0
+(?:[^a-zA-Z]|\b)hekelingen(?:[^a-zA-Z]|\b),Hekelingen,1074,10873,0,1,0.0
+(?:[^a-zA-Z]|\b)hekendorp(?:[^a-zA-Z]|\b),Hekendorp,1075,10217,0,0,0.0
+(?:[^a-zA-Z]|\b)helden(?:[^a-zA-Z]|\b),Helden,918,10205,0,69,0.0
+(?:[^a-zA-Z]|\b)hellendoorn(?:[^a-zA-Z]|\b),Hellendoorn,163,10806,0,12,0.0
+(?:[^a-zA-Z]|\b)hellevoetsluis(?:[^a-zA-Z]|\b),Hellevoetsluis,530,11078,0,122,0.0
+(?:[^a-zA-Z]|\b)helmond(?:[^a-zA-Z]|\b),Helmond,794,10932,0,101,0.0
+(?:[^a-zA-Z]|\b)helvoirt(?:[^a-zA-Z]|\b),Helvoirt,795,10389,0,11,0.0
+(?:[^a-zA-Z]|\b)hemelumer.?oldephaert.?en.?noordwolde(?:[^a-zA-Z]|\b),Hemelumer Oldephaerd en Noordwolde,1260,10334,0,5,0.0
+(?:[^a-zA-Z]|\b)hemmen(?:[^a-zA-Z]|\b),Hemmen,1076,11162,0,7,0.0
+(?:[^a-zA-Z]|\b)hendrik.?ido.?ambacht(?:[^a-zA-Z]|\b),Hendrik-Ido-Ambacht,531,10416,0,4,0.0
+(?:[^a-zA-Z]|\b)hengeloo?(?:[^a-zA-Z]|\b),Hengelo (Gld.),248,10359,0,72,0.0
+(?:[^a-zA-Z]|\b)hengeloo?(?:[^a-zA-Z]|\b),Hengelo (O.),164,10907,0,72,0.0
+(?:[^a-zA-Z]|\b)hengstd(ij|y)k(?:[^a-zA-Z]|\b),Hengstdijk,1077,10636,0,0,0.0
+(?:[^a-zA-Z]|\b)hennaarderadeel(?:[^a-zA-Z]|\b),Hennaarderadeel,76,10877,0,3,0.0
+(?:[^a-zA-Z]|\b)hensbroek(?:[^a-zA-Z]|\b),Hensbroek,401,10181,0,3,0.0
+(?:[^a-zA-Z]|\b)herkingen(?:[^a-zA-Z]|\b),Herkingen,1078,10267,0,0,0.0
+(?:[^a-zA-Z]|\b)herpen(?:[^a-zA-Z]|\b),Herpen,1079,11262,0,5,0.0
+(?:[^a-zA-Z]|\b)herpt(?:[^a-zA-Z]|\b),Herpt,1080,10845,0,4,0.0
+(?:[^a-zA-Z]|\b)herten(?:[^a-zA-Z]|\b),Herten,919,10138,0,8,0.0
+(?:[^a-zA-Z]|\b)herwen.?en.?aerdt(?:[^a-zA-Z]|\b),Herwen en Aerdt,249,10819,0,2,0.0
+(?:[^a-zA-Z]|\b)herw(ij|y)nen(?:[^a-zA-Z]|\b),Herwijnen,250,11266,0,11,0.0
+(?:[^a-zA-Z]|\b)het.?bildt(?:[^a-zA-Z]|\b),het Bildt,63,10128,0,3,0.0
+(?:[^a-zA-Z]|\b)heteren(?:[^a-zA-Z]|\b),Heteren,251,10290,0,46,0.0
+(?:[^a-zA-Z]|\b)heukelum(?:[^a-zA-Z]|\b),Heukelum,533,11308,0,5,0.0
+(?:[^a-zA-Z]|\b)heumen(?:[^a-zA-Z]|\b),Heumen,252,10600,0,7,0.0
+(?:[^a-zA-Z]|\b)heusden(?:[^a-zA-Z]|\b),Heusden,797,10307,0,81,0.0
+(?:[^a-zA-Z]|\b)he(ij|y)thu(ij|y)(s|z)en(?:[^a-zA-Z]|\b),Heythuysen,920,10840,0,1,0.0
+(?:[^a-zA-Z]|\b)hillegersberg(?:[^a-zA-Z]|\b),Hillegersberg,1081,10227,0,12,0.0
+(?:[^a-zA-Z]|\b)hillegom(?:[^a-zA-Z]|\b),Hillegom,534,11236,1,21,0.047619047619047616
+(?:[^a-zA-Z]|\b)hilvarenbeek(?:[^a-zA-Z]|\b),Hilvarenbeek,798,11297,0,3,0.0
+(?:[^a-zA-Z]|\b)hilversum(?:[^a-zA-Z]|\b),Hilversum,402,11285,1,83,0.012048192771084338
+(?:[^a-zA-Z]|\b)hindeloopen(?:[^a-zA-Z]|\b),Hindeloopen,77,10672,0,10,0.0
+(?:[^a-zA-Z]|\b)hoedekenskerke(?:[^a-zA-Z]|\b),Hoedekenskerke,673,11072,0,1,0.0
+(?:[^a-zA-Z]|\b)hoek(?:[^a-zA-Z]|\b),Hoek,674,10038,0,427,0.0
+(?:[^a-zA-Z]|\b)hoenkoop(?:[^a-zA-Z]|\b),Hoenkoop,319,10611,0,0,0.0
+(?:[^a-zA-Z]|\b)hoensbroek(?:[^a-zA-Z]|\b),Hoensbroek,921,11177,0,0,0.0
+(?:[^a-zA-Z]|\b)hoevelaken(?:[^a-zA-Z]|\b),Hoevelaken,253,11358,0,0,0.0
+(?:[^a-zA-Z]|\b)hoeven(?:[^a-zA-Z]|\b),Hoeven,799,10065,0,73,0.0
+(?:[^a-zA-Z]|\b)hof.?van.?delft(?:[^a-zA-Z]|\b),Hof van Delft,1082,10089,0,7,0.0
+(?:[^a-zA-Z]|\b)holten(?:[^a-zA-Z]|\b),Holten,165,11246,0,17,0.0
+(?:[^a-zA-Z]|\b)hontenisse(?:[^a-zA-Z]|\b),Hontenisse,675,11123,0,10,0.0
+(?:[^a-zA-Z]|\b)hoofdplaat(?:[^a-zA-Z]|\b),Hoofdplaat,676,10147,0,2,0.0
+(?:[^a-zA-Z]|\b)hoog.?blokland(?:[^a-zA-Z]|\b),Hoogblokland,535,11040,0,1,0.0
+(?:[^a-zA-Z]|\b)hooge.?mierde|hooge.?en.?lage.?mierde(?:[^a-zA-Z]|\b),Hooge en Lage Mierde,801,10476,0,2,0.0
+(?:[^a-zA-Z]|\b)zwaluwe(?:[^a-zA-Z]|\b),Hooge en Lage Zwaluwe,802,11318,0,5,0.0
+(?:[^a-zA-Z]|\b)hoogeloo(n|n.?.?hapert.?e?n?.?casteren)(?:[^a-zA-Z]|\b),"Hoogeloon, Hapert en Casteren",800,10657,0,1,0.0
+(?:[^a-zA-Z]|\b)hoogeveen(?:[^a-zA-Z]|\b),Hoogeveen,118,10839,2,85,0.023529411764705882
+(?:[^a-zA-Z]|\b)hoogezand(?:[^a-zA-Z]|\b),Hoogezand,1083,10410,0,44,0.0
+(?:[^a-zA-Z]|\b)hoogkarspel(?:[^a-zA-Z]|\b),Hoogkarspel,403,10642,0,2,0.0
+(?:[^a-zA-Z]|\b)hoogkerk(?:[^a-zA-Z]|\b),Hoogkerk,1084,10953,0,3,0.0
+(?:[^a-zA-Z]|\b)hoogland(?:[^a-zA-Z]|\b),Hoogland,320,10545,0,18,0.0
+(?:[^a-zA-Z]|\b)hoogvliet(?:[^a-zA-Z]|\b),Hoogvliet,1085,10348,0,4,0.0
+(?:[^a-zA-Z]|\b)hoogwoud(?:[^a-zA-Z]|\b),Hoogwoud,404,11029,0,2,0.0
+(?:[^a-zA-Z]|\b)hoorn(?:[^a-zA-Z]|\b),Hoorn,405,11392,0,209,0.0
+(?:[^a-zA-Z]|\b)hoornaar(?:[^a-zA-Z]|\b),Hoornaar,536,10516,0,8,0.0
+(?:[^a-zA-Z]|\b)horn(?:[^a-zA-Z]|\b),Horn,922,11176,0,3,0.0
+(?:[^a-zA-Z]|\b)horssen(?:[^a-zA-Z]|\b),Horssen,254,10607,0,0,0.0
+(?:[^a-zA-Z]|\b)horst(?:[^a-zA-Z]|\b),Horst,923,11108,0,106,0.0
+(?:[^a-zA-Z]|\b)houten(?:[^a-zA-Z]|\b),Houten,321,10230,0,238,0.0
+(?:[^a-zA-Z]|\b)houthem(?:[^a-zA-Z]|\b),Houthem,1086,11111,0,0,0.0
+(?:[^a-zA-Z]|\b)huij?bergen(?:[^a-zA-Z]|\b),Huijbergen,803,10466,0,3,0.0
+(?:[^a-zA-Z]|\b)huisselin(g|g.?e?n?neerloon)(?:[^a-zA-Z]|\b),Huisseling en Neerloon,1088,10049,0,3,0.0
+(?:[^a-zA-Z]|\b)huissen(?:[^a-zA-Z]|\b),Huissen,255,11047,0,19,0.0
+(?:[^a-zA-Z]|\b)huizen(?:[^a-zA-Z]|\b),Huizen,406,11170,2,504,0.003968253968253968
+(?:[^a-zA-Z]|\b)hulsberg(?:[^a-zA-Z]|\b),Hulsberg,924,11216,0,2,0.0
+(?:[^a-zA-Z]|\b)hulst(?:[^a-zA-Z]|\b),Hulst,677,11408,0,65,0.0
+(?:[^a-zA-Z]|\b)hummelo.?en.?keppel(?:[^a-zA-Z]|\b),Hummelo en Keppel,256,11235,0,4,0.0
+(?:[^a-zA-Z]|\b)hunsel(?:[^a-zA-Z]|\b),Hunsel,925,10784,0,2,0.0
+(?:[^a-zA-Z]|\b)hurwenen(?:[^a-zA-Z]|\b),Hurwenen,1089,11432,0,3,0.0
+(?:[^a-zA-Z]|\b)idaarderadeel(?:[^a-zA-Z]|\b),Idaarderadeel,78,10815,0,6,0.0
+(?:[^a-zA-Z]|\b)(ij|y)lst(?:[^a-zA-Z]|\b),IJlst,102,11062,0,9,0.0
+(?:[^a-zA-Z]|\b)(ij|y)sselmonde(?:[^a-zA-Z]|\b),IJsselmonde,1230,11357,0,17,0.0
+(?:[^a-zA-Z]|\b)(ij|y)sselmuiden(?:[^a-zA-Z]|\b),IJsselmuiden,191,10641,0,3,0.0
+(?:[^a-zA-Z]|\b)(ij|y)sselstein(?:[^a-zA-Z]|\b),IJsselstein,353,10152,0,7,0.0
+(?:[^a-zA-Z]|\b)(ij|y)zend(ij|y)ke(?:[^a-zA-Z]|\b),IJzendijke,730,10688,0,4,0.0
+(?:[^a-zA-Z]|\b)(ij|y)zendoorn(?:[^a-zA-Z]|\b),IJzendoorn,1231,11430,0,3,0.0
+(?:[^a-zA-Z]|\b)ilpendam(?:[^a-zA-Z]|\b),Ilpendam,407,10809,0,7,0.0
+(?:[^a-zA-Z]|\b)itteren(?:[^a-zA-Z]|\b),Itteren,926,10458,0,2,0.0
+(?:[^a-zA-Z]|\b)ittervoort(?:[^a-zA-Z]|\b),Ittervoort,1090,10190,0,1,0.0
+(?:[^a-zA-Z]|\b)jaarsveld(?:[^a-zA-Z]|\b),Jaarsveld,1091,10847,0,6,0.0
+(?:[^a-zA-Z]|\b)jabeek(?:[^a-zA-Z]|\b),Jabeek,927,10256,0,2,0.0
+(?:[^a-zA-Z]|\b)jisp(?:[^a-zA-Z]|\b),Jisp,408,10481,0,1,0.0
+(?:[^a-zA-Z]|\b)jutphaas(?:[^a-zA-Z]|\b),Jutphaas,322,10374,0,5,0.0
+(?:[^a-zA-Z]|\b)kamerik(?:[^a-zA-Z]|\b),Kamerik,323,10554,0,0,0.0
+(?:[^a-zA-Z]|\b)kampen(?:[^a-zA-Z]|\b),Kampen,166,10253,2,285,0.007017543859649123
+(?:[^a-zA-Z]|\b)kamperveen(?:[^a-zA-Z]|\b),Kamperveen,1092,10443,0,6,0.0
+(?:[^a-zA-Z]|\b)kantens(?:[^a-zA-Z]|\b),Kantens,20,10372,0,3,0.0
+(?:[^a-zA-Z]|\b)kapelle(?:[^a-zA-Z]|\b),Kapelle,678,11223,0,2,0.0
+(?:[^a-zA-Z]|\b)katendrecht(?:[^a-zA-Z]|\b),Katendrecht,1093,11401,0,2,0.0
+(?:[^a-zA-Z]|\b)kats(?:[^a-zA-Z]|\b),Kats,1094,10919,0,0,0.0
+(?:[^a-zA-Z]|\b)kattend(ij|y)ke(?:[^a-zA-Z]|\b),Kattendijke,679,11218,0,8,0.0
+(?:[^a-zA-Z]|\b)katw(ij|y)k(?:[^a-zA-Z]|\b),Katwijk,537,10707,0,11,0.0
+(?:[^a-zA-Z]|\b)katwoude(?:[^a-zA-Z]|\b),Katwoude,409,11136,0,2,0.0
+(?:[^a-zA-Z]|\b)kedichem(?:[^a-zA-Z]|\b),Kedichem,538,10280,0,0,0.0
+(?:[^a-zA-Z]|\b)kerkrade(?:[^a-zA-Z]|\b),Kerkrade,928,10313,0,7,0.0
+(?:[^a-zA-Z]|\b)kerkwerve(?:[^a-zA-Z]|\b),Kerkwerve,1095,10837,0,6,0.0
+(?:[^a-zA-Z]|\b)kerkw(ij|y)k(?:[^a-zA-Z]|\b),Kerkwijk,257,10791,0,9,0.0
+(?:[^a-zA-Z]|\b)kessel(?:[^a-zA-Z]|\b),Kessel,929,10890,0,17,0.0
+(?:[^a-zA-Z]|\b)kesteren(?:[^a-zA-Z]|\b),Kesteren,258,10916,0,3,0.0
+(?:[^a-zA-Z]|\b)kethel.?en.?spaland(?:[^a-zA-Z]|\b),Kethel en Spaland,1096,10551,0,0,0.0
+(?:[^a-zA-Z]|\b)klaaswaal(?:[^a-zA-Z]|\b),Klaaswaal,539,10284,0,8,0.0
+(?:[^a-zA-Z]|\b)klimmen(?:[^a-zA-Z]|\b),Klimmen,930,10977,0,30,0.0
+(?:[^a-zA-Z]|\b)kloetinge(?:[^a-zA-Z]|\b),Kloetinge,680,10155,0,0,0.0
+(?:[^a-zA-Z]|\b)kloosterburen(?:[^a-zA-Z]|\b),Kloosterburen,21,10628,0,1,0.0
+(?:[^a-zA-Z]|\b)klundert(?:[^a-zA-Z]|\b),Klundert,804,10656,0,17,0.0
+(?:[^a-zA-Z]|\b)kockengen(?:[^a-zA-Z]|\b),Kockengen,324,10765,0,5,0.0
+(?:[^a-zA-Z]|\b)koed(ij|y)k(?:[^a-zA-Z]|\b),Koedijk,410,10510,0,8,0.0
+(?:[^a-zA-Z]|\b)koewacht(?:[^a-zA-Z]|\b),Koewacht,681,10892,0,0,0.0
+(?:[^a-zA-Z]|\b)kollumerland(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)nieuwkruisland(?:[^a-zA-Z]|\b),Kollumerland en Nieuwkruisland,79,10984,0,2,0.0
+(?:[^a-zA-Z]|\b)koog.?(aan.?de|a.?d.?).?zaan(?:[^a-zA-Z]|\b),Koog aan de Zaan,411,10776,0,18,0.0
+(?:[^a-zA-Z]|\b)kortenhoef(?:[^a-zA-Z]|\b),Kortenhoef,1097,10467,0,4,0.0
+(?:[^a-zA-Z]|\b)kortgene(?:[^a-zA-Z]|\b),Kortgene,682,10250,0,0,0.0
+(?:[^a-zA-Z]|\b)koudekerk(?:[^a-zA-Z]|\b),Koudekerk,540,10029,0,1,0.0
+(?:[^a-zA-Z]|\b)koudekerke(?:[^a-zA-Z]|\b),Koudekerke,1098,11428,0,0,0.0
+(?:[^a-zA-Z]|\b)krabbend(ij|y)ke(?:[^a-zA-Z]|\b),Krabbendijke,684,11038,0,0,0.0
+(?:[^a-zA-Z]|\b)kralingen(?:[^a-zA-Z]|\b),Kralingen,1099,11367,0,15,0.0
+(?:[^a-zA-Z]|\b)krimpen.?(a.?d.?|aan.?den?).?(ij|y)ssel(?:[^a-zA-Z]|\b),Krimpen aan de Lek,541,10617,0,2,0.0
+(?:[^a-zA-Z]|\b)krimpen.?(aan.?de|a.?d.?).?lek(?:[^a-zA-Z]|\b),Krimpen aan den IJssel,542,10859,0,8,0.0
+(?:[^a-zA-Z]|\b)krommenie(?:[^a-zA-Z]|\b),Krommenie,413,10373,0,25,0.0
+(?:[^a-zA-Z]|\b)kruiningen(?:[^a-zA-Z]|\b),Kruiningen,685,10077,0,5,0.0
+(?:[^a-zA-Z]|\b)kuinre(?:[^a-zA-Z]|\b),Kuinre,167,11148,0,16,0.0
+(?:[^a-zA-Z]|\b)kwad(ij|y)k(?:[^a-zA-Z]|\b),Kwadijk,414,10775,0,1,0.0
+(?:[^a-zA-Z]|\b)laag.?nieuwkoop(?:[^a-zA-Z]|\b),Laag-Nieuwkoop,1100,10305,0,0,0.0
+(?:[^a-zA-Z]|\b)landsmeer(?:[^a-zA-Z]|\b),Landsmeer,415,11225,0,5,0.0
+(?:[^a-zA-Z]|\b)langbroek(?:[^a-zA-Z]|\b),Langbroek,325,11413,0,0,0.0
+(?:[^a-zA-Z]|\b)langerak(?:[^a-zA-Z]|\b),Lange Ruige Weide,1101,10900,0,5,0.0
+(?:[^a-zA-Z]|\b)lange.?ruige.?weide(?:[^a-zA-Z]|\b),Langerak,543,11127,0,0,0.0
+(?:[^a-zA-Z]|\b)laren(?:[^a-zA-Z]|\b),Laren (Gld.),259,10098,0,23,0.0
+(?:[^a-zA-Z]|\b)laren(?:[^a-zA-Z]|\b),Laren (NH.),417,10649,0,23,0.0
+(?:[^a-zA-Z]|\b)leek(?:[^a-zA-Z]|\b),Leek,22,10604,0,15,0.0
+(?:[^a-zA-Z]|\b)leende(?:[^a-zA-Z]|\b),Leende,805,11017,0,20,0.0
+(?:[^a-zA-Z]|\b)leens(?:[^a-zA-Z]|\b),Leens,23,11050,0,12,0.0
+(?:[^a-zA-Z]|\b)leerbroek(?:[^a-zA-Z]|\b),Leerbroek,544,10465,0,4,0.0
+(?:[^a-zA-Z]|\b)leerdam(?:[^a-zA-Z]|\b),Leerdam,545,10685,0,16,0.0
+(?:[^a-zA-Z]|\b)leersum(?:[^a-zA-Z]|\b),Leersum,326,11142,0,6,0.0
+(?:[^a-zA-Z]|\b)l(eeu|iw|ieu)ward(en|\.)(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)ljouwert (?:[^a-zA-Z]|\b),Leeuwarden,80,11228,7,550,0.012727272727272728
+(?:[^a-zA-Z]|\b)leeuwarderadeel(?:[^a-zA-Z]|\b),Leeuwarderadeel,81,10851,0,9,0.0
+(?:[^a-zA-Z]|\b)le(i|y)den|leid(s|sch)e(?:[^a-zA-Z]|\b),Leiden,546,10702,0,630,0.0
+(?:[^a-zA-Z]|\b)le(ij?|y)derdorp(?:[^a-zA-Z]|\b),Leiderdorp,547,10058,0,13,0.0
+(?:[^a-zA-Z]|\b)leimuiden(?:[^a-zA-Z]|\b),Leimuiden,549,11351,0,3,0.0
+(?:[^a-zA-Z]|\b)lekkerkerk(?:[^a-zA-Z]|\b),Lekkerkerk,550,10050,0,14,0.0
+(?:[^a-zA-Z]|\b)lemsterland(?:[^a-zA-Z]|\b),Lemsterland,82,10142,0,8,0.0
+(?:[^a-zA-Z]|\b)leusden(?:[^a-zA-Z]|\b),Leusden,327,10978,0,0,0.0
+(?:[^a-zA-Z]|\b)lexmond(?:[^a-zA-Z]|\b),Lexmond,551,10930,0,3,0.0
+(?:[^a-zA-Z]|\b)lichtenvoorde(?:[^a-zA-Z]|\b),Lichtenvoorde,260,10242,0,1,0.0
+(?:[^a-zA-Z]|\b)liempde(?:[^a-zA-Z]|\b),Liempde,806,10390,0,13,0.0
+(?:[^a-zA-Z]|\b)lienden(?:[^a-zA-Z]|\b),Lienden,261,11093,0,8,0.0
+(?:[^a-zA-Z]|\b)lierop(?:[^a-zA-Z]|\b),Lierop,1102,11279,0,10,0.0
+(?:[^a-zA-Z]|\b)lieshout(?:[^a-zA-Z]|\b),Lieshout,807,10637,0,12,0.0
+(?:[^a-zA-Z]|\b)limbricht(?:[^a-zA-Z]|\b),Limbricht,931,11124,0,0,0.0
+(?:[^a-zA-Z]|\b)limmen(?:[^a-zA-Z]|\b),Limmen,418,11370,0,3,0.0
+(?:[^a-zA-Z]|\b)linden(?:[^a-zA-Z]|\b),Linden,1103,11305,1,97,0.010309278350515464
+(?:[^a-zA-Z]|\b)linne(?:[^a-zA-Z]|\b),Linne,932,10990,0,5,0.0
+(?:[^a-zA-Z]|\b)linschoten(?:[^a-zA-Z]|\b),Linschoten,328,11324,0,7,0.0
+(?:[^a-zA-Z]|\b)lisse(?:[^a-zA-Z]|\b),Lisse,553,10197,0,2,0.0
+(?:[^a-zA-Z]|\b)lith(?:[^a-zA-Z]|\b),Lith,808,11219,0,20,0.0
+(?:[^a-zA-Z]|\b)litho(ij|y)en(?:[^a-zA-Z]|\b),Lithoijen,1104,10024,0,4,0.0
+(?:[^a-zA-Z]|\b)lochem(?:[^a-zA-Z]|\b),Lochem,262,11263,0,13,0.0
+(?:[^a-zA-Z]|\b)loenen(?:[^a-zA-Z]|\b),Loenen,329,11202,0,46,0.0
+(?:[^a-zA-Z]|\b)loenersloot(?:[^a-zA-Z]|\b),Loenersloot,1105,10208,0,1,0.0
+(?:[^a-zA-Z]|\b)lonneker(?:[^a-zA-Z]|\b),Lonneker,1106,11045,0,13,0.0
+(?:[^a-zA-Z]|\b)loon.?op.?zand(?:[^a-zA-Z]|\b),Loon op Zand,809,11259,0,15,0.0
+(?:[^a-zA-Z]|\b)loosdrecht(?:[^a-zA-Z]|\b),Loosdrecht,330,10639,0,1,0.0
+(?:[^a-zA-Z]|\b)loosduinen(?:[^a-zA-Z]|\b),Loosduinen,1107,10997,0,15,0.0
+(?:[^a-zA-Z]|\b)lopik(?:[^a-zA-Z]|\b),Lopik,331,10333,0,8,0.0
+(?:[^a-zA-Z]|\b)loppersum(?:[^a-zA-Z]|\b),Loppersum,24,10934,0,7,0.0
+(?:[^a-zA-Z]|\b)losser(?:[^a-zA-Z]|\b),Losser,168,11166,0,13,0.0
+(?:[^a-zA-Z]|\b)lu(ij|y)ksgestel(?:[^a-zA-Z]|\b),Luyksgestel,810,10011,0,0,0.0
+(?:[^a-zA-Z]|\b)maarheeze(?:[^a-zA-Z]|\b),Maarheeze,811,11143,0,2,0.0
+(?:[^a-zA-Z]|\b)maarn(?:[^a-zA-Z]|\b),Maarn,332,10392,0,0,0.0
+(?:[^a-zA-Z]|\b)maarssen(?:[^a-zA-Z]|\b),Maarssen,333,10191,0,24,0.0
+(?:[^a-zA-Z]|\b)maarsseveen(?:[^a-zA-Z]|\b),Maarsseveen,1108,10874,0,9,0.0
+(?:[^a-zA-Z]|\b)maartensd(ij|y)k(?:[^a-zA-Z]|\b),Maartensdijk,334,10691,0,10,0.0
+(?:[^a-zA-Z]|\b)maasbracht(?:[^a-zA-Z]|\b),Maasbracht,933,10964,0,5,0.0
+(?:[^a-zA-Z]|\b)maasbree(?:[^a-zA-Z]|\b),Maasbree,934,11352,0,9,0.0
+(?:[^a-zA-Z]|\b)maasdam(?:[^a-zA-Z]|\b),Maasdam,554,11019,0,8,0.0
+(?:[^a-zA-Z]|\b)maashees(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)overloon(?:[^a-zA-Z]|\b),Maashees en Overloon,1109,10532,0,5,0.0
+(?:[^a-zA-Z]|\b)maasland(?:[^a-zA-Z]|\b),Maasland,555,10393,0,10,0.0
+(?:[^a-zA-Z]|\b)maasniel(?:[^a-zA-Z]|\b),Maasniel,1110,11261,0,1,0.0
+(?:[^a-zA-Z]|\b)maassluis(?:[^a-zA-Z]|\b),Maassluis,556,10880,0,62,0.0
+(?:[^a-zA-Z]|\b)maastr(ich.*|\.)(?:[^a-zA-Z]|\b),Maastricht,935,10182,21,218,0.0963302752293578
+(?:[^a-zA-Z]|\b)made|drimmelen(?:[^a-zA-Z]|\b),Made en Drimmelen,812,10258,0,176,0.0
+(?:[^a-zA-Z]|\b)margraten(?:[^a-zA-Z]|\b),Margraten,936,11243,0,1,0.0
+(?:[^a-zA-Z]|\b)markelo(?:[^a-zA-Z]|\b),Markelo,169,11382,0,32,0.0
+(?:[^a-zA-Z]|\b)marken(?:[^a-zA-Z]|\b),Marken,419,10901,0,22,0.0
+(?:[^a-zA-Z]|\b)marum(?:[^a-zA-Z]|\b),Marum,25,11431,0,4,0.0
+(?:[^a-zA-Z]|\b)maurik(?:[^a-zA-Z]|\b),Maurik,264,10300,0,4,0.0
+(?:[^a-zA-Z]|\b)medemblik(?:[^a-zA-Z]|\b),Medemblik,420,11215,0,31,0.0
+(?:[^a-zA-Z]|\b)meeden(?:[^a-zA-Z]|\b),Meeden,26,10304,0,4,0.0
+(?:[^a-zA-Z]|\b)meerkerk(?:[^a-zA-Z]|\b),Meerkerk,557,10618,0,9,0.0
+(?:[^a-zA-Z]|\b)meerlo(?:[^a-zA-Z]|\b),Meerlo,937,11416,0,6,0.0
+(?:[^a-zA-Z]|\b)meerssen(?:[^a-zA-Z]|\b),Meerssen,938,10494,0,6,0.0
+(?:[^a-zA-Z]|\b)meeuwen(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)meeuwenn.?.?heel.?.?en.?babyloni(Ã«|e)nbroek(?:[^a-zA-Z]|\b),"Meeuwen, Hill en Babyloniënbroek",1264,10216,0,60,0.0
+(?:[^a-zA-Z]|\b)mege(n|n.?.?haren.?.?e?n?.?macharen)(?:[^a-zA-Z]|\b),"Megen, Haren en Macharen",813,10988,0,25,0.0
+(?:[^a-zA-Z]|\b)me(ij|y)el(?:[^a-zA-Z]|\b),Meijel,941,10925,0,3,0.0
+(?:[^a-zA-Z]|\b)herkenbosch.?en.?melick(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)melick.?en.?herkenbosch(?:[^a-zA-Z]|\b),Melick en Herkenbosch,939,10196,0,0,0.0
+(?:[^a-zA-Z]|\b)meliskerke(?:[^a-zA-Z]|\b),Meliskerke,1112,11221,0,0,0.0
+(?:[^a-zA-Z]|\b)melissant(?:[^a-zA-Z]|\b),Melissant,1113,10918,0,12,0.0
+(?:[^a-zA-Z]|\b)menaldumadeel(?:[^a-zA-Z]|\b),Menaldumadeel,83,11144,0,4,0.0
+(?:[^a-zA-Z]|\b)meppel(?:[^a-zA-Z]|\b),Meppel,119,11204,2,250,0.008
+(?:[^a-zA-Z]|\b)merkelbeek(?:[^a-zA-Z]|\b),Merkelbeek,940,10763,0,1,0.0
+(?:[^a-zA-Z]|\b)mesch(?:[^a-zA-Z]|\b),Mesch,1114,11070,0,9,0.0
+(?:[^a-zA-Z]|\b)mheer(?:[^a-zA-Z]|\b),Mheer,942,10538,0,0,0.0
+(?:[^a-zA-Z]|\b)middelburg(?:[^a-zA-Z]|\b),Middelburg (Z.),687,10122,0,181,0.0
+(?:[^a-zA-Z]|\b)middelharnis(?:[^a-zA-Z]|\b),Middelharnis,559,11067,0,9,0.0
+(?:[^a-zA-Z]|\b)middelie(?:[^a-zA-Z]|\b),Middelie,421,10452,0,0,0.0
+(?:[^a-zA-Z]|\b)middelstum(?:[^a-zA-Z]|\b),Middelstum,27,11199,0,3,0.0
+(?:[^a-zA-Z]|\b)midwold(e|a)(?:[^a-zA-Z]|\b),Midwolda,28,10356,0,6,0.0
+(?:[^a-zA-Z]|\b)midwoud(?:[^a-zA-Z]|\b),Midwoud,422,10924,0,1,0.0
+(?:[^a-zA-Z]|\b)mierlo(?:[^a-zA-Z]|\b),Mierlo,814,10215,0,20,0.0
+(?:[^a-zA-Z]|\b)m(ij|y)drecht(?:[^a-zA-Z]|\b),Mijdrecht,336,11379,0,5,0.0
+(?:[^a-zA-Z]|\b)m(ij|y)nsheerenland(?:[^a-zA-Z]|\b),Mijnsheerenland,564,11112,0,1,0.0
+(?:[^a-zA-Z]|\b)mil(l|l.?en.?(st.?|sint).?hubert)(?:[^a-zA-Z]|\b),Mill en Sint Hubert,815,10535,0,36,0.0
+(?:[^a-zA-Z]|\b)millingen(?:[^a-zA-Z]|\b),Millingen,1259,10072,0,8,0.0
+(?:[^a-zA-Z]|\b)moer(c|k)apelle(?:[^a-zA-Z]|\b),Moergestel,816,11191,0,1,0.0
+(?:[^a-zA-Z]|\b)moergestel(?:[^a-zA-Z]|\b),Moerkapelle,560,11383,0,3,0.0
+(?:[^a-zA-Z]|\b)molenaarsgraaf(?:[^a-zA-Z]|\b),Molenaarsgraaf,561,10166,0,7,0.0
+(?:[^a-zA-Z]|\b)monni.?kendam(?:[^a-zA-Z]|\b),Monnickendam,423,10983,0,16,0.0
+(?:[^a-zA-Z]|\b)monster(?:[^a-zA-Z]|\b),Monster,562,10019,0,45,0.0
+(?:[^a-zA-Z]|\b)montfoort(?:[^a-zA-Z]|\b),Montfoort,335,10033,0,10,0.0
+(?:[^a-zA-Z]|\b)montfort(?:[^a-zA-Z]|\b),Montfort,943,10266,0,1,0.0
+(?:[^a-zA-Z]|\b)mook.?en.?middelaar(?:[^a-zA-Z]|\b),Mook en Middelaar,944,10271,0,0,0.0
+(?:[^a-zA-Z]|\b)moordrecht(?:[^a-zA-Z]|\b),Moordrecht,563,10120,0,10,0.0
+(?:[^a-zA-Z]|\b)muiden(?:[^a-zA-Z]|\b),Muiden,424,10958,0,19,0.0
+(?:[^a-zA-Z]|\b)munstergeleen(?:[^a-zA-Z]|\b),Munstergeleen,945,10273,0,1,0.0
+(?:[^a-zA-Z]|\b)muntendam(?:[^a-zA-Z]|\b),Muntendam,29,10550,0,27,0.0
+(?:[^a-zA-Z]|\b)naaldw(ij|y)k(?:[^a-zA-Z]|\b),Naaldwijk,565,11418,0,14,0.0
+(?:[^a-zA-Z]|\b)naarden(?:[^a-zA-Z]|\b),Naarden,425,10187,0,68,0.0
+(?:[^a-zA-Z]|\b)nederhemert(?:[^a-zA-Z]|\b),Nederhemert,1115,10310,0,7,0.0
+(?:[^a-zA-Z]|\b)nederhorst.?den.?berg(?:[^a-zA-Z]|\b),Nederhorst den Berg,426,10715,0,2,0.0
+(?:[^a-zA-Z]|\b)nederweert(?:[^a-zA-Z]|\b),Nederweert,946,10681,0,4,0.0
+(?:[^a-zA-Z]|\b)neede(?:[^a-zA-Z]|\b),Neede,266,10367,0,9,0.0
+(?:[^a-zA-Z]|\b)neer(?:[^a-zA-Z]|\b),Neer,947,10682,0,131,0.0
+(?:[^a-zA-Z]|\b)neeritter(?:[^a-zA-Z]|\b),Neeritter,1116,11001,0,6,0.0
+(?:[^a-zA-Z]|\b)neuzen(?:[^a-zA-Z]|\b),Nibbixwoud,427,10091,0,29,0.0
+(?:[^a-zA-Z]|\b)nibbi(ks|x)woud(?:[^a-zA-Z]|\b),Nieuw- en Sint Joosland,1117,11340,0,2,0.0
+(?:[^a-zA-Z]|\b)nieuw.?be(ij|y)erland(?:[^a-zA-Z]|\b),Nieuw-Beijerland,566,10092,0,0,0.0
+(?:[^a-zA-Z]|\b)nieuwe.?pekela(?:[^a-zA-Z]|\b),Nieuwe Pekela,30,10950,0,19,0.0
+(?:[^a-zA-Z]|\b)nieuwe.?tonge(?:[^a-zA-Z]|\b),Nieuwe Tonge,1119,10502,0,2,0.0
+(?:[^a-zA-Z]|\b)nieuwendam(?:[^a-zA-Z]|\b),Nieuwendam,1120,10177,0,14,0.0
+(?:[^a-zA-Z]|\b)nieuwenhagen(?:[^a-zA-Z]|\b),Nieuwenhagen,948,10088,0,2,0.0
+(?:[^a-zA-Z]|\b)nieuwenhoorn(?:[^a-zA-Z]|\b),Nieuwenhoorn,1121,10338,0,3,0.0
+(?:[^a-zA-Z]|\b)nieuwe.?niedorp(?:[^a-zA-Z]|\b),Nieuwe-Niedorp,428,10073,0,4,0.0
+(?:[^a-zA-Z]|\b)nieuwer.?amstel(?:[^a-zA-Z]|\b),Nieuwer-Amstel,1249,10799,0,43,0.0
+(?:[^a-zA-Z]|\b)nieuwerkerk(?:[^a-zA-Z]|\b),Nieuwerkerk,1122,10911,0,8,0.0
+(?:[^a-zA-Z]|\b)nieuwerkerk.?(a.?d|aan.?den?).?(ij|y)ssel(?:[^a-zA-Z]|\b),Nieuwerkerk aan den IJssel,567,10855,0,0,0.0
+(?:[^a-zA-Z]|\b)nieuwe.?schans(?:[^a-zA-Z]|\b),Nieuweschans,31,10008,0,19,0.0
+(?:[^a-zA-Z]|\b)nieuw.?helvoet(?:[^a-zA-Z]|\b),Nieuw-Helvoet,1118,10264,0,0,0.0
+(?:[^a-zA-Z]|\b)nieuwkoop(?:[^a-zA-Z]|\b),Nieuwkoop,569,10728,0,14,0.0
+(?:[^a-zA-Z]|\b)nieuwkuik(?:[^a-zA-Z]|\b),Nieuwkuijk,1123,11278,0,3,0.0
+(?:[^a-zA-Z]|\b)nieuwland(?:[^a-zA-Z]|\b),Nieuwland,570,11213,0,35,0.0
+(?:[^a-zA-Z]|\b)nieuw.?lekkerland(?:[^a-zA-Z]|\b),Nieuw-Lekkerland,571,10547,0,3,0.0
+(?:[^a-zA-Z]|\b)nieuwleusen(?:[^a-zA-Z]|\b),Nieuwleusen,170,10384,0,3,0.0
+(?:[^a-zA-Z]|\b)nieuwolda(?:[^a-zA-Z]|\b),Nieuwolda,32,10126,0,17,0.0
+(?:[^a-zA-Z]|\b)nieuwpoort(?:[^a-zA-Z]|\b),Nieuwpoort,572,10748,0,2,0.0
+(?:[^a-zA-Z]|\b)nieuwstadt(?:[^a-zA-Z]|\b),Nieuwstadt,949,11140,0,1,0.0
+(?:[^a-zA-Z]|\b)nieuwveen(?:[^a-zA-Z]|\b),Nieuwveen,573,10487,0,3,0.0
+(?:[^a-zA-Z]|\b)nieuwvliet(?:[^a-zA-Z]|\b),Nieuwvliet,690,11165,0,0,0.0
+(?:[^a-zA-Z]|\b)nieuw.?vo(s|sse)meer(?:[^a-zA-Z]|\b),Nieuw-Vossemeer,818,10401,0,3,0.0
+(?:[^a-zA-Z]|\b)nigtevecht(?:[^a-zA-Z]|\b),Nigtevecht,337,10160,0,2,0.0
+(?:[^a-zA-Z]|\b)n(ij|y)eveen(?:[^a-zA-Z]|\b),Nijeveen,121,10774,0,12,0.0
+(?:[^a-zA-Z]|\b)n(ij|y)kerk(?:[^a-zA-Z]|\b),Nijkerk,267,10446,2,33,0.06060606060606061
+(?:[^a-zA-Z]|\b)n(ij|y)me(gen|eeg.*)(?:[^a-zA-Z]|\b)|(?:[^a-zA-Z]|\b)nijm\.(?:[^a-zA-Z]|\b),Nijmegen,268,11209,0,295,0.0
+(?:[^a-zA-Z]|\b)nisse(?:[^a-zA-Z]|\b),Nisse,691,11086,0,1,0.0
+(?:[^a-zA-Z]|\b)nistelrode(?:[^a-zA-Z]|\b),Nistelrode,819,10094,0,3,0.0
+(?:[^a-zA-Z]|\b)noorbeek(?:[^a-zA-Z]|\b),Noorbeek,950,10283,0,1,0.0
+(?:[^a-zA-Z]|\b)noordbroek(?:[^a-zA-Z]|\b),Noordbroek,1126,10814,0,11,0.0
+(?:[^a-zA-Z]|\b)noordd(ij|y)k(?:[^a-zA-Z]|\b),Noorddijk,1127,10979,0,4,0.0
+(?:[^a-zA-Z]|\b)noordeloos(?:[^a-zA-Z]|\b),Noordeloos,574,10296,0,1,0.0
+(?:[^a-zA-Z]|\b)noordgouwe(?:[^a-zA-Z]|\b),Noordgouwe,1128,11107,0,0,0.0
+(?:[^a-zA-Z]|\b)noord.?scharwoude(?:[^a-zA-Z]|\b),Noord-Scharwoude,1124,10075,0,2,0.0
+(?:[^a-zA-Z]|\b)noord.?waddin(x|ks)veen(?:[^a-zA-Z]|\b),Noord-Waddinxveen,1125,11342,0,0,0.0
+(?:[^a-zA-Z]|\b)noordwelle(?:[^a-zA-Z]|\b),Noordwelle,1129,10055,0,0,0.0
+(?:[^a-zA-Z]|\b)noordw(ij|y)k(?:[^a-zA-Z]|\b),Noordwijk,575,10769,0,82,0.0
+(?:[^a-zA-Z]|\b)noordw(ij|y)kerhout(?:[^a-zA-Z]|\b),Noordwijkerhout,576,11134,0,2,0.0
+(?:[^a-zA-Z]|\b)nootdorp(?:[^a-zA-Z]|\b),Nootdorp,577,10601,0,5,0.0
+(?:[^a-zA-Z]|\b)norg(?:[^a-zA-Z]|\b),Norg,120,10608,0,22,0.0
+(?:[^a-zA-Z]|\b)nuene(n|n.?.?gerwen.?.?en.?nederwetten)(?:[^a-zA-Z]|\b),"Nuenen, Gerwen en Nederwetten",820,10761,0,2,0.0
+(?:[^a-zA-Z]|\b)nuland(?:[^a-zA-Z]|\b),Nuland,821,10118,0,7,0.0
+(?:[^a-zA-Z]|\b)numansdorp(?:[^a-zA-Z]|\b),Numansdorp,578,11346,0,9,0.0
+(?:[^a-zA-Z]|\b)nunhem(?:[^a-zA-Z]|\b),Nunhem,1130,10736,0,1,0.0
+(?:[^a-zA-Z]|\b)nuth(?:[^a-zA-Z]|\b),Nuth,951,10104,0,6,0.0
+(?:[^a-zA-Z]|\b)obbichten(.?|.?en.?)papenhoven(?:[^a-zA-Z]|\b),Obbicht en Papenhoven,952,10388,0,0,0.0
+(?:[^a-zA-Z]|\b)obdam(?:[^a-zA-Z]|\b),Obdam,429,11338,0,2,0.0
+(?:[^a-zA-Z]|\b)od(ij|y)k(?:[^a-zA-Z]|\b),Odijk,1131,11003,0,1,0.0
+(?:[^a-zA-Z]|\b)odoorn(?:[^a-zA-Z]|\b),Odoorn,122,11320,0,11,0.0
+(?:[^a-zA-Z]|\b)oeffelt(?:[^a-zA-Z]|\b),Oeffelt,822,10360,0,3,0.0
+(?:[^a-zA-Z]|\b)oegstgeest(?:[^a-zA-Z]|\b),Oegstgeest,579,10287,0,7,0.0
+(?:[^a-zA-Z]|\b)oerle(?:[^a-zA-Z]|\b),Oerle,1132,10119,0,4,0.0
+(?:[^a-zA-Z]|\b)oh(e|Ã©).?en.?laak(?:[^a-zA-Z]|\b),Ohé en Laak,953,10420,0,0,0.0
+(?:[^a-zA-Z]|\b)o(ij|y)e(n|n.?en.?teeffelen)(?:[^a-zA-Z]|\b),Oijen en Teeffelen,1150,10869,0,22,0.0
+(?:[^a-zA-Z]|\b)oirsbeek(?:[^a-zA-Z]|\b),Oirsbeek,954,10504,0,0,0.0
+(?:[^a-zA-Z]|\b)oirschot(?:[^a-zA-Z]|\b),Oirschot,823,10225,0,16,0.0
+(?:[^a-zA-Z]|\b)oisterw(ij|y)k(?:[^a-zA-Z]|\b),Oisterwijk,824,10103,0,21,0.0
+(?:[^a-zA-Z]|\b)oldebroek(?:[^a-zA-Z]|\b),Oldebroek,269,11106,0,13,0.0
+(?:[^a-zA-Z]|\b)oldehove(?:[^a-zA-Z]|\b),Oldehove,35,10298,0,2,0.0
+(?:[^a-zA-Z]|\b)oldekerk(?:[^a-zA-Z]|\b),Oldekerk,36,11332,0,0,0.0
+(?:[^a-zA-Z]|\b)oldemarkt(?:[^a-zA-Z]|\b),Oldemarkt,172,10858,1,32,0.03125
+(?:[^a-zA-Z]|\b)oldenzaal(?:[^a-zA-Z]|\b),Oldenzaal,173,11100,0,72,0.0
+(?:[^a-zA-Z]|\b)olst(?:[^a-zA-Z]|\b),Olst,174,10409,0,37,0.0
+(?:[^a-zA-Z]|\b)onstwedde(?:[^a-zA-Z]|\b),Onstwedde,1250,10610,0,12,0.0
+(?:[^a-zA-Z]|\b)ooltgensplaat(?:[^a-zA-Z]|\b),Ooltgensplaat,1133,11163,0,8,0.0
+(?:[^a-zA-Z]|\b)barendrecht(?:[^a-zA-Z]|\b),Oost- en West-Barendrecht,1134,10943,0,7,0.0
+(?:[^a-zA-Z]|\b)oost.?.?en.?west.?.?souburg(?:[^a-zA-Z]|\b),Oost- en West-Souburg,1135,11396,0,0,0.0
+(?:[^a-zA-Z]|\b)middelbeers(?:[^a-zA-Z]|\b),"Oost-, West- en Middelbeers",825,10220,0,0,0.0
+(?:[^a-zA-Z]|\b)oostburg(?:[^a-zA-Z]|\b),Oostburg,692,10782,0,7,0.0
+(?:[^a-zA-Z]|\b)oostdongeradeel(?:[^a-zA-Z]|\b),Oostdongeradeel,84,11102,0,4,0.0
+(?:[^a-zA-Z]|\b)oosterhesselen(?:[^a-zA-Z]|\b),Oosterhesselen,123,10490,0,8,0.0
+(?:[^a-zA-Z]|\b)oosterhout(?:[^a-zA-Z]|\b),Oosterhout,826,11280,0,69,0.0
+(?:[^a-zA-Z]|\b)oosterland(?:[^a-zA-Z]|\b),Oosterland,1136,11237,0,0,0.0
+(?:[^a-zA-Z]|\b)oosthuizen(?:[^a-zA-Z]|\b),Oosthuizen,430,11121,0,4,0.0
+(?:[^a-zA-Z]|\b)oostkapelle(?:[^a-zA-Z]|\b),Oostkapelle,1137,10720,0,0,0.0
+(?:[^a-zA-Z]|\b)ooststellingwerf(?:[^a-zA-Z]|\b),Ooststellingwerf,85,10836,0,25,0.0
+(?:[^a-zA-Z]|\b)oostvoorne(?:[^a-zA-Z]|\b),Oostvoorne,581,10009,0,1,0.0
+(?:[^a-zA-Z]|\b)oostzaan(?:[^a-zA-Z]|\b),Oostzaan,431,11303,0,3,0.0
+(?:[^a-zA-Z]|\b)ootmarsum(?:[^a-zA-Z]|\b),Ootmarsum,176,11079,0,16,0.0
+(?:[^a-zA-Z]|\b)ophemert(?:[^a-zA-Z]|\b),Ophemert,270,10829,0,1,0.0
+(?:[^a-zA-Z]|\b)oplo(o?|o?.?.?(sint|st.?).?anthonis.?e?n?.?ledeacker)(?:[^a-zA-Z]|\b),"Oploo, Sint Anthonis en Ledeacker",827,11415,0,4,0.0
+(?:[^a-zA-Z]|\b)opmeer(?:[^a-zA-Z]|\b),Opmeer,432,10609,0,3,0.0
+(?:[^a-zA-Z]|\b)opperdoes(?:[^a-zA-Z]|\b),Opperdoes,433,10523,0,1,0.0
+(?:[^a-zA-Z]|\b)opsterland(?:[^a-zA-Z]|\b),Opsterland,86,10005,0,5,0.0
+(?:[^a-zA-Z]|\b)oss(?:[^a-zA-Z]|\b),Oss,828,10834,0,56,0.0
+(?:[^a-zA-Z]|\b)ossendrecht(?:[^a-zA-Z]|\b),Ossendrecht,829,10929,0,5,0.0
+(?:[^a-zA-Z]|\b)ossenisse(?:[^a-zA-Z]|\b),Ossenisse,1138,10841,0,0,0.0
+(?:[^a-zA-Z]|\b)oterleek(?:[^a-zA-Z]|\b),Oterleek,434,10133,0,3,0.0
+(?:[^a-zA-Z]|\b)ottersum(?:[^a-zA-Z]|\b),Ottersum,955,10862,0,0,0.0
+(?:[^a-zA-Z]|\b)ottoland(?:[^a-zA-Z]|\b),Ottoland,582,10097,0,0,0.0
+(?:[^a-zA-Z]|\b)oud.?en.?nieuw.?gastel(?:[^a-zA-Z]|\b),Oud en Nieuw Gastel,831,11363,0,0,0.0
+(?:[^a-zA-Z]|\b)alblas(?:[^a-zA-Z]|\b),Oud-Alblas,583,10826,0,5,0.0
+(?:[^a-zA-Z]|\b)oud.?be(ij|y)erland(?:[^a-zA-Z]|\b),Oud-Beijerland,584,11301,0,11,0.0
+(?:[^a-zA-Z]|\b)ouddorp(?:[^a-zA-Z]|\b),Ouddorp,1142,11126,0,5,0.0
+(?:[^a-zA-Z]|\b)oude.?niedorp(?:[^a-zA-Z]|\b),Oude Pekela,38,10848,0,2,0.0
+(?:[^a-zA-Z]|\b)oudelande(?:[^a-zA-Z]|\b),Oudelande,695,11139,0,10,0.0
+(?:[^a-zA-Z]|\b)oudenbosch(?:[^a-zA-Z]|\b),Oudenbosch,830,10397,0,45,0.0
+(?:[^a-zA-Z]|\b)oudend(ij|y)k(?:[^a-zA-Z]|\b),Oudendijk,435,11090,0,8,0.0
+(?:[^a-zA-Z]|\b)oudenhoorn(?:[^a-zA-Z]|\b),Oudenhoorn,586,10380,0,1,0.0
+(?:[^a-zA-Z]|\b)oude.?niedorp(?:[^a-zA-Z]|\b),Oude-Niedorp,436,10896,0,2,0.0
+(?:[^a-zA-Z]|\b)oudenr(ij|y)n(?:[^a-zA-Z]|\b),Oudenrijn,1144,10114,0,0,0.0
+(?:[^a-zA-Z]|\b)ouder.?amstel(?:[^a-zA-Z]|\b),Ouder-Amstel,437,10998,0,7,0.0
+(?:[^a-zA-Z]|\b)ouderkerk.?(a.?d|aan.?den?).?(ij|y)ssel(?:[^a-zA-Z]|\b),Ouderkerk aan den IJssel,587,10095,0,2,0.0
+(?:[^a-zA-Z]|\b)oude.?tonge(?:[^a-zA-Z]|\b),Oude-Tonge,1143,10714,0,11,0.0
+(?:[^a-zA-Z]|\b)oudewater(?:[^a-zA-Z]|\b),Oudewater,589,10188,0,13,0.0
+(?:[^a-zA-Z]|\b)oudheusden(?:[^a-zA-Z]|\b),Oudheusden,1145,10812,0,3,0.0
+(?:[^a-zA-Z]|\b)oudkarspel(?:[^a-zA-Z]|\b),Oudkarspel,1146,11051,0,2,0.0
+(?:[^a-zA-Z]|\b)oudorp(?:[^a-zA-Z]|\b),Oudorp,438,10363,0,1,0.0
+(?:[^a-zA-Z]|\b)oudshoorn(?:[^a-zA-Z]|\b),Oudshoorn,1147,11011,0,10,0.0
+(?:[^a-zA-Z]|\b)oud.?valkenburg(?:[^a-zA-Z]|\b),Oud-Valkenburg,1140,10868,0,0,0.0
+(?:[^a-zA-Z]|\b)oud.?vossemeer(?:[^a-zA-Z]|\b),Oud-Vossemeer,696,10134,0,0,0.0
+(?:[^a-zA-Z]|\b)oud.?vroenhoven(?:[^a-zA-Z]|\b),Oud-Vroenhoven,1141,11348,0,0,0.0
+(?:[^a-zA-Z]|\b)ouwerkerk(?:[^a-zA-Z]|\b),Ouwerkerk,1148,10968,0,5,0.0
+(?:[^a-zA-Z]|\b)overasselt(?:[^a-zA-Z]|\b),Overasselt,271,10952,0,0,0.0
+(?:[^a-zA-Z]|\b)overschie(?:[^a-zA-Z]|\b),Overschie,1149,10683,0,18,0.0
+(?:[^a-zA-Z]|\b)overslag(?:[^a-zA-Z]|\b),Overslag,697,10730,0,3,0.0
+(?:[^a-zA-Z]|\b)ovezande(?:[^a-zA-Z]|\b),Ovezande,698,11422,0,1,0.0
+(?:[^a-zA-Z]|\b)pannerden(?:[^a-zA-Z]|\b),Pannerden,272,10518,0,11,0.0
+(?:[^a-zA-Z]|\b)papekop(?:[^a-zA-Z]|\b),Papekop,1151,11244,0,0,0.0
+(?:[^a-zA-Z]|\b)papendrecht(?:[^a-zA-Z]|\b),Papendrecht,590,10427,0,8,0.0
+(?:[^a-zA-Z]|\b)peize(?:[^a-zA-Z]|\b),Peize,124,10501,0,9,0.0
+(?:[^a-zA-Z]|\b)pernis(?:[^a-zA-Z]|\b),Pernis,1152,11245,0,5,0.0
+(?:[^a-zA-Z]|\b)petten(?:[^a-zA-Z]|\b),Petten,1153,11057,0,39,0.0
+(?:[^a-zA-Z]|\b)peursum(?:[^a-zA-Z]|\b),Peursum,1154,10391,0,4,0.0
+(?:[^a-zA-Z]|\b)philippine(?:[^a-zA-Z]|\b),Philippine,699,10486,0,0,0.0
+(?:[^a-zA-Z]|\b)piershil(?:[^a-zA-Z]|\b),Piershil,591,10179,0,3,0.0
+(?:[^a-zA-Z]|\b)p(ij|y)nacker(?:[^a-zA-Z]|\b),Pijnacker,594,10031,0,8,0.0
+(?:[^a-zA-Z]|\b)poedero(ij|y)en(?:[^a-zA-Z]|\b),Poederoijen,1155,10135,0,0,0.0
+(?:[^a-zA-Z]|\b)polsbroek(?:[^a-zA-Z]|\b),Polsbroek,338,10993,0,4,0.0
+(?:[^a-zA-Z]|\b)poortugaal(?:[^a-zA-Z]|\b),Poortugaal,592,11395,0,0,0.0
+(?:[^a-zA-Z]|\b)poortvliet(?:[^a-zA-Z]|\b),Poortvliet,700,11181,0,3,0.0
+(?:[^a-zA-Z]|\b)posterholt(?:[^a-zA-Z]|\b),Posterholt,956,10456,0,3,0.0
+(?:[^a-zA-Z]|\b)princenhage(?:[^a-zA-Z]|\b),Princenhage,1156,10762,0,2,0.0
+(?:[^a-zA-Z]|\b)purmerend(?:[^a-zA-Z]|\b),Purmerend,439,11066,0,33,0.0
+(?:[^a-zA-Z]|\b)putte(?:[^a-zA-Z]|\b),Putte,833,10099,0,185,0.0
+(?:[^a-zA-Z]|\b)putten(?:[^a-zA-Z]|\b),Putten,273,11109,0,77,0.0
+(?:[^a-zA-Z]|\b)puttershoek(?:[^a-zA-Z]|\b),Puttershoek,593,10222,0,7,0.0
+(?:[^a-zA-Z]|\b)raalte(?:[^a-zA-Z]|\b),Raalte,177,10279,2,58,0.034482758620689655
+(?:[^a-zA-Z]|\b)raamsdonk(?:[^a-zA-Z]|\b),Raamsdonk,834,11391,0,11,0.0
+(?:[^a-zA-Z]|\b)ransdorp(?:[^a-zA-Z]|\b),Ransdorp,1157,10789,0,6,0.0
+(?:[^a-zA-Z]|\b)rauwerderhem(?:[^a-zA-Z]|\b),Rauwerderhem,87,10330,0,4,0.0
+(?:[^a-zA-Z]|\b)ravenstein(?:[^a-zA-Z]|\b),Ravenstein,835,10805,0,12,0.0
+(?:[^a-zA-Z]|\b)reek(?:[^a-zA-Z]|\b),Reek,1158,10671,0,11,0.0
+(?:[^a-zA-Z]|\b)reeuw(ij|y)k(?:[^a-zA-Z]|\b),Reeuwijk,595,10485,0,5,0.0
+(?:[^a-zA-Z]|\b)renesse(?:[^a-zA-Z]|\b),Renesse,1159,10412,0,4,0.0
+(?:[^a-zA-Z]|\b)renkum(?:[^a-zA-Z]|\b),Renkum,274,11325,0,19,0.0
+(?:[^a-zA-Z]|\b)renswoude(?:[^a-zA-Z]|\b),Renswoude,339,10269,0,0,0.0
+(?:[^a-zA-Z]|\b)retranchement(?:[^a-zA-Z]|\b),Retranchement,701,10400,0,1,0.0
+(?:[^a-zA-Z]|\b)reusel(?:[^a-zA-Z]|\b),Reusel,836,10162,0,9,0.0
+(?:[^a-zA-Z]|\b)rheden(?:[^a-zA-Z]|\b),Rheden,275,11355,0,16,0.0
+(?:[^a-zA-Z]|\b)rhenen(?:[^a-zA-Z]|\b),Rhenen,340,10309,0,31,0.0
+(?:[^a-zA-Z]|\b)rhoon(?:[^a-zA-Z]|\b),Rhoon,596,10903,0,0,0.0
+(?:[^a-zA-Z]|\b)ridderkerk(?:[^a-zA-Z]|\b),Ridderkerk,597,10646,0,32,0.0
+(?:[^a-zA-Z]|\b)riethoven(?:[^a-zA-Z]|\b),Riethoven,837,10455,0,2,0.0
+(?:[^a-zA-Z]|\b)rietveld(?:[^a-zA-Z]|\b),Rietveld,1160,10828,0,10,0.0
+(?:[^a-zA-Z]|\b)r(ij|y)ckholt(?:[^a-zA-Z]|\b),Rijckholt,1165,10824,0,0,0.0
+(?:[^a-zA-Z]|\b)r(ij|y)nsaterwoude(?:[^a-zA-Z]|\b),Rijnsaterwoude,601,11129,0,1,0.0
+(?:[^a-zA-Z]|\b)rh?(ij|y)nsburg(?:[^a-zA-Z]|\b),Rijnsburg,602,11118,0,6,0.0
+(?:[^a-zA-Z]|\b)r(ij|y)sbergen(?:[^a-zA-Z]|\b),Rijsbergen,841,10866,0,1,0.0
+(?:[^a-zA-Z]|\b)r(ij|y)senburg(?:[^a-zA-Z]|\b),Rijsenburg,1166,10613,0,3,0.0
+(?:[^a-zA-Z]|\b)r(ij|y)ssen(?:[^a-zA-Z]|\b),Rijssen,178,10358,0,21,0.0
+(?:[^a-zA-Z]|\b)r(ij|y)sw(ij|y)k(?:[^a-zA-Z]|\b),Rijswijk (NB.),842,11016,0,97,0.0
+(?:[^a-zA-Z]|\b)r(ij|y)sw(ij|y)k(?:[^a-zA-Z]|\b),Rijswijk (ZH.),603,11133,0,97,0.0
+(?:[^a-zA-Z]|\b)rilland(?:[^a-zA-Z]|\b),Rilland,1161,10479,0,2,0.0
+(?:[^a-zA-Z]|\b)rimburg(?:[^a-zA-Z]|\b),Rimburg,1162,10020,0,1,0.0
+(?:[^a-zA-Z]|\b)ritthem(?:[^a-zA-Z]|\b),Ritthem,1163,10652,0,1,0.0
+(?:[^a-zA-Z]|\b)rockanje(?:[^a-zA-Z]|\b),Rockanje,598,10464,0,1,0.0
+(?:[^a-zA-Z]|\b)roden(?:[^a-zA-Z]|\b),Roden,125,10699,0,22,0.0
+(?:[^a-zA-Z]|\b)roermond(?:[^a-zA-Z]|\b),Roermond,957,11313,0,97,0.0
+(?:[^a-zA-Z]|\b)roggel(?:[^a-zA-Z]|\b),Roggel,958,10505,0,1,0.0
+(?:[^a-zA-Z]|\b)rolde(?:[^a-zA-Z]|\b),Rolde,126,10470,0,21,0.0
+(?:[^a-zA-Z]|\b)roo(s|z)endaal.?en.?nispen(?:[^a-zA-Z]|\b),Roosendaal en Nispen,838,10407,0,0,0.0
+(?:[^a-zA-Z]|\b)roosteren(?:[^a-zA-Z]|\b),Roosteren,959,10954,0,7,0.0
+(?:[^a-zA-Z]|\b)rosmalen(?:[^a-zA-Z]|\b),Rosmalen,839,10970,0,8,0.0
+(?:[^a-zA-Z]|\b)rossum(?:[^a-zA-Z]|\b),Rossum,276,10860,0,36,0.0
+(?:[^a-zA-Z]|\b)rott.?rdam|rott\.(?:[^a-zA-Z]|\b),Rotterdam,599,10345,6,1528,0.003926701570680628
+(?:[^a-zA-Z]|\b)ro0?(s|z)enburgh?(?:[^a-zA-Z]|\b),Rozenburg,600,11314,0,16,0.0
+(?:[^a-zA-Z]|\b)roo?(s|z)enda(a|e)l(?:[^a-zA-Z]|\b),Rozendaal,277,10684,0,178,0.0
+(?:[^a-zA-Z]|\b)rucphen(?:[^a-zA-Z]|\b),Rucphen,840,11152,0,13,0.0
+(?:[^a-zA-Z]|\b)ruinen(?:[^a-zA-Z]|\b),Ruinen,127,10629,0,17,0.0
+(?:[^a-zA-Z]|\b)ruinerwold(?:[^a-zA-Z]|\b),Ruinerwold,128,10944,0,9,0.0
+(?:[^a-zA-Z]|\b)ruurlo(?:[^a-zA-Z]|\b),Ruurlo,278,10879,0,1,0.0
+(?:[^a-zA-Z]|\b)ruwiel(?:[^a-zA-Z]|\b),Ruwiel,1164,10526,0,0,0.0
+(?:[^a-zA-Z]|\b)sambeek(?:[^a-zA-Z]|\b),Sambeek,1167,10339,0,7,0.0
+(?:[^a-zA-Z]|\b)sappemeer(?:[^a-zA-Z]|\b),Sappemeer,1168,10080,0,17,0.0
+(?:[^a-zA-Z]|\b)sas.?van.?gent(?:[^a-zA-Z]|\b),Sas van Gent,704,11405,0,10,0.0
+(?:[^a-zA-Z]|\b)sassenheim(?:[^a-zA-Z]|\b),Sassenheim,604,10612,0,5,0.0
+(?:[^a-zA-Z]|\b)schaesbergh?(?:[^a-zA-Z]|\b),Schaesberg,960,11335,0,0,0.0
+(?:[^a-zA-Z]|\b)schagen(?:[^a-zA-Z]|\b),Schagen,441,10511,0,49,0.0
+(?:[^a-zA-Z]|\b)scha(ij|y)k(?:[^a-zA-Z]|\b),Schaijk,843,10276,0,4,0.0
+(?:[^a-zA-Z]|\b)schalkw(ij|y)k(?:[^a-zA-Z]|\b),Schalkwijk,1169,10378,0,28,0.0
+(?:[^a-zA-Z]|\b)scheemda(?:[^a-zA-Z]|\b),Scheemda,39,10711,0,10,0.0
+(?:[^a-zA-Z]|\b)schellinkhout(?:[^a-zA-Z]|\b),Schellinkhout,442,10772,0,3,0.0
+(?:[^a-zA-Z]|\b)schelluinen(?:[^a-zA-Z]|\b),Schelluinen,605,11399,0,0,0.0
+(?:[^a-zA-Z]|\b)schermerhorn(?:[^a-zA-Z]|\b),Schermerhorn,443,10308,0,1,0.0
+(?:[^a-zA-Z]|\b)scherpenisse(?:[^a-zA-Z]|\b),Scherpenisse,705,10375,0,7,0.0
+(?:[^a-zA-Z]|\b)scherpenzeel(?:[^a-zA-Z]|\b),Scherpenzeel,279,11146,0,14,0.0
+(?:[^a-zA-Z]|\b)schiebroek(?:[^a-zA-Z]|\b),Schiebroek,1170,11306,0,2,0.0
+(?:[^a-zA-Z]|\b)schieda(m|ams.?)(?:[^a-zA-Z]|\b),Schiedam,606,11260,1,406,0.0024630541871921183
+(?:[^a-zA-Z]|\b)schiermonnikoog(?:[^a-zA-Z]|\b),Schiermonnikoog,88,10355,0,13,0.0
+(?:[^a-zA-Z]|\b)sch(ij|y)ndel(?:[^a-zA-Z]|\b),Schijndel,844,11178,0,13,0.0
+(?:[^a-zA-Z]|\b)schimmert(?:[^a-zA-Z]|\b),Schimmert,961,11076,0,1,0.0
+(?:[^a-zA-Z]|\b)schin.?op.?geulle(?:[^a-zA-Z]|\b),Schin op Geul,1171,10780,0,0,0.0
+(?:[^a-zA-Z]|\b)schinnen(?:[^a-zA-Z]|\b),Schinnen,962,10132,0,4,0.0
+(?:[^a-zA-Z]|\b)schinveld(?:[^a-zA-Z]|\b),Schinveld,963,10492,0,1,0.0
+(?:[^a-zA-Z]|\b)schipluiden(?:[^a-zA-Z]|\b),Schipluiden,607,10130,0,15,0.0
+(?:[^a-zA-Z]|\b)schoond(ij|y)ke(?:[^a-zA-Z]|\b),Schoondijke,706,10189,0,0,0.0
+(?:[^a-zA-Z]|\b)schoonhoven(?:[^a-zA-Z]|\b),Schoonhoven,608,10980,0,60,0.0
+(?:[^a-zA-Z]|\b)schoonrewoerd(?:[^a-zA-Z]|\b),Schoonrewoerd,609,10214,0,0,0.0
+(?:[^a-zA-Z]|\b)schoorl(?:[^a-zA-Z]|\b),Schoorl,444,10627,0,4,0.0
+(?:[^a-zA-Z]|\b)schore(?:[^a-zA-Z]|\b),Schore,1172,10544,0,0,0.0
+(?:[^a-zA-Z]|\b)schoten(?:[^a-zA-Z]|\b),Schoten,1173,10382,0,46,0.0
+(?:[^a-zA-Z]|\b)schoterland(?:[^a-zA-Z]|\b),Schoterland,1174,10680,0,6,0.0
+(?:[^a-zA-Z]|\b)serooskerke(?:[^a-zA-Z]|\b),Serooskerke (Schouwen-Duivenland),1175,11014,0,6,0.0
+(?:[^a-zA-Z]|\b)serooskerke(?:[^a-zA-Z]|\b),Serooskerke (Walcheren),1176,11256,0,6,0.0
+(?:[^a-zA-Z]|\b)sevenum(?:[^a-zA-Z]|\b),Sevenum,964,10045,0,8,0.0
+(?:[^a-zA-Z]|\b)s.?graveland(?:[^a-zA-Z]|\b),'s-Graveland,390,10534,0,12,0.0
+(?:[^a-zA-Z]|\b)s.?gravendeel(?:[^a-zA-Z]|\b),'s-Gravendeel,517,10052,0,7,0.0
+(?:[^a-zA-Z]|\b)graven.?hage|haag.*|s.?hage|grave\.(?:[^a-zA-Z]|\b),'s-Gravenhage,518,11434,31,884,0.03506787330316742
+(?:[^a-zA-Z]|\b)s.?graven?moer(?:[^a-zA-Z]|\b),'s-Gravenmoer,787,10469,0,7,0.0
+(?:[^a-zA-Z]|\b)s.?graven?polder(?:[^a-zA-Z]|\b),'s-Gravenpolder,666,11059,0,0,0.0
+(?:[^a-zA-Z]|\b)s.?grave(s|z)ande(?:[^a-zA-Z]|\b),'s-Gravenzande,519,10640,0,26,0.0
+(?:[^a-zA-Z]|\b)s.?heer.?abtskerke(?:[^a-zA-Z]|\b),'s-Heer-Abtskerke,669,10337,0,0,0.0
+(?:[^a-zA-Z]|\b)s.?heer.?arendskerke(?:[^a-zA-Z]|\b),'s-Heer-Arendskerke,670,10875,0,1,0.0
+(?:[^a-zA-Z]|\b)s.?heerenhoek(?:[^a-zA-Z]|\b),'s-Heerenhoek,671,10721,0,7,0.0
+(?:[^a-zA-Z]|\b)hert.?ogenbosch|(s|den).?bosch(?:[^a-zA-Z]|\b),'s-Hertogenbosch,796,10054,0,528,0.0
+(?:[^a-zA-Z]|\b)s(ij|y)bekarspel(?:[^a-zA-Z]|\b),Sijbekarspel,447,11167,0,0,0.0
+(?:[^a-zA-Z]|\b)simpelveld(?:[^a-zA-Z]|\b),Simpelveld,965,10515,0,0,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?anna.?ter.?muiden(?:[^a-zA-Z]|\b),Sint Anna Termuiden,1177,11012,0,0,0.0
+(?:[^a-zA-Z]|\b)(ste?.?|sint).?geertruid(?:[^a-zA-Z]|\b),Sint Geertruid,966,10288,0,1,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?jansteen(?:[^a-zA-Z]|\b),Sint Jansteen,709,10864,0,0,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?kruis(?:[^a-zA-Z]|\b),Sint Kruis,1178,10235,0,0,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?laurens(?:[^a-zA-Z]|\b),Sint Laurens,1179,10106,0,3,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?maarten(?:[^a-zA-Z]|\b),Sint Maarten,445,10740,0,13,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?odili(e|Ã«)nberg(?:[^a-zA-Z]|\b),Sint Odiliënberg,967,10278,0,0,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?pancras(?:[^a-zA-Z]|\b),Sint Pancras,446,10513,0,3,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?philipsland(?:[^a-zA-Z]|\b),Sint Philipsland,712,10394,0,2,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?pieter(?:[^a-zA-Z]|\b),Sint Pieter,1180,10137,0,19,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?annaland(?:[^a-zA-Z]|\b),Sint-Annaland,708,11200,0,3,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?maartensd(ij|y)k(?:[^a-zA-Z]|\b),Sint-Maartensdijk,711,10716,0,2,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?michiels.?gestel(?:[^a-zA-Z]|\b),Sint-Michielsgestel,845,10496,0,11,0.0
+(?:[^a-zA-Z]|\b)(st.?|sint).?oedenrode(?:[^a-zA-Z]|\b),Sint-Oedenrode,846,10399,0,13,0.0
+(?:[^a-zA-Z]|\b)sittard(?:[^a-zA-Z]|\b),Sittard,968,11230,1,47,0.02127659574468085
+(?:[^a-zA-Z]|\b)sleen(?:[^a-zA-Z]|\b),Sleen,130,10489,0,17,0.0
+(?:[^a-zA-Z]|\b)slenaken(?:[^a-zA-Z]|\b),Slenaken,969,11274,0,0,0.0
+(?:[^a-zA-Z]|\b)sliedrecht(?:[^a-zA-Z]|\b),Sliedrecht,610,11331,0,25,0.0
+(?:[^a-zA-Z]|\b)slochteren(?:[^a-zA-Z]|\b),Slochteren,40,10747,0,14,0.0
+(?:[^a-zA-Z]|\b)sloten(?:[^a-zA-Z]|\b),Sloten (F.),89,10867,0,107,0.0
+(?:[^a-zA-Z]|\b)sloten(?:[^a-zA-Z]|\b),Sloten (NH.),1181,10148,0,107,0.0
+(?:[^a-zA-Z]|\b)sluipw(ij|y)k(?:[^a-zA-Z]|\b),Sluipwijk,1182,11402,0,4,0.0
+(?:[^a-zA-Z]|\b)sluis(?:[^a-zA-Z]|\b),Sluis,713,10895,0,136,0.0
+(?:[^a-zA-Z]|\b)smallingerland(?:[^a-zA-Z]|\b),Smallingerland,90,10405,0,5,0.0
+(?:[^a-zA-Z]|\b)smilde(?:[^a-zA-Z]|\b),Smilde,131,11033,0,60,0.0
+(?:[^a-zA-Z]|\b)sneek(?:[^a-zA-Z]|\b),Sneek,91,11421,4,177,0.022598870056497175
+(?:[^a-zA-Z]|\b)snelrewaard(?:[^a-zA-Z]|\b),Snelrewaard,341,10802,0,0,0.0
+(?:[^a-zA-Z]|\b)soerendon(k|k.?.?sterksel.?e?n?.?gastel)(?:[^a-zA-Z]|\b),Soerendonk,1183,10047,0,2,0.0
+(?:[^a-zA-Z]|\b)soest(?:[^a-zA-Z]|\b),Soest,342,11021,0,14,0.0
+(?:[^a-zA-Z]|\b)someren(?:[^a-zA-Z]|\b),Someren,847,10203,0,34,0.0
+(?:[^a-zA-Z]|\b)sommelsd(ij|y)k(?:[^a-zA-Z]|\b),Sommelsdijk,1184,11097,0,7,0.0
+(?:[^a-zA-Z]|\b)so(n|n.?e?n?.?breugel)(?:[^a-zA-Z]|\b),Son en Breugel,848,10549,1,96,0.010416666666666666
+(?:[^a-zA-Z]|\b)spaarndam(?:[^a-zA-Z]|\b),Spaarndam,1185,10192,0,11,0.0
+(?:[^a-zA-Z]|\b)spanbroek(?:[^a-zA-Z]|\b),Spanbroek,1186,10063,0,7,0.0
+(?:[^a-zA-Z]|\b)spaubeek(?:[^a-zA-Z]|\b),Spaubeek,970,10552,0,1,0.0
+(?:[^a-zA-Z]|\b)sp(ij|y)kenisse(?:[^a-zA-Z]|\b),Spijkenisse,612,10735,0,5,0.0
+(?:[^a-zA-Z]|\b)sprang(?:[^a-zA-Z]|\b),Sprang,1187,10659,0,18,0.0
+(?:[^a-zA-Z]|\b)stad.?aan.?.?t.?haringvliet(?:[^a-zA-Z]|\b),Stad aan 't Haringvliet,1188,11239,0,0,0.0
+(?:[^a-zA-Z]|\b)ommen(?:[^a-zA-Z]|\b),Stad Delden,179,10913,0,73,0.0
+(?:[^a-zA-Z]|\b)almelo(?:[^a-zA-Z]|\b),Stad-Almelo,1189,11053,0,192,0.0
+(?:[^a-zA-Z]|\b)doetin?chem(?:[^a-zA-Z]|\b),Stad-Doetinchem,1190,10603,0,56,0.0
+(?:[^a-zA-Z]|\b)hardenberg(?:[^a-zA-Z]|\b),Stad-Hardenberg,1191,11169,0,39,0.0
+(?:[^a-zA-Z]|\b)ommen(?:[^a-zA-Z]|\b),Stad-Ommen,1192,10381,0,73,0.0
+(?:[^a-zA-Z]|\b)vollenhove(?:[^a-zA-Z]|\b),Stad-Vollenhove,1193,11183,0,24,0.0
+(?:[^a-zA-Z]|\b)standdaarbuiten(?:[^a-zA-Z]|\b),Standdaarbuiten,850,11212,0,8,0.0
+(?:[^a-zA-Z]|\b)staphorst(?:[^a-zA-Z]|\b),Staphorst,180,11362,0,39,0.0
+(?:[^a-zA-Z]|\b)stavenisse(?:[^a-zA-Z]|\b),Stavenisse,714,10619,0,5,0.0
+(?:[^a-zA-Z]|\b)stavoren(?:[^a-zA-Z]|\b),Staveren,1257,10240,0,14,0.0
+(?:[^a-zA-Z]|\b)stedum(?:[^a-zA-Z]|\b),Stedum,41,10771,0,3,0.0
+(?:[^a-zA-Z]|\b)steenberge(n|n.?en.?kruisland)(?:[^a-zA-Z]|\b),Steenbergen en Kruisland,1376,10731,0,64,0.0
+(?:[^a-zA-Z]|\b)steenderen(?:[^a-zA-Z]|\b),Steenderen,280,10497,0,12,0.0
+(?:[^a-zA-Z]|\b)steenw(ij|y)k(?:[^a-zA-Z]|\b),Steenwijk,181,10546,0,147,0.0
+(?:[^a-zA-Z]|\b)steenw(ij|y)kerwold(?:[^a-zA-Z]|\b),Steenwijkerwold,182,11347,0,11,0.0
+(?:[^a-zA-Z]|\b)stein(?:[^a-zA-Z]|\b),Stein (L.),971,11319,0,4,0.0
+(?:[^a-zA-Z]|\b)stein(?:[^a-zA-Z]|\b),Stein (ZH.),1194,11437,0,4,0.0
+(?:[^a-zA-Z]|\b)stellendam(?:[^a-zA-Z]|\b),Stellendam,1195,10087,0,0,0.0
+(?:[^a-zA-Z]|\b)stevensweert(?:[^a-zA-Z]|\b),Stevensweert,972,11203,0,0,0.0
+(?:[^a-zA-Z]|\b)stiphout(?:[^a-zA-Z]|\b),Stiphout,1196,11386,0,6,0.0
+(?:[^a-zA-Z]|\b)stolw(ij|y)k(?:[^a-zA-Z]|\b),Stolwijk,615,11250,0,1,0.0
+(?:[^a-zA-Z]|\b)stompw(ij|y)k(?:[^a-zA-Z]|\b),Stompwijk,1197,10742,0,2,0.0
+(?:[^a-zA-Z]|\b)stoppeld(ij|y)k(?:[^a-zA-Z]|\b),Stoppeldijk,1198,10100,0,1,0.0
+(?:[^a-zA-Z]|\b)stoutenburg(?:[^a-zA-Z]|\b),Stoutenburg,343,10438,0,0,0.0
+(?:[^a-zA-Z]|\b)strampro(ij|y)(?:[^a-zA-Z]|\b),Stramproy,973,11186,0,0,0.0
+(?:[^a-zA-Z]|\b)stratum(?:[^a-zA-Z]|\b),Stratum,1199,10172,0,13,0.0
+(?:[^a-zA-Z]|\b)streefkerk(?:[^a-zA-Z]|\b),Streefkerk,616,11105,0,5,0.0
+(?:[^a-zA-Z]|\b)str(ij|y)en(?:[^a-zA-Z]|\b),Strijen,617,10558,0,14,0.0
+(?:[^a-zA-Z]|\b)str(ij|y)p(?:[^a-zA-Z]|\b),Strijp,1201,10521,0,3,0.0
+(?:[^a-zA-Z]|\b)strucht(?:[^a-zA-Z]|\b),Strucht,1200,11034,0,0,0.0
+(?:[^a-zA-Z]|\b)susteren(?:[^a-zA-Z]|\b),Susteren,974,10457,0,2,0.0
+(?:[^a-zA-Z]|\b)swalmen(?:[^a-zA-Z]|\b),Swalmen,975,10474,0,4,0.0
+(?:[^a-zA-Z]|\b)t.?zandt(?:[^a-zA-Z]|\b),'t Zandt,54,10956,0,5,0.0
+(?:[^a-zA-Z]|\b)tegelen(?:[^a-zA-Z]|\b),Tegelen,976,11333,0,18,0.0
+(?:[^a-zA-Z]|\b)ten.?boer(?:[^a-zA-Z]|\b),Ten Boer,9,10891,0,4,0.0
+(?:[^a-zA-Z]|\b)ter.?aar(?:[^a-zA-Z]|\b),Ter Aar,480,11104,0,6,0.0
+(?:[^a-zA-Z]|\b)terhe(ij|y)den(?:[^a-zA-Z]|\b),Terheijden,853,10905,0,6,0.0
+(?:[^a-zA-Z]|\b)termunten(?:[^a-zA-Z]|\b),Termunten,42,11023,0,1,0.0
+(?:[^a-zA-Z]|\b)terneuzen(?:[^a-zA-Z]|\b),Terneuzen,715,10704,0,5,0.0
+(?:[^a-zA-Z]|\b)terschelling(?:[^a-zA-Z]|\b),Terschelling,93,11210,0,19,0.0
+(?:[^a-zA-Z]|\b)teteringen(?:[^a-zA-Z]|\b),Teteringen,854,10677,0,9,0.0
+(?:[^a-zA-Z]|\b)texel(?:[^a-zA-Z]|\b),Texel,448,10237,0,215,0.0
+(?:[^a-zA-Z]|\b)tholen(?:[^a-zA-Z]|\b),Tholen,716,10376,0,24,0.0
+(?:[^a-zA-Z]|\b)thorn(?:[^a-zA-Z]|\b),Thorn,977,11195,0,5,0.0
+(?:[^a-zA-Z]|\b)tiel(?:[^a-zA-Z]|\b),Tiel,281,10027,0,183,0.0
+(?:[^a-zA-Z]|\b)tienhoven(?:[^a-zA-Z]|\b),Tienhoven (U.),1202,10035,0,11,0.0
+(?:[^a-zA-Z]|\b)tienhoven(?:[^a-zA-Z]|\b),Tienhoven (ZH.),618,10706,0,11,0.0
+(?:[^a-zA-Z]|\b)tietjerksteradeel(?:[^a-zA-Z]|\b),Tietjerksteradeel,94,11241,0,16,0.0
+(?:[^a-zA-Z]|\b)tilb(urg|\.)(?:[^a-zA-Z]|\b),Tilburg,855,10792,1,248,0.004032258064516129
+(?:[^a-zA-Z]|\b)tongelre(?:[^a-zA-Z]|\b),Tongelre,1203,11240,0,5,0.0
+(?:[^a-zA-Z]|\b)tubbergen(?:[^a-zA-Z]|\b),Tubbergen,183,10694,0,14,0.0
+(?:[^a-zA-Z]|\b)tull.?en.?.?t.?waal(?:[^a-zA-Z]|\b),Tull en 't Waal,1205,11022,0,0,0.0
+(?:[^a-zA-Z]|\b)twisk(?:[^a-zA-Z]|\b),Twisk,449,10371,0,3,0.0
+(?:[^a-zA-Z]|\b)ubach.?over.?worms(?:[^a-zA-Z]|\b),Ubach over Worms,978,10146,0,0,0.0
+(?:[^a-zA-Z]|\b)ubbergen(?:[^a-zA-Z]|\b),Ubbergen,282,10408,0,1,0.0
+(?:[^a-zA-Z]|\b)uden(?:[^a-zA-Z]|\b),Uden,856,11141,0,97,0.0
+(?:[^a-zA-Z]|\b)udenhout(?:[^a-zA-Z]|\b),Udenhout,857,11268,0,21,0.0
+(?:[^a-zA-Z]|\b)uitgeest(?:[^a-zA-Z]|\b),Uitgeest,450,11238,0,20,0.0
+(?:[^a-zA-Z]|\b)uithoorn(?:[^a-zA-Z]|\b),Uithoorn,451,11206,0,12,0.0
+(?:[^a-zA-Z]|\b)uithuizen(?:[^a-zA-Z]|\b),Uithuizen,43,11137,0,7,0.0
+(?:[^a-zA-Z]|\b)uithuizermeeden(?:[^a-zA-Z]|\b),Uithuizermeeden,44,10246,0,3,0.0
+(?:[^a-zA-Z]|\b)ulestraten(?:[^a-zA-Z]|\b),Ulestraten,979,11220,0,3,0.0
+(?:[^a-zA-Z]|\b)ulrum(?:[^a-zA-Z]|\b),Ulrum,45,10180,0,4,0.0
+(?:[^a-zA-Z]|\b)urk(?:[^a-zA-Z]|\b),Urk,184,10783,0,36,0.0
+(?:[^a-zA-Z]|\b)urmond(?:[^a-zA-Z]|\b),Urmond,980,10700,0,1,0.0
+(?:[^a-zA-Z]|\b)ursem(?:[^a-zA-Z]|\b),Ursem,452,10696,0,2,0.0
+(?:[^a-zA-Z]|\b)usquert(?:[^a-zA-Z]|\b),Usquert,46,11035,0,9,0.0
+(?:[^a-zA-Z]|\b)utingeradeel(?:[^a-zA-Z]|\b),Utingeradeel,95,10140,0,7,0.0
+(?:[^a-zA-Z]|\b)u.?trecht(?:[^a-zA-Z]|\b),Utrecht,344,10722,3,796,0.0037688442211055275
+(?:[^a-zA-Z]|\b)vaals(?:[^a-zA-Z]|\b),Vaals,981,10007,0,4,0.0
+(?:[^a-zA-Z]|\b)valburg(?:[^a-zA-Z]|\b),Valburg,283,11071,0,5,0.0
+(?:[^a-zA-Z]|\b)valkenburg(?:[^a-zA-Z]|\b),Valkenburg (L.),1252,11077,0,39,0.0
+(?:[^a-zA-Z]|\b)valkenburg(?:[^a-zA-Z]|\b),Valkenburg (ZH.),619,10028,0,39,0.0
+(?:[^a-zA-Z]|\b)valkenswaard(?:[^a-zA-Z]|\b),Valkenswaard,858,11031,0,3,0.0
+(?:[^a-zA-Z]|\b)varik(?:[^a-zA-Z]|\b),Varik,284,11064,0,0,0.0
+(?:[^a-zA-Z]|\b)veen(?:[^a-zA-Z]|\b),Veen,859,10015,0,213,0.0
+(?:[^a-zA-Z]|\b)veendam(?:[^a-zA-Z]|\b),Veendam,47,11292,0,111,0.0
+(?:[^a-zA-Z]|\b)veenendaal(?:[^a-zA-Z]|\b),Veenendaal,345,11052,0,31,0.0
+(?:[^a-zA-Z]|\b)veere(?:[^a-zA-Z]|\b),Veere,717,10369,0,8,0.0
+(?:[^a-zA-Z]|\b)veghel(?:[^a-zA-Z]|\b),Veghel,860,10985,0,16,0.0
+(?:[^a-zA-Z]|\b)veldhoven(?:[^a-zA-Z]|\b),Veldhoven en Meerveldhoven,1206,10071,0,9,0.0
+(?:[^a-zA-Z]|\b)veldhuizen(?:[^a-zA-Z]|\b),Veldhuizen,1207,10713,0,4,0.0
+(?:[^a-zA-Z]|\b)velp(?:[^a-zA-Z]|\b),Velp,1208,10170,0,81,0.0
+(?:[^a-zA-Z]|\b)vel(z|s)en(?:[^a-zA-Z]|\b),Velsen,453,10620,0,37,0.0
+(?:[^a-zA-Z]|\b)venhuizen(?:[^a-zA-Z]|\b),Venhuizen,454,10433,0,1,0.0
+(?:[^a-zA-Z]|\b)venlo(?:[^a-zA-Z]|\b),Venlo,983,10477,0,150,0.0
+(?:[^a-zA-Z]|\b)venray(?:[^a-zA-Z]|\b),Venray,984,11222,0,23,0.0
+(?:[^a-zA-Z]|\b)vesse(m|m.?.?wintelre.?e?n?.?knegsel)(?:[^a-zA-Z]|\b),"Vessem, Wintelre en Knegsel",862,11414,0,3,0.0
+(?:[^a-zA-Z]|\b)veur(?:[^a-zA-Z]|\b),Veur,1209,10366,0,6,0.0
+(?:[^a-zA-Z]|\b)vianen(?:[^a-zA-Z]|\b),Vianen,620,10887,0,43,0.0
+(?:[^a-zA-Z]|\b)vierlingsbeek(?:[^a-zA-Z]|\b),Vierlingsbeek,863,10066,0,14,0.0
+(?:[^a-zA-Z]|\b)vierpolders(?:[^a-zA-Z]|\b),Vierpolders,621,11056,0,0,0.0
+(?:[^a-zA-Z]|\b)vinkevee(n|n.?e?n?.?waverveen)(?:[^a-zA-Z]|\b),Vinkeveen en Waverveen,346,11048,0,4,0.0
+(?:[^a-zA-Z]|\b)vlaardingen(?:[^a-zA-Z]|\b),Vlaardingen,622,10811,0,72,0.0
+(?:[^a-zA-Z]|\b)vlaardinger.?ambacht(?:[^a-zA-Z]|\b),Vlaardinger-Ambacht,1210,10790,0,0,0.0
+(?:[^a-zA-Z]|\b)vlagtwedde(?:[^a-zA-Z]|\b),Vlagtwedde,48,11249,0,3,0.0
+(?:[^a-zA-Z]|\b)vledder(?:[^a-zA-Z]|\b),Vledder,132,11120,0,32,0.0
+(?:[^a-zA-Z]|\b)vleuten(?:[^a-zA-Z]|\b),Vleuten,1211,10658,0,103,0.0
+(?:[^a-zA-Z]|\b)vlieland(?:[^a-zA-Z]|\b),Vlieland,96,10211,0,14,0.0
+(?:[^a-zA-Z]|\b)vlierden(?:[^a-zA-Z]|\b),Vlierden,1212,10268,0,8,0.0
+(?:[^a-zA-Z]|\b)vl(ij|y)men(?:[^a-zA-Z]|\b),Vlijmen,864,11293,0,15,0.0
+(?:[^a-zA-Z]|\b)vlissingen(?:[^a-zA-Z]|\b),Vlissingen,718,10270,0,145,0.0
+(?:[^a-zA-Z]|\b)vlist(?:[^a-zA-Z]|\b),Vlist,623,11174,0,0,0.0
+(?:[^a-zA-Z]|\b)vlodrop(?:[^a-zA-Z]|\b),Vlodrop,985,10644,0,2,0.0
+(?:[^a-zA-Z]|\b)voerenda(e|a)l(?:[^a-zA-Z]|\b),Voerendaal,986,11341,0,1,0.0
+(?:[^a-zA-Z]|\b)voorburg(?:[^a-zA-Z]|\b),Voorburg,624,11103,0,26,0.0
+(?:[^a-zA-Z]|\b)voorhout(?:[^a-zA-Z]|\b),Voorhout,625,10017,0,12,0.0
+(?:[^a-zA-Z]|\b)voorschoten(?:[^a-zA-Z]|\b),Voorschoten,626,10537,0,22,0.0
+(?:[^a-zA-Z]|\b)voorst(?:[^a-zA-Z]|\b),Voorst,285,10912,0,47,0.0
+(?:[^a-zA-Z]|\b)vorden(?:[^a-zA-Z]|\b),Vorden,286,10957,0,20,0.0
+(?:[^a-zA-Z]|\b)vreeland(?:[^a-zA-Z]|\b),Vreeland,1213,10898,0,12,0.0
+(?:[^a-zA-Z]|\b)vreesw(ij|y)k(?:[^a-zA-Z]|\b),Vreeswijk,348,10441,0,28,0.0
+(?:[^a-zA-Z]|\b)vries(?:[^a-zA-Z]|\b),Vries,133,10630,1,379,0.002638522427440633
+(?:[^a-zA-Z]|\b)vriezenveen(?:[^a-zA-Z]|\b),Vriezenveen,186,10643,0,11,0.0
+(?:[^a-zA-Z]|\b)vr(ij|y)enban(?:[^a-zA-Z]|\b),Vrijenban,1215,10853,0,11,0.0
+(?:[^a-zA-Z]|\b)vr(ij|y)hoeve.?cappelle(?:[^a-zA-Z]|\b),Vrijhoeve-Capelle,1216,10870,0,0,0.0
+(?:[^a-zA-Z]|\b)vrouwenpolder(?:[^a-zA-Z]|\b),Vrouwenpolder,1214,10635,0,1,0.0
+(?:[^a-zA-Z]|\b)vught(?:[^a-zA-Z]|\b),Vught,865,11224,0,18,0.0
+(?:[^a-zA-Z]|\b)vuren(?:[^a-zA-Z]|\b),Vuren,287,11376,0,53,0.0
+(?:[^a-zA-Z]|\b)waalre(?:[^a-zA-Z]|\b),Waalre,866,10959,0,3,0.0
+(?:[^a-zA-Z]|\b)waalw(ij|y)k(?:[^a-zA-Z]|\b),Waalwijk,867,11359,0,87,0.0
+(?:[^a-zA-Z]|\b)waarde(?:[^a-zA-Z]|\b),Waarde,721,10082,1,573,0.0017452006980802793
+(?:[^a-zA-Z]|\b)waardenburg(?:[^a-zA-Z]|\b),Waardenburg,288,10238,0,25,0.0
+(?:[^a-zA-Z]|\b)waarder(?:[^a-zA-Z]|\b),Waarder,1217,10830,0,1,0.0
+(?:[^a-zA-Z]|\b)wadeno(ij|y)en(?:[^a-zA-Z]|\b),Wadenoijen,1218,10201,0,0,0.0
+(?:[^a-zA-Z]|\b)wageningen(?:[^a-zA-Z]|\b),Wageningen,289,11010,0,76,0.0
+(?:[^a-zA-Z]|\b)wamel(?:[^a-zA-Z]|\b),Wamel,290,10042,0,11,0.0
+(?:[^a-zA-Z]|\b)wanneperveen(?:[^a-zA-Z]|\b),Wanneperveen,187,10105,0,5,0.0
+(?:[^a-zA-Z]|\b)wanroo?(ij|y)(?:[^a-zA-Z]|\b),Wanroij,868,10265,0,2,0.0
+(?:[^a-zA-Z]|\b)wanssum(?:[^a-zA-Z]|\b),Wanssum,987,10991,0,2,0.0
+(?:[^a-zA-Z]|\b)warder(?:[^a-zA-Z]|\b),Warder,455,11073,0,9,0.0
+(?:[^a-zA-Z]|\b)warffum(?:[^a-zA-Z]|\b),Warffum,49,10498,0,10,0.0
+(?:[^a-zA-Z]|\b)warmenhuizen(?:[^a-zA-Z]|\b),Warmenhuizen,456,10221,0,3,0.0
+(?:[^a-zA-Z]|\b)warmond(?:[^a-zA-Z]|\b),Warmond,628,10204,0,2,0.0
+(?:[^a-zA-Z]|\b)warnsveld(?:[^a-zA-Z]|\b),Warnsveld,291,10838,0,3,0.0
+(?:[^a-zA-Z]|\b)waspik(?:[^a-zA-Z]|\b),Waspik,869,10402,0,22,0.0
+(?:[^a-zA-Z]|\b)wassenaar(?:[^a-zA-Z]|\b),Wassenaar,629,10164,0,84,0.0
+(?:[^a-zA-Z]|\b)watergraafsmeer(?:[^a-zA-Z]|\b),Watergraafsmeer,1219,11122,0,23,0.0
+(?:[^a-zA-Z]|\b)wateringen(?:[^a-zA-Z]|\b),Wateringen,630,11329,0,20,0.0
+(?:[^a-zA-Z]|\b)waterlandkerkje(?:[^a-zA-Z]|\b),Waterlandkerkje,722,10352,0,0,0.0
+(?:[^a-zA-Z]|\b)wedde(?:[^a-zA-Z]|\b),Wedde,1220,10247,0,9,0.0
+(?:[^a-zA-Z]|\b)weerselo(?:[^a-zA-Z]|\b),Weerselo,188,10893,0,3,0.0
+(?:[^a-zA-Z]|\b)weert(?:[^a-zA-Z]|\b),Weert,988,11081,0,31,0.0
+(?:[^a-zA-Z]|\b)weesp(?:[^a-zA-Z]|\b),Weesp,457,10773,0,39,0.0
+(?:[^a-zA-Z]|\b)weesperkarspel(?:[^a-zA-Z]|\b),Weesperkarspel,1221,10377,0,5,0.0
+(?:[^a-zA-Z]|\b)wehl(?:[^a-zA-Z]|\b),Wehl,292,11116,0,3,0.0
+(?:[^a-zA-Z]|\b)wemeldinge(?:[^a-zA-Z]|\b),Wemeldinge,723,11145,0,0,0.0
+(?:[^a-zA-Z]|\b)werkendam(?:[^a-zA-Z]|\b),Werkendam,870,10078,0,18,0.0
+(?:[^a-zA-Z]|\b)werkhoven(?:[^a-zA-Z]|\b),Werkhoven,1223,11299,0,1,0.0
+(?:[^a-zA-Z]|\b)wervershoof(?:[^a-zA-Z]|\b),Wervershoof,459,11270,0,2,0.0
+(?:[^a-zA-Z]|\b)wessem(?:[^a-zA-Z]|\b),Wessem,989,10127,0,10,0.0
+(?:[^a-zA-Z]|\b)westbroek(?:[^a-zA-Z]|\b),Westbroek,1224,10145,0,4,0.0
+(?:[^a-zA-Z]|\b)westdongeradeel(?:[^a-zA-Z]|\b),Westdongeradeel,97,10129,0,4,0.0
+(?:[^a-zA-Z]|\b)westdorpe(?:[^a-zA-Z]|\b),Westdorpe,724,10915,0,0,0.0
+(?:[^a-zA-Z]|\b)westerbork(?:[^a-zA-Z]|\b),Westerbork,134,11095,0,16,0.0
+(?:[^a-zA-Z]|\b)westerhoven(?:[^a-zA-Z]|\b),Westerhoven,871,11041,1,3,0.3333333333333333
+(?:[^a-zA-Z]|\b)westervoort(?:[^a-zA-Z]|\b),Westervoort,293,11085,0,61,0.0
+(?:[^a-zA-Z]|\b)westkapelle(?:[^a-zA-Z]|\b),Westkapelle,726,10931,0,0,0.0
+(?:[^a-zA-Z]|\b)westmaas(?:[^a-zA-Z]|\b),Westmaas,631,10695,0,9,0.0
+(?:[^a-zA-Z]|\b)weststellingwerf(?:[^a-zA-Z]|\b),Weststellingwerf,98,11322,0,5,0.0
+(?:[^a-zA-Z]|\b)westwoud(?:[^a-zA-Z]|\b),Westwoud,460,11101,0,2,0.0
+(?:[^a-zA-Z]|\b)westzaan(?:[^a-zA-Z]|\b),Westzaan,461,11381,0,29,0.0
+(?:[^a-zA-Z]|\b)wierden(?:[^a-zA-Z]|\b),Wierden,189,10676,0,37,0.0
+(?:[^a-zA-Z]|\b)wieringen(?:[^a-zA-Z]|\b),Wieringen,462,11277,0,7,0.0
+(?:[^a-zA-Z]|\b)wieringerwaard(?:[^a-zA-Z]|\b),Wieringerwaard,464,11164,0,7,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)chen(?:[^a-zA-Z]|\b),Wijchen,296,10723,0,1,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)denes(?:[^a-zA-Z]|\b),Wijdenes,469,10631,0,1,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)dewormer(?:[^a-zA-Z]|\b),Wijdewormer,470,10434,0,0,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)he(?:[^a-zA-Z]|\b),Wijhe,190,10888,0,47,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)k.?aan.?zee.?en.?duin(?:[^a-zA-Z]|\b),Wijk aan Zee en Duin,1229,11366,0,2,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)k.?b(ij|y).?duurstede(?:[^a-zA-Z]|\b),Wijk bij Duurstede,352,10760,0,15,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)(k|k.?e?n?.?aalburg)(?:[^a-zA-Z]|\b),Wijk en Aalburg,876,11084,1,581,0.0017211703958691911
+(?:[^a-zA-Z]|\b)w(ij|y)lre(?:[^a-zA-Z]|\b),Wijlre,991,10131,0,3,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)nandsrade(?:[^a-zA-Z]|\b),Wijnandsrade,992,10992,0,0,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)ngaarden(?:[^a-zA-Z]|\b),Wijngaarden,634,10263,0,15,0.0
+(?:[^a-zA-Z]|\b)wildervank(?:[^a-zA-Z]|\b),Wildervank,1225,10825,0,97,0.0
+(?:[^a-zA-Z]|\b)willemstad(?:[^a-zA-Z]|\b),Willemstad,872,10827,0,30,0.0
+(?:[^a-zA-Z]|\b)willeskop(?:[^a-zA-Z]|\b),Willeskop,349,10758,0,0,0.0
+(?:[^a-zA-Z]|\b)willige.?langerak(?:[^a-zA-Z]|\b),Willige-Langerak,1226,10368,0,3,0.0
+(?:[^a-zA-Z]|\b)wilnis(?:[^a-zA-Z]|\b),Wilnis,350,10365,0,0,0.0
+(?:[^a-zA-Z]|\b)wilsum(?:[^a-zA-Z]|\b),Wilsum,1227,10194,0,3,0.0
+(?:[^a-zA-Z]|\b)winkel(?:[^a-zA-Z]|\b),Winkel,465,10923,0,176,0.0
+(?:[^a-zA-Z]|\b)winschoten(?:[^a-zA-Z]|\b),Winschoten,52,10453,0,73,0.0
+(?:[^a-zA-Z]|\b)winsum(?:[^a-zA-Z]|\b),Winsum,53,11135,0,21,0.0
+(?:[^a-zA-Z]|\b)wintersw(ij|y)k(?:[^a-zA-Z]|\b),Winterswijk,294,11119,0,10,0.0
+(?:[^a-zA-Z]|\b)wisch(?:[^a-zA-Z]|\b),Wisch,295,10318,0,3,0.0
+(?:[^a-zA-Z]|\b)wissenkerke(?:[^a-zA-Z]|\b),Wissekerke,1253,10243,0,0,0.0
+(?:[^a-zA-Z]|\b)wittem(?:[^a-zA-Z]|\b),Wittem,990,11371,0,0,0.0
+(?:[^a-zA-Z]|\b)woensdrecht(?:[^a-zA-Z]|\b),Woensdrecht,873,10602,0,10,0.0
+(?:[^a-zA-Z]|\b)woensel(?:[^a-zA-Z]|\b),Woensel,1228,10894,0,6,0.0
+(?:[^a-zA-Z]|\b)woerden(?:[^a-zA-Z]|\b),Woerden,632,10974,0,56,0.0
+(?:[^a-zA-Z]|\b)wognum(?:[^a-zA-Z]|\b),Wognum,466,10818,0,3,0.0
+(?:[^a-zA-Z]|\b)wolphaartsd(ij|y)k(?:[^a-zA-Z]|\b),Wolphaartsdijk,728,10543,0,0,0.0
+(?:[^a-zA-Z]|\b)wonseradeel(?:[^a-zA-Z]|\b),Wonseradeel,99,10454,0,18,0.0
+(?:[^a-zA-Z]|\b)workum(?:[^a-zA-Z]|\b),Workum,100,10768,0,53,0.0
+(?:[^a-zA-Z]|\b)wormer(?:[^a-zA-Z]|\b),Wormer,467,10648,0,3,0.0
+(?:[^a-zA-Z]|\b)wormerveer(?:[^a-zA-Z]|\b),Wormerveer,468,10361,0,54,0.0
+(?:[^a-zA-Z]|\b)woubrugge(?:[^a-zA-Z]|\b),Woubrugge,633,10461,0,2,0.0
+(?:[^a-zA-Z]|\b)woudenberg(?:[^a-zA-Z]|\b),Woudenberg,351,11398,0,2,0.0
+(?:[^a-zA-Z]|\b)woudrichem(?:[^a-zA-Z]|\b),Woudrichem,874,10282,0,15,0.0
+(?:[^a-zA-Z]|\b)wouw(?:[^a-zA-Z]|\b),Wouw,875,10808,0,17,0.0
+(?:[^a-zA-Z]|\b)w(ij|y)mbritseradeel(?:[^a-zA-Z]|\b),Wymbritseradeel,101,11427,0,3,0.0
+(?:[^a-zA-Z]|\b)(ij|y)erseke(?:[^a-zA-Z]|\b),Yerseke,729,11247,0,1,0.0
+(?:[^a-zA-Z]|\b)zaamslag(?:[^a-zA-Z]|\b),Zaamslag,731,11173,0,5,0.0
+(?:[^a-zA-Z]|\b)zaandam(?:[^a-zA-Z]|\b),Zaandam,471,11044,0,146,0.0
+(?:[^a-zA-Z]|\b)zaand(ij|y)k(?:[^a-zA-Z]|\b),Zaandijk,472,11404,0,19,0.0
+(?:[^a-zA-Z]|\b)zal(k|k.?e?n?.?veecaten)(?:[^a-zA-Z]|\b),Zalk en Veecaten,1232,10633,0,9,0.0
+(?:[^a-zA-Z]|\b)zandvoort(?:[^a-zA-Z]|\b),Zaltbommel,297,10557,0,19,0.0
+(?:[^a-zA-Z]|\b)zeeland(?:[^a-zA-Z]|\b),Zandvoort,473,10910,0,119,0.0
+(?:[^a-zA-Z]|\b)zeelst(?:[^a-zA-Z]|\b),Zeeland,877,10759,0,3,0.0
+(?:[^a-zA-Z]|\b)zegveld(?:[^a-zA-Z]|\b),Zeelst,1233,10096,0,2,0.0
+(?:[^a-zA-Z]|\b)zegveld(?:[^a-zA-Z]|\b),Zegveld,354,10949,0,2,0.0
+(?:[^a-zA-Z]|\b)zegwaart(?:[^a-zA-Z]|\b),Zegwaart,1234,10185,0,1,0.0
+(?:[^a-zA-Z]|\b)zeist(?:[^a-zA-Z]|\b),Zeist,355,10324,0,33,0.0
+(?:[^a-zA-Z]|\b)zelhem(?:[^a-zA-Z]|\b),Zelhem,298,11159,0,7,0.0
+(?:[^a-zA-Z]|\b)zesgehuchten(?:[^a-zA-Z]|\b),Zesgehuchten,1235,10329,0,0,0.0
+(?:[^a-zA-Z]|\b)zevenaar(?:[^a-zA-Z]|\b),Zevenaar,299,10938,0,75,0.0
+(?:[^a-zA-Z]|\b)zevenbergen(?:[^a-zA-Z]|\b),Zevenbergen,878,10046,0,65,0.0
+(?:[^a-zA-Z]|\b)zevenhoven(?:[^a-zA-Z]|\b),Zevenhoven,635,11317,0,2,0.0
+(?:[^a-zA-Z]|\b)zevenhui(z|s)en(?:[^a-zA-Z]|\b),Zevenhuizen,636,11377,0,14,0.0
+(?:[^a-zA-Z]|\b)zierikzee(?:[^a-zA-Z]|\b),Zierikzee,732,10843,0,71,0.0
+(?:[^a-zA-Z]|\b)Z(ij|y)pe(?:[^a-zA-Z]|\b),Zijpe,476,10004,0,38,0.0
+(?:[^a-zA-Z]|\b)zoelen(?:[^a-zA-Z]|\b),Zoelen,300,10897,0,5,0.0
+(?:[^a-zA-Z]|\b)zoetermeer(?:[^a-zA-Z]|\b),Zoetermeer,637,10766,0,6,0.0
+(?:[^a-zA-Z]|\b)zoeterwoude(?:[^a-zA-Z]|\b),Zoeterwoude,638,11074,0,0,0.0
+(?:[^a-zA-Z]|\b)zonnemaire(?:[^a-zA-Z]|\b),Zonnemaire,1236,10040,0,1,0.0
+(?:[^a-zA-Z]|\b)zoutelande(?:[^a-zA-Z]|\b),Zoutelande,1237,10779,0,3,0.0
+(?:[^a-zA-Z]|\b)zuid.?.?en.?noord.?Schermer(?:[^a-zA-Z]|\b),Zuid- en Noord-Schermer,474,11311,0,4,0.0
+(?:[^a-zA-Z]|\b)zuid.?be(ij|y)erland(?:[^a-zA-Z]|\b),Zuid-Beijerland,639,10917,0,4,0.0
+(?:[^a-zA-Z]|\b)zuidbroek(?:[^a-zA-Z]|\b),Zuidbroek (Gr.),1240,11282,0,20,0.0
+(?:[^a-zA-Z]|\b)zuidd?orpe?(?:[^a-zA-Z]|\b),Zuiddorpe,734,11087,0,1,0.0
+(?:[^a-zA-Z]|\b)zuidhorn(?:[^a-zA-Z]|\b),Zuidhorn,56,10021,0,7,0.0
+(?:[^a-zA-Z]|\b)zuidland(?:[^a-zA-Z]|\b),Zuidland,640,10316,0,3,0.0
+(?:[^a-zA-Z]|\b)zuid.?laren(?:[^a-zA-Z]|\b),Zuidlaren,136,10002,0,19,0.0
+(?:[^a-zA-Z]|\b)zuid.?scharwoude(?:[^a-zA-Z]|\b),Zuid-Scharwoude,1238,10159,0,4,0.0
+(?:[^a-zA-Z]|\b)zuid.?waddin(x|ks)veen(?:[^a-zA-Z]|\b),Zuid-Waddinxveen,1239,10081,0,0,0.0
+(?:[^a-zA-Z]|\b)zuidwolde(?:[^a-zA-Z]|\b),Zuidwolde,137,10262,0,11,0.0
+(?:[^a-zA-Z]|\b)zuidzande(?:[^a-zA-Z]|\b),Zuidzande,735,10437,0,0,0.0
+(?:[^a-zA-Z]|\b)zuilen(?:[^a-zA-Z]|\b),Zuilen,1242,10059,0,45,0.0
+(?:[^a-zA-Z]|\b)zuilichem(?:[^a-zA-Z]|\b),Zuilichem,1243,11036,0,5,0.0
+(?:[^a-zA-Z]|\b)zundert(?:[^a-zA-Z]|\b),Zundert,879,11192,0,5,0.0
+(?:[^a-zA-Z]|\b)zutphen(?:[^a-zA-Z]|\b),Zutphen,301,10254,0,184,0.0
+(?:[^a-zA-Z]|\b)zwaag(?:[^a-zA-Z]|\b),Zwaag,475,10218,0,3,0.0
+(?:[^a-zA-Z]|\b)zwammerdam(?:[^a-zA-Z]|\b),Zwammerdam,1244,10675,0,5,0.0
+(?:[^a-zA-Z]|\b)zwartewaal(?:[^a-zA-Z]|\b),Zwartewaal,641,10703,0,1,0.0
+(?:[^a-zA-Z]|\b)zwartsluis(?:[^a-zA-Z]|\b),Zwartsluis,192,10303,0,54,0.0
+(?:[^a-zA-Z]|\b)zweeloo(?:[^a-zA-Z]|\b),Zweeloo,138,10872,0,3,0.0
+(?:[^a-zA-Z]|\b)zwijndrecht(?:[^a-zA-Z]|\b),Zwijndrecht,642,10468,0,8,0.0
+(?:[^a-zA-Z]|\b)zwolle(?:[^a-zA-Z]|\b),Zwolle,193,10093,1,543,0.001841620626151013
+(?:[^a-zA-Z]|\b)zwollerkerspel(?:[^a-zA-Z]|\b),Zwollerkerspel,1245,10654,0,22,0.0
