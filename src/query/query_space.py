@@ -1,7 +1,7 @@
 import polars as pl
 from tqdm import tqdm
 from pathlib import Path
-from src.query.utils import query_disease_location_year, compute_binomial_interval
+from utils import query_disease_location_year, compute_binomial_interval
 
 BASE_PATH = Path(".")
 # optional if using external disk: BASE_PATH = Path("E:/", "disease_database")
