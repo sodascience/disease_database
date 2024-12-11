@@ -54,7 +54,7 @@ df_clean.write_parquet(
     OUTPUT_FOLDER,
     statistics="full",
     partition_by="disease",
-    partition_chunk_size_bytes=200_000,
+    partition_chunk_size_bytes=1_000_000_000,
 )
 
 
