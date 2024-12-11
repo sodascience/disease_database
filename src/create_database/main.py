@@ -21,7 +21,7 @@ for dis in tqdm(DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE))
     dis_label = dis["Label"]
     dis_regex = dis["Regex"]
     for loc in tqdm(
-        LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE), leave=False
+        LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE)
     ):
         loc_label = loc["Municipality"]
         loc_regex = loc["Regex"]
