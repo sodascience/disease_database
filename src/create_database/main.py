@@ -17,6 +17,7 @@ print(datetime.datetime.now(), "| Finished reading data in memory.")
 print(datetime.datetime.now(), "| Starting iterations.")
 for dis in tqdm(DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE)):
     if dis["Include"] == "No":
+        print(datetime.datetime.now(), f"| Skipping {dis["Label"]}")
         next
     dis_label = dis["Label"]
     dis_regex = dis["Regex"]
