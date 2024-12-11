@@ -11,7 +11,7 @@ DISEASES_TABLE = pl.read_excel("raw_data/manual_input/disease_search_terms.xlsx"
 LOCATIONS_TABLE = pl.read_excel("raw_data/manual_input/municipalities_1869.xlsx")
 
 print(datetime.datetime.now(), "| Reading data in memory...")
-df = pl.read_parquet("processed_data/partitioned/**/*.parquet")
+df = pl.read_parquet("processed_data/partitioned/**/*.parquet", allow_missing_columns=True)
 print(datetime.datetime.now(), "| Finished reading data in memory.")
 
 print(datetime.datetime.now(), "| Starting iterations.")
