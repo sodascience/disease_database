@@ -1,10 +1,10 @@
-"""Commandline script to transform hive data to summary parquet file. First run main.py"""
+"""Commandline script to rechunk data to easier-to-read parquet file. First run main.py"""
 
 import polars as pl
 from pathlib import Path
 from tqdm import tqdm
 import datetime
-from scipy.stats import beta
+from scipy import stats
 import numpy as np
 
 
@@ -13,23 +13,49 @@ OUTPUT_FOLDER = Path("processed_data/database_pq")
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 
 print(datetime.datetime.now(), "| Reading data in memory...")
-df = pl.read_parquet("processed_data/database/**/*.parquet", allow_missing_columns=True)
+df = pl.read_parquet(INPUT_FOLDER / "**" / "*.parquet", allow_missing_columns=True)
 print(datetime.datetime.now(), "| Finished reading data in memory.")
 
-
-def compute_binomial_interval(
-    successes: pl.Series, tries: pl.Series, alpha: float = 0.95
-):
-    "Function to compute Jeffrey's binomial interval for a series of successes and tries"
-    return pl.DataFrame(
-        np.stack(
-            [
-                beta(s + 0.5, t + 0.5).ppf([(1 - alpha) / 2, 1 - (1 - alpha) / 2])
-                for s, t in zip(successes, tries)
-            ]
-        ),
-        schema=["lower", "upper"],
+dists = stats.beta(df["n_both"] + 0.5, df["n_location"] + 0.5)
+df_clean = (
+    df.with_columns(
+        (pl.col("n_both") / pl.col("n_location")).alias("normalized_mentions")
     )
+    .with_columns(lower=dists.ppf(0.025), upper=dists.ppf(0.975))
+    .with_columns(
+        pl.when(pl.col("n_both") == 0)
+        .then(0)
+        .otherwise(pl.col("lower"))
+        .alias("lower"),
+        pl.when(pl.col("normalized_mentions") == 1)
+        .then(1)
+        .otherwise(pl.col("upper"))
+        .alias("upper"),
+    )
+    .sort(["disease", "year", "month", "municipality"])
+    .with_columns(pl.col("disease").str.to_lowercase())
+    .select(
+        [
+            "disease",
+            "year",
+            "month",
+            "municipality",
+            "cbscode",
+            "normalized_mentions",
+            "lower",
+            "upper",
+            "n_location",
+            "n_both",
+        ]
+    )
+)
+
+df_clean.write_parquet(
+    OUTPUT_FOLDER,
+    statistics="full",
+    partition_by="disease",
+    partition_chunk_size_bytes=200_000,
+)
 
 
-df.group_by(["year", "municipality", "disease"]).agg((pl.col("n_both")/pl.col("n_location")).mean().alias("pressure"), pl.col("cbscode").first()).select(["year", "municipality", "cbscode", "disease", "pressure"]).sort(["year", "municipality"])
+df_clean.filter(pl.col("municipality") == "Amsterdam", pl.col("disease") == "cholera")

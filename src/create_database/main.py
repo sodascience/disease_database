@@ -32,16 +32,16 @@ for dis in tqdm(DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE))
         loc_cbscode = loc["cbscode"]
 
         (
-            df.filter(pl.col("article_text").str.contains("amsterdam"))
+            df.filter(pl.col("article_text").str.contains(loc_regex))
             .group_by(["year", pl.col("newspaper_date").dt.month().alias("month")])
             .agg(
                 pl.len().alias("n_location"),
-                pl.col("article_text").str.contains("cholera").sum().alias("n_both"),
+                pl.col("article_text").str.contains(dis_regex).sum().alias("n_both"),
             )
             .with_columns(
                 pl.lit(loc_label).alias("municipality"),
                 pl.lit(loc_cbscode).alias("cbscode").cast(pl.Int32),
-                pl.lit(dis_label).alias("disease"),
+                pl.lit(dis_label).alias("disease").str.to_lowercase(),
             )
             .write_parquet(OUTPUT_FOLDER / f"{iteration:08}.parquet")
         )
