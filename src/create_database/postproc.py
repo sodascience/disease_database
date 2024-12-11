@@ -16,6 +16,7 @@ print(datetime.datetime.now(), "| Reading data in memory...")
 df = pl.read_parquet(INPUT_FOLDER / "**" / "*.parquet", allow_missing_columns=True)
 print(datetime.datetime.now(), "| Finished reading data in memory.")
 
+print(datetime.datetime.now(), "| Cleaning dataset.")
 dists = stats.beta(df["n_both"] + 0.5, df["n_location"] + 0.5)
 df_clean = (
     df.with_columns(
@@ -50,12 +51,10 @@ df_clean = (
     )
 )
 
+print(datetime.datetime.now(), "| Writing data.")
 df_clean.write_parquet(
     OUTPUT_FOLDER,
     statistics="full",
     partition_by="disease",
     partition_chunk_size_bytes=1_000_000_000,
 )
-
-
-df_clean.filter(pl.col("municipality") == "Amsterdam", pl.col("disease") == "cholera")
