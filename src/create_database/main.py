@@ -35,7 +35,7 @@ for loc in tqdm(LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE
         dis_label = dis["Label"]
         dis_regex = dis["Regex"]
         if CHARDIST != 0:
-            # use proximity in diseas
+            # use text proximity in disease
             disease_query = rf"(?i)({dis_regex})(?:.{{0,{CHARDIST}}}{loc_regex})|(?:{loc_regex}.{{0,{CHARDIST}}})({dis_regex})"
         else:
             disease_query = rf"(?i){dis_regex}"
