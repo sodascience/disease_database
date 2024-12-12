@@ -2,14 +2,11 @@
 
 import polars as pl
 from pathlib import Path
-from tqdm import tqdm
 import datetime
 from scipy import stats
-import numpy as np
 
-
-INPUT_FOLDER = Path("processed_data/database")
-OUTPUT_FOLDER = Path("processed_data/database_pq")
+INPUT_FOLDER = Path("processed_data/database_flat")
+OUTPUT_FOLDER = Path("processed_data/database")
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 
 print(datetime.datetime.now(), "| Reading data in memory...")
@@ -33,15 +30,16 @@ df_clean = (
         .otherwise(pl.col("upper"))
         .alias("upper"),
     )
-    .sort(["disease", "year", "month", "municipality"])
+    .sort(["disease", "year", "month", "location"])
     .with_columns(pl.col("disease").str.to_lowercase())
     .select(
         [
             "disease",
             "year",
             "month",
-            "municipality",
+            "location",
             "cbscode",
+            "amsterdamcode",
             "normalized_mentions",
             "lower",
             "upper",
