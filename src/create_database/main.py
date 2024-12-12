@@ -25,14 +25,15 @@ print(datetime.datetime.now(), "| Starting iterations.")
 
 # iteration
 iteration = 0
-for dis in tqdm(DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE)):
-    dis_label = dis["Label"]
-    dis_regex = dis["Regex"]
-    for loc in tqdm(LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE)):
-        loc_label = loc["name"]
-        loc_regex = loc["Regex"]
+for loc in tqdm(LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE)):
+    loc_label = loc["name"]
+    loc_regex = loc["Regex"]
+    location_query = rf"(?i){loc_regex}"
+    df_loc = df.filter(pl.col("article_text").str.contains(location_query))
 
-        location_query = rf"(?i){loc_regex}"
+    for dis in tqdm(DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE), leave=False):
+        dis_label = dis["Label"]
+        dis_regex = dis["Regex"]
         if CHARDIST != 0:
             # use proximity in diseas
             disease_query = rf"(?i)({dis_regex})(?:.{{0,{CHARDIST}}}{loc_regex})|(?:{loc_regex}.{{0,{CHARDIST}}})({dis_regex})"
@@ -40,8 +41,7 @@ for dis in tqdm(DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE))
             disease_query = rf"(?i){dis_regex}"
 
         (
-            df.filter(pl.col("article_text").str.contains(location_query))
-            .group_by(["year", pl.col("newspaper_date").dt.month().alias("month")])
+            df_loc.group_by(["year", pl.col("newspaper_date").dt.month().alias("month")])
             .agg(
                 pl.len().alias("n_location"),
                 pl.col("article_text")
