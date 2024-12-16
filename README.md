@@ -1,27 +1,27 @@
 # Disease database 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
-Creating a historical disease database (19th-20th century) for municipalities in the Netherlands.
+Code to create a historical disease database (19th-20th century) for municipalities in the Netherlands.
 
-![Cholera in the Netherlands](maps/cholera_1864_1868.png)
+![Cholera in the Netherlands](img/cholera_1864_1868.png)
 
 ## Preparation
 
 This project uses [pyproject.toml](pyproject.toml) to handle its dependencies. You can install them using pip like so:
 
-```
+```sh
 pip install .
 ```
 
-We recommend using [uv](https://github.com/astral-sh/uv) to manage the environment. First, install uv, then clone / download this repo, then run:
+However, we recommend using [uv](https://github.com/astral-sh/uv) to manage the environment. First, install uv, then clone / download this repo, then run:
 
-``` 
+```sh
 uv sync
 ```
 
-this will automatically install the right python version, create a virtual environment, and install the required packages.
+this will automatically install the right python version, create a virtual environment, and install the required packages. If you choose not to use `uv`, you can replace `uv run` in the code examples in this repo with `python`.
 
-Note that if you encountered `error: command 'cmake' failed: No such file or directory`, you need to install [cmake](https://cmake.org/download/) first.
+Note, on macOS, if you encounter `error: command 'cmake' failed: No such file or directory`, you need to install [cmake](https://cmake.org/download/) first.
 On macOS, run `brew install cmake`. Similarly, you may have to install `apache-arrow` separately as well (e.g., on macOS `brew install apache-arrow`).
 
 Once these dependency issues are solved, run `uv sync` one more time.
@@ -44,26 +44,26 @@ This results in two kinds of polars dataframes saved in parquet format under `pr
 
 Before you run the following script, make sure to put all the Delpher zip files under `raw_data/open_archive`.
 
-```
-python src/process_open_archive/extract_article_data.py
-python src/process_open_archive/extract_meta_data.py
+```sh
+uv run src/process_open_archive/extract_article_data.py
+uv run src/process_open_archive/extract_meta_data.py
 ```
 
 Then, run 
 
-```
-python src/process_open_archive/combine_and_chunk.py
+```sh
+uv run src/process_open_archive/combine_and_chunk.py
 ``` 
 to join all the available datasets and create a yearly-chunked series of parquet files in the folder `processed_data/combined`.
 
 ## Data harvesting (1880-1940)
 After 1880, the data is not public and can only be obtained through the Delpher API: 
 
-1. Obtain an api key (which looks like this `df2e02aa-8504-4af2-b3d9-64d107f4479a`) from Delpher, then put the api key in the file `harvest_delpher_api/apikey.txt`.
+1. Obtain an API key (which looks like this `df2e02aa-8504-4af2-b3d9-64d107f4479a`) from the Royal Library / the Delpher maintainers, then put the API key in the file `src/harvest_delpher_api/apikey.txt`.
 2. Harvest the data following readme in the delpher api folder: [src/harvest_delpher_api/readme.md](./src/harvest_delpher_api/README.md)
 
 ## Database creation
-After the data has been processed from 1830-1940, the folder `processed_data/combined` should now be filled with `.parquet` files. The first record looks like this:
+After the data has been harvested and processed from 1830-1940, the folder `processed_data/combined` should now be filled with `.parquet` files. The first record looks like this:
 
 ```py
 import polars as pl
@@ -75,7 +75,7 @@ $ newspaper_id                 <str> 'ddd:010041217:mpeg21'
 $ article_id                   <str> 'ddd:010041217:mpeg21:a0001'
 $ article_subject              <str> 'artikel'
 $ article_title                <str> None
-$ article_text                 <str> 'De GOUVERNEUR der PROVINCIE GELDERLAND, prengl bij de__ ler k-nnisse der beUngliebi.cn len ...'
+$ article_text                 <str> 'De GOUVERNEUR der PROVINCIE GELDERLAND ...'
 $ newspaper_name               <str> 'Arnhemsche courant'
 $ newspaper_location           <str> 'Arnhem'
 $ newspaper_date              <date> 1830-01-02
@@ -100,12 +100,12 @@ After this, the folder `processed_data/partitioned` will contain differently org
 
 > NB: from this step onwards, we ran this on a linux (ubuntu) machine with >200 cores and 1TB of memory
 
-The next step is to create the actual database we are interested in. There are three input files for this:
+The next step is to create the actual database we are interested in. There are three inputs for this:
 
-| Input file | Description |
-| :--------- | :---------- |
+| Input | Description |
+| :---- | :---------- |
 | `raw_data/manual_input/disease_search_terms.xlsx` | Contains a list of diseases and their regex search definitions |
-| `raw_data/manual_input/municipalities_1869.xlsx` | Contains a list of locations and their regex search definitions |
+| `raw_data/manual_input/location_search_Terms.xlsx` | Contains a list of locations and their regex search definitions |
 | `processed_data/partitioned/**/*.parquet` | Contains the texts of all articles from 1830-1940 |
 
 The following command will take these inputs, perform the regex searches and output (many) `.parquet` files to `processed_data/database_flat`. On our big machine, this takes about 12 hours.
