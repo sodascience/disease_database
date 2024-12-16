@@ -163,6 +163,7 @@ cython_debug/
 delpher_api/keys.txt
 harvest_delpher_api/keys.txt
 harvest_delpher_api/apikey.txt
+src/harvest_delpher_api/apikey.txt
 
 # uv lockfile
 uv.lock
