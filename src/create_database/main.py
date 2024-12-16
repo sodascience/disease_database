@@ -7,8 +7,8 @@ import datetime
 
 OUTPUT_FOLDER = Path("processed_data/database_flat")
 OUTPUT_FOLDER.mkdir(exist_ok=True)
-DISEASES_TABLE = pl.read_excel("raw_data/manual_input/disease_search_terms.xlsx")
-LOCATIONS_TABLE = pl.read_excel("raw_data/manual_input/location_search_terms.xlsx")
+DISEASES_TABLE = pl.read_csv("raw_data/manual_input/disease_search_terms.csv")
+LOCATIONS_TABLE = pl.read_csv("raw_data/manual_input/location_search_terms.csv")
 
 # number of characters distance from location to disease mention in text
 # set to 0 for infinite distance

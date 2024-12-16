@@ -1,0 +1,11 @@
+﻿Label,Disease,Type ,Regex
+Typhus,Typhoid fever; Paratyphoid fever,Food- and water-borne infectious diseases ,\b(ty(ph|f)(us|euz\w*)|febris\s?typhoidea|kwaadaardige\s?koorts)\b
+Dysentery,Diarrhoea; Dysentery; Acute diseases of the digestive system,Food- and water-borne infectious diseases ,\b(diarrhoea|dysenter\w*|rood\s?loop|buik\s?loop|bloed\s?gang)\b
+Cholera,Cholera (including: Asiatic cholera; Cholera nostras) ,Food- and water-borne infectious diseases ,\b(choler\w*|krim\s?koorts)\b
+Smallpox,Smallpox,Airborne infectious diseases,\b(pokken|variola)\b
+ScarletFever,Scarlet fever,Airborne infectious diseases,\b(rood\s?vonk|scarlatina|scharlaken\s?koorts)\b
+Measles,Measles,Airborne infectious diseases,\b(mazelen|rood\s?ziekte|rubeola|rubella)\b
+Tuberculosis,"Respiratory tuberculosis (incl: Tuberculosis of the lung and larynx, haemoptysis)",Airborne infectious diseases,\b(tering|verteringsziekte)\b
+Diphteria,Croup; Diphtheria,Airborne infectious diseases,\b((c|k)roup|angina\s?diphtheri\w*|diphtheri\w*|difteritis)\b
+Influenza,Acute respiratory disease (including influenza),Airborne infectious diseases,\b(griep|influenza)\b
+Malaria,Malaria (including: intermittent fever; pernicious fever),Other infectious diseases (mixed aetiology),\b(malaria|moeras\s?koorts|polder\s?koorts)\b
