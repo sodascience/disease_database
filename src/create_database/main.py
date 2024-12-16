@@ -28,7 +28,7 @@ iteration = 0
 for loc in tqdm(LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE)):
     loc_label = loc["name"]
     loc_regex = loc["Regex"]
-    location_query = rf"(?i){loc_regex}"
+    location_query = rf"(?i-u){loc_regex}"
     df_loc = df.filter(pl.col("article_text").str.contains(location_query))
 
     for dis in tqdm(DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE), leave=False):
@@ -36,9 +36,9 @@ for loc in tqdm(LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE
         dis_regex = dis["Regex"]
         if CHARDIST != 0:
             # use text proximity in disease
-            disease_query = rf"(?i)({dis_regex})(?:.{{0,{CHARDIST}}}{loc_regex})|(?:{loc_regex}.{{0,{CHARDIST}}})({dis_regex})"
+            disease_query = rf"(?i-u)({dis_regex})(?:.{{0,{CHARDIST}}}{loc_regex})|(?:{loc_regex}.{{0,{CHARDIST}}})({dis_regex})"
         else:
-            disease_query = rf"(?i){dis_regex}"
+            disease_query = rf"(?i-u){dis_regex}"
 
         (
             df_loc.group_by(["year", pl.col("newspaper_date").dt.month().alias("month")])
