@@ -1,5 +1,6 @@
 # Disease database 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![GitHub Release](https://img.shields.io/github/v/release/sodascience/disease_database?include_prereleases)](https://github.com/sodascience/disease_database/releases/latest)
 
 Code to create a historical disease database (19th-20th century) for municipalities in the Netherlands.
 
