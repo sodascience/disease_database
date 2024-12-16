@@ -4,7 +4,7 @@ import plotnine as p9
 
 df = (
     pl.read_parquet("processed_data/database/**/*.parquet")
-    .filter(pl.col("location").is_in(["Amsterdam", "Groningen", "Dordrecht"]))#, pl.col("disease").is_in(["cholera", "smallpox"]))
+    .filter(pl.col("location").is_in(["Amsterdam", "Groningen", "Dordrecht"]))
     .with_columns(pl.date(pl.col("year"), pl.col("month"), 1).alias("date"))
 )
 
