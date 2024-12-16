@@ -23,11 +23,19 @@ df_clean = (
     .with_columns(
         pl.when(pl.col("n_both") == 0)
         .then(0)
-        .otherwise(pl.col("lower"))
+        .otherwise(
+            pl.when(pl.col("lower") > pl.col("normalized_mentions"))
+            .then(pl.col("normalized_mentions"))
+            .otherwise(pl.col("lower"))
+        )
         .alias("lower"),
         pl.when(pl.col("normalized_mentions") == 1)
         .then(1)
-        .otherwise(pl.col("upper"))
+        .otherwise(
+            pl.when(pl.col("upper") < pl.col("normalized_mentions"))
+            .then(pl.col("normalized_mentions"))
+            .otherwise(pl.col("upper"))
+        )
         .alias("upper"),
     )
     .sort(["disease", "year", "month", "location"])
