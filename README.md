@@ -205,11 +205,13 @@ lf.filter(pl.col("disease") == "typhus", pl.col("year") == 1838).head().collect(
 
 
 ## Data analysis
-> this section is out of date
-> 
-The script `src/query/faster_query.py` uses the prepared combined data to search for mentions of diseases and locations in articles. The file produces the plot shown above. It also produces this plot about Utrecht:
 
-![](img/cholera_utrecht_full.png)
+For a basic analysis after the database has been created, take a look at the file `src/analysis/query_db.py`. 
+
+![](img/all_diseases_three_cities.png)
+
+For more in-depth analysis and usage scripts, take a look at our analysis repository: [disease_database_analysis](https://github.com/sodascience/disease_database_analysis).
+
 
 ## Contact
 <img src="./img/soda_logo.png" alt="SoDa logo" width="250px"/>
