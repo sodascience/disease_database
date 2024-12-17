@@ -5,4 +5,6 @@
 # whitelist files that can be uploaded
 !query_names.xlsx
 !disease_search_terms.xlsx
-!municipalities_1869.xlsx
+!location_search_terms.xlsx
+!disease_search_terms.csv
+!location_search_terms.csv

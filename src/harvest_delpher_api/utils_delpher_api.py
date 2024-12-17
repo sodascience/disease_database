@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, date
 from pathlib import Path
 
-API_KEY_FILE = Path("harvest_delpher_api", "apikey.txt")
+API_KEY_FILE = Path("src", "harvest_delpher_api", "apikey.txt")
 
 
 def get_api_key():

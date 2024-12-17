@@ -1,0 +1,1135 @@
+﻿Regex,name,cbscode,amsterdamcode
+\baagtekerke\b,Aagtekerke,1000,10531
+\baalsmeer\b,Aalsmeer,358,11264
+\baalst\b,Aalst,1001,11423
+\baalten\b,Aalten,197,11046
+\baardenburg\b,Aardenburg,648,11020
+\baarlanderveen\b,Aarlanderveen,1002,11242
+\baarle[\s\w]?rixtel\b,Aarle-Rixtel,739,10757
+\babbekerk\b,Abbekerk,359,10439
+\babbenbroek\b,Abbenbroek,481,11026
+\babcoude[\s\w]?baambrugge\b,Abcoude-Baambrugge,1003,11184
+\babcoude[\s\w]?proostd(ij|y)\b,Abcoude-Proosdij,1004,10712
+\bachtkarspelen\b,Achtkarspelen,59,10199
+\bachttienhoven\b,Achttienhoven (U.),1005,10524
+\badorp\b,Adorp,1,10996
+\baduard\b,Aduard,2,10999
+\baengwirden\b,Aengwirden,1006,10157
+\bakersloot\b,Akersloot,360,10346
+\balblasserdam\b,Alblasserdam,482,11327
+\balem[\s\w]?maren[\s\w]?en[\s\w]?kessel\b,"Alem, Maren en Kessel",1007,10495
+\balkemade\b,Alkemade,483,10349
+\balkmaar\b,Alkmaar,361,10527
+\balmkerk\b,Almkerk,740,10788
+\balphen\b,Alphen,1008,10517
+\balphen[\s\w]?en[\s\w]?riel\b,Alphen en Riel,741,10710
+\bdelden\b,Ambt Delden,142,11400
+\balmelo\b,Ambt-Almelo,1009,11065
+\bdoetin?chem\b,Ambt-Doetinchem,1010,10396
+\bhardenberg\b,Ambt-Hardenberg,1011,10174
+\bommen\b,Ambt-Ommen,1012,11069
+\bvollenhove\b,Ambt-Vollenhove,1013,11088
+\bamb(ij|y)\b,Amby,883,10922
+\bameide\b,Ameide,485,11349
+\bameland\b,Ameland,60,11153
+\bamerongen\b,Amerongen,306,11372
+\bamersfoort\b,Amersfoort,307,10948
+\bammerstol\b,Ammerstol,486,10863
+\bammerzoden\b,Ammerzoden,198,10151
+\bamstenrade\b,Amstenrade,884,10062
+\b(amste[\s\w]?dam|amst\.)\b,Amsterdam,363,11150
+\bandel\b,Andel,742,10871
+\band(ij|y)k\b,Andijk,364,10822
+\bangerlo\b,Angerlo,199,11131
+\bankeveen\b,Ankeveen,1014,10936
+\banlo\b,Anloo,105,10787
+\bapeldoorn\b,Apeldoorn,200,11075
+\bappeltern\b,Appeltern,201,11296
+\bappingedam\b,Appingedam,3,10886
+\barcen[\s\w]?en[\s\w]?velden\b,Arcen en Velden,885,10202
+\barkel\b,Arkel,487,10079
+\barnemuiden\b,Arnemuiden,649,11419
+\barnh(em|\.)\b,Arnhem,202,10795
+\basperen\b,Asperen,488,11369
+\bassen\b,Assen,106,10522
+\bassendelft\b,Assendelft,367,11373
+\basten\b,Asten,743,10478
+\bavenhorn\b,Avenhorn,368,11147
+\bavereest\b,Avereest,143,11190
+\baxel\b,Axel,650,11289
+\bbaarderadeel\b,Baarderadeel,61,10422
+\bbaardw(ij|y)k\b,Baardwijk,1015,10006
+\bbaarland\b,Baarland,651,10634
+\bbaarle[\s\w]?nassau\b,Baarle-Nassau,744,10060
+\bbaarn\b,Baarn,308,11411
+\bbaexem\b,Baexem,886,11255
+\bbaflo\b,Baflo,4,10539
+\bbakel[\s\w]?en[\s\w]?milheeze\b,Bakel en Milheeze,745,10749
+\bbalgo(ij|y)\b,Balgoij,1016,10849
+\bbarneveld\b,Barneveld,203,10906
+\bbarradeel\b,Barradeel,62,10156
+\bbarsingerhorn\b,Barsingerhorn,369,10973
+\bbarwoutswaarder\b,Barwoutswaarder,1017,10447
+\bbatenburg\b,Batenburg,204,10921
+\bbath\b,Bath,1018,10623
+\bbathmen\b,Bathmen,144,11030
+\bbedum\b,Bedum,5,10425
+\bbeegden\b,Beegden,887,11089
+\bbeek\b,Beek (L.),888,11374
+\bbeek[\s\w]?en[\s\w]?donk\b,Beek en Donk,746,10173
+\bbeemster\b,Beemster,370,10816
+\bbeers\b,Beers,747,11410
+\bbeerta\b,Beerta,6,11043
+\bbeesd\b,Beesd,205,10259
+\bbeesel\b,Beesel,889,10195
+\bbeets\b,Beets,371,10536
+\bbeilen\b,Beilen,107,10520
+\bbelfeld\b,Belfeld,890,10292
+\bbellingewolde\b,Bellingwolde,1019,10340
+\bbemelen\b,Bemelen,891,10878
+\bbemmel\b,Bemmel,206,10744
+\bbennebroek\b,Bennebroek,372,10734
+\bbenschop\b,Benschop,309,11330
+\bbenthuizen\b,Benthuizen,490,10398
+\bberg[\s\w]?en[\s\w]?terbl(ij|y)t\b,Berg en Terblijt,892,10796
+\bbergambacht\b,Bergambacht,491,10962
+\bbergen\b,Bergen (L.),893,11281
+\bbergen\b,Bergen (NH.),373,11424
+\bberg([\s\w]?)en[\s\w]?op[\s\w]?zoom\b,Bergen op Zoom,748,11037
+\bberge(ij|y)k\b,Bergeyk,749,11160
+\bbergh\b,Bergh,207,10350
+\bbergharen\b,Bergharen,208,10883
+\bber(g|c)h?em\b,Berghem,750,10733
+\bbergschenhoek\b,Bergschenhoek,492,10445
+\bberkel[\s\w]?en[\s\w]?rodenr(ij|y)s\b,Berkel en Rodenrijs,493,10139
+\bberkel[\s\w]?enschot\b,Berkel-Enschot,751,11132
+\bberkenwoude\b,Berkenwoude,494,10797
+\bberkhout\b,Berkhout,374,10354
+\bberlicum\b,Berlicum,752,10362
+\bbeso(ij|y)en\b,Besoijen,1020,10056
+\bbest\b,Best,753,10442
+\bbeugen[\s\w]?en[\s\w]?rijkevoort\b,Beugen en Rijkevoort,1021,10252
+\bbeuningen\b,Beuningen,209,10417
+\bbeusichem\b,Beusichem,210,11182
+\bbeverw(ij|y)k\b,Beverwijk,375,10272
+\bbierum\b,Bierum,8,11294
+\bbiervliet\b,Biervliet,652,10257
+\bbiggekerke\b,Biggekerke,1022,11364
+\bbingelrade\b,Bingelrade,894,10967
+\bbladel[\s\w]?en[\s\w]?netersel\b,Bladel en Netersel,754,11006
+\bblankenham\b,Blankenham,145,10320
+\bblaricum\b,Blaricum,376,10493
+\bbleisw(ij|y)k\b,Bleiswijk,495,10994
+\bbleskensgraaf[\s\w]?en[\s\w]?hofwege(n?)\b,Bleskensgraaf en Hofwege,496,10451
+\bbloemendaal\b,Bloemendaal,377,10850
+\bblokker\b,Blokker,378,10804
+\bblokz(ij|y)l\b,Blokzijl,146,10689
+\bbocholtz\b,Bocholtz,895,10986
+\bbodegraven\b,Bodegraven,497,11091
+\bboekel\b,Boekel,755,10432
+\bbokhoven\b,Bokhoven,1023,11083
+\bbolsward\b,Bolsward,64,10865
+\bborculo\b,Borculo,211,11307
+\bborger\b,Borger,108,10448
+\bborgharen\b,Borgharen,896,11334
+\bborkel[\s\w]?en[\s\w]?schaft\b,Borkel en Schaft,1026,11013
+\bborn\b,Born,897,10927
+\bborne\b,Borne,147,10326
+\bborsselen?\b,Borssele,1254,10043
+\bboschkapelle\b,Boschkapelle,1027,10605
+\bboskoop\b,Boskoop,499,10419
+\bbovenkarspel\b,Bovenkarspel,379,10945
+\bboxmeer\b,Boxmeer,756,11227
+\bboxtel\b,Boxtel,757,10083
+\bbrakel\b,Brakel,212,11125
+\bbrandw(ij|y)k\b,Brandwijk,500,10169
+\bbreda\b,Breda,758,10154
+\bbreskens\b,Breskens,655,10233
+\bbreukelen[\s\w]?n(ij|y)enrode\b,Breukelen-Nijenrode,1028,10807
+\bbreukelen[\s\w]?(st[\s\w]?|sint)[\s\w]?pieters\b,Breukelen-Sint Pieters,1029,11149
+\bbrielle\b,Brielle,501,10232
+\bbroek\b,Broek,1030,11214
+\bbroek[\s\w]?in[\s\w]?waterland\b,Broek in Waterland,380,10289
+\bbroek[\s\w]?op[\s\w]?langend(ij|y)k\b,Broek op Langedijk,1031,10955
+\bbroekhu(ij|y|i)(s|z)en\b,Broekhuizen,898,10856
+\bbroeksittard\b,Broeksittard,1032,10655
+\bbrouwershaven\b,Brouwershaven,656,10030
+\bbruinisse\b,Bruinisse,657,11291
+\bbrummen\b,Brummen,213,10798
+\bbrunssum\b,Brunssum,899,10533
+\bbudel\b,Budel,759,10219
+\bbuggenum\b,Buggenum,1033,10857
+\bbuiksloot\b,Buiksloot,1034,10961
+\bbunde\b,Bunde,900,10831
+\bbunnik\b,Bunnik,312,10820
+\bbunschoten\b,Bunschoten,313,11343
+\bburen\b,Buren,214,11286
+\bburgh\b,Burgh,1035,11000
+\bbussum\b,Bussum,381,10281
+\bbuurmalsen\b,Buurmalsen,215,10460
+\bcadier[\s\w]?en[\s\w]?keer\b,Cadier en Keer,901,11447
+\bcadzand\b,Cadzand,658,11002
+\bcallantsoog\b,Callantsoog,382,10559
+\bcapelle[\s\w]?(a[\s\w]?d[\s\w]?|aan[\s\w]?den?)[\s\w]?(ij|y)ssel\b,Capelle,1036,11233
+\bcappelle\b,Capelle aan den IJssel,502,11248
+\bcastricum\b,Castricum,383,11287
+\bchaam\b,Chaam,760,11433
+\bcharlois\b,Charlois,1037,10430
+\bclinge\b,Clinge,659,10965
+\bcoevorden\b,Coevorden,109,10383
+\bcol(ij|y)nsplaat\b,Colijnsplaat,1038,10121
+\bcothen\b,Cothen,314,11316
+\bcromvoirt\b,Cromvoirt,1039,10053
+\bcu(ij|y)k[\s\w]?en[\s\w]?(st[\s\w]?|sint)[\s\w]?agatha\b,Cuijk en Sint Agatha,761,10023
+\bcule(n|m)b(o|u)rg|kuilenb(u|o)rg\b,Culemborg,216,10342
+\bdalen\b,Dalen,110,11004
+\bdalfsen\b,Dalfsen,148,11007
+\bdantumadeel\b,Dantumadeel,65,10650
+\bde[\s\w]?bilt\b,De Bilt,310,10168
+\bde[\s\w]?lier\b,De Lier,552,10241
+\bde[\s\w]r(ij|y)p\b,De Rijp,440,11417
+\bde[\s\w]?werke(n|n[\s\w]?e?n?[\s\w]? sleeuwijk)\b,de Werken en Sleeuwijk,1222,10116
+\bde[\s\w]w(ij|y)k\b,De Wijk,135,10753
+\bdeil\b,Deil,217,10057
+\bdelf(t?)shaven\b,Delfshaven,1040,10908
+\bdelft\b,Delft,503,10928
+\bdelfz(ij|y)l\b,Delfzijl,10,10976
+\bden[\s\w]?bommel\b,Den Bommel,1024,10293
+\bden[\s\w]?dungen\b,Den Dungen,768,10491
+\bden[\s\w]?ham\b,Den Ham,159,10395
+\bden[\s\w]?helder\b,Den Helder,400,10285
+\bdenekamp\b,Denekamp,149,10245
+\bdeurne[\s\w]?en[\s\w]?liessel\b,Deurne en Liessel,1041,10379
+\bdeursen|dennenburg\b,Deursen en Dennenburg,1042,10209
+\bdevent(er|\.)\b,Deventer,150,10899
+\bdidam\b,Didam,218,10153
+\bdiede(n|n[\s\w]?[\s\w]?demen[\s\w]?e?n?[\s\w]?langel)\b,"Dieden, Demen en Langel",1043,11138
+\bdiemen\b,Diemen,384,11039
+\bdiepenheim\b,Diepenheim,151,10311
+\bdiepenveen\b,Diepenveen,152,10933
+\bdiessen\b,Diessen,763,11185
+\bdiever\b,Diever,111,10418
+\bdinteloord|prinsenland\b,Dinteloord en Prinsenland,764,11193
+\bdinther\b,Dinther,1044,10690
+\bdinxperlo\b,Dinxperlo,219,11154
+\bdirksland\b,Dirksland,504,11344
+\bdodewaard\b,Dodewaard,220,10647
+\bdoesburg\b,Doesburg,221,10327
+\bdokkum\b,Dokkum,66,10198
+\bdomburg\b,Domburg,660,10236
+\bdommelen\b,Dommelen,1045,10424
+\bdongen\b,Dongen,766,11412
+\bdoniawerstal\b,Doniawerstal,67,10086
+\bdoorn\b,Doorn,315,10213
+\bdoornsp(ij|y)k\b,Doornspijk,223,10069
+\bdoorwerth\b,Doorwerth,1046,11304
+\bdordrecht|dodrech(\w|\.)\b,Dordrecht,505,11157
+\bdreischor\b,Dreischor,1047,10885
+\bdreumel\b,Dreumel,224,11232
+\bdriebergen\b,Driebergen,1048,10777
+\bdriel\b,Driel,1248,10341
+\bdriewegen\b,Driewegen,661,11115
+\bdrongele(n|n[\s\w]?[\s\w]?hangoord[\s\w]?[\s\w]?gansoyen[\s\w]?[\s\w]?e?n?doevere)\b,"Drongelen,Haagoord,Gansoyen,Doevere",1263,10111
+\bdrunen\b,Drunen,767,10428
+\bdruten\b,Druten,225,10068
+\bdubbeldam\b,Dubbeldam,507,10781
+\bduiven\b,Duiven,226,11028
+\bduivend(ij|y)ke\b,Duivendijke,1050,10335
+\bduizel|steensel\b,Duizel en Steensel,1051,11005
+\bdusse(n|munster[\s\w]?[\s\w]?en[\s\w]?muilkerk)\b,"Dussen, Munster en Muilkerk",1265,10261
+\bdwingeloo?\b,Dwingeloo,112,10331
+\becht\b,Echt,902,10941
+\bechteld\b,Echteld,227,10832
+\bedam\b,Edam,1315,10884
+\bede\b,Ede,228,10743
+\beede\b,Eede,1052,11128
+\beelde\b,Eelde,113,10622
+\beemnes\b,Eemnes,317,10248
+\beenrum\b,Eenrum,11,10904
+\beersel\b,Eersel,770,10741
+\bheesbeen\b|\beethen\b|\bgenderen\b,"Eethen, Genderen en Heesbeen",1255,10010
+\begmond[\s\w]?aan[\s\w]?zee\b,Egmond aan Zee,386,10421
+\begmond[\s\w]?binnen\b,Egmond-Binnen,387,10989
+\beibergen\b,Eibergen,229,10436
+\be(ij|y)gelshoven\b,Eijgelshoven,904,10960
+\be(ij|y)sden\b,Eijsden,905,10314
+\beindhoven\b,Eindhoven,772,11298
+\belburg\b,Elburg,230,11113
+\belkerzee\b,Elkerzee,1053,10184
+\bellemeet\b,Ellemeet,1054,10102
+\bellewoutsd(ij|y)k\b,Ellewoutsdijk,663,11300
+\belsloo\b,Elsloo,903,11187
+\belst\b,Elst,231,11188
+\bemmen\b,Emmen,114,11180
+\bemmikhoven\b,Emmikhoven,1056,10621
+\bempel|meerwijk\b,Empel en Meerwijk,773,10295
+\bengelen\b,Engelen,774,10322
+\benkhui(z|s)en\b,Enkhuizen,388,10729
+\bensch(ede|\.)\b,Enschede,153,10364
+\bepe\b,Epe,232,10940
+\bermelo\b,Ermelo,233,10732
+\berp\b,Erp,775,10385
+\besch\b,Esch,776,10709
+\bescharen\b,Escharen,1057,10299
+\best[\s\w]?en[\s\w]?op(ij|y)nen\b,Est en Opijnen,234,11092
+\betten[\s\w]?en[\s\w]?leur\b,Etten en Leur,1251,10750
+\beverdingen\b,Everdingen,508,10638
+\bew(ij|y)k\b,Ewijk,235,10471
+\bezinge\b,Ezinge,12,10136
+\bferwerderadeel\b,Ferwerderadeel,68,11284
+\bf(ij|y)naart|he(ij|y)ningen\b,Fijnaart en Heijningen,778,10206
+\bfinsterwolde?\b,Finsterwolde,13,10212
+\bfraneker\b,Franeker,69,11226
+\bfranekeradeel\b|\bfrjentsjerteradiel\b,Franekeradeel,70,10404
+\bgaasterland\b,Gaasterland,71,10036
+\bgameren\b,Gameren,1058,10037
+\bgassel\b,Gassel,1059,10705
+\bgasselte\b,Gasselte,115,11099
+\bgeertruidenberg\b,Geertruidenberg,779,10101
+\bgeervliet\b,Geervliet,509,10842
+\bgeffen\b,Geffen,780,10370
+\bgeldermalsen\b,Geldermalsen,236,10881
+\bgel(dorp|drop)\b,Geldrop,781,10529
+\bgeleen\b,Geleen,906,10048
+\bgemert\b,Gemert,782,10277
+\bgendringen\b,Gendringen,237,10260
+\bgend?t\b,Gendt,238,10440
+\bgenemuiden\b,Genemuiden,154,10746
+\bgennep\b,Gennep,907,10542
+\bgestel\b|\bblaarthem\b,Gestel en Blaarthem,1061,11269
+\bgeu(l|lle)\b,Geulle,908,10530
+\bgiessen\b,Giessen,783,10193
+\bgiessen[\s\w]?nieuwkerk\b,Giessendam,1063,10606
+\bgiessendam\b,Giessen-Nieuwkerk,1062,10255
+\bgieten\b,Gieten,116,10506
+\bgiethoorn\b,Giethoorn,155,10708
+\bgilze[\s\w]?en[\s\w]?r(ij|y)en\b,Gilze en Rijen,784,11375
+\bginneken\b|\bbavel\b,Ginneken en Bavel,1064,10406
+\bgoedereede\b,Goedereede,511,10981
+\bg(h?)oes(ch?)\b,Goes,664,10674
+\bgoirle\b,Goirle,785,10971
+\bgoor\b,Goor,156,10076
+\bgorinchem\b,Gorinchem,512,10942
+\bgorssel\b,Gorssel,239,10085
+\bgouda\b,Gouda,513,10302
+\bgouderak\b,Gouderak,514,11258
+\bgoudriaan\b,Goudriaan,515,10450
+\bgoudswaard\b,Goudswaard,516,10914
+\bgraauw\b|\blangendam\b,Graauw en Langendam,665,10312
+\bgrafhorst\b,Grafhorst,1065,10224
+\bgraft\b,Graft,389,10484
+\bgramsbergen\b,Gramsbergen,157,11339
+\bgrathem\b,Grathem,909,11008
+\bgrave\b,Grave,786,10165
+\bgrevenbicht\b,Grevenbicht,910,10624
+\bgr(ij|y)pskerk\b,Grijpskerk,16,10244
+\bgr(ij|y)pskerke\b,Grijpskerke,1067,10801
+\bgroede\b,Groede,667,11312
+\bgroenlo\b,Groenlo,240,11094
+\bgroesbeek\b,Groesbeek,241,10616
+\bgr(ö|o)ning(s|en|\.)\b,Groningen,14,10426
+\bgrons(f|v)eld\b,Gronsveld,911,10323
+\bgroot[\s\w]?ammers\b,Groot-Ammers,520,11205
+\bgroot[\s\w]?lindt\b,Groote Lindt,1066,11042
+\bgrootebroek\b,Grootebroek,391,11337
+\bgrootegast\b,Grootegast,15,11080
+\bgrubbenvorst\b,Grubbenvorst,912,10176
+\bgulpen\b,Gulpen,913,11032
+\bhaaften\b,Haaften,242,10125
+\bhaaksbergen\b,Haaksbergen,158,11435
+\bhaamstede\b,Haamstede,1068,10701
+\bhaaren\b,Haaren,788,11155
+\bha[\s\w]?rlem|haarl(am|\.)\b,Haarlem,392,10357
+\bhaarlemmerliede[\s\w]?en[\s\w]?spaarnwoude\b,Haarlemmerliede en Spaarnwoude,393,10508
+\bhaarlemmermeer\b,Haarlemmermeer,394,11387
+\bhaarzuilens\b,Haarzuilens,1069,10737
+\bhaastrecht\b,Haastrecht,521,11049
+\bhaelen\b,Haelen,914,10321
+\bhagestein\b,Hagestein,522,10297
+\bhalsteren\b,Halsteren,789,10387
+\bhaps\b,Haps,790,11283
+\bharderw(ij|y)k\b,Harderwijk,243,10786
+\bhardinxveld\b,Hardinxveld,1070,10167
+\bharen\b,Haren,17,11058
+\bharenkarspel\b,Harenkarspel,395,10963
+\bharlingen\b,Harlingen,72,10909
+\bharmelen\b,Harmelen,318,10183
+\bhaskerland\b,Haskerland,73,10022
+\bhasselt\b,Hasselt,161,10115
+\bhattem\b,Hattem,244,10673
+\bhavelte\b,Havelte,117,10186
+\bhazerswoude\b,Hazerswoude,524,11257
+\bhedel\b,Hedel,245,10982
+\bhedikhuizen\b,Hedikhuizen,1071,11130
+\bheel[\s\w]?en[\s\w]?panheel\b,Heel en Panheel,915,11208
+\bheemskerk\b,Heemskerk,396,10679
+\bheemstede\b,Heemstede,397,11288
+\bheenvliet\b,Heenvliet,525,10823
+\bheer\b,Heer,916,11407
+\bheerde\b,Heerde,246,10291
+\bheerewaarden\b,Heerewaarden,247,10067
+\bheerhugowaard\b,Heerhugowaard,398,10752
+\bheerjansdam\b,Heerjansdam,526,10540
+\bheerlen\b,Heerlen,917,10902
+\bheesch\b,Heesch,791,10149
+\bheesw(ij|y)k\b,Heeswijk,1072,11229
+\bheeze\b,Heeze,793,10462
+\bhei[\s\w]?[\s\w]?en[\s\w]?boeicop\b,Hei- en Boeicop,527,11024
+\bhe(ij|y)thu(ij|y)(s|z)en\b,Heille,1073,11309
+\bheiloo?\b,Heiloo,399,10793
+\bheinenoord\b,Heinenoord,528,10821
+\bheinkenszand\b,Heinkenszand,672,10413
+\bheino\b,Heino,162,10854
+\bhekelingen\b,Hekelingen,1074,10873
+\bhekendorp\b,Hekendorp,1075,10217
+\bhelden\b,Helden,918,10205
+\bhellendoorn\b,Hellendoorn,163,10806
+\bhellevoetsluis\b,Hellevoetsluis,530,11078
+\bhelmond\b,Helmond,794,10932
+\bhelvoirt\b,Helvoirt,795,10389
+\bhemelumer[\s\w]?oldephaert[\s\w]?en[\s\w]?noordwolde\b,Hemelumer Oldephaerd en Noordwolde,1260,10334
+\bhemmen\b,Hemmen,1076,11162
+\bhendrik[\s\w]?ido[\s\w]?ambacht\b,Hendrik-Ido-Ambacht,531,10416
+\bhengeloo?\b,Hengelo (Gld.),248,10359
+\bhengeloo?\b,Hengelo (O.),164,10907
+\bhengstd(ij|y)k\b,Hengstdijk,1077,10636
+\bhennaarderadeel\b,Hennaarderadeel,76,10877
+\bhensbroek\b,Hensbroek,401,10181
+\bherkingen\b,Herkingen,1078,10267
+\bherpen\b,Herpen,1079,11262
+\bherpt\b,Herpt,1080,10845
+\bherten\b,Herten,919,10138
+\bherwen[\s\w]?en[\s\w]?aerdt\b,Herwen en Aerdt,249,10819
+\bherw(ij|y)nen\b,Herwijnen,250,11266
+\bhet[\s\w]?bildt\b,het Bildt,63,10128
+\bheteren\b,Heteren,251,10290
+\bheukelum\b,Heukelum,533,11308
+\bheumen\b,Heumen,252,10600
+\bheusden\b,Heusden,797,10307
+\bhe(ij|y)thu(ij|y)(s|z)en\b,Heythuysen,920,10840
+\bhillegersberg\b,Hillegersberg,1081,10227
+\bhillegom\b,Hillegom,534,11236
+\bhilvarenbeek\b,Hilvarenbeek,798,11297
+\bhilversum\b,Hilversum,402,11285
+\bhindeloopen\b,Hindeloopen,77,10672
+\bhoedekenskerke\b,Hoedekenskerke,673,11072
+\bhoek\b,Hoek,674,10038
+\bhoenkoop\b,Hoenkoop,319,10611
+\bhoensbroek\b,Hoensbroek,921,11177
+\bhoevelaken\b,Hoevelaken,253,11358
+\bhoeven\b,Hoeven,799,10065
+\bhof[\s\w]?van[\s\w]?delft\b,Hof van Delft,1082,10089
+\bholten\b,Holten,165,11246
+\bhontenisse\b,Hontenisse,675,11123
+\bhoofdplaat\b,Hoofdplaat,676,10147
+\bhoog[\s\w]?blokland\b,Hoogblokland,535,11040
+\bhooge[\s\w]?mierde|hooge[\s\w]?en[\s\w]?lage[\s\w]?mierde\b,Hooge en Lage Mierde,801,10476
+\bzwaluwe\b,Hooge en Lage Zwaluwe,802,11318
+\bhoogeloo(n|n[\s\w]?[\s\w]?hapert[\s\w]?e?n?[\s\w]?casteren)\b,"Hoogeloon, Hapert en Casteren",800,10657
+\bhoogeveen\b,Hoogeveen,118,10839
+\bhoogezand\b,Hoogezand,1083,10410
+\bhoogkarspel\b,Hoogkarspel,403,10642
+\bhoogkerk\b,Hoogkerk,1084,10953
+\bhoogland\b,Hoogland,320,10545
+\bhoogvliet\b,Hoogvliet,1085,10348
+\bhoogwoud\b,Hoogwoud,404,11029
+\bhoorn\b,Hoorn,405,11392
+\bhoornaar\b,Hoornaar,536,10516
+\bhorn\b,Horn,922,11176
+\bhorssen\b,Horssen,254,10607
+\bhorst\b,Horst,923,11108
+\bhouten\b,Houten,321,10230
+\bhouthem\b,Houthem,1086,11111
+\bhuij?bergen\b,Huijbergen,803,10466
+\bhuisselin(g|g[\s\w]?e?n?neerloon)\b,Huisseling en Neerloon,1088,10049
+\bhuissen\b,Huissen,255,11047
+\bhuizen\b,Huizen,406,11170
+\bhulsberg\b,Hulsberg,924,11216
+\bhulst\b,Hulst,677,11408
+\bhummelo[\s\w]?en[\s\w]?keppel\b,Hummelo en Keppel,256,11235
+\bhunsel\b,Hunsel,925,10784
+\bhurwenen\b,Hurwenen,1089,11432
+\bidaarderadeel\b,Idaarderadeel,78,10815
+\b(ij|y)lst\b,IJlst,102,11062
+\b(ij|y)sselmonde\b,IJsselmonde,1230,11357
+\b(ij|y)sselmuiden\b,IJsselmuiden,191,10641
+\b(ij|y)sselstein\b,IJsselstein,353,10152
+\b(ij|y)zend(ij|y)ke\b,IJzendijke,730,10688
+\b(ij|y)zendoorn\b,IJzendoorn,1231,11430
+\bilpendam\b,Ilpendam,407,10809
+\bitteren\b,Itteren,926,10458
+\bittervoort\b,Ittervoort,1090,10190
+\bjaarsveld\b,Jaarsveld,1091,10847
+\bjabeek\b,Jabeek,927,10256
+\bjisp\b,Jisp,408,10481
+\bjutphaas\b,Jutphaas,322,10374
+\bkamerik\b,Kamerik,323,10554
+\bkampen\b,Kampen,166,10253
+\bkamperveen\b,Kamperveen,1092,10443
+\bkantens\b,Kantens,20,10372
+\bkapelle\b,Kapelle,678,11223
+\bkatendrecht\b,Katendrecht,1093,11401
+\bkats\b,Kats,1094,10919
+\bkattend(ij|y)ke\b,Kattendijke,679,11218
+\bkatw(ij|y)k\b,Katwijk,537,10707
+\bkatwoude\b,Katwoude,409,11136
+\bkedichem\b,Kedichem,538,10280
+\bkerkrade\b,Kerkrade,928,10313
+\bkerkwerve\b,Kerkwerve,1095,10837
+\bkerkw(ij|y)k\b,Kerkwijk,257,10791
+\bkessel\b,Kessel,929,10890
+\bkesteren\b,Kesteren,258,10916
+\bkethel[\s\w]?en[\s\w]?spaland\b,Kethel en Spaland,1096,10551
+\bklaaswaal\b,Klaaswaal,539,10284
+\bklimmen\b,Klimmen,930,10977
+\bkloetinge\b,Kloetinge,680,10155
+\bkloosterburen\b,Kloosterburen,21,10628
+\bklundert\b,Klundert,804,10656
+\bkockengen\b,Kockengen,324,10765
+\bkoed(ij|y)k\b,Koedijk,410,10510
+\bkoewacht\b,Koewacht,681,10892
+\bkollumerland\b|\bnieuwkruisland\b,Kollumerland en Nieuwkruisland,79,10984
+\bkoog[\s\w]?(aan[\s\w]?de|a[\s\w]?d[\s\w]?)[\s\w]?zaan\b,Koog aan de Zaan,411,10776
+\bkortenhoef\b,Kortenhoef,1097,10467
+\bkortgene\b,Kortgene,682,10250
+\bkoudekerk\b,Koudekerk,540,10029
+\bkoudekerke\b,Koudekerke,1098,11428
+\bkrabbend(ij|y)ke\b,Krabbendijke,684,11038
+\bkralingen\b,Kralingen,1099,11367
+\bkrimpen[\s\w]?(a[\s\w]?d[\s\w]?|aan[\s\w]?den?)[\s\w]?(ij|y)ssel\b,Krimpen aan de Lek,541,10617
+\bkrimpen[\s\w]?(aan[\s\w]?de|a[\s\w]?d[\s\w]?)[\s\w]?lek\b,Krimpen aan den IJssel,542,10859
+\bkrommenie\b,Krommenie,413,10373
+\bkruiningen\b,Kruiningen,685,10077
+\bkuinre\b,Kuinre,167,11148
+\bkwad(ij|y)k\b,Kwadijk,414,10775
+\blaag[\s\w]?nieuwkoop\b,Laag-Nieuwkoop,1100,10305
+\blandsmeer\b,Landsmeer,415,11225
+\blangbroek\b,Langbroek,325,11413
+\blangerak\b,Lange Ruige Weide,1101,10900
+\blange[\s\w]?ruige[\s\w]?weide\b,Langerak,543,11127
+\blaren\b,Laren (Gld.),259,10098
+\blaren\b,Laren (NH.),417,10649
+\bleek\b,Leek,22,10604
+\bleende\b,Leende,805,11017
+\bleens\b,Leens,23,11050
+\bleerbroek\b,Leerbroek,544,10465
+\bleerdam\b,Leerdam,545,10685
+\bleersum\b,Leersum,326,11142
+\bl(eeu|iw|ieu)ward(en|\.)\b|\bljouwert \b,Leeuwarden,80,11228
+\bleeuwarderadeel\b,Leeuwarderadeel,81,10851
+\ble(i|y)den|leid(s|sch)e\b,Leiden,546,10702
+\ble(ij?|y)derdorp\b,Leiderdorp,547,10058
+\bleimuiden\b,Leimuiden,549,11351
+\blekkerkerk\b,Lekkerkerk,550,10050
+\blemsterland\b,Lemsterland,82,10142
+\bleusden\b,Leusden,327,10978
+\blexmond\b,Lexmond,551,10930
+\blichtenvoorde\b,Lichtenvoorde,260,10242
+\bliempde\b,Liempde,806,10390
+\blienden\b,Lienden,261,11093
+\blierop\b,Lierop,1102,11279
+\blieshout\b,Lieshout,807,10637
+\blimbricht\b,Limbricht,931,11124
+\blimmen\b,Limmen,418,11370
+\blinden\b,Linden,1103,11305
+\blinne\b,Linne,932,10990
+\blinschoten\b,Linschoten,328,11324
+\blisse\b,Lisse,553,10197
+\blith\b,Lith,808,11219
+\blitho(ij|y)en\b,Lithoijen,1104,10024
+\blochem\b,Lochem,262,11263
+\bloenen\b,Loenen,329,11202
+\bloenersloot\b,Loenersloot,1105,10208
+\blonneker\b,Lonneker,1106,11045
+\bloon[\s\w]?op[\s\w]?zand\b,Loon op Zand,809,11259
+\bloosdrecht\b,Loosdrecht,330,10639
+\bloosduinen\b,Loosduinen,1107,10997
+\blopik\b,Lopik,331,10333
+\bloppersum\b,Loppersum,24,10934
+\blosser\b,Losser,168,11166
+\blu(ij|y)ksgestel\b,Luyksgestel,810,10011
+\bmaarheeze\b,Maarheeze,811,11143
+\bmaarn\b,Maarn,332,10392
+\bmaarssen\b,Maarssen,333,10191
+\bmaarsseveen\b,Maarsseveen,1108,10874
+\bmaartensd(ij|y)k\b,Maartensdijk,334,10691
+\bmaasbracht\b,Maasbracht,933,10964
+\bmaasbree\b,Maasbree,934,11352
+\bmaasdam\b,Maasdam,554,11019
+\bmaashees\b|\boverloon\b,Maashees en Overloon,1109,10532
+\bmaasland\b,Maasland,555,10393
+\bmaasniel\b,Maasniel,1110,11261
+\bmaassluis\b,Maassluis,556,10880
+\bmaastr(ich\w*|\.)\b,Maastricht,935,10182
+\bmade|drimmelen\b,Made en Drimmelen,812,10258
+\bmargraten\b,Margraten,936,11243
+\bmarkelo\b,Markelo,169,11382
+\bmarken\b,Marken,419,10901
+\bmarum\b,Marum,25,11431
+\bmaurik\b,Maurik,264,10300
+\bmedemblik\b,Medemblik,420,11215
+\bmeeden\b,Meeden,26,10304
+\bmeerkerk\b,Meerkerk,557,10618
+\bmeerlo\b,Meerlo,937,11416
+\bmeerssen\b,Meerssen,938,10494
+\bmeeuwen\b|\bmeeuwenn[\s\w]?[\s\w]?heel[\s\w]?[\s\w]?en[\s\w]?babyloni(Ã«|e)nbroek\b,"Meeuwen, Hill en Babyloniënbroek",1264,10216
+\bmege(n|n[\s\w]?[\s\w]?haren[\s\w]?[\s\w]?e?n?[\s\w]?macharen)\b,"Megen, Haren en Macharen",813,10988
+\bme(ij|y)el\b,Meijel,941,10925
+\bherkenbosch[\s\w]?en[\s\w]?melick\b|\bmelick[\s\w]?en[\s\w]?herkenbosch\b,Melick en Herkenbosch,939,10196
+\bmeliskerke\b,Meliskerke,1112,11221
+\bmelissant\b,Melissant,1113,10918
+\bmenaldumadeel\b,Menaldumadeel,83,11144
+\bmeppel\b,Meppel,119,11204
+\bmerkelbeek\b,Merkelbeek,940,10763
+\bmesch\b,Mesch,1114,11070
+\bmheer\b,Mheer,942,10538
+\bmiddelburg\b,Middelburg (Z.),687,10122
+\bmiddelharnis\b,Middelharnis,559,11067
+\bmiddelie\b,Middelie,421,10452
+\bmiddelstum\b,Middelstum,27,11199
+\bmidwold(e|a)\b,Midwolda,28,10356
+\bmidwoud\b,Midwoud,422,10924
+\bmierlo\b,Mierlo,814,10215
+\bm(ij|y)drecht\b,Mijdrecht,336,11379
+\bm(ij|y)nsheerenland\b,Mijnsheerenland,564,11112
+\bmil(l|l[\s\w]?en[\s\w]?(st[\s\w]?|sint)[\s\w]?hubert)\b,Mill en Sint Hubert,815,10535
+\bmillingen\b,Millingen,1259,10072
+\bmoer(c|k)apelle\b,Moergestel,816,11191
+\bmoergestel\b,Moerkapelle,560,11383
+\bmolenaarsgraaf\b,Molenaarsgraaf,561,10166
+\bmonni[\s\w]?kendam\b,Monnickendam,423,10983
+\bmonster\b,Monster,562,10019
+\bmontfoort\b,Montfoort,335,10033
+\bmontfort\b,Montfort,943,10266
+\bmook[\s\w]?en[\s\w]?middelaar\b,Mook en Middelaar,944,10271
+\bmoordrecht\b,Moordrecht,563,10120
+\bmuiden\b,Muiden,424,10958
+\bmunstergeleen\b,Munstergeleen,945,10273
+\bmuntendam\b,Muntendam,29,10550
+\bnaaldw(ij|y)k\b,Naaldwijk,565,11418
+\bnaarden\b,Naarden,425,10187
+\bnederhemert\b,Nederhemert,1115,10310
+\bnederhorst[\s\w]?den[\s\w]?berg\b,Nederhorst den Berg,426,10715
+\bnederweert\b,Nederweert,946,10681
+\bneede\b,Neede,266,10367
+\bneer\b,Neer,947,10682
+\bneeritter\b,Neeritter,1116,11001
+\bneuzen\b,Nibbixwoud,427,10091
+\bnibbi(ks|x)woud\b,Nieuw- en Sint Joosland,1117,11340
+\bnieuw[\s\w]?be(ij|y)erland\b,Nieuw-Beijerland,566,10092
+\bnieuwe[\s\w]?pekela\b,Nieuwe Pekela,30,10950
+\bnieuwe[\s\w]?tonge\b,Nieuwe Tonge,1119,10502
+\bnieuwendam\b,Nieuwendam,1120,10177
+\bnieuwenhagen\b,Nieuwenhagen,948,10088
+\bnieuwenhoorn\b,Nieuwenhoorn,1121,10338
+\bnieuwe[\s\w]?niedorp\b,Nieuwe-Niedorp,428,10073
+\bnieuwer[\s\w]?amstel\b,Nieuwer-Amstel,1249,10799
+\bnieuwerkerk\b,Nieuwerkerk,1122,10911
+\bnieuwerkerk[\s\w]?(a[\s\w]?d|aan[\s\w]?den?)[\s\w]?(ij|y)ssel\b,Nieuwerkerk aan den IJssel,567,10855
+\bnieuwe[\s\w]?schans\b,Nieuweschans,31,10008
+\bnieuw[\s\w]?helvoet\b,Nieuw-Helvoet,1118,10264
+\bnieuwkoop\b,Nieuwkoop,569,10728
+\bnieuwkuik\b,Nieuwkuijk,1123,11278
+\bnieuwland\b,Nieuwland,570,11213
+\bnieuw[\s\w]?lekkerland\b,Nieuw-Lekkerland,571,10547
+\bnieuwleusen\b,Nieuwleusen,170,10384
+\bnieuwolda\b,Nieuwolda,32,10126
+\bnieuwpoort\b,Nieuwpoort,572,10748
+\bnieuwstadt\b,Nieuwstadt,949,11140
+\bnieuwveen\b,Nieuwveen,573,10487
+\bnieuwvliet\b,Nieuwvliet,690,11165
+\bnieuw[\s\w]?vo(s|sse)meer\b,Nieuw-Vossemeer,818,10401
+\bnigtevecht\b,Nigtevecht,337,10160
+\bn(ij|y)eveen\b,Nijeveen,121,10774
+\bn(ij|y)kerk\b,Nijkerk,267,10446
+\b(n(ij|y)me(gen|eeg\w*)|nijm\.)\b,Nijmegen,268,11209
+\bnisse\b,Nisse,691,11086
+\bnistelrode\b,Nistelrode,819,10094
+\bnoorbeek\b,Noorbeek,950,10283
+\bnoordbroek\b,Noordbroek,1126,10814
+\bnoordd(ij|y)k\b,Noorddijk,1127,10979
+\bnoordeloos\b,Noordeloos,574,10296
+\bnoordgouwe\b,Noordgouwe,1128,11107
+\bnoord[\s\w]?scharwoude\b,Noord-Scharwoude,1124,10075
+\bnoord[\s\w]?waddin(x|ks)veen\b,Noord-Waddinxveen,1125,11342
+\bnoordwelle\b,Noordwelle,1129,10055
+\bnoordw(ij|y)k\b,Noordwijk,575,10769
+\bnoordw(ij|y)kerhout\b,Noordwijkerhout,576,11134
+\bnootdorp\b,Nootdorp,577,10601
+\bnorg\b,Norg,120,10608
+\bnuene(n|n[\s\w]?[\s\w]?gerwen[\s\w]?[\s\w]?en[\s\w]?nederwetten)\b,"Nuenen, Gerwen en Nederwetten",820,10761
+\bnuland\b,Nuland,821,10118
+\bnumansdorp\b,Numansdorp,578,11346
+\bnunhem\b,Nunhem,1130,10736
+\bnuth\b,Nuth,951,10104
+\bobbichten([\s\w]?|[\s\w]?en[\s\w]?)papenhoven\b,Obbicht en Papenhoven,952,10388
+\bobdam\b,Obdam,429,11338
+\bod(ij|y)k\b,Odijk,1131,11003
+\bodoorn\b,Odoorn,122,11320
+\boeffelt\b,Oeffelt,822,10360
+\boegstgeest\b,Oegstgeest,579,10287
+\boerle\b,Oerle,1132,10119
+\boh(e|Ã©)[\s\w]?en[\s\w]?laak\b,Ohé en Laak,953,10420
+\bo(ij|y)e(n|n[\s\w]?en[\s\w]?teeffelen)\b,Oijen en Teeffelen,1150,10869
+\boirsbeek\b,Oirsbeek,954,10504
+\boirschot\b,Oirschot,823,10225
+\boisterw(ij|y)k\b,Oisterwijk,824,10103
+\boldebroek\b,Oldebroek,269,11106
+\boldehove\b,Oldehove,35,10298
+\boldekerk\b,Oldekerk,36,11332
+\boldemarkt\b,Oldemarkt,172,10858
+\boldenzaal\b,Oldenzaal,173,11100
+\bolst\b,Olst,174,10409
+\bonstwedde\b,Onstwedde,1250,10610
+\booltgensplaat\b,Ooltgensplaat,1133,11163
+\bbarendrecht\b,Oost- en West-Barendrecht,1134,10943
+\boost[\s\w]?[\s\w]?en[\s\w]?west[\s\w]?[\s\w]?souburg\b,Oost- en West-Souburg,1135,11396
+\bmiddelbeers\b,"Oost-, West- en Middelbeers",825,10220
+\boostburg\b,Oostburg,692,10782
+\boostdongeradeel\b,Oostdongeradeel,84,11102
+\boosterhesselen\b,Oosterhesselen,123,10490
+\boosterhout\b,Oosterhout,826,11280
+\boosterland\b,Oosterland,1136,11237
+\boosthuizen\b,Oosthuizen,430,11121
+\boostkapelle\b,Oostkapelle,1137,10720
+\booststellingwerf\b,Ooststellingwerf,85,10836
+\boostvoorne\b,Oostvoorne,581,10009
+\boostzaan\b,Oostzaan,431,11303
+\bootmarsum\b,Ootmarsum,176,11079
+\bophemert\b,Ophemert,270,10829
+\boplo(o?|o?[\s\w]?[\s\w]?(sint|st[\s\w]?)[\s\w]?anthonis[\s\w]?e?n?[\s\w]?ledeacker)\b,"Oploo, Sint Anthonis en Ledeacker",827,11415
+\bopmeer\b,Opmeer,432,10609
+\bopperdoes\b,Opperdoes,433,10523
+\bopsterland\b,Opsterland,86,10005
+\boss\b,Oss,828,10834
+\bossendrecht\b,Ossendrecht,829,10929
+\bossenisse\b,Ossenisse,1138,10841
+\boterleek\b,Oterleek,434,10133
+\bottersum\b,Ottersum,955,10862
+\bottoland\b,Ottoland,582,10097
+\boud[\s\w]?en[\s\w]?nieuw[\s\w]?gastel\b,Oud en Nieuw Gastel,831,11363
+\balblas\b,Oud-Alblas,583,10826
+\boud[\s\w]?be(ij|y)erland\b,Oud-Beijerland,584,11301
+\bouddorp\b,Ouddorp,1142,11126
+\boude[\s\w]?niedorp\b,Oude Pekela,38,10848
+\boudelande\b,Oudelande,695,11139
+\boudenbosch\b,Oudenbosch,830,10397
+\boudend(ij|y)k\b,Oudendijk,435,11090
+\boudenhoorn\b,Oudenhoorn,586,10380
+\boude[\s\w]?niedorp\b,Oude-Niedorp,436,10896
+\boudenr(ij|y)n\b,Oudenrijn,1144,10114
+\bouder[\s\w]?amstel\b,Ouder-Amstel,437,10998
+\bouderkerk[\s\w]?(a[\s\w]?d|aan[\s\w]?den?)[\s\w]?(ij|y)ssel\b,Ouderkerk aan den IJssel,587,10095
+\boude[\s\w]?tonge\b,Oude-Tonge,1143,10714
+\boudewater\b,Oudewater,589,10188
+\boudheusden\b,Oudheusden,1145,10812
+\boudkarspel\b,Oudkarspel,1146,11051
+\boudorp\b,Oudorp,438,10363
+\boudshoorn\b,Oudshoorn,1147,11011
+\boud[\s\w]?valkenburg\b,Oud-Valkenburg,1140,10868
+\boud[\s\w]?vossemeer\b,Oud-Vossemeer,696,10134
+\boud[\s\w]?vroenhoven\b,Oud-Vroenhoven,1141,11348
+\bouwerkerk\b,Ouwerkerk,1148,10968
+\boverasselt\b,Overasselt,271,10952
+\boverschie\b,Overschie,1149,10683
+\boverslag\b,Overslag,697,10730
+\bovezande\b,Ovezande,698,11422
+\bpannerden\b,Pannerden,272,10518
+\bpapekop\b,Papekop,1151,11244
+\bpapendrecht\b,Papendrecht,590,10427
+\bpeize\b,Peize,124,10501
+\bpernis\b,Pernis,1152,11245
+\bpetten\b,Petten,1153,11057
+\bpeursum\b,Peursum,1154,10391
+\bphilippine\b,Philippine,699,10486
+\bpiershil\b,Piershil,591,10179
+\bp(ij|y)nacker\b,Pijnacker,594,10031
+\bpoedero(ij|y)en\b,Poederoijen,1155,10135
+\bpolsbroek\b,Polsbroek,338,10993
+\bpoortugaal\b,Poortugaal,592,11395
+\bpoortvliet\b,Poortvliet,700,11181
+\bposterholt\b,Posterholt,956,10456
+\bprincenhage\b,Princenhage,1156,10762
+\bpurmerend\b,Purmerend,439,11066
+\bputte\b,Putte,833,10099
+\bputten\b,Putten,273,11109
+\bputtershoek\b,Puttershoek,593,10222
+\braalte\b,Raalte,177,10279
+\braamsdonk\b,Raamsdonk,834,11391
+\bransdorp\b,Ransdorp,1157,10789
+\brauwerderhem\b,Rauwerderhem,87,10330
+\bravenstein\b,Ravenstein,835,10805
+\breek\b,Reek,1158,10671
+\breeuw(ij|y)k\b,Reeuwijk,595,10485
+\brenesse\b,Renesse,1159,10412
+\brenkum\b,Renkum,274,11325
+\brenswoude\b,Renswoude,339,10269
+\bretranchement\b,Retranchement,701,10400
+\breusel\b,Reusel,836,10162
+\brheden\b,Rheden,275,11355
+\brhenen\b,Rhenen,340,10309
+\brhoon\b,Rhoon,596,10903
+\bridderkerk\b,Ridderkerk,597,10646
+\briethoven\b,Riethoven,837,10455
+\brietveld\b,Rietveld,1160,10828
+\br(ij|y)ckholt\b,Rijckholt,1165,10824
+\br(ij|y)nsaterwoude\b,Rijnsaterwoude,601,11129
+\brh?(ij|y)nsburg\b,Rijnsburg,602,11118
+\br(ij|y)sbergen\b,Rijsbergen,841,10866
+\br(ij|y)senburg\b,Rijsenburg,1166,10613
+\br(ij|y)ssen\b,Rijssen,178,10358
+\br(ij|y)sw(ij|y)k\b,Rijswijk (NB.),842,11016
+\br(ij|y)sw(ij|y)k\b,Rijswijk (ZH.),603,11133
+\brilland\b,Rilland,1161,10479
+\brimburg\b,Rimburg,1162,10020
+\britthem\b,Ritthem,1163,10652
+\brockanje\b,Rockanje,598,10464
+\broden\b,Roden,125,10699
+\broermond\b,Roermond,957,11313
+\broggel\b,Roggel,958,10505
+\brolde\b,Rolde,126,10470
+\broo(s|z)endaal[\s\w]?en[\s\w]?nispen\b,Roosendaal en Nispen,838,10407
+\broosteren\b,Roosteren,959,10954
+\brosmalen\b,Rosmalen,839,10970
+\brossum\b,Rossum,276,10860
+\brott[\s\w]?rdam|rott\.\b,Rotterdam,599,10345
+\bro0?(s|z)enburgh?\b,Rozenburg,600,11314
+\broo?(s|z)enda(a|e)l\b,Rozendaal,277,10684
+\brucphen\b,Rucphen,840,11152
+\bruinen\b,Ruinen,127,10629
+\bruinerwold\b,Ruinerwold,128,10944
+\bruurlo\b,Ruurlo,278,10879
+\bruwiel\b,Ruwiel,1164,10526
+\bsambeek\b,Sambeek,1167,10339
+\bsappemeer\b,Sappemeer,1168,10080
+\bsas[\s\w]?van[\s\w]?gent\b,Sas van Gent,704,11405
+\bsassenheim\b,Sassenheim,604,10612
+\bschaesbergh?\b,Schaesberg,960,11335
+\bschagen\b,Schagen,441,10511
+\bscha(ij|y)k\b,Schaijk,843,10276
+\bschalkw(ij|y)k\b,Schalkwijk,1169,10378
+\bscheemda\b,Scheemda,39,10711
+\bschellinkhout\b,Schellinkhout,442,10772
+\bschelluinen\b,Schelluinen,605,11399
+\bschermerhorn\b,Schermerhorn,443,10308
+\bscherpenisse\b,Scherpenisse,705,10375
+\bscherpenzeel\b,Scherpenzeel,279,11146
+\bschiebroek\b,Schiebroek,1170,11306
+\bschieda(m|ams[\s\w]?)\b,Schiedam,606,11260
+\bschiermonnikoog\b,Schiermonnikoog,88,10355
+\bsch(ij|y)ndel\b,Schijndel,844,11178
+\bschimmert\b,Schimmert,961,11076
+\bschin[\s\w]?op[\s\w]?geulle\b,Schin op Geul,1171,10780
+\bschinnen\b,Schinnen,962,10132
+\bschinveld\b,Schinveld,963,10492
+\bschipluiden\b,Schipluiden,607,10130
+\bschoond(ij|y)ke\b,Schoondijke,706,10189
+\bschoonhoven\b,Schoonhoven,608,10980
+\bschoonrewoerd\b,Schoonrewoerd,609,10214
+\bschoorl\b,Schoorl,444,10627
+\bschore\b,Schore,1172,10544
+\bschoten\b,Schoten,1173,10382
+\bschoterland\b,Schoterland,1174,10680
+\bserooskerke\b,Serooskerke (Schouwen-Duivenland),1175,11014
+\bserooskerke\b,Serooskerke (Walcheren),1176,11256
+\bsevenum\b,Sevenum,964,10045
+\bs[\s\w]?graveland\b,'s-Graveland,390,10534
+\bs[\s\w]?gravendeel\b,'s-Gravendeel,517,10052
+\bgraven[\s\w]?hage|haag\w*|s[\s\w]?hage|grave\.\b,'s-Gravenhage,518,11434
+\bs[\s\w]?graven?moer\b,'s-Gravenmoer,787,10469
+\bs[\s\w]?graven?polder\b,'s-Gravenpolder,666,11059
+\bs[\s\w]?grave(s|z)ande\b,'s-Gravenzande,519,10640
+\bs[\s\w]?heer[\s\w]?abtskerke\b,'s-Heer-Abtskerke,669,10337
+\bs[\s\w]?heer[\s\w]?arendskerke\b,'s-Heer-Arendskerke,670,10875
+\bs[\s\w]?heerenhoek\b,'s-Heerenhoek,671,10721
+\bhert[\s\w]?ogenbosch|(s|den)[\s\w]?bosch\b,'s-Hertogenbosch,796,10054
+\bs(ij|y)bekarspel\b,Sijbekarspel,447,11167
+\bsimpelveld\b,Simpelveld,965,10515
+\b(st[\s\w]?|sint)[\s\w]?anna[\s\w]?ter[\s\w]?muiden\b,Sint Anna Termuiden,1177,11012
+\b(ste?[\s\w]?|sint)[\s\w]?geertruid\b,Sint Geertruid,966,10288
+\b(st[\s\w]?|sint)[\s\w]?jansteen\b,Sint Jansteen,709,10864
+\b(st[\s\w]?|sint)[\s\w]?kruis\b,Sint Kruis,1178,10235
+\b(st[\s\w]?|sint)[\s\w]?laurens\b,Sint Laurens,1179,10106
+\b(st[\s\w]?|sint)[\s\w]?maarten\b,Sint Maarten,445,10740
+\b(st[\s\w]?|sint)[\s\w]?odili(e|Ã«)nberg\b,Sint Odiliënberg,967,10278
+\b(st[\s\w]?|sint)[\s\w]?pancras\b,Sint Pancras,446,10513
+\b(st[\s\w]?|sint)[\s\w]?philipsland\b,Sint Philipsland,712,10394
+\b(st[\s\w]?|sint)[\s\w]?pieter\b,Sint Pieter,1180,10137
+\b(st[\s\w]?|sint)[\s\w]?annaland\b,Sint-Annaland,708,11200
+\b(st[\s\w]?|sint)[\s\w]?maartensd(ij|y)k\b,Sint-Maartensdijk,711,10716
+\b(st[\s\w]?|sint)[\s\w]?michiels[\s\w]?gestel\b,Sint-Michielsgestel,845,10496
+\b(st[\s\w]?|sint)[\s\w]?oedenrode\b,Sint-Oedenrode,846,10399
+\bsittard\b,Sittard,968,11230
+\bsleen\b,Sleen,130,10489
+\bslenaken\b,Slenaken,969,11274
+\bsliedrecht\b,Sliedrecht,610,11331
+\bslochteren\b,Slochteren,40,10747
+\bsloten\b,Sloten (F.),89,10867
+\bsloten\b,Sloten (NH.),1181,10148
+\bsluipw(ij|y)k\b,Sluipwijk,1182,11402
+\bsluis\b,Sluis,713,10895
+\bsmallingerland\b,Smallingerland,90,10405
+\bsmilde\b,Smilde,131,11033
+\bsneek\b,Sneek,91,11421
+\bsnelrewaard\b,Snelrewaard,341,10802
+\bsoerendon(k|k[\s\w]?[\s\w]?sterksel[\s\w]?e?n?[\s\w]?gastel)\b,Soerendonk,1183,10047
+\bsoest\b,Soest,342,11021
+\bsomeren\b,Someren,847,10203
+\bsommelsd(ij|y)k\b,Sommelsdijk,1184,11097
+\bso(n|n[\s\w]?e?n?[\s\w]?breugel)\b,Son en Breugel,848,10549
+\bspaarndam\b,Spaarndam,1185,10192
+\bspanbroek\b,Spanbroek,1186,10063
+\bspaubeek\b,Spaubeek,970,10552
+\bsp(ij|y)kenisse\b,Spijkenisse,612,10735
+\bsprang\b,Sprang,1187,10659
+\bstad[\s\w]?aan[\s\w]?[\s\w]?t[\s\w]?haringvliet\b,Stad aan 't Haringvliet,1188,11239
+\bommen\b,Stad Delden,179,10913
+\balmelo\b,Stad-Almelo,1189,11053
+\bdoetin?chem\b,Stad-Doetinchem,1190,10603
+\bhardenberg\b,Stad-Hardenberg,1191,11169
+\bommen\b,Stad-Ommen,1192,10381
+\bvollenhove\b,Stad-Vollenhove,1193,11183
+\bstanddaarbuiten\b,Standdaarbuiten,850,11212
+\bstaphorst\b,Staphorst,180,11362
+\bstavenisse\b,Stavenisse,714,10619
+\bstavoren\b,Staveren,1257,10240
+\bstedum\b,Stedum,41,10771
+\bsteenberge(n|n[\s\w]?en[\s\w]?kruisland)\b,Steenbergen en Kruisland,1376,10731
+\bsteenderen\b,Steenderen,280,10497
+\bsteenw(ij|y)k\b,Steenwijk,181,10546
+\bsteenw(ij|y)kerwold\b,Steenwijkerwold,182,11347
+\bstein\b,Stein (L.),971,11319
+\bstein\b,Stein (ZH.),1194,11437
+\bstellendam\b,Stellendam,1195,10087
+\bstevensweert\b,Stevensweert,972,11203
+\bstiphout\b,Stiphout,1196,11386
+\bstolw(ij|y)k\b,Stolwijk,615,11250
+\bstompw(ij|y)k\b,Stompwijk,1197,10742
+\bstoppeld(ij|y)k\b,Stoppeldijk,1198,10100
+\bstoutenburg\b,Stoutenburg,343,10438
+\bstrampro(ij|y)\b,Stramproy,973,11186
+\bstratum\b,Stratum,1199,10172
+\bstreefkerk\b,Streefkerk,616,11105
+\bstr(ij|y)en\b,Strijen,617,10558
+\bstr(ij|y)p\b,Strijp,1201,10521
+\bstrucht\b,Strucht,1200,11034
+\bsusteren\b,Susteren,974,10457
+\bswalmen\b,Swalmen,975,10474
+\bt[\s\w]?zandt\b,'t Zandt,54,10956
+\btegelen\b,Tegelen,976,11333
+\bten[\s\w]?boer\b,Ten Boer,9,10891
+\bter[\s\w]?aar\b,Ter Aar,480,11104
+\bterhe(ij|y)den\b,Terheijden,853,10905
+\btermunten\b,Termunten,42,11023
+\bterneuzen\b,Terneuzen,715,10704
+\bterschelling\b,Terschelling,93,11210
+\bteteringen\b,Teteringen,854,10677
+\btexel\b,Texel,448,10237
+\btholen\b,Tholen,716,10376
+\bthorn\b,Thorn,977,11195
+\btiel\b,Tiel,281,10027
+\btienhoven\b,Tienhoven (U.),1202,10035
+\btienhoven\b,Tienhoven (ZH.),618,10706
+\btietjerksteradeel\b,Tietjerksteradeel,94,11241
+\btilb(urg|\.)\b,Tilburg,855,10792
+\btongelre\b,Tongelre,1203,11240
+\btubbergen\b,Tubbergen,183,10694
+\btull[\s\w]?en[\s\w]?[\s\w]?t[\s\w]?waal\b,Tull en 't Waal,1205,11022
+\btwisk\b,Twisk,449,10371
+\bubach[\s\w]?over[\s\w]?worms\b,Ubach over Worms,978,10146
+\bubbergen\b,Ubbergen,282,10408
+\buden\b,Uden,856,11141
+\budenhout\b,Udenhout,857,11268
+\buitgeest\b,Uitgeest,450,11238
+\buithoorn\b,Uithoorn,451,11206
+\buithuizen\b,Uithuizen,43,11137
+\buithuizermeeden\b,Uithuizermeeden,44,10246
+\bulestraten\b,Ulestraten,979,11220
+\bulrum\b,Ulrum,45,10180
+\burk\b,Urk,184,10783
+\burmond\b,Urmond,980,10700
+\bursem\b,Ursem,452,10696
+\busquert\b,Usquert,46,11035
+\butingeradeel\b,Utingeradeel,95,10140
+\bu[\s\w]?trecht\b,Utrecht,344,10722
+\bvaals\b,Vaals,981,10007
+\bvalburg\b,Valburg,283,11071
+\bvalkenburg\b,Valkenburg (L.),1252,11077
+\bvalkenburg\b,Valkenburg (ZH.),619,10028
+\bvalkenswaard\b,Valkenswaard,858,11031
+\bvarik\b,Varik,284,11064
+\bveen\b,Veen,859,10015
+\bveendam\b,Veendam,47,11292
+\bveenendaal\b,Veenendaal,345,11052
+\bveere\b,Veere,717,10369
+\bveghel\b,Veghel,860,10985
+\bveldhoven\b,Veldhoven en Meerveldhoven,1206,10071
+\bveldhuizen\b,Veldhuizen,1207,10713
+\bvelp\b,Velp,1208,10170
+\bvel(z|s)en\b,Velsen,453,10620
+\bvenhuizen\b,Venhuizen,454,10433
+\bvenlo\b,Venlo,983,10477
+\bvenray\b,Venray,984,11222
+\bvesse(m|m[\s\w]?[\s\w]?wintelre[\s\w]?e?n?[\s\w]?knegsel)\b,"Vessem, Wintelre en Knegsel",862,11414
+\bveur\b,Veur,1209,10366
+\bvianen\b,Vianen,620,10887
+\bvierlingsbeek\b,Vierlingsbeek,863,10066
+\bvierpolders\b,Vierpolders,621,11056
+\bvinkevee(n|n[\s\w]?e?n?[\s\w]?waverveen)\b,Vinkeveen en Waverveen,346,11048
+\bvlaardingen\b,Vlaardingen,622,10811
+\bvlaardinger[\s\w]?ambacht\b,Vlaardinger-Ambacht,1210,10790
+\bvlagtwedde\b,Vlagtwedde,48,11249
+\bvledder\b,Vledder,132,11120
+\bvleuten\b,Vleuten,1211,10658
+\bvlieland\b,Vlieland,96,10211
+\bvlierden\b,Vlierden,1212,10268
+\bvl(ij|y)men\b,Vlijmen,864,11293
+\bvlissingen\b,Vlissingen,718,10270
+\bvlist\b,Vlist,623,11174
+\bvlodrop\b,Vlodrop,985,10644
+\bvoerenda(e|a)l\b,Voerendaal,986,11341
+\bvoorburg\b,Voorburg,624,11103
+\bvoorhout\b,Voorhout,625,10017
+\bvoorschoten\b,Voorschoten,626,10537
+\bvoorst\b,Voorst,285,10912
+\bvorden\b,Vorden,286,10957
+\bvreeland\b,Vreeland,1213,10898
+\bvreesw(ij|y)k\b,Vreeswijk,348,10441
+\bvries\b,Vries,133,10630
+\bvriezenveen\b,Vriezenveen,186,10643
+\bvr(ij|y)enban\b,Vrijenban,1215,10853
+\bvr(ij|y)hoeve[\s\w]?cappelle\b,Vrijhoeve-Capelle,1216,10870
+\bvrouwenpolder\b,Vrouwenpolder,1214,10635
+\bvught\b,Vught,865,11224
+\bvuren\b,Vuren,287,11376
+\bwaalre\b,Waalre,866,10959
+\bwaalw(ij|y)k\b,Waalwijk,867,11359
+\bwaarde\b,Waarde,721,10082
+\bwaardenburg\b,Waardenburg,288,10238
+\bwaarder\b,Waarder,1217,10830
+\bwadeno(ij|y)en\b,Wadenoijen,1218,10201
+\bwageningen\b,Wageningen,289,11010
+\bwamel\b,Wamel,290,10042
+\bwanneperveen\b,Wanneperveen,187,10105
+\bwanroo?(ij|y)\b,Wanroij,868,10265
+\bwanssum\b,Wanssum,987,10991
+\bwarder\b,Warder,455,11073
+\bwarffum\b,Warffum,49,10498
+\bwarmenhuizen\b,Warmenhuizen,456,10221
+\bwarmond\b,Warmond,628,10204
+\bwarnsveld\b,Warnsveld,291,10838
+\bwaspik\b,Waspik,869,10402
+\bwassenaar\b,Wassenaar,629,10164
+\bwatergraafsmeer\b,Watergraafsmeer,1219,11122
+\bwateringen\b,Wateringen,630,11329
+\bwaterlandkerkje\b,Waterlandkerkje,722,10352
+\bwedde\b,Wedde,1220,10247
+\bweerselo\b,Weerselo,188,10893
+\bweert\b,Weert,988,11081
+\bweesp\b,Weesp,457,10773
+\bweesperkarspel\b,Weesperkarspel,1221,10377
+\bwehl\b,Wehl,292,11116
+\bwemeldinge\b,Wemeldinge,723,11145
+\bwerkendam\b,Werkendam,870,10078
+\bwerkhoven\b,Werkhoven,1223,11299
+\bwervershoof\b,Wervershoof,459,11270
+\bwessem\b,Wessem,989,10127
+\bwestbroek\b,Westbroek,1224,10145
+\bwestdongeradeel\b,Westdongeradeel,97,10129
+\bwestdorpe\b,Westdorpe,724,10915
+\bwesterbork\b,Westerbork,134,11095
+\bwesterhoven\b,Westerhoven,871,11041
+\bwestervoort\b,Westervoort,293,11085
+\bwestkapelle\b,Westkapelle,726,10931
+\bwestmaas\b,Westmaas,631,10695
+\bweststellingwerf\b,Weststellingwerf,98,11322
+\bwestwoud\b,Westwoud,460,11101
+\bwestzaan\b,Westzaan,461,11381
+\bwierden\b,Wierden,189,10676
+\bwieringen\b,Wieringen,462,11277
+\bwieringerwaard\b,Wieringerwaard,464,11164
+\bw(ij|y)chen\b,Wijchen,296,10723
+\bw(ij|y)denes\b,Wijdenes,469,10631
+\bw(ij|y)dewormer\b,Wijdewormer,470,10434
+\bw(ij|y)he\b,Wijhe,190,10888
+\bw(ij|y)k[\s\w]?aan[\s\w]?zee[\s\w]?en[\s\w]?duin\b,Wijk aan Zee en Duin,1229,11366
+\bw(ij|y)k[\s\w]?b(ij|y)[\s\w]?duurstede\b,Wijk bij Duurstede,352,10760
+\bw(ij|y)(k|k[\s\w]?e?n?[\s\w]?aalburg)\b,Wijk en Aalburg,876,11084
+\bw(ij|y)lre\b,Wijlre,991,10131
+\bw(ij|y)nandsrade\b,Wijnandsrade,992,10992
+\bw(ij|y)ngaarden\b,Wijngaarden,634,10263
+\bwildervank\b,Wildervank,1225,10825
+\bwillemstad\b,Willemstad,872,10827
+\bwilleskop\b,Willeskop,349,10758
+\bwillige[\s\w]?langerak\b,Willige-Langerak,1226,10368
+\bwilnis\b,Wilnis,350,10365
+\bwilsum\b,Wilsum,1227,10194
+\bwinkel\b,Winkel,465,10923
+\bwinschoten\b,Winschoten,52,10453
+\bwinsum\b,Winsum,53,11135
+\bwintersw(ij|y)k\b,Winterswijk,294,11119
+\bwisch\b,Wisch,295,10318
+\bwissenkerke\b,Wissekerke,1253,10243
+\bwittem\b,Wittem,990,11371
+\bwoensdrecht\b,Woensdrecht,873,10602
+\bwoensel\b,Woensel,1228,10894
+\bwoerden\b,Woerden,632,10974
+\bwognum\b,Wognum,466,10818
+\bwolphaartsd(ij|y)k\b,Wolphaartsdijk,728,10543
+\bwonseradeel\b,Wonseradeel,99,10454
+\bworkum\b,Workum,100,10768
+\bwormer\b,Wormer,467,10648
+\bwormerveer\b,Wormerveer,468,10361
+\bwoubrugge\b,Woubrugge,633,10461
+\bwoudenberg\b,Woudenberg,351,11398
+\bwoudrichem\b,Woudrichem,874,10282
+\bwouw\b,Wouw,875,10808
+\bw(ij|y)mbritseradeel\b,Wymbritseradeel,101,11427
+\b(ij|y)erseke\b,Yerseke,729,11247
+\bzaamslag\b,Zaamslag,731,11173
+\bzaandam\b,Zaandam,471,11044
+\bzaand(ij|y)k\b,Zaandijk,472,11404
+\bzal(k|k[\s\w]?e?n?[\s\w]?veecaten)\b,Zalk en Veecaten,1232,10633
+\bzandvoort\b,Zaltbommel,297,10557
+\bzeeland\b,Zandvoort,473,10910
+\bzeelst\b,Zeeland,877,10759
+\bzegveld\b,Zeelst,1233,10096
+\bzegveld\b,Zegveld,354,10949
+\bzegwaart\b,Zegwaart,1234,10185
+\bzeist\b,Zeist,355,10324
+\bzelhem\b,Zelhem,298,11159
+\bzesgehuchten\b,Zesgehuchten,1235,10329
+\bzevenaar\b,Zevenaar,299,10938
+\bzevenbergen\b,Zevenbergen,878,10046
+\bzevenhoven\b,Zevenhoven,635,11317
+\bzevenhui(z|s)en\b,Zevenhuizen,636,11377
+\bzierikzee\b,Zierikzee,732,10843
+\bZ(ij|y)pe\b,Zijpe,476,10004
+\bzoelen\b,Zoelen,300,10897
+\bzoetermeer\b,Zoetermeer,637,10766
+\bzoeterwoude\b,Zoeterwoude,638,11074
+\bzonnemaire\b,Zonnemaire,1236,10040
+\bzoutelande\b,Zoutelande,1237,10779
+\bzuid[\s\w]?[\s\w]?en[\s\w]?noord[\s\w]?Schermer\b,Zuid- en Noord-Schermer,474,11311
+\bzuid[\s\w]?be(ij|y)erland\b,Zuid-Beijerland,639,10917
+\bzuidbroek\b,Zuidbroek (Gr.),1240,11282
+\bzuidd?orpe?\b,Zuiddorpe,734,11087
+\bzuidhorn\b,Zuidhorn,56,10021
+\bzuidland\b,Zuidland,640,10316
+\bzuid[\s\w]?laren\b,Zuidlaren,136,10002
+\bzuid[\s\w]?scharwoude\b,Zuid-Scharwoude,1238,10159
+\bzuid[\s\w]?waddin(x|ks)veen\b,Zuid-Waddinxveen,1239,10081
+\bzuidwolde\b,Zuidwolde,137,10262
+\bzuidzande\b,Zuidzande,735,10437
+\bzuilen\b,Zuilen,1242,10059
+\bzuilichem\b,Zuilichem,1243,11036
+\bzundert\b,Zundert,879,11192
+\bzutphen\b,Zutphen,301,10254
+\bzwaag\b,Zwaag,475,10218
+\bzwammerdam\b,Zwammerdam,1244,10675
+\bzwartewaal\b,Zwartewaal,641,10703
+\bzwartsluis\b,Zwartsluis,192,10303
+\bzweeloo\b,Zweeloo,138,10872
+\bzwijndrecht\b,Zwijndrecht,642,10468
+\bzwolle\b,Zwolle,193,10093
+\bzwollerkerspel\b,Zwollerkerspel,1245,10654
