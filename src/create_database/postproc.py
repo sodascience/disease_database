@@ -6,7 +6,7 @@ import datetime
 from scipy import stats
 
 INPUT_FOLDER = Path("processed_data/database_flat_v1.0")
-OUTPUT_FOLDER = Path("processed_data/database_v1.2")
+OUTPUT_FOLDER = Path("processed_data/database")
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 
 print(datetime.datetime.now(), "| Reading data in memory...")
