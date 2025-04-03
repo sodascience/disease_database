@@ -5,52 +5,42 @@ from pathlib import Path
 import datetime
 from scipy import stats
 
-INPUT_FOLDER = Path("processed_data/database_flat")
-OUTPUT_FOLDER = Path("processed_data/database")
+INPUT_FOLDER = Path("processed_data/database_flat_v1.0")
+OUTPUT_FOLDER = Path("processed_data/database_v1.2")
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 
 print(datetime.datetime.now(), "| Reading data in memory...")
 df = pl.read_parquet(INPUT_FOLDER / "**" / "*.parquet", allow_missing_columns=True)
 print(datetime.datetime.now(), "| Finished reading data in memory.")
 
+print(datetime.datetime.now(), "| Creating completed dataset.")
+df_full = (
+    df
+    .select(pl.col(["disease", "year", "month", "cbscode"]).unique().implode())
+    .explode("disease")
+    .explode("year")
+    .explode("month")
+    .explode("cbscode")
+    .join(df, on=["disease", "year", "month", "cbscode"], how="left")
+    .select(["disease", "year", "month", "cbscode", "n_location", "n_both"])
+    .fill_null(0)
+)
+print(datetime.datetime.now(), "| Finished completing dataset.")
+
 print(datetime.datetime.now(), "| Cleaning dataset.")
-dists = stats.beta(df["n_both"] + 0.5, df["n_location"] + 0.5)
 df_clean = (
-    df.with_columns(
-        (pl.col("n_both") / pl.col("n_location")).alias("normalized_mentions")
+    df_full.with_columns(
+        pl.when(pl.col("n_location").eq(0)).then(pl.lit(0.0)).otherwise(pl.col("n_both") / pl.col("n_location")).alias("mention_rate")
     )
-    .with_columns(lower=dists.ppf(0.025), upper=dists.ppf(0.975))
-    .with_columns(
-        pl.when(pl.col("n_both") == 0)
-        .then(0)
-        .otherwise(
-            pl.when(pl.col("lower") > pl.col("normalized_mentions"))
-            .then(pl.col("normalized_mentions"))
-            .otherwise(pl.col("lower"))
-        )
-        .alias("lower"),
-        pl.when(pl.col("normalized_mentions") == 1)
-        .then(1)
-        .otherwise(
-            pl.when(pl.col("upper") < pl.col("normalized_mentions"))
-            .then(pl.col("normalized_mentions"))
-            .otherwise(pl.col("upper"))
-        )
-        .alias("upper"),
-    )
-    .sort(["disease", "year", "month", "location"])
-    .with_columns(pl.col("disease").str.to_lowercase())
+    .sort(["disease", "year", "month", "cbscode"])
+    .with_columns(pl.col("disease").str.to_lowercase().cast(pl.Categorical))
     .select(
         [
             "disease",
             "year",
             "month",
-            "location",
             "cbscode",
-            "amsterdamcode",
-            "normalized_mentions",
-            "lower",
-            "upper",
+            "mention_rate",
             "n_location",
             "n_both",
         ]
@@ -59,8 +49,8 @@ df_clean = (
 
 print(datetime.datetime.now(), "| Writing data.")
 df_clean.write_parquet(
-    OUTPUT_FOLDER,
+    OUTPUT_FOLDER / "disease_database_v1.2.parquet",
     statistics="full",
-    partition_by="disease",
-    partition_chunk_size_bytes=1_000_000_000,
+    # partition_by="disease",
+    # partition_chunk_size_bytes=1_000_000_000,
 )
