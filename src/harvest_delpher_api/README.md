@@ -32,8 +32,29 @@ This script will harvest all article and newspaper metadata based on the newspap
 
 ## Step 4: Combine and chunk data
 
+In the last step, we join all three sources of data to create combined datafiles of one row per article. To run this part, run:
+
 ```
-uv run src/harvest_delpher_api/combine_and_chunk.py --start_year 1880 --end_year 1940
+uv run src/harvest_delpher_api/combine_and_chunk.py
 ```
 
-This script combines / joins all the data we have just collected and chunks it into yearly files as `processed_data/combined/combined_YYYY_YYYY.parquet`.
+This will create sets of data files in `processed_data/combined` with the following columns:
+
+```
+'newspaper_id'
+'article_id'
+'article_subject'
+'article_title'
+'article_text'
+'newspaper_name'
+'newspaper_location'
+'newspaper_date'
+'newspaper_years_digitalised'
+'newspaper_years_issued'
+'newspaper_language'
+'newspaper_temporal'
+'newspaper_publisher'
+'newspaper_spatial'
+```
+
+This is still quite a lot of information, which will be further pruned in the `create_database` workflow.

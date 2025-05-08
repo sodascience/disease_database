@@ -62,7 +62,7 @@ def main():
         final_df.filter(
             pl.col("newspaper_date").dt.year() >= start_year,
             pl.col("newspaper_date").dt.year() < end_year,
-        ).sink_parquet(out_path)
+        ).sink_parquet(out_path, engine="streaming")
 
 
 if __name__ == "__main__":

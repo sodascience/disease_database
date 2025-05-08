@@ -5,7 +5,7 @@ from pathlib import Path
 from tqdm import tqdm
 import datetime
 
-OUTPUT_FOLDER = Path("processed_data/database_flat")
+OUTPUT_FOLDER = Path("processed_data", "database_flat")
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 DISEASES_TABLE = pl.read_csv("raw_data/manual_input/disease_search_terms.csv")
 LOCATIONS_TABLE = pl.read_csv("raw_data/manual_input/location_search_terms.csv")
