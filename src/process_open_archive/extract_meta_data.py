@@ -28,7 +28,9 @@ for zip_path in zip_paths:
     )
 
     if output_file_path_article.exists() and output_file_path_newspaper.exists():
-        print(f"\n {output_file_path_article} and {output_file_path_newspaper} already exist! Skipping...")
+        print(
+            f"\n {output_file_path_article} and {output_file_path_newspaper} already exist! Skipping..."
+        )
         continue
 
     newspapers_meta_data = []

@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.1">
+  <diagram name="Page-1" id="i2q3JjXMC0oDW4Wyp1vA">
+    <mxGraphModel dx="1040" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-2" value="Data sources" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="66" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIvPZfMPr3sV5mNNzheY-4" target="HIvPZfMPr3sV5mNNzheY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-4" value="Open Delpher archive data (.zip files)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="26" y="90" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIvPZfMPr3sV5mNNzheY-5" target="HIvPZfMPr3sV5mNNzheY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-5" value="Restricted Delpher API" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="26" y="220" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-6" value="Process open archive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="105" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-7" value="Harvest Delpher API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="235" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIvPZfMPr3sV5mNNzheY-8" target="HIvPZfMPr3sV5mNNzheY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-8" value="&lt;div&gt;Combined, harmonized source dataset&lt;/div&gt;&lt;div&gt;(parquet files)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="351" y="150" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-9" value="Create database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="521" y="165" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-10" value="&lt;div&gt;Disease database &lt;br&gt;(parquet + geojson)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="661" y="150" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="HIvPZfMPr3sV5mNNzheY-6" target="HIvPZfMPr3sV5mNNzheY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=60;entryPerimeter=0;" edge="1" parent="1" source="HIvPZfMPr3sV5mNNzheY-7" target="HIvPZfMPr3sV5mNNzheY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HIvPZfMPr3sV5mNNzheY-9" target="HIvPZfMPr3sV5mNNzheY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-18" value="Data processing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="226" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-20" value="Harmonized data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="391" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIvPZfMPr3sV5mNNzheY-21" target="HIvPZfMPr3sV5mNNzheY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-21" value="NLGIS 1869 shapefile" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="26" y="340" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-23" value="Database creation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="541" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIvPZfMPr3sV5mNNzheY-26" value="Disease database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="696" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

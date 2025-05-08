@@ -1,6 +1,5 @@
 import os
 import zipfile
-from os import makedirs
 
 import polars as pl
 import xml.etree.ElementTree as ET
@@ -31,6 +30,7 @@ namespaces = {
     "xsi": "http://www.w3.org/2001/XMLSchema-instance",
     "xs": "http://www.w3.org/2001/XMLSchema",
 }
+
 
 def convert_articles_from_zip_to_parquet(
     zip_path: Path = Path("raw_data", "kranten_pd_183x.zip"),
@@ -91,7 +91,7 @@ def extract_meta_data(root, namespaces):
 
     # Get first level element of the newspaper
     newspaper_element = root.find("didl:Item", namespaces)
-    newspaper_id = newspaper_element.get(f'{{{namespaces.get("dc")}}}identifier')
+    newspaper_id = newspaper_element.get(f"{{{namespaces.get('dc')}}}identifier")
     newspaper_meta_data["newspaper_id"] = newspaper_id
 
     # Search for all didl:Component and didl:Item elements
@@ -99,7 +99,7 @@ def extract_meta_data(root, namespaces):
     items = root.findall("didl:Item/didl:Item", namespaces)
 
     for component in components:
-        component_identifier = component.get(f'{{{namespaces.get("dc")}}}identifier')
+        component_identifier = component.get(f"{{{namespaces.get('dc')}}}identifier")
         if "meta" in component_identifier:
             try:
                 newspaper_meta_data["newspaper_name"] = component.find(
@@ -158,7 +158,7 @@ def extract_meta_data(root, namespaces):
                 newspaper_meta_data["newspaper_spatial"] = None
 
     for item in items:
-        item_id = item.get(f'{{{namespaces.get("dc")}}}identifier')
+        item_id = item.get(f"{{{namespaces.get('dc')}}}identifier")
         if item_id.split(":")[-1].startswith("p"):
             continue
         try:
