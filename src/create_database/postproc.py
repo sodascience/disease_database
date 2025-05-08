@@ -15,8 +15,7 @@ print(datetime.datetime.now(), "| Finished reading data in memory.")
 
 print(datetime.datetime.now(), "| Creating completed dataset.")
 df_full = (
-    df
-    .select(pl.col(["disease", "year", "month", "cbscode"]).unique().implode())
+    df.select(pl.col(["disease", "year", "month", "cbscode"]).unique().implode())
     .explode("disease")
     .explode("year")
     .explode("month")
@@ -30,7 +29,10 @@ print(datetime.datetime.now(), "| Finished completing dataset.")
 print(datetime.datetime.now(), "| Cleaning dataset.")
 df_clean = (
     df_full.with_columns(
-        pl.when(pl.col("n_location").eq(0)).then(pl.lit(0.0)).otherwise(pl.col("n_both") / pl.col("n_location")).alias("mention_rate")
+        pl.when(pl.col("n_location").eq(0))
+        .then(pl.lit(0.0))
+        .otherwise(pl.col("n_both") / pl.col("n_location"))
+        .alias("mention_rate")
     )
     .sort(["disease", "year", "month", "cbscode"])
     .with_columns(pl.col("disease").str.to_lowercase().cast(pl.Categorical))

@@ -30,7 +30,7 @@ plt = (
         title="Disease mentions in Amsterdam, Dordrecht, Groningen, 1830 - 1940",
         subtitle="Data from Delpher newspaper archive, Royal Library",
         x="Year",
-        y = "Normalized mentions"
+        y="Normalized mentions",
     )
 )
 

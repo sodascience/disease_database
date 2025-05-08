@@ -31,7 +31,9 @@ for loc in tqdm(LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE
     location_query = rf"(?i-u){loc_regex}"
     df_loc = df.filter(pl.col("article_text").str.contains(location_query))
 
-    for dis in tqdm(DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE), leave=False):
+    for dis in tqdm(
+        DISEASES_TABLE.iter_rows(named=True), total=len(DISEASES_TABLE), leave=False
+    ):
         dis_label = dis["Label"]
         dis_regex = dis["Regex"]
         if CHARDIST != 0:
@@ -41,7 +43,9 @@ for loc in tqdm(LOCATIONS_TABLE.iter_rows(named=True), total=len(LOCATIONS_TABLE
             disease_query = rf"(?i-u){dis_regex}"
 
         (
-            df_loc.group_by(["year", pl.col("newspaper_date").dt.month().alias("month")])
+            df_loc.group_by(
+                ["year", pl.col("newspaper_date").dt.month().alias("month")]
+            )
             .agg(
                 pl.len().alias("n_location"),
                 pl.col("article_text")
