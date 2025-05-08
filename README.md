@@ -9,7 +9,7 @@ Code to create a historical disease database (19th-20th century) for municipalit
 Other things related to this database:
 
 - [Disease database viewer](https://github.com/sodascience/disease_database_viewer): an experimental R shiny app to interactively view the disease database.
-- [Initial exploartion into smoothing](https://erikjanvankesteren.nl/blog/smooth_disease) the mention rates within the disease database, using spatial, temporal, and spatiotemporal models.
+- [Initial exploration into smoothing](https://erikjanvankesteren.nl/blog/smooth_disease) the mention rates within the disease database, using spatial, temporal, and spatiotemporal models.
 
 ## Installation
 
