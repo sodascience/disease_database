@@ -7,7 +7,8 @@
 Code to create a historical disease database (19th-20th century) for municipalities in the Netherlands.
 
 ![Cholera in the Netherlands](img/cholera_1864_1868.png)
-_Cholera mention rates in the mid-1860s ([`source code`](src/analysis/create_map.R))_
+<sup>_Cholera mention rates in the mid-1860s. [source code](src/analysis/create_map.R)_</sup>
+
 
 This database was produced by:
 - 🚜 Harvesting >80 million Dutch newspaper texts in the period 1830-1940 from [Delpher](https://www.delpher.nl/).
