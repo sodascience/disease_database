@@ -22,6 +22,8 @@ This database was produced by:
 
 Other resources related to this database:
 
+- 🐻‍❄️ [Polars](https://pola.rs) is the engine that powers this data processing pipeline, together with the [Apache Parquet format](https://parquet.apache.org/)
+- 🌍 [NLGIS](https://nlgis.nl) Provides historical geographic data for mapping, plotting, and more.
 - 🗺️ [Disease database viewer](https://github.com/sodascience/disease_database_viewer): an experimental R shiny app to interactively view the disease database.
 - 🕵️‍♀️ [Initial exploration into smoothing](https://erikjanvankesteren.nl/blog/smooth_disease) the mention rates within the disease database, using spatial, temporal, and spatiotemporal models.
 
