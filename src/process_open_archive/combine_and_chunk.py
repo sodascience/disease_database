@@ -37,10 +37,16 @@ def main():
         if out_path.exists():
             print(f"\n {out_path} already exists! Skipping...")
             continue
-        
-        article_text_df = pl.scan_parquet(ARTICLE_TEXT_FOLDER / f"article_texts_{str(start_year)[:-1]}*.parquet")
-        article_meta_df = pl.scan_parquet(ARTICLE_META_FOLDER / f"article_meta_{str(start_year)[:-1]}*.parquet")
-        newspaper_meta_df = pl.scan_parquet(NEWSPAPER_META_FOLDER / f"newspaper_meta_{str(start_year)[:-1]}*.parquet")
+
+        article_text_df = pl.scan_parquet(
+            ARTICLE_TEXT_FOLDER / f"article_texts_{str(start_year)[:-1]}*.parquet"
+        )
+        article_meta_df = pl.scan_parquet(
+            ARTICLE_META_FOLDER / f"article_meta_{str(start_year)[:-1]}*.parquet"
+        )
+        newspaper_meta_df = pl.scan_parquet(
+            NEWSPAPER_META_FOLDER / f"newspaper_meta_{str(start_year)[:-1]}*.parquet"
+        )
 
         # article_text_df.head().collect()
         # article_meta_df.head().collect()
@@ -53,11 +59,10 @@ def main():
             how="left",
         ).join(newspaper_meta_df, on="newspaper_id", how="left")
 
-
         final_df.filter(
             pl.col("newspaper_date").dt.year() >= start_year,
             pl.col("newspaper_date").dt.year() < end_year,
-        ).sink_parquet(out_path)
+        ).sink_parquet(out_path, engine="streaming")
 
 
 if __name__ == "__main__":

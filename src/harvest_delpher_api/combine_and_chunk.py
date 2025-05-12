@@ -26,7 +26,7 @@ def main():
 
     print(f"Combining and chunking from {start_year} to {end_year}.")
 
-        # read chunks and write to chunked parquet files
+    # read chunks and write to chunked parquet files
     year_chunksize = 1
     for start_year in tqdm(range(start_year, end_year, year_chunksize)):
         out_path = (
@@ -38,14 +38,32 @@ def main():
             continue
 
         # Check if the required parquet files exist
-        article_text_file_path = ARTICLE_TEXT_FOLDER / f"article_texts_{start_year}*.parquet"
-        article_meta_file_path = ARTICLE_META_FOLDER / f"article_meta_{start_year}*.parquet"
-        newspaper_meta_file_path = NEWSPAPER_META_FOLDER / f"newspaper_meta_{start_year}*.parquet"
+        article_text_file_path = (
+            ARTICLE_TEXT_FOLDER / f"article_texts_{start_year}*.parquet"
+        )
+        article_meta_file_path = (
+            ARTICLE_META_FOLDER / f"article_meta_{start_year}*.parquet"
+        )
+        newspaper_meta_file_path = (
+            NEWSPAPER_META_FOLDER / f"newspaper_meta_{start_year}*.parquet"
+        )
 
-        if not any(Path(article_text_file_path.parent).glob(article_text_file_path.name)) or \
-           not any(Path(article_meta_file_path.parent).glob(article_meta_file_path.name)) or \
-           not any(Path(newspaper_meta_file_path.parent).glob(newspaper_meta_file_path.name)):
-            print(f"\n Required parquet files for year {start_year} do not exist. Skipping...")
+        if (
+            not any(
+                Path(article_text_file_path.parent).glob(article_text_file_path.name)
+            )
+            or not any(
+                Path(article_meta_file_path.parent).glob(article_meta_file_path.name)
+            )
+            or not any(
+                Path(newspaper_meta_file_path.parent).glob(
+                    newspaper_meta_file_path.name
+                )
+            )
+        ):
+            print(
+                f"\n Required parquet files for year {start_year} do not exist. Skipping..."
+            )
             continue
 
         # Read the parquet files
@@ -63,7 +81,7 @@ def main():
         final_df.filter(
             pl.col("newspaper_date").dt.year() >= start_year,
             pl.col("newspaper_date").dt.year() < end_year,
-        ).sink_parquet(out_path)
+        ).sink_parquet(out_path, engine="streaming")
 
 
 if __name__ == "__main__":

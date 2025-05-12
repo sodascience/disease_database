@@ -1,6 +1,6 @@
 [project]
 name = "disease-database"
-version = "0.1.0"
+version = "1.2.0"
 description = "Code to harvest and process Delpher data into a disease map"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -12,7 +12,7 @@ dependencies = [
     "lxml>=5.3.0",
     "matplotlib>=3.9.2",
     "plotnine>=0.13.6",
-    "polars>=1.9.0",
+    "polars>=1.29.0",
     "pyarrow>=17.0.0",
     "pyqt6>=6.7.1",
     "requests>=2.32.3",
@@ -21,3 +21,6 @@ dependencies = [
     "sruthi>=2.0.0",
     "tqdm>=4.66.5",
 ]
+
+[tools.ruff]
+line-length=100
