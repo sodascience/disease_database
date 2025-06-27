@@ -12,7 +12,7 @@ OUTPUT_FOLDER.mkdir(exist_ok=True)
 
 def main():
     print(datetime.datetime.now(), "| Reading data in memory...")
-    df = pl.read_parquet(INPUT_FOLDER / "**" / "*.parquet", allow_missing_columns=True)
+    df = pl.read_parquet(INPUT_FOLDER / "**" / "*.parquet", missing_columns="insert")
     print(datetime.datetime.now(), "| Finished reading data in memory.")
 
     print(datetime.datetime.now(), "| Creating completed dataset.")

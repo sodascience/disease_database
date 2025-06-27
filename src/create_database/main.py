@@ -17,7 +17,7 @@ CHARDIST = 0
 
 print(datetime.datetime.now(), "| Reading data in memory...")
 df = pl.read_parquet(
-    "processed_data/partitioned/**/*.parquet", allow_missing_columns=True
+    "processed_data/partitioned/**/*.parquet", missing_columns="insert"
 )
 print(datetime.datetime.now(), "| Finished reading data in memory.")
 
