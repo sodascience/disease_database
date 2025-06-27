@@ -57,6 +57,36 @@ def main():
         statistics="full",
     )
 
+    print(datetime.datetime.now(), "| Producing yearly dataset.")
+    df_yearly = (
+        df_clean.group_by(["disease", "year", "cbscode"])
+        .agg(pl.col.n_location.sum(), pl.col.n_both.sum())
+        .with_columns(
+            pl.when(pl.col("n_location").eq(0))
+            .then(pl.lit(0.0))
+            .otherwise(pl.col("n_both") / pl.col("n_location"))
+            .alias("mention_rate")
+        )
+        .sort(["disease", "year", "cbscode"])
+        .select(
+            [
+                "disease",
+                "year",
+                "cbscode",
+                "mention_rate",
+                "n_location",
+                "n_both",
+            ]
+        )
+    )
+
+    print(datetime.datetime.now(), "| Writing data.")
+    df_yearly.write_parquet(
+        OUTPUT_FOLDER / f"disease_database_yearly_{DB_VERSION}.parquet",
+        statistics="full",
+    )
+
+
 
 if __name__ == "__main__":
     main()
